@@ -8,23 +8,40 @@
 
     <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script type="module" src="./script.js"></script>
-    <script></script>
+    <!--     <script type="module" src="./script.js"></script> -->
+    <!--   <script type="module" src="./astroData.json"></script> -->
+    <script type="module" src="./scriptAstro.js"></script>
+
 </head>
 
 <body>
-
+    <!--   https://stackoverflow.com/questions/66005138/how-to-pass-id-as-argument-in-javascript-function -->
     <header>
+        <!--     <nav>
+            <a href="" id="Galaxy">Galaxy</a>
+            <a href="">Planetary nebula</a>
+            <a href="">Antilia</a>
+            <a href="">Andromeda</a>
+        </nav> -->
+
+        <label for="astro-type">Choose astronomical object:
+
+            <select name="object" id="astro-type">
+                <option value="">--Please choose an option--</option>
+                <option value="Galaxy">Galaxy</option>
+                <option value="Planetary Nebula">Planetary Nebula</option>
+
+            </select>
+        </label>
+
+        <div class="result"></div>
 
     </header>
 
-    <section>
+    <main>
 
-    </section>
+    </main>
 
-    <script>
-
-    </script>
 </body>
 
 </html>

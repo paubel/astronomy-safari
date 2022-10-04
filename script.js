@@ -3,12 +3,11 @@
 async function populate() {
   const requestURL = "./superheroes.json";
   const request = new Request(requestURL);
-  console.log(request);
-
   const response = await fetch(request);
   const superHeroesText = await response.text();
-
   const superHeroes = JSON.parse(superHeroesText);
+
+  console.log(superHeroes);
   populateHeader(superHeroes);
   populateHeroes(superHeroes);
 }
@@ -16,6 +15,7 @@ async function populate() {
 function populateHeader(obj) {
   const header = document.querySelector("header");
   const myH1 = document.createElement("h1");
+  //console.log(myH1);
   myH1.textContent = obj.squadName;
   header.appendChild(myH1);
 
