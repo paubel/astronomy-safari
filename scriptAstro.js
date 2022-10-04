@@ -1,20 +1,19 @@
-/* "use strict"; */
+"use strict";
 
 import data from "./astroData.json" assert { type: "json" };
-console.log(data.astroObject);
+/* console.log(data.astroObject); */
 
 const selectElement = document.querySelector("#astro-type");
 let astroType = "";
 
 selectElement.addEventListener("change", (event) => {
+  let node = document.querySelector("main");
+  node.querySelectorAll("*").forEach((n) => n.remove());
   astroType = event.target.value;
-  //console.log(event.target.value);
   populateObjects(astroType);
-  //   const result = document.querySelector(".result");
-  //   result.textContent = `You selected ${event.target.value}`;
 });
 
-async function populate() {
+/* async function populate() {
   const requestURL = "./astroData.json";
   const request = new Request(requestURL);
   const response = await fetch(request);
@@ -26,7 +25,7 @@ async function populate() {
   //populateConstellations(astroData);
   //populateObjects(astroData);
   //   populateHeroes(superHeroes);
-}
+} */
 
 function populateObjects(astroType) {
   const main = document.querySelector("main");
