@@ -29,10 +29,10 @@ selectElement.addEventListener("change", (event) => {
 
 function populateObjects(astroType) {
   const main = document.querySelector("main");
-  const myH1 = document.createElement("h1");
+  const myH2 = document.createElement("h2");
 
-  myH1.textContent = astroType;
-  main.appendChild(myH1);
+  myH2.textContent = astroType;
+  main.appendChild(myH2);
 
   /*   const astroData = populate(); */
 
