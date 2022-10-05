@@ -61,7 +61,7 @@ function createAstroElement(value) {
   const myImg = document.createElement("img");
   const myFigcaption = document.createElement("figcaption");
   myImg.src = `${value.url}`;
-  myFigcaption.textContent = `${value.id} - ${value.name}`;
+  myFigcaption.textContent = `${value.id} ${value.name} in ${value.constellations}`;
   main.appendChild(myFigure);
   myFigure.appendChild(myImg);
   myFigure.appendChild(myFigcaption);
