@@ -1,87 +1,68 @@
 "use strict";
-
 import data from "./astroData.json" assert { type: "json" };
-/* console.log(data.astroObject); */
 
 const selectElementType = document.querySelector("#astro-type");
-let astroType = "";
+const selectElementConst = document.querySelector("#astro-const");
+let main = null;
+let myH2 = null;
+let selectedOption = "";
 
 selectElementType.addEventListener("change", (event) => {
-  let node = document.querySelector("main");
-  node.querySelectorAll("*").forEach((n) => n.remove());
-  astroType = event.target.value;
-  populateType(astroType);
+  clearMainAndSelectOption();
+  populateType(selectedOption);
 });
-
-const selectElementConst = document.querySelector("#astro-const");
-let astroConst = "";
 
 selectElementConst.addEventListener("change", (event) => {
-  let node = document.querySelector("main");
-  node.querySelectorAll("*").forEach((n) => n.remove());
-  astroConst = event.target.value;
-  populateConst(astroConst);
+  clearMainAndSelectOption();
+  populateConst(selectedOption);
 });
 
-const selectElementNebula = document.querySelector("#astro-nebula");
-let astroNebula = "";
-
-selectElementNebula.addEventListener("change", (event) => {
-  let node = document.querySelector("main");
-  node.querySelectorAll("*").forEach((n) => n.remove());
-  astroNebula = event.target.value;
-  populateNebula(astroNebula);
-});
-
-function populateType(astroType) {
-  const main = document.querySelector("main");
-  const myH2 = document.createElement("h2");
-
-  myH2.textContent = astroType;
-  main.appendChild(myH2);
+function populateType(astroData) {
+  createH2inMain(astroData);
 
   Object.entries(data.astroObject).forEach(([key, value]) => {
     const words = value.type.split(" ");
-    //console.log(words[1], astroType.toLowerCase());
-
-    //console.log("Before: " + value.type, astroType, words[1]);
-    if (words[1].toLowerCase() === astroType.toLowerCase()) {
-      //console.log("After: " + value.type, astroType);
-      const myImg = document.createElement("img");
-      myImg.src = `${value.url}`;
-      main.appendChild(myImg);
+    /*     console.log(value.type, astroData);
+    console.log(words[1].toLowerCase(), astroData.toLowerCase());
+    console.log("-------------"); */
+    if (words[1].toLowerCase() === astroData.toLowerCase()) {
+      createAstroElement(value);
+    } else if (value.type === astroData) {
+      createAstroElement(value);
     }
   });
 }
 
-function populateConst(astroConst) {
-  const main = document.querySelector("main");
-  const myH2 = document.createElement("h2");
-
-  myH2.textContent = astroConst;
-  main.appendChild(myH2);
+function populateConst(astroData) {
+  createH2inMain(astroData);
 
   Object.entries(data.astroObject).forEach(([key, value]) => {
-    if (value.constellations === astroConst) {
-      const myImg = document.createElement("img");
-      myImg.src = `${value.url}`;
-      main.appendChild(myImg);
+    if (value.constellations === astroData) {
+      createAstroElement(value);
     }
   });
 }
 
-function populateNebula(astroNebula) {
-  const main = document.querySelector("main");
-  const myH2 = document.createElement("h2");
+function clearMainAndSelectOption() {
+  let node = document.querySelector("main");
+  node.querySelectorAll("*").forEach((n) => n.remove());
+  selectedOption = event.target.value;
+}
 
-  myH2.textContent = astroNebula;
+function createH2inMain(astroData) {
+  main = document.querySelector("main");
+  myH2 = document.createElement("h2");
+  myH2.textContent = astroData;
   main.appendChild(myH2);
+}
 
-  Object.entries(data.astroObject).forEach(([key, value]) => {
-    if (value.type === astroNebula) {
-      const myImg = document.createElement("img");
-      myImg.src = `${value.url}`;
-      main.appendChild(myImg);
-    }
-  });
+function createAstroElement(value) {
+  const myFigure = document.createElement("figure");
+  const myImg = document.createElement("img");
+  const myFigcaption = document.createElement("figcaption");
+  myImg.src = `${value.url}`;
+  myFigcaption.textContent = `${value.id} ${value.name} in ${value.constellations}`;
+  main.appendChild(myFigure);
+  myFigure.appendChild(myImg);
+  myFigure.appendChild(myFigcaption);
 }
