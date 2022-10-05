@@ -10,8 +10,21 @@ Diffrent category: H II regions, large diffuse nebulae containing ionized hydrog
 
 http://astroa.physics.metu.edu.tr/twn/types.html
 
-## galaxies
+## Galaxies
 
 Elliptical galaxies
 Spiral galaxies
 Irregular galaxies
+
+## Stars
+
+Binary star
+Red gigant
+Blue gigant
+Red dwarf
+Brown dwarf
+White dwarf
+Neuton star
+Pulsar
+
+Black hole
