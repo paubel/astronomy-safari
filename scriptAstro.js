@@ -8,11 +8,13 @@ let myH2 = null;
 let selectedOption = "";
 
 selectElementType.addEventListener("change", (event) => {
+  resetSelectElement(selectElementConst);
   clearMainAndSelectOption();
   populateType(selectedOption);
 });
 
 selectElementConst.addEventListener("change", (event) => {
+  resetSelectElement(selectElementType);
   clearMainAndSelectOption();
   populateConst(selectedOption);
 });
@@ -65,4 +67,8 @@ function createAstroElement(value) {
   main.appendChild(myFigure);
   myFigure.appendChild(myImg);
   myFigure.appendChild(myFigcaption);
+}
+
+function resetSelectElement(selectElement) {
+  selectElement.selectedIndex = 0; //
 }
