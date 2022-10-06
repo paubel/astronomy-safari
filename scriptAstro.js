@@ -10,6 +10,7 @@ fetch("./astroData.json")
     const selectElementConst = document.querySelector("#astro-const");
     let main = null;
     let myH2 = null;
+    let mySection = null;
     let selectedOption = "";
 
     selectElementType.addEventListener("change", (event) => {
@@ -59,17 +60,20 @@ fetch("./astroData.json")
     function createH2inMain(astroData) {
       main = document.querySelector("main");
       myH2 = document.createElement("h2");
+      mySection = document.createElement("section");
       myH2.textContent = astroData;
       main.appendChild(myH2);
+      main.appendChild(mySection);
     }
 
     function createAstroElement(value) {
       const myFigure = document.createElement("figure");
       const myImg = document.createElement("img");
       const myFigcaption = document.createElement("figcaption");
+
       myImg.src = `${value.url}`;
       myFigcaption.textContent = `${value.id} ${value.name} in ${value.constellations}`;
-      main.appendChild(myFigure);
+      mySection.appendChild(myFigure);
       myFigure.appendChild(myImg);
       myFigure.appendChild(myFigcaption);
     }

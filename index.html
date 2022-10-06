@@ -7,7 +7,7 @@
     <title>Space Safari</title>
 
     <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
-    <link rel="stylesheet" href="./option.css">
+    <!--     <link rel="stylesheet" href="./option.css"> -->
     <link rel="stylesheet" href="./style.css">
     <!--     <script type="module" src="./script.js"></script> -->
     <!--   <script type="module" src="./astroData.json"></script> -->
@@ -16,56 +16,51 @@
 </head>
 
 <body>
-    <!--   https://stackoverflow.com/questions/66005138/how-to-pass-id-as-argument-in-javascript-function -->
-    <header>
-        <h1>Space Safari</h1>
+    <div class="container">
 
-        <!--     <label for="astro-type">Type:
-            <select id="astro-type">
-                <option value="">--Please choose an option--</option>
-                <option value="Galaxy">Galaxy</option>
-                <option value="Nebula">Nebula</option>
-            </select>
-        </label>
- -->
-        <label for="astro-type" class="astro-type">Type:
-            <select id="astro-type">
-                <option value="">--Please choose an option--</option>
-                <optgroup label="Galaxies">
-                    <option value="Galaxy" class="optionGroup">All Types of galaxies</option>
-                    <option value="Irregular galaxy">Irregular galaxies</option>
-                    <option value="Spiral galaxy">Spiral galaxies</option>
-                </optgroup>
+        <header>
+            <h1>Space Safari</h1>
 
-                <optgroup label="Nebulae">
-                    <option value="Nebula" class="optionGroup">All types of Nebulae</option>
-                    <option value="Planetary nebula">Planetary nebulae</option>
-                    <option value="Emission nebula">Emission nebulae</option>
+            <nav>
 
-                </optgroup>
+                <label for="astro-type" class="astro-type">
+                    <select id="astro-type">
+                        <option value="">- Choose type of object -</option>
+                        <optgroup label="Galaxies">
+                            <option value="Galaxy" class="optionGroup">All Types of galaxies</option>
+                            <option value="Irregular galaxy">Irregular galaxies</option>
+                            <option value="Spiral galaxy">Spiral galaxies</option>
+                        </optgroup>
 
-            </select>
-        </label>
+                        <optgroup label="Nebulae">
+                            <option value="Nebula" class="optionGroup">All types of Nebulae</option>
+                            <option value="Planetary nebula">Planetary nebulae</option>
+                            <option value="Emission nebula">Emission nebulae</option>
 
-        <label for="astro-const" class="astro-const">Constellation:
-            <select id="astro-const">
-                <option value="">--Please choose an option--</option>
-                <optgroup label="A">
-                    <option value="Andromeda">Andromeda</option>
-                    <option value="Antilia">Antilia</option>
-                </optgroup>
-                <optgroup label="B">
-                    <option value="Cassiopeia">Cassiopeia</option>
-                </optgroup>
-            </select>
-        </label>
+                        </optgroup>
 
-    </header>
+                    </select>
+                </label>
 
-    <main>
+                <label for="astro-const" class="astro-const">
+                    <select id="astro-const">
+                        <option value="">- Choose type a constellation -</option>
+                        <optgroup label="A">
+                            <option value="Andromeda">Andromeda</option>
+                            <option value="Antilia">Antilia</option>
+                        </optgroup>
+                        <optgroup label="B">
+                            <option value="Cassiopeia">Cassiopeia</option>
+                        </optgroup>
+                    </select>
+                </label>
+            </nav>
+        </header>
 
-    </main>
+        <main>
 
+        </main>
+    </div>
 </body>
 
 </html>
