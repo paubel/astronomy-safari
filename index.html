@@ -27,26 +27,35 @@
             </select>
         </label>
  -->
-        <label for="astro-type">Type:
+        <label for="astro-type" class="astro-type">Type:
             <select id="astro-type">
                 <option value="">--Please choose an option--</option>
-                <option value="Galaxy">Galaxy</option>
-                <option value="Irregular galaxy">Irregular Galaxy</option>
-                <option value="Spiral galaxy">Spiral Galaxy</option>
+                <optgroup label="Galaxies">
+                    <option value="Galaxy" class="optionGroup">All Types of galaxies</option>
+                    <option value="Irregular galaxy">Irregular galaxies</option>
+                    <option value="Spiral galaxy">Spiral galaxies</option>
+                </optgroup>
 
-                <option value="Nebula">Nebula</option>
-                <option value="Planetary nebula">Planetary nebula</option>
-                <option value="Emission nebula">Emission nebula</option>
+                <optgroup label="Nebulae">
+                    <option value="Nebula" class="optionGroup">All types of Nebulae</option>
+                    <option value="Planetary nebula">Planetary nebulae</option>
+                    <option value="Emission nebula">Emission nebulae</option>
+
+                </optgroup>
 
             </select>
         </label>
 
-        <label for="astro-const">Constellation:
+        <label for="astro-const" class="astro-const">Constellation:
             <select id="astro-const">
                 <option value="">--Please choose an option--</option>
-                <option value="Andromeda">Andromeda</option>
-                <option value="Antilia">Antilia</option>
-                <option value="Cassiopeia">Cassiopeia</option>
+                <optgroup label="A">
+                    <option value="Andromeda">Andromeda</option>
+                    <option value="Antilia">Antilia</option>
+                </optgroup>
+                <optgroup label="B">
+                    <option value="Cassiopeia">Cassiopeia</option>
+                </optgroup>
             </select>
         </label>
 

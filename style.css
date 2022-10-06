@@ -47,3 +47,14 @@ h2 {
   /*   letter-spacing: -5px; */
   margin-bottom: 10px;
 }
+
+.astro-type .optionGroup {
+  font-weight: bold;
+  font-style: italic;
+  background: lightgreen;
+}
+
+.astro-type option {
+  padding-left: 15px;
+  background: lightgreen;
+}
