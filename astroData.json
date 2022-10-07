@@ -53,6 +53,24 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/The_Bubble_Nebula_-_NGC_7635_-_Heic1608a.jpg/631px-The_Bubble_Nebula_-_NGC_7635_-_Heic1608a.jpg",
       "width": 300,
       "height": 300
+    },
+    {
+      "id": "IC 1805",
+      "constellations": "Cassiopeia",
+      "type": "Emission nebula",
+      "name": "Heart Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Heart_Nebula_%282020-08-11%29.jpg/637px-Heart_Nebula_%282020-08-11%29.jpg",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "Westerhout 5",
+      "constellations": "Cassiopeia",
+      "type": "Emission nebula",
+      "name": "Soul Nebula",
+      "url": "https://live.staticflickr.com/65535/51746362502_8484030686_c.jpg",
+      "width": 300,
+      "height": 300
     }
   ]
 }

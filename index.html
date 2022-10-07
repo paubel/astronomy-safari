@@ -7,10 +7,9 @@
     <title>Space Safari</title>
 
     <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
-    <!--     <link rel="stylesheet" href="./option.css"> -->
+
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
     <link rel="stylesheet" href="./style.css">
-    <!--     <script type="module" src="./script.js"></script> -->
-    <!--   <script type="module" src="./astroData.json"></script> -->
     <script type="module" src="./scriptAstro.js"></script>
 
 </head>
@@ -22,7 +21,7 @@
             <h1>Space Safari</h1>
 
             <nav>
-
+                <a class="menu-button" href="./index.html">Start</a>
                 <label for="astro-type" class="astro-type">
                     <select id="astro-type">
                         <option value="">- Choose type of object -</option>
@@ -44,7 +43,7 @@
 
                 <label for="astro-const" class="astro-const">
                     <select id="astro-const">
-                        <option value="">- Choose type a constellation -</option>
+                        <option value="">- Choose a constellation -</option>
                         <optgroup label="A">
                             <option value="Andromeda">Andromeda</option>
                             <option value="Antilia">Antilia</option>
@@ -55,10 +54,22 @@
                     </select>
                 </label>
             </nav>
+
         </header>
 
         <main>
+            <h3>Welcome to Space Safari</h3>
+            <div class="start-text">
+                <p>On this web page you can look at images of astronomical objects. In the menu
+                    “Choose type of object" you can choose between different types of galaxies and nebulae, and in the
+                    menu “Choose a constellation” you can choose one of the 88 constellations and look at images of
+                    astronomical objects that belong to that constellation.
+                </p>
+                <h3>Sources</h3>
+                <a href="https://www.wikipedia.org/">Wikipedia</a>
 
+
+            </div>
         </main>
     </div>
 </body>

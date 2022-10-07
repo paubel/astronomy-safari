@@ -13,6 +13,7 @@
   --green-400: #014760;
   --green-300: #107e57;
   --green-200: #a1ce3f;
+  --green-250: #a9fa80;
   --green-100: #cbe58e;
   --light-gray: hsl(100, 0%, 80%);
   --white: #fff;
@@ -26,6 +27,8 @@ html {
 
 body {
   background-color: var(--black);
+  background-image: url("./green-cosmos.jpg");
+  background-size: cover;
   color: var(--green-100);
   font-family: "Montserrat", sans-serif;
 }
@@ -38,12 +41,25 @@ h3 {
   text-align: center;
 }
 .container {
+  min-height: 100vh;
+  width: 95vw;
   margin: 0 auto;
-  /*   width: 90vw; */
-  margin-right: 2vw;
+  padding: 0 5vw;
   display: grid;
   grid-template-columns: 1fr;
   place-items: center center;
+  gap: 1vh 1vw;
+  /* From https://css.glass */
+  /*   background: rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3); */
+
+  background-color: #0009;
+  box-shadow: 0px 0px 16px 12px #0009;
+
   grid-template-areas:
     "h"
     "n"
@@ -55,8 +71,8 @@ header {
   text-align: center;
   position: sticky;
   top: 5px;
-  background-color: #000;
-  box-shadow: 0px 0px 16px 12px #000000;
+  background-color: #000a;
+  box-shadow: 0px 0px 16px 12px #000a;
 }
 
 nav {
@@ -70,7 +86,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   place-items: start center;
-  /*   gap: 0.1vw 0.1vh; */
+  gap: 1vh 1vw;
   grid-template-areas:
     "h2"
     "s";
@@ -85,7 +101,7 @@ section {
   display: grid;
   grid-template-columns: 1fr;
   place-items: start center;
-  /*   gap: 0.1vw 0.1vh; */
+  gap: 1vh 1vw;
 }
 
 nav {
@@ -96,8 +112,26 @@ h1,
 h2 {
   text-align: center;
 }
+.start-text {
+  width: 60vw;
+}
 
-/* a {
+.menu-button {
+  background-color: var(--green-250);
+  color: black;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.menu-button:hover {
+  background-color: var(--green-250);
+  color: black;
+  border-radius: 10px;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+a {
   color: var(--green-200);
   text-decoration: none;
 }
@@ -105,26 +139,22 @@ h2 {
 a:hover {
   color: var(--green-300);
   text-decoration: underline;
-} */
+}
 
 figure img {
   margin: 0 auto;
   object-fit: cover;
-  width: 110%;
+
+  max-height: 40vh;
 }
 
-figure figcaption {
-  /*   font-size: 0.6rem; */
-}
-
-@media (min-width: 800px) {
+@media (min-width: 600px) {
   nav {
     flex-direction: row;
     gap: 1vh 1vw;
   }
   .container {
     grid-template-columns: 1fr 1fr;
-
     grid-template-areas:
       "h h"
       "n n"
@@ -137,10 +167,7 @@ figure figcaption {
 
 @media (min-width: 1200px) {
   .container {
-    margin-right: 2vw;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
     grid-template-areas:
       "h h h"
       "n n n"
@@ -171,9 +198,9 @@ select {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  &::-ms-expand {
+  /*   &::-ms-expand {
     display: none;
-  }
+  } */
 }
 
 /*END option*/
