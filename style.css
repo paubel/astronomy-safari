@@ -27,7 +27,7 @@ html {
 
 body {
   background-color: var(--black);
-  background-image: url("./green-cosmos.jpg");
+  background-image: url("./green-cosmos.webp");
   background-color: #444;
   background-blend-mode: multiply;
   background-size: cover;
