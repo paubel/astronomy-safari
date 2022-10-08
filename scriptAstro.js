@@ -6,8 +6,15 @@ fetch("./astroData.json")
   .then((data) => {
     // do stuff with the data
 
+    data.astroObject = data.astroObject.sort((a, b) => {
+      if (a.distance < b.distance) {
+        return -1;
+      }
+    });
+
     const selectElementType = document.querySelector("#astro-type");
     const selectElementConst = document.querySelector("#astro-const");
+    const selectElementDist = document.querySelector("#astro-dist");
     let main = null;
     let myH2 = null;
     let mySection = null;
@@ -15,14 +22,24 @@ fetch("./astroData.json")
 
     selectElementType.addEventListener("change", (event) => {
       resetSelectElement(selectElementConst);
+      resetSelectElement(selectElementDist);
       clearMainAndSelectOption();
       populateType(selectedOption);
     });
 
     selectElementConst.addEventListener("change", (event) => {
       resetSelectElement(selectElementType);
+      resetSelectElement(selectElementDist);
       clearMainAndSelectOption();
       populateConst(selectedOption);
+    });
+
+    selectElementDist.addEventListener("change", (event) => {
+      resetSelectElement(selectElementType);
+      resetSelectElement(selectElementConst);
+      clearMainAndSelectOption();
+      populateDist(selectedOption);
+      /*       console.log("asdf"); */
     });
 
     function populateType(astroData) {
@@ -43,9 +60,23 @@ fetch("./astroData.json")
 
     function populateConst(astroData) {
       createH2inMain(astroData);
-
       Object.entries(data.astroObject).forEach(([key, value]) => {
         if (value.constellations === astroData) {
+          createAstroElement(value);
+        }
+      });
+    }
+
+    function populateDist(astroData) {
+      createH2inMainDistance(astroData);
+      Object.entries(data.astroObject).forEach(([key, value]) => {
+        let astroDataNumb = Number(astroData);
+        /*   console.log(value.distance, astroDataNumb); */
+        if (
+          value.distance > Number(astroDataNumb) &&
+          value.distance < Number(astroDataNumb) * 10
+        ) {
+          /*          console.log(value); */
           createAstroElement(value);
         }
       });
@@ -66,13 +97,29 @@ fetch("./astroData.json")
       main.appendChild(mySection);
     }
 
+    function createH2inMainDistance(astroData) {
+      main = document.querySelector("main");
+      myH2 = document.createElement("h2");
+      mySection = document.createElement("section");
+      myH2.textContent =
+        numberWithCommas(astroData) +
+        ` ly to ` +
+        numberWithCommas(astroData * 10) +
+        ` ly`;
+
+      main.appendChild(myH2);
+      main.appendChild(mySection);
+    }
+
     function createAstroElement(value) {
       const myFigure = document.createElement("figure");
       const myImg = document.createElement("img");
       const myFigcaption = document.createElement("figcaption");
 
       myImg.src = `${value.url}`;
-      myFigcaption.textContent = `${value.id} ${value.name} in ${value.constellations}`;
+      myFigcaption.textContent = `${value.id} ${value.name} in ${
+        value.constellations
+      }. Distance ${numberWithCommas(value.distance)} ly`;
       mySection.appendChild(myFigure);
       myFigure.appendChild(myImg);
       myFigure.appendChild(myFigcaption);
@@ -80,5 +127,9 @@ fetch("./astroData.json")
 
     function resetSelectElement(selectElement) {
       selectElement.selectedIndex = 0; //
+    }
+
+    function numberWithCommas(x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
   });

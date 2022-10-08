@@ -28,6 +28,8 @@ html {
 body {
   background-color: var(--black);
   background-image: url("./green-cosmos.jpg");
+  background-color: #444;
+  background-blend-mode: multiply;
   background-size: cover;
   color: var(--green-100);
   font-family: "Montserrat", sans-serif;
@@ -41,7 +43,7 @@ h3 {
   text-align: center;
 }
 .container {
-  min-height: 100vh;
+  /*   min-height: 80vh; */
   width: 95vw;
   margin: 0 auto;
   padding: 0 5vw;
@@ -49,20 +51,12 @@ h3 {
   grid-template-columns: 1fr;
   place-items: center center;
   gap: 1vh 1vw;
-  /* From https://css.glass */
-  /*   background: rgba(0, 0, 0, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(0, 0, 0, 0.3); */
 
-  background-color: #0009;
-  box-shadow: 0px 0px 16px 12px #0009;
+  /*   background-color: #0009;
+  box-shadow: 0px 0px 16px 12px #0009; */
 
   grid-template-areas:
     "h"
-    "n"
     "m";
 }
 
@@ -71,8 +65,17 @@ header {
   text-align: center;
   position: sticky;
   top: 5px;
-  background-color: #000a;
-  box-shadow: 0px 0px 16px 12px #000a;
+  /*   background-color: #000a; */
+  padding: 0 3px 3px 3px;
+  /*   box-shadow: 0px 0px 16px 12px #000a; */
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
+  /*   border: 1px solid rgba(0, 0, 0, 0.3); */
+  box-shadow: 0px 0px 16px 12px rgba(0, 0, 0, 0.3);
 }
 
 nav {
@@ -82,6 +85,7 @@ nav {
 }
 
 main {
+  margin-top: 1vh;
   grid-area: m;
   display: grid;
   grid-template-columns: 1fr;
@@ -157,7 +161,6 @@ figure img {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "h h"
-      "n n"
       "m m";
   }
   section {
@@ -170,7 +173,6 @@ figure img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
       "h h h"
-      "n n n"
       "m m m";
   }
   section {

@@ -6,8 +6,7 @@
       "type": "Irregular galaxy",
       "name": "late-type spiral or a dwarf irregular galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/ESO_376-16.jpg/512px-ESO_376-16.jpg",
-      "width": 300,
-      "height": 300
+      "distance": 2.3e6
     },
     {
       "id": "NGC 2997",
@@ -15,8 +14,7 @@
       "type": "Spiral galaxy",
       "name": "a face-on unbarred spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/N2997s.jpg/512px-N2997s.jpg",
-      "width": 300,
-      "height": 300
+      "distance": 3.98e6
     },
     {
       "id": "M31",
@@ -24,8 +22,7 @@
       "type": "Spiral galaxy",
       "name": "Andromeda Galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Andromeda_Galaxy_560mm_FL.jpg/512px-Andromeda_Galaxy_560mm_FL.jpg",
-      "width": 300,
-      "height": 300
+      "distance": 2.537e6
     },
     {
       "id": "NGC 7662",
@@ -33,8 +30,7 @@
       "type": "Planetary nebula",
       "name": "Snowball Nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/NGC_7662_%22Blue_Snowball%22.jpg/512px-NGC_7662_%22Blue_Snowball%22.jpg",
-      "width": 300,
-      "height": 300
+      "distance": 1800
     },
     {
       "id": "NGC 891",
@@ -42,8 +38,7 @@
       "type": "Spiral galaxy",
       "name": "Silver Sliver Galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/NGC891HunterWilson.jpg/512px-NGC891HunterWilson.jpg",
-      "width": 300,
-      "height": 300
+      "distance": 27.4e6
     },
     {
       "id": "NGC 7635",
@@ -51,8 +46,7 @@
       "type": "Emission nebula",
       "name": "Bubble Nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/The_Bubble_Nebula_-_NGC_7635_-_Heic1608a.jpg/631px-The_Bubble_Nebula_-_NGC_7635_-_Heic1608a.jpg",
-      "width": 300,
-      "height": 300
+      "distance": 11090
     },
     {
       "id": "IC 1805",
@@ -60,8 +54,7 @@
       "type": "Emission nebula",
       "name": "Heart Nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Heart_Nebula_%282020-08-11%29.jpg/637px-Heart_Nebula_%282020-08-11%29.jpg",
-      "width": 300,
-      "height": 300
+      "distance": 7500
     },
     {
       "id": "Westerhout 5",
@@ -69,8 +62,15 @@
       "type": "Emission nebula",
       "name": "Soul Nebula",
       "url": "https://live.staticflickr.com/65535/51746362502_8484030686_c.jpg",
-      "width": 300,
-      "height": 300
+      "distance": 6500
+    },
+    {
+      "id": "IC 1795",
+      "constellations": "Cassiopeia",
+      "type": "Emission nebula",
+      "name": "Fishhead Nebulaa",
+      "url": "https://science.nasa.gov/files/science-pink/s3fs-public/styles/image_gallery_scale_960w/public/atoms/FishheadNebula_Pham_960.jpg?itok=IacFBlBL",
+      "distance": 6500
     }
   ]
 }
