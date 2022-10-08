@@ -79,8 +79,8 @@ header {
 }
 
 nav {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1vh 1vw;
 }
 
@@ -124,14 +124,14 @@ h2 {
   background-color: var(--green-250);
   color: black;
   border-radius: 10px;
-  padding: 10px 10px;
+  padding: 6px 6px;
 }
 
 .menu-button:hover {
   background-color: var(--green-250);
   color: black;
   border-radius: 10px;
-  padding: 10px 10px;
+  padding: 6px 6px;
   text-decoration: none;
 }
 
@@ -152,10 +152,9 @@ figure img {
   max-height: 40vh;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   nav {
-    flex-direction: row;
-    gap: 1vh 1vw;
+    grid-template-columns: repeat(4, 1fr);
   }
   .container {
     grid-template-columns: 1fr 1fr;
@@ -194,8 +193,8 @@ select {
   border-radius: 10px;
   border: none;
   color: #000;
-  padding: 10px 30px 10px 10px;
-
+  padding: 5px 20px 5px 10px;
+  width: 130px;
   outline: none;
   -moz-appearance: none;
   -webkit-appearance: none;
