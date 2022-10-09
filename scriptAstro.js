@@ -115,14 +115,26 @@ fetch("./astroData.json")
       const myFigure = document.createElement("figure");
       const myImg = document.createElement("img");
       const myFigcaption = document.createElement("figcaption");
+      const myA = document.createElement("a");
 
       myImg.src = `${value.url}`;
-      myFigcaption.textContent = `${value.id} ${value.name} in ${
-        value.constellations
-      }. Distance ${numberWithCommas(value.distance)} ly`;
+      myImg.loading = `lazy`;
+      myImg.alt = `${value.id} ${value.name}`;
+      myFigcaption.textContent = `Distance ${numberWithCommas(
+        value.distance
+      )} ly `;
+
+      /*      myA.title = `test`; */
+      myA.href = `${value.link}`;
+      myA.target = "_blank";
+      const linkText = document.createTextNode(
+        `${value.id} ${value.name} in ${value.constellations}. `
+      );
       mySection.appendChild(myFigure);
       myFigure.appendChild(myImg);
+      myFigure.appendChild(myA);
       myFigure.appendChild(myFigcaption);
+      myA.appendChild(linkText);
     }
 
     function resetSelectElement(selectElement) {

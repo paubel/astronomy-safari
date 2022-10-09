@@ -116,6 +116,10 @@ h1,
 h2 {
   text-align: center;
 }
+
+figure figcaption {
+  display: inline;
+}
 .start-text {
   width: 60vw;
 }
@@ -137,7 +141,7 @@ h2 {
 
 a {
   color: var(--green-200);
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 a:hover {

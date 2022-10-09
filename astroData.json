@@ -6,6 +6,7 @@
       "type": "Irregular galaxy",
       "name": "late-type spiral or a dwarf irregular galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/ESO_376-16.jpg/512px-ESO_376-16.jpg",
+      "link": "https://scitechdaily.com/hubble-telescope-image-of-the-week-galaxy-eso-376-16/",
       "distance": 2.3e6
     },
     {
@@ -14,6 +15,7 @@
       "type": "Spiral galaxy",
       "name": "a face-on unbarred spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/N2997s.jpg/512px-N2997s.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_2997",
       "distance": 3.98e6
     },
     {
@@ -22,6 +24,7 @@
       "type": "Spiral galaxy",
       "name": "Andromeda Galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Andromeda_Galaxy_560mm_FL.jpg/512px-Andromeda_Galaxy_560mm_FL.jpg",
+      "link": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
       "distance": 2.537e6
     },
     {
@@ -30,6 +33,7 @@
       "type": "Planetary nebula",
       "name": "Snowball Nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/NGC_7662_%22Blue_Snowball%22.jpg/512px-NGC_7662_%22Blue_Snowball%22.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_7662",
       "distance": 1800
     },
     {
@@ -41,11 +45,39 @@
       "distance": 27.4e6
     },
     {
+      "id": "M 110",
+      "constellations": "Andromeda",
+      "type": "Elliptical galaxy",
+      "name": "dwarf elliptical galaxy that is a satellite of the Andromeda Galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/MESSIER_110_2MASS.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_891",
+      "distance": 2.69e6
+    },
+    {
+      "id": "M 32",
+      "constellations": "Andromeda",
+      "type": "Elliptical galaxy",
+      "name": "dwarf galaxy satellite of the Andromeda Galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/M32_Francione_inverted.jpg/610px-M32_Francione_inverted.jpg",
+      "link": "https://en.wikipedia.org/wiki/Messier_32",
+      "distance": 2.49e6
+    },
+    {
+      "id": "NGC 5466",
+      "constellations": " Boötes",
+      "type": "Globular cluster",
+      "name": "class XII globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/NGC_5466_Hubble_WikiSky.jpg/600px-NGC_5466_Hubble_WikiSky.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_5466",
+      "distance": 51.9e3
+    },
+    {
       "id": "NGC 7635",
       "constellations": "Cassiopeia",
       "type": "Emission nebula",
       "name": "Bubble Nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/The_Bubble_Nebula_-_NGC_7635_-_Heic1608a.jpg/631px-The_Bubble_Nebula_-_NGC_7635_-_Heic1608a.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_7635",
       "distance": 11090
     },
     {
@@ -54,6 +86,7 @@
       "type": "Emission nebula",
       "name": "Heart Nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Heart_Nebula_%282020-08-11%29.jpg/637px-Heart_Nebula_%282020-08-11%29.jpg",
+      "link": "https://en.wikipedia.org/wiki/Heart_Nebula",
       "distance": 7500
     },
     {
@@ -62,6 +95,7 @@
       "type": "Emission nebula",
       "name": "Soul Nebula",
       "url": "https://live.staticflickr.com/65535/51746362502_8484030686_c.jpg",
+      "link": "https://en.wikipedia.org/wiki/Westerhout_5",
       "distance": 6500
     },
     {
@@ -70,7 +104,17 @@
       "type": "Emission nebula",
       "name": "Fishhead Nebulaa",
       "url": "https://science.nasa.gov/files/science-pink/s3fs-public/styles/image_gallery_scale_960w/public/atoms/FishheadNebula_Pham_960.jpg?itok=IacFBlBL",
+      "link": "https://science.nasa.gov/ic-1795-fishhead-nebula",
       "distance": 6500
+    },
+    {
+      "id": "IC 63",
+      "constellations": "Cassiopeia",
+      "type": "Emission nebula",
+      "name": "The ghost of Cassiopeia",
+      "url": "https://cdn.spacetelescope.org/archives/images/thumb700x/heic1818a.jpg",
+      "link": "https://hubblesite.org/contents/media/images/2018/42/4242-Image.html?news=true",
+      "distance": 600
     }
   ]
 }
