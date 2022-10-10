@@ -115,6 +115,33 @@
       "url": "https://cdn.spacetelescope.org/archives/images/thumb700x/heic1818a.jpg",
       "link": "https://hubblesite.org/contents/media/images/2018/42/4242-Image.html?news=true",
       "distance": 600
+    },
+    {
+      "id": "NGC 281",
+      "constellations": "Cassiopeia",
+      "type": "Emission nebula",
+      "name": "Pacman Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/PacMan_Nebula.jpg/772px-PacMan_Nebula.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_281",
+      "distance": 9500
+    },
+    {
+      "id": "NGC 7789",
+      "constellations": "Cassiopeia",
+      "type": "Open cluster",
+      "name": "Caroline's Rose",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/NGC7789HunterWilson.jpg/640px-NGC7789HunterWilson.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_7789",
+      "distance": 7600
+    },
+    {
+      "id": "NGC 7822",
+      "constellations": "Cepheus",
+      "type": "Emission nebula",
+      "name": "young star forming complex",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Cederblad_214_and_NGC_7822_Nebulae_-_Davidedemartin_6.jpg/380px-Cederblad_214_and_NGC_7822_Nebulae_-_Davidedemartin_6.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_7822",
+      "distance": 2900
     }
   ]
 }

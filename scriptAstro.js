@@ -120,7 +120,7 @@ fetch("./astroData.json")
       myImg.src = `${value.url}`;
       myImg.loading = `lazy`;
       myImg.alt = `${value.id} ${value.name}`;
-      myFigcaption.textContent = `Distance ${numberWithCommas(
+      myFigcaption.textContent = `. Distance ${numberWithCommas(
         value.distance
       )} ly `;
 
@@ -128,7 +128,7 @@ fetch("./astroData.json")
       myA.href = `${value.link}`;
       myA.target = "_blank";
       const linkText = document.createTextNode(
-        `${value.id} ${value.name} in ${value.constellations}. `
+        `${value.id} ${value.name} in ${value.constellations}`
       );
       mySection.appendChild(myFigure);
       myFigure.appendChild(myImg);
