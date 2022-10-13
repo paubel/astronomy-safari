@@ -142,6 +142,96 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Cederblad_214_and_NGC_7822_Nebulae_-_Davidedemartin_6.jpg/380px-Cederblad_214_and_NGC_7822_Nebulae_-_Davidedemartin_6.jpg",
       "link": "https://en.wikipedia.org/wiki/NGC_7822",
       "distance": 2900
+    },
+    {
+      "id": "NGC 7380",
+      "constellations": "Cepheus",
+      "type": "Open cluster",
+      "name": "The surrounding emission nebulosity is caled Wizard Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Wizard_Nebula.jpg/624px-Wizard_Nebula.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_7380",
+      "distance": 8500
+    },
+    {
+      "id": "IC 1396",
+      "constellations": "Cepheus",
+      "type": "Emission nebula",
+      "name": "Misty Clover Cluster (with Elephant's Trunk Nebula)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Elephant%27s_Trunk_nebula.jpg/620px-Elephant%27s_Trunk_nebula.jpg",
+      "link": "https://en.wikipedia.org/wiki/Elephant%27s_Trunk_Nebula",
+      "distance": 2400
+    },
+    {
+      "id": "NGC 7538",
+      "constellations": "Cepheus",
+      "type": "Emission nebula",
+      "name": "Northern Lagoon nebula. Star-forming, emission and reflection nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/NGC_7538.jpg/640px-NGC_7538.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_7538",
+      "distance": 9100
+    },
+    {
+      "id": "NGC 40",
+      "constellations": "Cepheus",
+      "type": "Planetary nebula",
+      "name": "Bow Tie Nebula",
+      "url": "https://freestarcharts.com/images/Articles/NGC/NGC40_Mandel_Block_NOAO.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_40",
+      "distance": 3500
+    },
+    {
+      "id": "NGC 7023",
+      "constellations": "Cepheus",
+      "type": "Reflection nebula",
+      "name": "Iris Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Iris1HunterWilson.jpg/480px-Iris1HunterWilson.jpg",
+      "link": "https://en.wikipedia.org/wiki/Iris_Nebula",
+      "distance": 1300
+    },
+    {
+      "id": "NGC 6946",
+      "constellations": "Cepheus",
+      "type": "Spiral galaxy",
+      "name": "Fireworks Galaxy. Half of it also lies in Cygnus",
+      "url": "https://science.nasa.gov/science-pink/s3fs-public/styles/image_gallery_scale_960w/public/atoms/NGC6946-Subaru-Gendler900c.jpg?itok=JduT_4qj",
+      "link": "https://en.wikipedia.org/wiki/NGC_6946",
+      "distance": 25.2e6
+    },
+    {
+      "id": "Veil Nebula",
+      "constellations": "Cygnus",
+      "type": "Supernova-remnant nebula",
+      "name": "The visible portions of the Cygnus Loop, a supernova remnant, many portions of which have acquired their own individual names and catalogue identifiers",
+      "url": "https://static.wixstatic.com/media/d8a647_f8bdb6d3c4ad44628267d28f6ac2a35e~mv2.jpg/v1/fill/w_640,h_408,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d8a647_f8bdb6d3c4ad44628267d28f6ac2a35e~mv2.jpg",
+      "link": "https://en.wikipedia.org/wiki/Veil_Nebula",
+      "distance": 2400
+    },
+    {
+      "id": "NGC 6826",
+      "constellations": "Cygnus",
+      "type": "Planetary nebula",
+      "name": "Plinking planetary",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/NGC_6826HSTFull.jpg/480px-NGC_6826HSTFull.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_6826",
+      "distance": 2000
+    },
+    {
+      "id": "IC 1318",
+      "constellations": "Cygnus",
+      "type": "Emission nebula",
+      "name": "Gamma Cygni Nebula or Butterly Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Sadr_JeffJohnson.jpg/479px-Sadr_JeffJohnson.jpg",
+      "link": "https://science.nasa.gov/gamma-cygni-nebula",
+      "distance": 4000
+    },
+    {
+      "id": "NGC 6910",
+      "constellations": "Cygnus",
+      "type": "Open cluster",
+      "name": "An open clusrer inside Gamma Cygni Nebula",
+      "url": "https://cdn.astrobin.com/thumbs/UP4J9VD07OfG_620x0_kWXURFLk.png",
+      "link": "https://science.nasa.gov/gamma-cygni-nebula",
+      "distance": 3710
     }
   ]
 }

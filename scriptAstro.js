@@ -39,7 +39,6 @@ fetch("./astroData.json")
       resetSelectElement(selectElementConst);
       clearMainAndSelectOption();
       populateDist(selectedOption);
-      /*       console.log("asdf"); */
     });
 
     function populateType(astroData) {
@@ -71,12 +70,11 @@ fetch("./astroData.json")
       createH2inMainDistance(astroData);
       Object.entries(data.astroObject).forEach(([key, value]) => {
         let astroDataNumb = Number(astroData);
-        /*   console.log(value.distance, astroDataNumb); */
+
         if (
           value.distance > Number(astroDataNumb) &&
           value.distance < Number(astroDataNumb) * 10
         ) {
-          /*          console.log(value); */
           createAstroElement(value);
         }
       });
@@ -120,16 +118,14 @@ fetch("./astroData.json")
       myImg.src = `${value.url}`;
       myImg.loading = `lazy`;
       myImg.alt = `${value.id} ${value.name}`;
-      myFigcaption.textContent = `. Distance ${numberWithCommas(
+      myFigcaption.textContent = ` ${value.constellations} ${numberWithCommas(
         value.distance
-      )} ly `;
+      )} ly.`;
 
       /*      myA.title = `test`; */
       myA.href = `${value.link}`;
       myA.target = "_blank";
-      const linkText = document.createTextNode(
-        `${value.id} ${value.name} in ${value.constellations}`
-      );
+      const linkText = document.createTextNode(`${value.id} ${value.name}.`);
       mySection.appendChild(myFigure);
       myFigure.appendChild(myImg);
       myFigure.appendChild(myA);
