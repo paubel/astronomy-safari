@@ -25,6 +25,7 @@ fetch("./astroData.json")
       resetSelectElement(selectElementDist);
       clearMainAndSelectOption();
       populateType(selectedOption);
+      lazyLoadFunc();
     });
 
     selectElementConst.addEventListener("change", (event) => {
@@ -32,6 +33,7 @@ fetch("./astroData.json")
       resetSelectElement(selectElementDist);
       clearMainAndSelectOption();
       populateConst(selectedOption);
+      lazyLoadFunc();
     });
 
     selectElementDist.addEventListener("change", (event) => {
@@ -39,6 +41,7 @@ fetch("./astroData.json")
       resetSelectElement(selectElementConst);
       clearMainAndSelectOption();
       populateDist(selectedOption);
+      lazyLoadFunc();
     });
 
     function populateType(astroData) {
@@ -115,8 +118,13 @@ fetch("./astroData.json")
       const myFigcaption = document.createElement("figcaption");
       const myA = document.createElement("a");
 
-      myImg.src = `${value.url}`;
-      myImg.loading = `lazy`;
+      //myImg.src = `${value.url}`;
+      const imgValue = `${value.url}`;
+      const attr = document.createAttribute("data-src");
+      attr.value = imgValue;
+      myImg.setAttributeNode(attr);
+      //myImg.loading = `lazy`;
+      myImg.classList.add("lazy");
       myImg.alt = `${value.id} ${value.name}`;
       myFigcaption.textContent = ` ${value.constellations} ${numberWithCommas(
         value.distance
@@ -140,4 +148,67 @@ fetch("./astroData.json")
     function numberWithCommas(x) {
       return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
+
+    function lazyLoadFunc() {
+      console.log("before");
+      //      document.addEventListener("DOMContentLoaded", function () {
+      var lazyloadImages;
+
+      if ("IntersectionObserver" in window) {
+        lazyloadImages = document.querySelectorAll(".lazy");
+        var imageObserver = new IntersectionObserver(function (
+          entries,
+          observer
+        ) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              var image = entry.target;
+              image.src = image.dataset.src;
+              image.classList.remove("lazy");
+              imageObserver.unobserve(image);
+              console.log("isIntersecting");
+            }
+          });
+        });
+
+        lazyloadImages.forEach(function (image) {
+          imageObserver.observe(image);
+          console.log("lazyloadImages");
+        });
+      } else {
+        var lazyloadThrottleTimeout;
+        lazyloadImages = document.querySelectorAll(".lazy");
+        console.log("else");
+        function lazyload() {
+          if (lazyloadThrottleTimeout) {
+            clearTimeout(lazyloadThrottleTimeout);
+            console.log("lazyload");
+          }
+
+          lazyloadThrottleTimeout = setTimeout(function () {
+            var scrollTop = window.pageYOffset;
+            lazyloadImages.forEach(function (img) {
+              if (img.offsetTop < window.innerHeight + scrollTop) {
+                console.log("offsetTop");
+                img.src = img.dataset.src;
+                img.classList.remove("lazy");
+              }
+            });
+            if (lazyloadImages.length == 0) {
+              document.removeEventListener("scroll", lazyload);
+              window.removeEventListener("resize", lazyload);
+              window.removeEventListener("orientationChange", lazyload);
+            }
+          }, 20);
+        }
+
+        document.addEventListener("scroll", lazyload);
+        window.addEventListener("resize", lazyload);
+        window.addEventListener("orientationChange", lazyload);
+        console.log("last");
+      }
+      //});
+    }
   });
+
+/* START lazy loading */
