@@ -232,6 +232,60 @@
       "url": "https://cdn.astrobin.com/thumbs/UP4J9VD07OfG_620x0_kWXURFLk.png",
       "link": "https://science.nasa.gov/gamma-cygni-nebula",
       "distance": 3710
+    },
+    {
+      "id": "NGC 6914",
+      "constellations": "Cygnus",
+      "type": "Reflection nebula",
+      "name": "An open clusrer inside Gamma Cygni Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/N6914s.jpg/394px-N6914s.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_6914",
+      "distance": 6000
+    },
+    {
+      "id": "NGC 7000",
+      "constellations": "Cygnus",
+      "type": "Emission nebula",
+      "name": "North America Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/North_America_and_Pelican_-_Wesley_Chang.jpg/657px-North_America_and_Pelican_-_Wesley_Chang.jpg",
+      "link": "https://en.wikipedia.org/wiki/North_America_Nebula",
+      "distance": 2590
+    },
+    {
+      "id": "IC 5070",
+      "constellations": "Cygnus",
+      "type": "Emission nebula",
+      "name": "an H II region associated with the North America Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pelican_Nebula.jpg/640px-Pelican_Nebula.jpg",
+      "link": "https://en.wikipedia.org/wiki/Pelican_Nebula",
+      "distance": 1800
+    },
+    {
+      "id": "NGC 7026",
+      "constellations": "Cygnus",
+      "type": "Planetary nebula",
+      "name": "The central star of the planetary nebula has a binary system",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/NGC_7026_HST.jpg/644px-NGC_7026_HST.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_7026",
+      "distance": 6000
+    },
+    {
+      "id": "IC 5146",
+      "constellations": "Cygnus",
+      "type": "Reflection nebula",
+      "name": "The Cocoon Nebula is also an emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ic5146s.jpg/640px-Ic5146s.jpg",
+      "link": "https://en.wikipedia.org/wiki/IC_5146",
+      "distance": 2500
+    },
+    {
+      "id": "NGC 7008",
+      "constellations": "Cygnus",
+      "type": "Planetary nebula",
+      "name": "Fetus Nebula",
+      "url": "https://www.webbdeepsky.com/images/nebulae-clusters/ngc7008/adamblock_ngc7008_crop_06102011_small.jpg",
+      "link": "https://en.wikipedia.org/wiki/IC_5146",
+      "distance": 2800
     }
   ]
 }

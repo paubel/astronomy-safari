@@ -150,7 +150,6 @@ fetch("./astroData.json")
     }
 
     function lazyLoadFunc() {
-      console.log("before");
       //      document.addEventListener("DOMContentLoaded", function () {
       var lazyloadImages;
 
