@@ -64,7 +64,7 @@
     },
     {
       "id": "NGC 5466",
-      "constellations": " Boötes",
+      "constellations": "Boötes",
       "type": "Globular cluster",
       "name": "class XII globular cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/NGC_5466_Hubble_WikiSky.jpg/600px-NGC_5466_Hubble_WikiSky.jpg",
@@ -285,6 +285,69 @@
       "name": "Fetus Nebula",
       "url": "https://www.webbdeepsky.com/images/nebulae-clusters/ngc7008/adamblock_ngc7008_crop_06102011_small.jpg",
       "link": "https://en.wikipedia.org/wiki/IC_5146",
+      "distance": 2800
+    },
+    {
+      "id": "NGC 6891",
+      "constellations": "Delphinus",
+      "type": "Planetary nebula",
+      "name": "bright, asymmetrical planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NGC_6891.jpg/590px-NGC_6891.jpg",
+      "link": "https://www.nasa.gov/image-feature/goddard/2021/hubble-s-view-of-planetary-nebula-reveals-complex-structure",
+      "distance": 11800
+    },
+    {
+      "id": "NGC 6543",
+      "constellations": "Draco",
+      "type": "Planetary nebula",
+      "name": "Cat's Eye Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NGC6543.jpg/600px-NGC6543.jpg",
+      "link": "https://en.wikipedia.org/wiki/Cat%27s_Eye_Nebula",
+      "distance": 3300
+    },
+    {
+      "id": "NGC 6503",
+      "constellations": "Draco",
+      "type": "Spiral galaxy",
+      "name": "Lost in Space Galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/NGC_6503_%282015-06-10%29.jpg/573px-NGC_6503_%282015-06-10%29.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_6503",
+      "distance": 13e6
+    },
+    {
+      "id": "M 102",
+      "constellations": "Draco",
+      "type": "Lenticular galaxy",
+      "name": "The Spindle Galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ngc5866_hst_big.png/408px-Ngc5866_hst_big.png",
+      "link": "https://en.wikipedia.org/wiki/NGC_5866",
+      "distance": 50e6
+    },
+    {
+      "id": "NGC 5907",
+      "constellations": "Draco",
+      "type": "Spiral galaxy",
+      "name": "Knife Edge Galaxy or Splinter Galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ngc5907_stellar_stream.jpg/640px-Ngc5907_stellar_stream.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_5907",
+      "distance": 53.5e6
+    },
+    {
+      "id": "M 13",
+      "constellations": "Hercules",
+      "type": "Globular cluster",
+      "name": "Great Globular Cluster in Hercules",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Messier_13.jpg/640px-Messier_13.jpg",
+      "link": "https://en.wikipedia.org/wiki/Messier_13",
+      "distance": 22.2e3
+    },
+    {
+      "id": "NGC 7243",
+      "constellations": "Lacerta",
+      "type": "Open cluster",
+      "name": "100 million years old, consisting mainly of white and blue stars",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/NGC_7243_.jpg/484px-NGC_7243_.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_7243",
       "distance": 2800
     }
   ]
