@@ -349,6 +349,15 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/NGC_7243_.jpg/484px-NGC_7243_.jpg",
       "link": "https://en.wikipedia.org/wiki/NGC_7243",
       "distance": 2800
+    },
+    {
+      "id": "NGC 6720",
+      "constellations": "Lyra",
+      "type": "Planetary Nebula",
+      "name": "Ring Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/M57_The_Ring_Nebula.JPG/587px-M57_The_Ring_Nebula.JPG",
+      "link": "https://en.wikipedia.org/wiki/Ring_Nebula",
+      "distance": 2567
     }
   ]
 }

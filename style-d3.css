@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat&display=swap");
+
+/* HEX CODES:
+#013026
+#014760
+#107e57
+#a1ce3f
+#cbe58e */
+
+:root {
+  --black: #000000;
+  --green-500: #013026;
+  --green-400: #014760;
+  --green-300: #107e57;
+  --green-200: #a1ce3f;
+  --green-250: #a9fa80;
+  --green-100: #cbe58e;
+  --light-gray: hsl(100, 0%, 80%);
+  --white: #fff;
+  --primary: hsl(60, 10%, 10%);
+  --secondary: hsl(60, 100%, 5%);
+  --tertiary-color: hsl(60, 70%, 50%);
+}
+html {
+  font-size: calc(0.7rem + 0.390625vw);
+}
+
+body {
+  background-color: var(--black);
+  background-image: url("./green-cosmos.webp");
+  background-color: #444;
+  background-blend-mode: multiply;
+  background-size: cover;
+  color: var(--green-100);
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: var(--green-100);
+  text-align: center;
+}
+.container {
+  /*   min-height: 80vh; */
+  width: 95vw;
+  margin: 0 auto;
+  padding: 0 5vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center center;
+  gap: 1vh 1vw;
+
+  /*   background-color: #0009;
+  box-shadow: 0px 0px 16px 12px #0009; */
+
+  grid-template-areas:
+    "h"
+    "m";
+}
+
+header {
+  grid-area: h;
+  text-align: center;
+  position: sticky;
+  top: 5px;
+  /*   background-color: #000a; */
+  padding: 0 3px 3px 3px;
+  /*   box-shadow: 0px 0px 16px 12px #000a; */
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
+  /*   border: 1px solid rgba(0, 0, 0, 0.3); */
+  box-shadow: 0px 0px 16px 12px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1vh 1vw;
+}
+
+/* main {
+  margin-top: 1vh;
+  grid-area: m;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: start center;
+  gap: 1vh 1vw;
+  grid-template-areas:
+    "h2"
+    "s";
+} */
+
+h2 {
+  grid-area: h2;
+}
+
+/* section {
+  grid-area: s;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: start center;
+  gap: 1vh 1vw;
+} */
+
+nav {
+  grid-area: n;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+/* figure figcaption {
+  display: inline;
+} */
+.start-text {
+  width: 60vw;
+}
+
+.menu-button {
+  background-color: var(--green-250);
+  color: black;
+  border-radius: 10px;
+  padding: 6px 6px;
+}
+
+.menu-button:hover {
+  background-color: var(--green-250);
+  color: black;
+  border-radius: 10px;
+  padding: 6px 6px;
+  text-decoration: none;
+}
+
+a {
+  color: var(--green-200);
+  /* text-decoration: none; */
+}
+
+a:hover {
+  color: var(--green-300);
+  text-decoration: underline;
+}
