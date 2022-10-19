@@ -4,7 +4,7 @@ For GeoJSON, all coordinates need to be given in degrees, longitude as [-180...1
 
 ## Stars
 
-`./stars.6.json`, `stars.8.json`, `stars.14.json`: the number indicates limit magnitude
+`stars.6.json`, `stars.8.json`, `stars.14.json`: the number indicates limit magnitude
 
 ```js
 {
