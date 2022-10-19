@@ -28,14 +28,13 @@
 
             <nav>
                 <a class="menu-button" href="./index.html">Start</a>
+                <a class="menu-button" href="./d3-celestial.html">Skymap</a>
 
             </nav>
         </header>
         <main>
-            <h3>Welcome to Space Safari</h3>
 
-
-            <div style="overflow:hidden;">
+            <div>
                 <div id="celestial-map"></div>
             </div>
             <div id="celestial-form"></div>
@@ -53,7 +52,7 @@
                     transform: "equatorial",
                     datapath: "../data/",
                     stars: {
-                        show: true,    // Show stars
+                        show: false,    // Show stars
                         limit: 6,      // Show only stars brighter than limit magnitude
                         colors: true,  // Show stars in spectral colors, if not use "color"
                         style: { fill: "#ffffff", opacity: 1 }, // Default style for stars
@@ -67,7 +66,7 @@
                         //data: 'stars.8.json' // Alternative deeper data source for stellar data
                     },
                     dsos: {
-                        show: false,   // Show Deep Space Objects
+                        show: true,   // Show Deep Space Objects
                         limit: 6,      // Show only DSOs brighter than limit magnitude
                         names: true,   // Show DSO names
                         desig: true,   // Show short DSO names
@@ -97,13 +96,13 @@
                         }
                     },
                     constellations: {
-                        show: false,   // Show constellations
-                        names: false,   // Show constellation names
-                        desig: true,   // Show short constellation names (3 letter designations)
+                        show: true,   // Show constellations
+                        names: true,   // Show constellation names
+                        desig: false,   // Show short constellation names (3 letter designations)
                         namestyle: { fill: "#cccc99", font: "12px Helvetica, Arial, sans-serif", align: "center", baseline: "middle" },
                         lines: false,   // Show constellation lines
                         linestyle: { stroke: "#cccccc", width: 1, opacity: 0.6 },
-                        bounds: false,  // Show constellation boundaries
+                        bounds: true,  // Show constellation boundaries
                         boundstyle: { stroke: "#cccc00", width: 0.5, opacity: 0.8, dash: [2, 4] }
                     },
                     mw: {

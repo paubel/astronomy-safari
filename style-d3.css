@@ -44,11 +44,10 @@ h3 {
 }
 .container {
   /*   min-height: 80vh; */
-  width: 95vw;
-  margin: 0 auto;
-  padding: 0 5vw;
+  width: 100vw;
+  height: auto;
   display: grid;
-  grid-template-columns: 1fr;
+  /*   grid-template-columns: 1fr; */
   place-items: center center;
   gap: 1vh 1vw;
 
@@ -58,6 +57,10 @@ h3 {
   grid-template-areas:
     "h"
     "m";
+}
+main {
+  height: 80vh;
+  width: 100vw;
 }
 
 header {
