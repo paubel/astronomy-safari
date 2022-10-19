@@ -4,7 +4,7 @@ For GeoJSON, all coordinates need to be given in degrees, longitude as [-180...1
 
 ## Stars
 
-`stars.6.json`, `stars.8.json`, `stars.14.json`: the number indicates limit magnitude  
+`./stars.6.json`, `stars.8.json`, `stars.14.json`: the number indicates limit magnitude
 
 ```js
 {
@@ -16,7 +16,7 @@ For GeoJSON, all coordinates need to be given in degrees, longitude as [-180...1
       "mag": "",     // Apparent magnitude
       "bv": ""       // b-v color index
     },
-    "geometry": {  
+    "geometry": {
       "type": "Point",
       "coordinates": [lon, lat]
     }
@@ -26,33 +26,34 @@ For GeoJSON, all coordinates need to be given in degrees, longitude as [-180...1
 
 ## Starnames
 
-`starnames.json`: Magnitude independent, all stars with a name/designation other than HIP/HD  
+`starnames.json`: Magnitude independent, all stars with a name/designation other than HIP/HD
 
 ```js
-{"id": {         // Hipparcos number  
-   "name": "",      // Proper name  
+{"id": {         // Hipparcos number
+   "name": "",      // Proper name
     ...             // and names in 17 further languages (see list in main readme)
-   "desig": "",     // Standard designation, first from list below  
-   "bayer": "",     // Bayer  
-   "flam": "",      // Flamsteed  
-   "var": "",       // Variable star  
-   "gliese": "",    // Gliese  
+   "desig": "",     // Standard designation, first from list below
+   "bayer": "",     // Bayer
+   "flam": "",      // Flamsteed
+   "var": "",       // Variable star
+   "gliese": "",    // Gliese
    "hd": "",        // Henry Draper
-   "hip": ""        // Hipparcos number again   
-  }, "id": {...}  
+   "hip": ""        // Hipparcos number again
+  }, "id": {...}
 }
 ```
-  
-##Traditional Chinese star and DSO names  
 
-`starnames.cn.json`, `dsonames.cn.json`:  
+##Traditional Chinese star and DSO names
+
+`starnames.cn.json`, `dsonames.cn.json`:
+
 ```js
-{"id": {         // Hipparcos number  
-   "name": "",      // Chinese name  
-   "desig": "",     // IAU designation  
-   "en": "",        // English translation  
-   "pinyin": ""     // Pinyin transcription  
-  }, "id": {...}  
+{"id": {         // Hipparcos number
+   "name": "",      // Chinese name
+   "desig": "",     // IAU designation
+   "en": "",        // English translation
+   "pinyin": ""     // Pinyin transcription
+  }, "id": {...}
 }
 ```
 
@@ -72,12 +73,12 @@ For GeoJSON, all coordinates need to be given in degrees, longitude as [-180...1
     "properties": {
       "desig": "",  // Designator
       "type": "",   // Object type: gg, g, s, s0, sd, i, e, oc, gc, dn, bn, sfr, rn, en, pn, snr
-      "morph": "",  // Morphology classification depending on type  
-      "mag": "",    // Apparent magnitude, 999 if n.a.  
-      "dim": "",    // Angular dimensions in arcminutes  
-      "bv": ""      // Blue minus visual magnitude color inder (b-v)    
+      "morph": "",  // Morphology classification depending on type
+      "mag": "",    // Apparent magnitude, 999 if n.a.
+      "dim": "",    // Angular dimensions in arcminutes
+      "bv": ""      // Blue minus visual magnitude color inder (b-v)
     },
-    "geometry": {  
+    "geometry": {
       "type": "Point",
       "coordinates": [lon, lat]
     }
@@ -85,17 +86,16 @@ For GeoJSON, all coordinates need to be given in degrees, longitude as [-180...1
 }
 ```
 
-___Object type:___ _gg_: galaxy cluster, _g_: galaxy, _s_: spiral galaxy, _s0_: lenticular gal., _sd_: dwarf spheroidal gal., _i_: irregular gal., _e_: elliptical gal., _oc_: open cluster, _gc_: globular cluster, _dn_: dark nebula, _bn_: bright nebula, _sfr_: star forming region, _rn_: reflection nebula, _en_: emission nebula, _pn_: planetary nebula, _snr_: supernova remnant
+**_Object type:_** _gg_: galaxy cluster, _g_: galaxy, _s_: spiral galaxy, _s0_: lenticular gal., _sd_: dwarf spheroidal gal., _i_: irregular gal., _e_: elliptical gal., _oc_: open cluster, _gc_: globular cluster, _dn_: dark nebula, _bn_: bright nebula, _sfr_: star forming region, _rn_: reflection nebula, _en_: emission nebula, _pn_: planetary nebula, _snr_: supernova remnant
 
-___additional lg.json properties:___  
-_sub_: Sub group membership: \[MW|M31|N3109|LG\]  (Milky Way, Andromeda, NGC 3109, gen. LG)  
-_pop_: MW populations \[OH|YH|BD\] (Old halo, young halo, bulge & disk), M31 populations \[M31|GP\]  (gen. M31, great plane)  
+**_additional lg.json properties:_**  
+_sub_: Sub group membership: \[MW|M31|N3109|LG\] (Milky Way, Andromeda, NGC 3109, gen. LG)  
+_pop_: MW populations \[OH|YH|BD\] (Old halo, young halo, bulge & disk), M31 populations \[M31|GP\] (gen. M31, great plane)  
 _str_: Tidal streams \[Mag|Sgr|CMa|FLS\] (Magellanic Stream, Sagittarius Stream, Canis Major/Monoceros Stream, Fornax-Leo-Sculptor Great Circle)
-  
 
 ## DSOnames
 
-`dsonames.json`: Magnitude/dimension independent, all DSOs with a proper name  
+`dsonames.json`: Magnitude/dimension independent, all DSOs with a proper name
 
 ```js
 {"id": {      // most common designation (NGC, IC, M, ...)
@@ -121,12 +121,12 @@ _str_: Tidal streams \[Mag|Sgr|CMa|FLS\] (Magellanic Stream, Sagittarius Stream,
       "rank": "",       // 1-3 for differential name display by size/brightness
       "en": "",         // english name
       ...               // and names in 18 further languages (see list in main readme)
-      "display": []     // [ra,dec,scale], for single constellation display 
+      "display": []     // [ra,dec,scale], for single constellation display
     },
-    "geometry": {  
+    "geometry": {
       "type": "Point",
       "coordinates": [lon, lat]  // Position of const. name
-    }      
+    }
   }, { } ]
 }
 ```
@@ -141,7 +141,7 @@ _str_: Tidal streams \[Mag|Sgr|CMa|FLS\] (Magellanic Stream, Sagittarius Stream,
   "features": [{
     "type": "Feature",
     "id": "",           // 3-letter designator of constellation
-    "geometry": {  
+    "geometry": {
       "type": "MultiLineString",
       "coordinates": [[[lon, lat],[lon, lat],..],[[]lon, lat,[lon, lat],..],..]
     }
@@ -159,7 +159,7 @@ _str_: Tidal streams \[Mag|Sgr|CMa|FLS\] (Magellanic Stream, Sagittarius Stream,
   "features": [{
     "type": "Feature",
     "id": "",           // 3-letter designator of constellation
-    "geometry": {  
+    "geometry": {
       "type": "Polygon",
       "coordinates": [[[lon, lat],[lon, lat],..]]
     },
@@ -169,7 +169,7 @@ _str_: Tidal streams \[Mag|Sgr|CMa|FLS\] (Magellanic Stream, Sagittarius Stream,
 
 ##Traditional Chinese constellations
 
-`constellations.cn.json`  
+`constellations.cn.json`
 
 ```js
 {
@@ -183,12 +183,12 @@ _str_: Tidal streams \[Mag|Sgr|CMa|FLS\] (Magellanic Stream, Sagittarius Stream,
       "pinyin": "",     // pinyin transcription
       "desig": "",      // also chinese name, for compatibility
       "rank": "",       // so far only 1; differential name display by size/brightness
-      "display": []     // [ra,dec,scale], for single constellation display 
+      "display": []     // [ra,dec,scale], for single constellation display
     },
-    "geometry": {  
+    "geometry": {
       "type": "Point",
       "coordinates": [lon, lat]  // Position of const. name
-    }      
+    }
   }, { } ]
 }
 ```
@@ -219,8 +219,8 @@ _str_: Tidal streams \[Mag|Sgr|CMa|FLS\] (Magellanic Stream, Sagittarius Stream,
   "type": "FeatureCollection",
   "features": [{
     "type": "Feature",
-    "id": "",       
-    "geometry": {  
+    "id": "",
+    "geometry": {
       "type": "LineString",
       "coordinates": [[lon, lat],[lon, lat]]
     }
@@ -243,7 +243,7 @@ _str_: Tidal streams \[Mag|Sgr|CMa|FLS\] (Magellanic Stream, Sagittarius Stream,
       "p": n        // Priority 1..6 (~Average brighness)
                     // p=6: Guiding line
     },
-    "geometry": {  
+    "geometry": {
       "type": "MultiLineString",
       "coordinates": [[[lon, lat],[lon, lat],..],[[]lon, lat,[lon, lat],..],..]
     }
@@ -254,7 +254,7 @@ _str_: Tidal streams \[Mag|Sgr|CMa|FLS\] (Magellanic Stream, Sagittarius Stream,
 ## Planets
 
 Not geojson, because positions need to be calculated by date from keplerian elements  
-All element values in degrees, except a (AU|km) and e (dimensionless)  
+All element values in degrees, except a (AU|km) and e (dimensionless)
 
 ```js
 "id":{                // (usually) 3-letter id
@@ -274,4 +274,3 @@ All element values in degrees, except a (AU|km) and e (dimensionless)
   ...                 // Names in 14 different languages, see list in main readme
   }
 ```
-
