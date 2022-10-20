@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./d3-celestial/celestial.css">
     <link rel="stylesheet" href="./style-d3.css">
 
+
 </head>
 
 <body>
@@ -55,7 +56,9 @@
                     zoomlevel: 1,
                     /*  center: [55.6002, 13.0094], */
                     /*        orientationfixed: true, */
-                    datapath: "../data/",
+                    //datapath: "../data/",
+                    datapath: "../space-safari-v2/data/",
+
                     /* adaptable: true, */
                     geopos: null,
                     /*          geopos: [55.6002, 13.0094], */
@@ -74,7 +77,7 @@
                     },
 
                     stars: {
-                        show: true,    // Show stars
+                        show: false,    // Show stars
                         limit: 6,      // Show only stars brighter than limit magnitude
                         colors: true,  // Show stars in spectral colors, if not use "color"
                         style: { fill: "#ffffff", opacity: 1 }, // Default style for stars
@@ -96,7 +99,7 @@
                         desig: true,   // Show short DSO names
                         namelimit: 4,  // Show only names for DSOs brighter than namelimit
                         namestyle: { fill: "#cccccc", font: "11px Helvetica, Arial, serif", align: "left", baseline: "top" },
-                        data: 'dsos.bright.json',  // Data source for DSOs
+                        data: 'dsos.ss.json',  // Data source for DSOs
                         //data: 'dsos.6.json'  // Alternative broader data source for DSOs
                         //data: 'dsos.14.json' // Alternative deeper data source for DSOs
                         symbols: {  //DSO symbol styles
