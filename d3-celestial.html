@@ -46,26 +46,35 @@
                 */
                 var config = {
 
-                    location: true,
+                    /*        location: false, */
+                    form: true,
                     interactive: true,
                     controls: false,
-                    projection: "equirectangular",
+                    projection: "aitoff",
                     transform: "equatorial",
-                    datapath: "../space-safari-v2/data/",
+                    zoomlevel: 1,
+                    /*  center: [55.6002, 13.0094], */
+                    /*        orientationfixed: true, */
+                    datapath: "../data/",
                     /* adaptable: true, */
+                    geopos: null,
+                    /*          geopos: [55.6002, 13.0094], */
+                    follow: "zenith", //zenith
+                    form: true,
+                    /*      advanced: true, */
                     formFields: {
-                        "location": true,  // Set visiblity for each group of fields with the respective id
+                        "location": false,  // Set visiblity for each group of fields with the respective id
                         "general": true,
-                        "stars": true,
+                        "stars": false,
                         "dsos": true,
-                        "constellations": true,
-                        "lines": true,
-                        "other": true,
-                        "download": true
+                        "constellations": false,
+                        "lines": false,
+                        "other": false,
+                        "download": false
                     },
 
                     stars: {
-                        show: false,    // Show stars
+                        show: true,    // Show stars
                         limit: 6,      // Show only stars brighter than limit magnitude
                         colors: true,  // Show stars in spectral colors, if not use "color"
                         style: { fill: "#ffffff", opacity: 1 }, // Default style for stars
@@ -75,13 +84,15 @@
                         namelimit: 2.5,  // Show only names for stars brighter than namelimit
                         namestyle: { fill: "#ddddbb", font: "11px Georgia, Times, 'Times Roman', serif", align: "left", baseline: "top" },
                         size: 4,       // Maximum size (radius) of star circle in pixels
-                        data: 'stars.6.json' // Data source for stellar data
+                        data: 'stars.8.json' // Data source for stellar data
                         //data: 'stars.8.json' // Alternative deeper data source for stellar data
                     },
                     dsos: {
                         show: true,   // Show Deep Space Objects
                         limit: 6,      // Show only DSOs brighter than limit magnitude
                         names: true,   // Show DSO names
+                        colors: true,
+                        namesType: "name",
                         desig: true,   // Show short DSO names
                         namelimit: 4,  // Show only names for DSOs brighter than namelimit
                         namestyle: { fill: "#cccccc", font: "11px Helvetica, Arial, serif", align: "left", baseline: "top" },
@@ -111,9 +122,10 @@
                     constellations: {
                         show: true,   // Show constellations
                         names: true,   // Show constellation names
+                        namesType: "iau",
                         desig: false,   // Show short constellation names (3 letter designations)
                         namestyle: { fill: "#cccc99", font: "12px Helvetica, Arial, sans-serif", align: "center", baseline: "middle" },
-                        lines: false,   // Show constellation lines
+                        lines: true,   // Show constellation lines
                         linestyle: { stroke: "#cccccc", width: 1, opacity: 0.6 },
                         bounds: true,  // Show constellation boundaries
                         boundstyle: { stroke: "#cccc00", width: 0.5, opacity: 0.8, dash: [2, 4] }

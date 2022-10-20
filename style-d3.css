@@ -42,6 +42,11 @@ h3 {
   color: var(--green-100);
   text-align: center;
 }
+
+label {
+  color: var(--green-100) !important;
+}
+
 .container {
   /*   min-height: 80vh; */
   width: 100vw;
@@ -62,10 +67,16 @@ main > div {
   /*   height: 80vh; */
 
   width: 100vw;
-  /* display: grid; */
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   place-items: center center;
 }
+
+/* @media (min-width: 700px) {
+  main > div {
+    flex-direction: row;
+  }
+} */
 
 header {
   grid-area: h;
