@@ -58,9 +58,13 @@ h3 {
     "h"
     "m";
 }
-main {
-  height: 80vh;
+main > div {
+  /*   height: 80vh; */
+
   width: 100vw;
+  /* display: grid; */
+  grid-template-columns: 1fr;
+  place-items: center center;
 }
 
 header {

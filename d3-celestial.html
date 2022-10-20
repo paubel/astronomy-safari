@@ -45,12 +45,25 @@
                    Copyright 2015-20 Olaf Frohn https://github.com/ofrohn, see LICENSE
                 */
                 var config = {
+
                     location: true,
                     interactive: true,
                     controls: false,
                     projection: "equirectangular",
                     transform: "equatorial",
-                    datapath: "../data/",
+                    datapath: "../space-safari-v2/data/",
+                    /* adaptable: true, */
+                    formFields: {
+                        "location": true,  // Set visiblity for each group of fields with the respective id
+                        "general": true,
+                        "stars": true,
+                        "dsos": true,
+                        "constellations": true,
+                        "lines": true,
+                        "other": true,
+                        "download": true
+                    },
+
                     stars: {
                         show: false,    // Show stars
                         limit: 6,      // Show only stars brighter than limit magnitude

@@ -3,14 +3,19 @@
 #celestial-map {
   width: 100%;
   height: auto;
-  margin: 0;
+  /*   margin: 0 auto; */
+  /*   margin: 0 0 0 0; */
   padding: 0;
   /*   display: inline-block; */
-  position: relative;
-  min-width: 720px;
+  display: grid;
+  place-content: center center;
+  /*   position: relative; */
+  /*   min-width: 300px; */
+  max-height: 80vh;
   overflow: visible;
 }
 #celestial-map canvas {
+  max-height: 80vh;
   display: inline-block;
   position: relative;
   z-index: 0;
@@ -38,6 +43,7 @@
 /* Form */
 #celestial-form {
   font: 12pt/1 "Arial Unicode MS", Arial, Helvetica, sans-serif;
+  width: 100vw;
   display: inline-block;
   position: relative;
 }
