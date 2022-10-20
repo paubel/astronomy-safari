@@ -3,6 +3,53 @@
   "features": [
     {
       "type": "Feature",
+      "id": "NGC 224",
+      "properties": {
+        "desig": "M 31 - Andromeda Galaxy",
+        "type": "s",
+        "morph": "SA(s)b",
+        "mag": 3.4,
+        "dim": "189x61",
+        "bv": "0.92"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.68, 41.267]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGC 7662",
+      "properties": {
+        "desig": "NGC 7662 - Blue Snowball",
+        "type": "pn",
+        "morph": "",
+        "mag": "8.3",
+        "dim": "0.62x0.257",
+        "bv": 1.1
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.5267, 42.535] }
+    },
+
+    {
+      "type": "Feature",
+      "id": "NGC 891",
+      "properties": {
+        "desig": "NGC 891 - Silver Sliver Galaxy",
+        "type": "s",
+        "morph": "SA(s)b?",
+        "mag": "10.1",
+        "dim": "13.5x2.5",
+        "bv": 0.71
+      },
+      "geometry": { "type": "Point", "coordinates": [35.6371, 42.348319] }
+    },
+    {
+      "HERE": "Here"
+    },
+
+    {
+      "type": "Feature",
       "id": "Cr 140",
       "properties": {
         "desig": "Cr 140",
@@ -145,22 +192,7 @@
         "coordinates": [-85.305, -13.783]
       }
     },
-    {
-      "type": "Feature",
-      "id": "NGC 224",
-      "properties": {
-        "desig": "M 31 TEST",
-        "type": "s",
-        "morph": "SA(s)b",
-        "mag": 3.4,
-        "dim": "189x61",
-        "bv": "0.92"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.68, 41.267]
-      }
-    },
+
     {
       "type": "Feature",
       "id": "NGC 598",

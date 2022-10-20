@@ -1,3 +1,12 @@
+## d3
+
+always as [ra -180..180 degrees, dec -90..90 degrees]
+
+RA : 0 to 24
+DEC: -90 to 90
+
+M31 "coordinates": [10.68, 41.267]
+
 ## Nebulae
 
 Emission nebulae
