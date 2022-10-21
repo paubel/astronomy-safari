@@ -45,7 +45,20 @@
       "geometry": { "type": "Point", "coordinates": [35.6371, 42.348319] }
     },
     {
-      "HERE": "Here"
+      "type": "Feature",
+      "id": "HERE",
+      "properties": {
+        "desig": "HERE",
+        "type": "oc",
+        "morph": "III 3",
+        "mag": 99,
+        "dim": "60",
+        "bv": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.12, -31.85]
+      }
     },
 
     {
