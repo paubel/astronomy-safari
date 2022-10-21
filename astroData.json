@@ -353,11 +353,38 @@
     {
       "id": "NGC 6720",
       "constellations": "Lyra",
-      "type": "Planetary Nebula",
+      "type": "Planetary nebula",
       "name": "Ring Nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/M57_The_Ring_Nebula.JPG/587px-M57_The_Ring_Nebula.JPG",
       "link": "https://en.wikipedia.org/wiki/Ring_Nebula",
       "distance": 2567
+    },
+    {
+      "id": "IC 4634 ",
+      "constellations": "Ophiuchus",
+      "type": "Planetary nebula",
+      "name": "an S-shaped planetary nebula",
+      "url": "https://cdn.spacetelescope.org/archives/images/screen/potw1003a.jpg",
+      "link": "https://esahubble.org/images/potw1003a/",
+      "distance": 7500
+    },
+    {
+      "id": "IC 4634 ",
+      "constellations": "Ophiuchus",
+      "type": "Planetary nebula",
+      "name": "Box Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/NGC6309-HST-R814GB555.png/525px-NGC6309-HST-R814GB555.png",
+      "link": "https://en.wikipedia.org/wiki/NGC_6309#:~:text=NGC%206309%2C%20also%20known%20as,1800%20times%20of%20the%20Sun.",
+      "distance": 6500
+    },
+    {
+      "id": "NGC 7320, NGC 7319, NGC 7318, NGC 7317",
+      "constellations": "Pegasus",
+      "type": "Group galaxy",
+      "name": "Stephan's Quintet",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Stephan%27s_Quintet_Hubble_2009.full_denoise.jpg/538px-Stephan%27s_Quintet_Hubble_2009.full_denoise.jpg",
+      "link": "https://en.wikipedia.org/wiki/Stephan%27s_Quintet",
+      "distance": 220e6
     }
   ]
 }
