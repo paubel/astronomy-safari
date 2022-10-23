@@ -141,7 +141,7 @@ figure figcaption {
 
 a {
   color: var(--green-200);
-  /* text-decoration: none; */
+  text-decoration: none;
 }
 
 a:hover {

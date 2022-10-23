@@ -46,6 +46,59 @@
     },
     {
       "type": "Feature",
+      "id": "NGC 7320",
+      "properties": {
+        "desig": "NGC 7320",
+        "type": "s",
+        "morph": "Sc",
+        "mag": "12.63",
+        "dim": "1.997x1.198",
+        "bv": 0.6
+      },
+      "geometry": { "type": "Point", "coordinates": [-20.9859, 33.9481] }
+    },
+    {
+      "type": "Feature",
+      "id": "NGC 7319",
+      "properties": {
+        "desig": "NGC 7319",
+        "type": "s",
+        "morph": "SB",
+        "mag": "13.53",
+        "dim": "1.327x0.743",
+        "bv": 1.04
+      },
+      "geometry": { "type": "Point", "coordinates": [-20.9852, 33.97575] }
+    },
+    {
+      "type": "Feature",
+      "id": "NGC 7318",
+      "properties": {
+        "desig": "NGC 7318",
+        "type": "i",
+        "morph": "SB:s",
+        "mag": "16.2414",
+        "dim": "1.1x0.6",
+        "bv": -2.18
+      },
+      "geometry": { "type": "Point", "coordinates": [-21.0067, 33.96605] }
+    },
+    {
+      "type": "Feature",
+      "id": "NGC 7317",
+      "properties": {
+        "desig": "NGC 7317",
+        "type": "e",
+        "morph": "E...",
+        "mag": "13.60",
+        "dim": "0.577x0.531",
+        "bv": 0.97
+      },
+      "geometry": { "type": "Point", "coordinates": [-21.0338, 33.944881] }
+    },
+
+    {
+      "type": "Feature",
       "id": "HERE",
       "properties": {
         "desig": "HERE",

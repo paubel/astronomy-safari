@@ -75,8 +75,8 @@ fetch("./astroData.json")
         let astroDataNumb = Number(astroData);
 
         if (
-          value.distance > Number(astroDataNumb) &&
-          value.distance < Number(astroDataNumb) * 10
+          value.distance >= Number(astroDataNumb) &&
+          value.distance <= Number(astroDataNumb) * 10
         ) {
           createAstroElement(value);
         }
@@ -126,9 +126,9 @@ fetch("./astroData.json")
       //myImg.loading = `lazy`;
       myImg.classList.add("lazy");
       myImg.alt = `${value.id} ${value.name}`;
-      myFigcaption.textContent = ` ${value.constellations} ${numberWithCommas(
-        value.distance
-      )} ly.`;
+      myFigcaption.textContent = ` ${value.type} in ${
+        value.constellations
+      } at ${numberWithCommas(value.distance)} ly.`;
 
       /*      myA.title = `test`; */
       myA.href = `${value.link}`;

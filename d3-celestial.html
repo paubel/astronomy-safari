@@ -47,25 +47,29 @@
                 */
                 var config = {
 
-                    /*        location: false, */
-                    form: true,
+                    /*        location: true, */
                     interactive: true,
-                    controls: false,
-                    projection: "aitoff",
+                    controls: true,
+                    projection: "equirectangular",
                     transform: "equatorial",
                     zoomlevel: 1,
-                    /*  center: [55.6002, 13.0094], */
-                    /*        orientationfixed: true, */
-                    datapath: "../data/",
-                    //datapath: "../space-safari-v2/data/",
-                    // datapath: "https://paubel.github.io/space-safari-v2/data/",
-
-
-                    /* adaptable: true, */
-                    geopos: null,
-                    /*          geopos: [55.6002, 13.0094], */
-                    follow: "zenith", //zenith
+                    zoomextend: 300,
                     form: true,
+                    /*        location: false, */
+                    /*     form: true,
+                        projection: "aitoff",
+                        center: null, */
+                    /*      center: [55.6002, 13.0094], */
+                    /*      orientationfixed: true, */
+
+                    /*   geopos: null, */
+                    //follow: "zenith",  //zenith
+                    //datapath: "../space-safari-v2/data/",
+                    datapath: "../data/",
+                    // datapath: "https://paubel.github.io/space-safari-v2/data/",
+                    /* adaptable: true, */
+
+                    /* geopos: [55.6002, 13.0094], */
                     /*      advanced: true, */
                     formFields: {
                         "location": false,  // Set visiblity for each group of fields with the respective id

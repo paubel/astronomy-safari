@@ -385,6 +385,115 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Stephan%27s_Quintet_Hubble_2009.full_denoise.jpg/538px-Stephan%27s_Quintet_Hubble_2009.full_denoise.jpg",
       "link": "https://en.wikipedia.org/wiki/Stephan%27s_Quintet",
       "distance": 220e6
+    },
+    {
+      "id": "NGC 7331 Group",
+      "constellations": "Pegasus",
+      "type": "Group galaxy",
+      "name": "Deer Lick Group",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/NGC_7331_-_Peris.jpg/600px-NGC_7331_-_Peris.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_7331_Group",
+      "distance": 39.79e6
+    },
+    {
+      "id": "NGC 7742",
+      "constellations": "Pegasus",
+      "type": "Spiral galaxy",
+      "name": "Fried Egg Galaxy ",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Seyfert_Galaxy_NGC_7742.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_7742",
+      "distance": 72e6
+    },
+    {
+      "id": "NGC 7479",
+      "constellations": "Pegasus",
+      "type": "Spiral galaxy",
+      "name": "Fried Egg Galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Caldwell_44.jpg/585px-Caldwell_44.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_7479",
+      "distance": 105e6
+    },
+    {
+      "id": "NGC 7094",
+      "constellations": "Pegasus",
+      "type": "Planetary nebula",
+      "name": "Fried Egg Galaxy",
+      "url": "https://cdn.astrobin.com/thumbs/dBEGZSQH2O2D_620x0_Z-BERGNL.jpg",
+      "link": "https://www.skyhound.com/observing/archives/sep/NGC_7094.html",
+      "distance": 5500
+    },
+    {
+      "id": "NGC 7814",
+      "constellations": "Pegasus",
+      "type": "Spiral galaxy",
+      "name": "Little Sombrero",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/N7814s.jpg/673px-N7814s.jpg",
+      "link": "https://www.nasa.gov/content/goddard/hubbles-little-sombrero/",
+      "distance": 40e6
+    },
+    {
+      "id": "M 15",
+      "constellations": "Pegasus",
+      "type": "Globular cluster",
+      "name": "one of the oldest known globular clusters",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/M15_Globular_Cluster_from_the_Mount_Lemmon_SkyCenter_Schulman_Telescope_courtesy_Adam_Block.jpg/653px-M15_Globular_Cluster_from_the_Mount_Lemmon_SkyCenter_Schulman_Telescope_courtesy_Adam_Block.jpg",
+      "link": "https://en.wikipedia.org/wiki/Messier_15",
+      "distance": 35700
+    },
+    {
+      "id": "NGC 1579",
+      "constellations": "Pegasus",
+      "type": "Diffuse nebula",
+      "name": "Northern Trifid",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/NGC1579_Nebula_from_the_Mount_Lemmon_SkyCenter_Schulman_Telescope_courtesy_Adam_Block.jpg/587px-NGC1579_Nebula_from_the_Mount_Lemmon_SkyCenter_Schulman_Telescope_courtesy_Adam_Block.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_1579",
+      "distance": 2000
+    },
+
+    {
+      "id": "NGC 1499",
+      "constellations": "Pegasus",
+      "type": "Emission nebula",
+      "name": "California Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/California-nebula.jpeg/640px-California-nebula.jpeg",
+      "link": "https://en.wikipedia.org/wiki/California_Nebula",
+      "distance": 1000
+    },
+    {
+      "id": "IC 348",
+      "constellations": "Pegasus",
+      "type": "Reflection Nebula",
+      "name": "star-forming region",
+      "url": "https://cdn.astrobin.com/thumbs/Tq-vob4y9RSj_620x0_9ogn6cSV.png",
+      "link": "https://en.wikipedia.org/wiki/IC_348",
+      "distance": 1028
+    },
+    {
+      "id": "M 76",
+      "constellations": "Pegasus",
+      "type": "Planetary nebula ",
+      "name": "Little Dumbbell Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Little_Dumbbell_Nebula_M76_by_Goran_Nilsson%2C_Wim_van_Berlo_%26_Liverpool_Telescope.jpg/605px-Little_Dumbbell_Nebula_M76_by_Goran_Nilsson%2C_Wim_van_Berlo_%26_Liverpool_Telescope.jpg",
+      "link": "https://en.wikipedia.org/wiki/Little_Dumbbell_Nebula",
+      "distance": 2500
+    },
+    {
+      "id": "NGC 1491",
+      "constellations": "Pegasus",
+      "type": "Emission Nebula",
+      "name": "Fossil Footprint Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Fossil-Footprint.jpg/590px-Fossil-Footprint.jpg",
+      "link": "https://noirlab.edu/public/images/noao-ngc1491/",
+      "distance": 9800
+    },
+    {
+      "id": "NGC 1491",
+      "constellations": "Sagitta",
+      "type": "Planetary nebula",
+      "name": "Necklace Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Necklace_Nebula_by_Hubble.jpg/538px-Necklace_Nebula_by_Hubble.jpg",
+      "link": "https://en.wikipedia.org/wiki/Necklace_Nebula",
+      "distance": 15000
     }
   ]
 }
