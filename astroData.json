@@ -494,6 +494,60 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Necklace_Nebula_by_Hubble.jpg/538px-Necklace_Nebula_by_Hubble.jpg",
       "link": "https://en.wikipedia.org/wiki/Necklace_Nebula",
       "distance": 15000
+    },
+    {
+      "id": "PGC 54559",
+      "constellations": "Serpens Caput",
+      "type": "Ring galaxy",
+      "name": "Hoag's Object",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hoag%27s_object.jpg/490px-Hoag%27s_object.jpg",
+      "link": "https://en.wikipedia.org/wiki/Hoag%27s_Object",
+      "distance": 613e6
+    },
+    {
+      "id": "M 16",
+      "constellations": "Serpens Caput",
+      "type": "Emission nebula",
+      "name": "Eagle Nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Eagle_Nebula_from_ESO.jpg/600px-Eagle_Nebula_from_ESO.jpg",
+      "link": "https://en.wikipedia.org/wiki/Eagle_Nebula",
+      "distance": 5700
+    },
+    {
+      "id": "M 16",
+      "constellations": "Triangulum",
+      "type": "Spiral galaxy",
+      "name": "Triangulum Galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/VST_snaps_a_very_detailed_view_of_the_Triangulum_Galaxy.jpg/503px-VST_snaps_a_very_detailed_view_of_the_Triangulum_Galaxy.jpg",
+      "link": "https://en.wikipedia.org/wiki/Triangulum_Galaxy",
+      "distance": 3.2e6
+    },
+    {
+      "id": "NGC 604",
+      "constellations": "Triangulum",
+      "type": "Emission nebula",
+      "name": "an huge starforming H II region inside the Triangulum Galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nursery_of_New_Stars_-_GPN-2000-000972.jpg/563px-Nursery_of_New_Stars_-_GPN-2000-000972.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_604",
+      "distance": 2.7e6
+    },
+    {
+      "id": "NGC 672",
+      "constellations": "Triangulum",
+      "type": "Spiral galaxy",
+      "name": " - NGC 672 (left) forms an interacting pair with the irregular galaxy IC 1727 (right)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/NGC_672-IC_1727_Group.jpg/600px-NGC_672-IC_1727_Group.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_672",
+      "distance": 23.4e6
+    },
+    {
+      "id": "IC 1727",
+      "constellations": "Triangulum",
+      "type": "Spiral galaxy",
+      "name": "- NGC 672 (left) forms an interacting pair with the irregular galaxy IC 1727 (right)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/NGC_672-IC_1727_Group.jpg/600px-NGC_672-IC_1727_Group.jpg",
+      "link": "https://en.wikipedia.org/wiki/NGC_672",
+      "distance": 21e6
     }
   ]
 }
