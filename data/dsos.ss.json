@@ -46,6 +46,71 @@
     },
     {
       "type": "Feature",
+      "id": "NGC 2997",
+      "properties": {
+        "desig": "NGC 2997",
+        "type": "s",
+        "morph": "SAB(rs)c",
+        "mag": "9.41",
+        "dim": "8.63x6.904",
+        "bv": 0.56
+      },
+      "geometry": { "type": "Point", "coordinates": [146.4116, -31.191089] }
+    },
+    {
+      "type": "Feature",
+      "id": "NGC 205",
+      "properties": {
+        "desig": "M 110",
+        "type": "e",
+        "morph": "E5 pec",
+        "mag": "8.07",
+        "dim": "21.9x11",
+        "bv": 0.85
+      },
+      "geometry": { "type": "Point", "coordinates": [10.092, 41.6853] }
+    },
+    {
+      "type": "Feature",
+      "id": "NGC 221",
+      "properties": {
+        "desig": "M 32",
+        "type": "e",
+        "morph": "cE2",
+        "mag": "8.08",
+        "dim": "8.5x6.5",
+        "bv": 0.95
+      },
+      "geometry": { "type": "Point", "coordinates": [10.6743, 40.865169] }
+    },
+    {
+      "type": "Feature",
+      "id": "NGC 5466",
+      "properties": {
+        "desig": "NGC 5466",
+        "type": "gc",
+        "morph": "XII",
+        "mag": "9.70",
+        "dim": "8",
+        "bv": 0.8
+      },
+      "geometry": { "type": "Point", "coordinates": [-148.6363, 28.53444] }
+    },
+    {
+      "type": "Feature",
+      "id": "NGC 7635",
+      "properties": {
+        "desig": "NGC 7635 - Bubble Nebula",
+        "type": "bn",
+        "morph": "EN; 3, 3, 3",
+        "mag": "10",
+        "dim": "15x8",
+        "bv": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [-9.7988, 61.2017] }
+    },
+    {
+      "type": "Feature",
       "id": "NGC 7320",
       "properties": {
         "desig": "NGC 7320",
@@ -57,559 +122,84 @@
       },
       "geometry": { "type": "Point", "coordinates": [-20.9859, 33.9481] }
     },
-    {
-      "type": "Feature",
-      "id": "NGC 7319",
-      "properties": {
-        "desig": "NGC 7319",
-        "type": "s",
-        "morph": "SB",
-        "mag": "13.53",
-        "dim": "1.327x0.743",
-        "bv": 1.04
-      },
-      "geometry": { "type": "Point", "coordinates": [-20.9852, 33.97575] }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 7318",
-      "properties": {
-        "desig": "NGC 7318",
-        "type": "i",
-        "morph": "SB:s",
-        "mag": "16.2414",
-        "dim": "1.1x0.6",
-        "bv": -2.18
-      },
-      "geometry": { "type": "Point", "coordinates": [-21.0067, 33.96605] }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 7317",
-      "properties": {
-        "desig": "NGC 7317",
-        "type": "e",
-        "morph": "E...",
-        "mag": "13.60",
-        "dim": "0.577x0.531",
-        "bv": 0.97
-      },
-      "geometry": { "type": "Point", "coordinates": [-21.0338, 33.944881] }
-    },
 
     {
       "type": "Feature",
-      "id": "HERE",
+      "id": "IC 1805",
       "properties": {
-        "desig": "HERE",
-        "type": "oc",
-        "morph": "III 3",
-        "mag": 99,
-        "dim": "60",
-        "bv": ""
+        "desig": "IC 1805 - Heart Nebula",
+        "type": "sfr",
+        "morph": "III3pn; 3, 3, 3",
+        "mag": "6.5",
+        "dim": "60x60",
+        "bv": 0.53
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [111.12, -31.85]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "id": "Cr 140",
-      "properties": {
-        "desig": "Cr 140",
-        "type": "oc",
-        "morph": "III 3",
-        "mag": 3.5,
-        "dim": "60",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [111.12, -31.85]
-      }
+      "geometry": { "type": "Point", "coordinates": [38.175, 61.45] }
     },
     {
       "type": "Feature",
-      "id": "Cr 399",
+      "id": "IC 1848",
       "properties": {
-        "desig": "Cr 399",
+        "desig": "Westerhout 5 - Soul Nebula",
         "type": "oc",
+        "morph": "3, 2, 3",
+        "mag": "6.5",
+        "dim": "40x10",
+        "bv": 0.37
+      },
+      "geometry": { "type": "Point", "coordinates": [42.777, 60.41] }
+    },
+    {
+      "type": "Feature",
+      "id": "IC 1795",
+      "properties": {
+        "desig": "IC 1795 - Fishhead Nebula",
+        "type": "bn",
         "morph": "",
-        "mag": 3.6,
-        "dim": "60",
+        "mag": "10",
+        "dim": "12x12",
         "bv": ""
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-68.445, 20.1]
-      }
+      "geometry": { "type": "Point", "coordinates": [36.4313, 62.1036] }
     },
     {
       "type": "Feature",
-      "id": "IC 2602",
+      "id": "IC 63",
       "properties": {
-        "desig": "IC 2602",
-        "type": "oc",
-        "morph": "II3m",
-        "mag": 1.9,
-        "dim": "100",
+        "desig": "IC 63 - The ghost of Cassiopeia",
+        "type": "bn",
+        "morph": "II, M",
+        "mag": "13.33",
+        "dim": "10x3",
+        "bv": 0
+      },
+      "geometry": { "type": "Point", "coordinates": [14.7557, 60.88828] }
+    },
+    {
+      "type": "Feature",
+      "id": "NGC 281",
+      "properties": {
+        "desig": "NGC 281 - Pacman Nebula",
+        "type": "bn",
+        "morph": "3, 2, 3",
+        "mag": "10",
+        "dim": "35x30",
         "bv": ""
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [160.725, -64.4]
-      }
+      "geometry": { "type": "Point", "coordinates": [13.1046, 56.565] }
     },
     {
       "type": "Feature",
-      "id": "PGC 17223",
+      "id": "NGC 7789",
       "properties": {
-        "desig": "LMC",
-        "type": "sd",
-        "morph": "SB(s)m",
-        "mag": 0.4,
-        "dim": "550x170",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [80.895, -69.75]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 6121",
-      "properties": {
-        "desig": "M 4",
-        "type": "gc",
-        "morph": "IX",
-        "mag": 5.4,
-        "dim": "26.3",
-        "bv": "2.23"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [83.82, -26.533]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 6405",
-      "properties": {
-        "desig": "M 6",
-        "type": "oc",
-        "morph": "III2p",
-        "mag": 4.2,
-        "dim": "20",
-        "bv": "0.28"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-94.92, -32.25]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 6475",
-      "properties": {
-        "desig": "M 7",
+        "desig": "NGC 7789 - Caroline's Rose",
         "type": "oc",
         "morph": "II2r",
-        "mag": 3.3,
-        "dim": "80",
-        "bv": "0.15"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-91.53, -34.8]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "M 8",
-      "properties": {
-        "desig": "M 8",
-        "type": "sfr",
-        "morph": "",
-        "mag": 5,
-        "dim": "45x30",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-89.07, -24.383]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 6611",
-      "properties": {
-        "desig": "M 16",
-        "type": "sfr",
-        "morph": "II3mn; 3, 3, 3",
-        "mag": 6,
-        "dim": "7",
-        "bv": "0.58"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-85.305, -13.783]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "id": "NGC 598",
-      "properties": {
-        "desig": "M 33",
-        "type": "s",
-        "morph": "SA(s)cd",
-        "mag": 5.7,
-        "dim": "68.7x41.6",
-        "bv": "0.55"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [23.475, 30.65]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 1976",
-      "properties": {
-        "desig": "M 42",
-        "type": "sfr",
-        "morph": "EN+RN; 3, 2, 3",
-        "mag": 4,
-        "dim": "90x60",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [83.82, -5.383]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 2632",
-      "properties": {
-        "desig": "M 44",
-        "type": "oc",
-        "morph": "II2m",
-        "mag": 3.1,
-        "dim": "95",
-        "bv": "0.36"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [130.005, 19.667]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "M 45",
-      "properties": {
-        "desig": "M 45",
-        "type": "oc",
-        "morph": "I3rn",
-        "mag": 1.2,
-        "dim": "100",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [56.745, 24.117]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "Cr 39",
-      "properties": {
-        "desig": "Mel 20",
-        "type": "oc",
-        "morph": "III3m",
-        "mag": 1.2,
-        "dim": "185",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [51.075, 48.167]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "C 41",
-      "properties": {
-        "desig": "Mel 25",
-        "type": "oc",
-        "morph": "II3m",
-        "mag": 0.5,
-        "dim": "330",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [66.75, 16]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "Cr 256",
-      "properties": {
-        "desig": "Mel 111",
-        "type": "oc",
-        "morph": "III3r",
-        "mag": 1.8,
-        "dim": "275",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-173.73, 26.117]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 104",
-      "properties": {
-        "desig": "47 Tuc",
-        "type": "gc",
-        "morph": "III",
-        "mag": 4,
-        "dim": "30.9",
-        "bv": "1.69"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [6.03, -72.08]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 869",
-      "properties": {
-        "desig": "h Per",
-        "type": "oc",
-        "morph": "I3r",
-        "mag": 3.8,
+        "mag": "6.7",
         "dim": "30",
-        "bv": "0.5"
+        "bv": 0.98
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [34.75, 57.128]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 884",
-      "properties": {
-        "desig": "χ Per",
-        "type": "oc",
-        "morph": "I3r",
-        "mag": 3.8,
-        "dim": "30",
-        "bv": "0.6"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [35.13, 57.13]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 2244",
-      "properties": {
-        "desig": "NGC 2244",
-        "type": "oc",
-        "morph": "II3p",
-        "mag": 4.8,
-        "dim": "24",
-        "bv": "0.46"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [97.98, 4.95]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 2264",
-      "properties": {
-        "desig": "NGC 2264",
-        "type": "sfr",
-        "morph": "III3mn; 3, 2, 3",
-        "mag": 3.9,
-        "dim": "20",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [100.245, 9.9]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 2362",
-      "properties": {
-        "desig": "NGC 2362",
-        "type": "oc",
-        "morph": "I3p",
-        "mag": 4.1,
-        "dim": "8",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.68, -24.95]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 2451",
-      "properties": {
-        "desig": "NGC 2451",
-        "type": "oc",
-        "morph": "",
-        "mag": 2.8,
-        "dim": "50",
-        "bv": "0.54"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [116.325, -37.967]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 2516",
-      "properties": {
-        "desig": "NGC 2516",
-        "type": "oc",
-        "morph": "I3r",
-        "mag": 3.8,
-        "dim": "21",
-        "bv": "0.04"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [119.52, -60.75]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 3372",
-      "properties": {
-        "desig": "η Car",
-        "type": "en",
-        "morph": "",
-        "mag": 1,
-        "dim": "120x120",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [161.28, -59.867]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 3532",
-      "properties": {
-        "desig": "NGC 3532",
-        "type": "oc",
-        "morph": "II1m",
-        "mag": "3",
-        "dim": "50",
-        "bv": 0.28
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [166.413, -58.753]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 5139",
-      "properties": {
-        "desig": "ω Cen",
-        "type": "gc",
-        "morph": "VIII",
-        "mag": 3.9,
-        "dim": "36.3",
-        "bv": "0.79"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-158.295, -47.483]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 6231",
-      "properties": {
-        "desig": "NGC 6231",
-        "type": "oc",
-        "morph": "I3p",
-        "mag": 2.6,
-        "dim": "15",
-        "bv": "0.23"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-106.455, -41.817]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NGC 292",
-      "properties": {
-        "desig": "SMC",
-        "type": "i",
-        "morph": "dIrr",
-        "mag": 2.3,
-        "dim": "319x205",
-        "bv": "0.59"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.155, -72.8]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "IC 2391",
-      "properties": {
-        "desig": "IC 2391",
-        "type": "oc",
-        "morph": "II3p",
-        "mag": "2.5",
-        "dim": "60",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [130.133, -53.033]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "GC",
-      "properties": {
-        "desig": "GalCtr",
-        "type": "pos",
-        "morph": "",
-        "mag": 1,
-        "dim": "60",
-        "bv": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-93.5959, -28.9362]
-      }
+      "geometry": { "type": "Point", "coordinates": [-0.65, 56.708] }
     }
   ]
 }
