@@ -5,7 +5,7 @@
       "type": "Feature",
       "id": "NGC 224",
       "properties": {
-        "desig": "M 31 - Andromeda Galaxy",
+        "desig": "M 31",
         "type": "s",
         "morph": "SA(s)b",
         "mag": 3.4,
@@ -21,7 +21,7 @@
       "type": "Feature",
       "id": "NGC 7662",
       "properties": {
-        "desig": "NGC 7662 - Blue Snowball",
+        "desig": "NGC 7662",
         "type": "pn",
         "morph": "",
         "mag": "8.3",
@@ -35,7 +35,7 @@
       "type": "Feature",
       "id": "NGC 891",
       "properties": {
-        "desig": "NGC 891 - Silver Sliver Galaxy",
+        "desig": "NGC 891",
         "type": "s",
         "morph": "SA(s)b?",
         "mag": "10.1",
@@ -100,7 +100,7 @@
       "type": "Feature",
       "id": "NGC 7635",
       "properties": {
-        "desig": "NGC 7635 - Bubble Nebula",
+        "desig": "NGC 7635",
         "type": "bn",
         "morph": "EN; 3, 3, 3",
         "mag": "10",
@@ -127,7 +127,7 @@
       "type": "Feature",
       "id": "IC 1805",
       "properties": {
-        "desig": "IC 1805 - Heart Nebula",
+        "desig": "IC 1805",
         "type": "sfr",
         "morph": "III3pn; 3, 3, 3",
         "mag": "6.5",
@@ -140,7 +140,7 @@
       "type": "Feature",
       "id": "IC 1848",
       "properties": {
-        "desig": "Westerhout 5 - Soul Nebula",
+        "desig": "Westerhout 5",
         "type": "oc",
         "morph": "3, 2, 3",
         "mag": "6.5",
@@ -153,7 +153,7 @@
       "type": "Feature",
       "id": "IC 1795",
       "properties": {
-        "desig": "IC 1795 - Fishhead Nebula",
+        "desig": "IC 1795",
         "type": "bn",
         "morph": "",
         "mag": "10",
@@ -166,7 +166,7 @@
       "type": "Feature",
       "id": "IC 63",
       "properties": {
-        "desig": "IC 63 - The ghost of Cassiopeia",
+        "desig": "IC 63",
         "type": "bn",
         "morph": "II, M",
         "mag": "13.33",
@@ -179,7 +179,7 @@
       "type": "Feature",
       "id": "NGC 281",
       "properties": {
-        "desig": "NGC 281 - Pacman Nebula",
+        "desig": "NGC 281",
         "type": "bn",
         "morph": "3, 2, 3",
         "mag": "10",
@@ -192,7 +192,7 @@
       "type": "Feature",
       "id": "NGC 7789",
       "properties": {
-        "desig": "NGC 7789 - Caroline's Rose",
+        "desig": "NGC 7789",
         "type": "oc",
         "morph": "II2r",
         "mag": "6.7",
