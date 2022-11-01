@@ -49,9 +49,6 @@ fetch("./astroData.json")
 
       Object.entries(data.astroObject).forEach(([key, value]) => {
         const words = value.type.split(" ");
-        /*     console.log(value.type, astroData);
-    console.log(words[1].toLowerCase(), astroData.toLowerCase());
-    console.log("-------------"); */
         if (words[1].toLowerCase() === astroData.toLowerCase()) {
           createAstroElement(value);
         } else if (value.type === astroData) {
@@ -165,30 +162,26 @@ fetch("./astroData.json")
               image.src = image.dataset.src;
               image.classList.remove("lazy");
               imageObserver.unobserve(image);
-              console.log("isIntersecting");
             }
           });
         });
 
         lazyloadImages.forEach(function (image) {
           imageObserver.observe(image);
-          console.log("lazyloadImages");
         });
       } else {
         var lazyloadThrottleTimeout;
         lazyloadImages = document.querySelectorAll(".lazy");
-        console.log("else");
+
         function lazyload() {
           if (lazyloadThrottleTimeout) {
             clearTimeout(lazyloadThrottleTimeout);
-            console.log("lazyload");
           }
 
           lazyloadThrottleTimeout = setTimeout(function () {
             var scrollTop = window.pageYOffset;
             lazyloadImages.forEach(function (img) {
               if (img.offsetTop < window.innerHeight + scrollTop) {
-                console.log("offsetTop");
                 img.src = img.dataset.src;
                 img.classList.remove("lazy");
               }
@@ -204,7 +197,6 @@ fetch("./astroData.json")
         document.addEventListener("scroll", lazyload);
         window.addEventListener("resize", lazyload);
         window.addEventListener("orientationChange", lazyload);
-        console.log("last");
       }
       //});
     }
