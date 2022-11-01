@@ -844,6 +844,69 @@
       "name": "- an outlying member of the M81 Group",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/NGC2403-Subaru-HST-L.jpg/608px-NGC2403-Subaru-HST-L.jpg"
+    },
+    {
+      "constellations": "Camelopardalis",
+      "distance": 10.7e6,
+      "id": "IC 342",
+      "link": "https://en.wikipedia.org/wiki/IC_342",
+      "name": "The Hidden Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Ic342bp.png/600px-Ic342bp.png"
+    },
+    {
+      "constellations": "Camelopardalis",
+      "distance": 291e6,
+      "id": "UGC 3697",
+      "link": "https://public.nrao.edu/gallery/warped-disk-of-galaxy-ugc-3697-2/",
+      "name": "Integral Sign Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://4.bp.blogspot.com/-RnEC4pul3JY/VZYJOBNzrUI/AAAAAAAAAz4/hL3zEQyeC00/s1600/ugc3697fullcolor_med.jpg"
+    },
+    {
+      "constellations": "Camelopardalis",
+      "distance": 11e6,
+      "id": "NGC 1569",
+      "link": "https://en.wikipedia.org/wiki/NGC_1569",
+      "name": "- is smaller than the Small Magellanic Cloud, but brighter than the latter or the Large Magellanic Cloud",
+      "type": "Irregular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Starburst_in_a_Dwarf_Irregular_Galaxy.jpg/640px-Starburst_in_a_Dwarf_Irregular_Galaxy.jpg"
+    },
+    {
+      "constellations": "Camelopardalis",
+      "distance": 63e6,
+      "id": "NGC 2655",
+      "link": "https://en.wikipedia.org/wiki/NGC_2655",
+      "name": "- the galaxy has asymmetric dust lanes in the centre of the galaxy, tidal arms and extended neutral hydrogen gas and may have recently experienced a merger",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/NGC2655_S1_Crop_CB_HVLG_Crop_VBNR_GE_SCR_LHE2_CR505050100_SS2083_Levels.jpg/612px-NGC2655_S1_Crop_CB_HVLG_Crop_VBNR_GE_SCR_LHE2_CR505050100_SS2083_Levels.jpg"
+    },
+    {
+      "constellations": "Camelopardalis",
+      "distance": 2.6e9,
+      "id": "MS 0735.6+7421",
+      "link": "https://en.wikipedia.org/wiki/MS_0735.6%2B7421#:~:text=MS%200735.6%2B7421%20is%20a,2.6%20billion%20light%2Dyears%20away",
+      "name": "- Galaxy cluster- the location of one of the largest central galactic black holes in the known universe",
+      "type": "Group galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/MS_0735.jpg/598px-MS_0735.jpg"
+    },
+    {
+      "constellations": "Camelopardalis",
+      "distance": 70e6,
+      "id": "NGC 2146",
+      "link": "https://en.wikipedia.org/wiki/NGC_2146",
+      "name": "- Galaxy cluster- the location of one of the largest central galactic black holes in the known universe",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/NGC_2146_HST.jpg/640px-NGC_2146_HST.jpg"
+    },
+    {
+      "constellations": "Camelopardalis",
+      "distance": 13300000000,
+      "id": "MACS0647-JD",
+      "link": "https://en.wikipedia.org/wiki/NGC_2146",
+      "name": "formed about 427 million years after the Big Bang",
+      "type": "Galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Hubble_spots_candidate_for_most_distant_known_galaxy.jpg/622px-Hubble_spots_candidate_for_most_distant_known_galaxy.jpg"
     }
   ]
 }
