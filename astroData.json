@@ -68,7 +68,7 @@
       "id": "NGC 7009",
       "link": "https://en.wikipedia.org/wiki/Saturn_Nebula",
       "name": "Saturn Nebula",
-      "type": "Planetary nebula",
+      "type": "lanetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/MUSE_image_of_the_Saturn_Nebula.jpg/591px-MUSE_image_of_the_Saturn_Nebula.jpg"
     },
     {
@@ -779,8 +779,71 @@
       "id": "NGC 770",
       "link": "https://en.wikipedia.org/wiki/NGC_770",
       "name": "- gravitationally linked to NGC 772",
-      "type": "Elliptical galaxy i",
+      "type": "Elliptical galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/NGC_0770_SDSS.jpg"
+    },
+    {
+      "constellations": "Aries",
+      "distance": 1e8,
+      "id": "NGC 691 galaxy group",
+      "link": "https://www.deepskycorner.ch/ngc691/ngc691.en.php",
+      "name": "- is a collection of 9 galaxies consisting of NGC 678, 680, 691, 694, 695 and NGC 695 along with IC 1730 and IC 167",
+      "type": "Group galaxy",
+      "url": "http://www.alsonwongastro.com/images/Galaxies/NGC691GroupLRGB_700.jpg"
+    },
+    {
+      "constellations": "Auriga",
+      "distance": 1500,
+      "id": "IC 405",
+      "link": "https://en.wikipedia.org/wiki/IC_405",
+      "name": "Flaming Star Nebula (also an reflection nebula)",
+      "type": "Reflection nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/FlamingStarHunterWilson.jpg/595px-FlamingStarHunterWilson.jpg"
+    },
+    {
+      "constellations": "Auriga",
+      "distance": 7000,
+      "id": "NGC 1931",
+      "link": "https://en.wikipedia.org/wiki/NGC_1931",
+      "name": "Reflection nebula",
+      "type": "Reflection nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NGC1931HunterWilson.jpg/533px-NGC1931HunterWilson.jpg"
+    },
+    {
+      "constellations": "Auriga",
+      "distance": 12000,
+      "id": "IC 410",
+      "link": "https://www.skyatnightmagazine.com/astrophotography/nebulae/tadpole-nebula-ic-410/",
+      "name": "Tadpole Nebula",
+      "type": "Star-forming nebula",
+      "url": "https://cdn.astrobin.com/thumbs/f0f3ND_ea689_620x0_kWXURFLk.jpg"
+    },
+    {
+      "constellations": "Caelum",
+      "distance": 3e9,
+      "id": "HE0450-2958",
+      "link": "https://en.wikipedia.org/wiki/HE0450-2958",
+      "name": "- been called the 'naked quasar' and the 'quasar without a home' because it appears to lack a host galaxy",
+      "type": "Quasar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Quasar_HE0450-2958.jpg/600px-Quasar_HE0450-2958.jpg"
+    },
+    {
+      "constellations": "Caelum",
+      "distance": 48e6,
+      "id": "NGC 1679",
+      "link": "https://www.constellation-guide.com/ngc-1679-in-caelum/",
+      "name": "The galaxy is faint and pretty difficult to observe",
+      "type": "Spiral galaxy ",
+      "url": "https://www.constellation-guide.com/wp-content/uploads/2021/07/NGC-1679.webp"
+    },
+    {
+      "constellations": "Camelopardalis",
+      "distance": 9.65e6,
+      "id": "NGC 2403",
+      "link": "https://en.wikipedia.org/wiki/NGC_2403",
+      "name": "- an outlying member of the M81 Group",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/NGC2403-Subaru-HST-L.jpg/608px-NGC2403-Subaru-HST-L.jpg"
     }
   ]
 }
