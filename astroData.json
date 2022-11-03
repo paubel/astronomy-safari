@@ -1015,6 +1015,69 @@
       "name": "- the white dwarf star in the center of the nebula has about 0.7 solar masses",
       "type": "Planetary nebula",
       "url": "https://www.deepskycorner.ch/pic/eso/a24_eso_vlt.jpg"
+    },
+    {
+      "constellations": "Capricornus",
+      "distance": 27e3,
+      "id": "M 30",
+      "link": "https://en.wikipedia.org/wiki/Messier_30",
+      "name": "- about 93 light-years across",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/M30_NASA.jpg/585px-M30_NASA.jpg"
+    },
+    {
+      "constellations": "Capricornus",
+      "distance": 400e6,
+      "id": "HCG 87",
+      "link": "https://en.wikipedia.org/wiki/HCG_87",
+      "name": "- distinguishes itself as one of the most compact groups of galaxies, hosting two active galactic nuclei and a starburst among its three members",
+      "type": "Group galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/HCG_87.png/724px-HCG_87.png"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 8500,
+      "id": "NGC 3372",
+      "link": "https://en.wikipedia.org/wiki/Carina_Nebula",
+      "name": "Carina Nebula",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Carina_Nebula_by_Harel_Boren_%28151851961%2C_modified%29.jpg/577px-Carina_Nebula_by_Harel_Boren_%28151851961%2C_modified%29.jpg"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 7500,
+      "id": "Part of NGC 3372",
+      "link": "https://en.wikipedia.org/wiki/Homunculus_Nebula",
+      "name": "Homunculus Nebula an emission and reflection nebula that lies inside the Carina Nebula",
+      "type": "Reflection nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/EtaCarinae.jpg/600px-EtaCarinae.jpg"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 1.3e3,
+      "id": "NGC 2516",
+      "link": "https://en.wikipedia.org/wiki/NGC_2516",
+      "name": "Southern Beehive or Sprinter",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/NGC_2516.jpg/600px-NGC_2516.jpg"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 31.3e3,
+      "id": "NGC 2808",
+      "link": "https://en.wikipedia.org/wiki/NGC_2808",
+      "name": "- one of the Milky Way's most massive clusters",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/NGC_2808_HST.jpg/598px-NGC_2808_HST.jpg"
+    },
+    {
+      "constellations": "Centaurus",
+      "distance": 15.8e3,
+      "id": "NGC 5139",
+      "link": "https://en.wikipedia.org/wiki/Omega_Centauri",
+      "name": "Omega Centauri",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Omega_Centauri_by_ESO.jpg/638px-Omega_Centauri_by_ESO.jpg"
     }
   ]
 }
