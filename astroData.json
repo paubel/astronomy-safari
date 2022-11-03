@@ -886,7 +886,7 @@
       "distance": 2.6e9,
       "id": "MS 0735.6+7421",
       "link": "https://en.wikipedia.org/wiki/MS_0735.6%2B7421#:~:text=MS%200735.6%2B7421%20is%20a,2.6%20billion%20light%2Dyears%20away",
-      "name": "- Galaxy cluster- the location of one of the largest central galactic black holes in the known universe",
+      "name": "- Galaxy cluster - the location of one of the largest central galactic black holes in the known universe",
       "type": "Group galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/MS_0735.jpg/598px-MS_0735.jpg"
     },
@@ -895,7 +895,7 @@
       "distance": 70e6,
       "id": "NGC 2146",
       "link": "https://en.wikipedia.org/wiki/NGC_2146",
-      "name": "- Galaxy cluster- the location of one of the largest central galactic black holes in the known universe",
+      "name": "- galaxy's most conspicuous feature is the dusty lanes",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/NGC_2146_HST.jpg/640px-NGC_2146_HST.jpg"
     },
@@ -907,6 +907,114 @@
       "name": "formed about 427 million years after the Big Bang",
       "type": "Distant galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Hubble_spots_candidate_for_most_distant_known_galaxy.jpg/622px-Hubble_spots_candidate_for_most_distant_known_galaxy.jpg"
+    },
+    {
+      "constellations": "Cancer",
+      "distance": 610,
+      "id": "M 44",
+      "link": "https://en.wikipedia.org/wiki/Beehive_Cluster",
+      "name": "Beehive Cluster",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/M44_47x300s-10%C2%B0C_O30_G0_PM_RGB_03032022.jpg/640px-M44_47x300s-10%C2%B0C_O30_G0_PM_RGB_03032022.jpg"
+    },
+    {
+      "constellations": "Cancer",
+      "distance": 2.7e3,
+      "id": "M 67",
+      "link": "https://en.wikipedia.org/wiki/Messier_67",
+      "name": "King Cobra cluster ",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/M67_Mazur.jpg/636px-M67_Mazur.jpg"
+    },
+    {
+      "constellations": "Canes Venatici",
+      "distance": 31e6,
+      "id": "M 51a",
+      "link": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
+      "name": "Whirlpool Galaxy to the left and M 51a to the right",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Messier51_sRGB.jpg/640px-Messier51_sRGB.jpg"
+    },
+    {
+      "constellations": "Canes Venatici",
+      "distance": 25e6,
+      "id": "M 51a",
+      "link": "https://en.wikipedia.org/wiki/NGC_5195",
+      "name": "- a dwarf galaxy that is interacting with the Whirlpool Galaxy",
+      "type": "Dwarf galaxy",
+      "url": "http://images.astronet.ru/pubd/2013/09/01/0001292525/NGC5195recorte_priego950.jpg"
+    },
+    {
+      "constellations": "Canes Venatici",
+      "distance": 25e6,
+      "id": "NGC 4248",
+      "link": "https://esahubble.org/images/potw1730a/",
+      "name": "- is a member of the same group as the large spiral galaxy M 106 ",
+      "type": "Irregular galaxy",
+      "url": "https://cdn.spacetelescope.org/archives/images/screen/potw1730a.jpg"
+    },
+    {
+      "constellations": "Canes Venatici",
+      "distance": 18e6,
+      "id": "NGC 4242",
+      "link": "https://en.wikipedia.org/wiki/NGC_4242",
+      "name": "- has an asymmetric center and a small galactic bar",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Dim_and_diffuse.jpg/543px-Dim_and_diffuse.jpg"
+    },
+    {
+      "constellations": "Canes Venatici",
+      "distance": 30e6,
+      "id": "NGC 4631",
+      "link": "https://en.wikipedia.org/wiki/NGC_4631",
+      "name": "Whale Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/NGC_4631_I_FUV_g2006.jpg"
+    },
+    {
+      "constellations": "Canes Venatici",
+      "distance": 22e6,
+      "id": "NGC 4707",
+      "link": "https://en.wikipedia.org/wiki/NGC_4707",
+      "name": "- the blue smudges seen across the frame highlight regions of recent or ongoing star formation",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/NGC_4707_-_HST_-_Potw1651a.tif/lossy-page1-640px-NGC_4707_-_HST_-_Potw1651a.tif.jpg"
+    },
+    {
+      "constellations": "Canis Major",
+      "distance": 2300,
+      "id": "NGC 4707",
+      "link": "https://en.wikipedia.org/wiki/Messier_41",
+      "name": "Little Beehive Cluster",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/M41-noao.jpg/600px-M41-noao.jpg"
+    },
+    {
+      "constellations": "Canis Major",
+      "distance": 3700,
+      "id": "NGC 2360",
+      "link": "https://en.wikipedia.org/wiki/NGC_2360",
+      "name": "Caroline's Cluster",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/NGC2360_-_SDSS_DR14_%28panorama%29.jpg/600px-NGC2360_-_SDSS_DR14_%28panorama%29.jpg"
+    },
+    {
+      "constellations": "Canis Major",
+      "distance": 81e6,
+      "id": "NGC 2207 and IC 2163",
+      "link": "https://en.wikipedia.org/wiki/NGC_2207_and_IC_2163",
+      "name": "- NGC 2207 is in the process of colliding and merging with IC 2163",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/NGC2207%2BIC2163.jpg/640px-NGC2207%2BIC2163.jpg"
+    },
+    {
+      "constellations": "Canis Minor",
+      "distance": 1730,
+      "id": "Abell 24",
+      "link": "https://en.wikipedia.org/wiki/NGC_2359",
+      "name": "- the white dwarf star in the center of the nebula has about 0.7 solar masses",
+      "type": "Planetary nebula",
+      "url": "https://www.deepskycorner.ch/pic/eso/a24_eso_vlt.jpg"
     }
   ]
 }
