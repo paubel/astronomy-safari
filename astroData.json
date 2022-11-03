@@ -931,18 +931,18 @@
       "distance": 31e6,
       "id": "M 51a",
       "link": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
-      "name": "Whirlpool Galaxy to the left and M 51a to the right",
+      "name": "Whirlpool Galaxy to the left and M 51b (a dwarf galaxy) to the right",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Messier51_sRGB.jpg/640px-Messier51_sRGB.jpg"
     },
     {
       "constellations": "Canes Venatici",
       "distance": 25e6,
-      "id": "M 51a",
+      "id": "M 51b",
       "link": "https://en.wikipedia.org/wiki/NGC_5195",
-      "name": "- a dwarf galaxy that is interacting with the Whirlpool Galaxy",
+      "name": "- a dwarf galaxy (to the right) that is interacting with the Whirlpool Galaxy (to the left)",
       "type": "Dwarf galaxy",
-      "url": "http://images.astronet.ru/pubd/2013/09/01/0001292525/NGC5195recorte_priego950.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Messier51_sRGB.jpg/640px-Messier51_sRGB.jpg"
     },
     {
       "constellations": "Canes Venatici",
@@ -1078,6 +1078,105 @@
       "name": "Omega Centauri",
       "type": "Globular cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Omega_Centauri_by_ESO.jpg/638px-Omega_Centauri_by_ESO.jpg"
+    },
+    {
+      "constellations": "Centaurus",
+      "distance": 5.5e3,
+      "id": "NGC 3766",
+      "link": "https://en.wikipedia.org/wiki/NGC_3766",
+      "name": "- located in the vast star-forming region known as the Carina molecular cloud",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Star_cluster_NGC_3766.jpg/500px-Star_cluster_NGC_3766.jpg"
+    },
+    {
+      "constellations": "Centaurus",
+      "distance": 4900,
+      "id": "NGC 3918",
+      "link": "https://en.wikipedia.org/wiki/NGC_3918",
+      "name": "Blue Planetary or The Southerner",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Planetary_nebula_NGC_3918.jpg/600px-Planetary_nebula_NGC_3918.jpg"
+    },
+    {
+      "constellations": "Centaurus",
+      "distance": 2350,
+      "id": "NGC 5460",
+      "link": "https://en.wikipedia.org/wiki/NGC_5460",
+      "name": "- bright but loose cluster of intermediate age",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/NGC_5460.png"
+    },
+    {
+      "constellations": "Centaurus",
+      "distance": 200e6,
+      "id": "NGC 4622",
+      "link": "https://en.wikipedia.org/wiki/NGC_5460",
+      "name": "Backward galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/NGC_4622HSTFull.jpg/527px-NGC_4622HSTFull.jpg"
+    },
+    {
+      "constellations": "Centaurus",
+      "distance": 10.9e6,
+      "id": "NGC 5253",
+      "link": "https://en.wikipedia.org/wiki/NGC_5253",
+      "name": "- located within the M83 Subgroup of the Centaurus A/M83 Group",
+      "type": "Irregular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/A_Peculiar_Compact_Blue_Dwarf_Galaxy.jpg/640px-A_Peculiar_Compact_Blue_Dwarf_Galaxy.jpg"
+    },
+    {
+      "constellations": "Centaurus",
+      "distance": 12.1e6,
+      "id": "NGC 5102",
+      "link": "https://en.wikipedia.org/wiki/NGC_5102",
+      "name": "- located within the M83 Subgroup of the Centaurus A/M83 Group",
+      "type": "Lenticular galaxy",
+      "url": "https://theskylive.com/sky/deepsky/deepsky-images/104/ngc5102-dss2r-800.jpg"
+    },
+    {
+      "constellations": "Centaurus",
+      "distance": 13e6,
+      "id": "NGC 5128",
+      "link": "https://en.wikipedia.org/wiki/Centaurus_A",
+      "name": "Centaurus A",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/ESO_Centaurus_A_LABOCA.jpg/569px-ESO_Centaurus_A_LABOCA.jpg"
+    },
+    {
+      "constellations": "Centaurus",
+      "distance": 130e6,
+      "id": "NGC 4650A",
+      "link": "https://en.wikipedia.org/wiki/NGC_4650A",
+      "name": "- one of only 100 known polar-ring galaxies",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/NGC_4650A_I_HST2002.jpg/280px-NGC_4650A_I_HST2002.jpg"
+    },
+    {
+      "constellations": "Centaurus",
+      "distance": 171e6,
+      "id": "A3526",
+      "link": "https://en.wikipedia.org/wiki/NGC_4650A",
+      "name": "Centaurus Cluster",
+      "type": "Group galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Centaurus_cluster.png/600px-Centaurus_cluster.png"
+    },
+    {
+      "constellations": "Cetus",
+      "distance": 47e6,
+      "id": "M 77",
+      "link": "https://en.wikipedia.org/wiki/Messier_77",
+      "name": "Squid Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Messier_77_spiral_galaxy_by_HST.jpg/610px-Messier_77_spiral_galaxy_by_HST.jpg"
+    },
+    {
+      "constellations": "Cetus",
+      "distance": 10.2e9,
+      "id": "JKCS 041",
+      "link": "https://en.wikipedia.org/wiki/JKCS_041",
+      "name": "- at least 19 members in the cluster",
+      "type": "Group galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/JKCS_041.jpg/782px-JKCS_041.jpg"
     }
   ]
 }
