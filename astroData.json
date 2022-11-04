@@ -1177,6 +1177,70 @@
       "name": "- at least 19 members in the cluster",
       "type": "Group galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/JKCS_041.jpg/782px-JKCS_041.jpg"
+    },
+    {
+      "constellations": "Cetus",
+      "distance": 10.2e9,
+      "id": "Holm 15A",
+      "link": "https://en.wikipedia.org/wiki/Holmberg_15A",
+      "name": "Holmberg 15A",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Holmberg_15A_chandra.jpg/600px-Holmberg_15A_chandra.jpg"
+    },
+    {
+      "constellations": "Cetus",
+      "distance": 2.38e6,
+      "id": "IC 1613",
+      "link": "https://en.wikipedia.org/wiki/IC_1613",
+      "name": "- approaching Earth at 234 km/s",
+      "type": "Irregular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Dwarf_galaxy_IC_1613.jpg/640px-Dwarf_galaxy_IC_1613.jpg"
+    },
+    {
+      "constellations": "Cetus",
+      "distance": 1600,
+      "id": "NGC 246",
+      "link": "https://en.wikipedia.org/wiki/NGC_246",
+      "name": "Skull Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/NGC_246.jpg/600px-NGC_246.jpg"
+    },
+    {
+      "constellations": "Cetus",
+      "distance": 3.04e6,
+      "id": "WLM",
+      "link": "https://en.wikipedia.org/wiki/Wolf%E2%80%93Lundmark%E2%80%93Melotte",
+      "name": "Wolf–Lundmark–Melotte",
+      "type": "Irregular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/The_WLM_galaxy_on_the_edge_of_the_Local_Group.jpg/640px-The_WLM_galaxy_on_the_edge_of_the_Local_Group.jpg"
+    },
+
+    {
+      "constellations": "Chamaeleon",
+      "distance": 590,
+      "id": "Chamaeleon complex",
+      "link": "https://en.wikipedia.org/wiki/Chamaeleon_complex",
+      "name": "Chamaeleon complex",
+      "type": "Star-forming nebula",
+      "url": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_cha1_mosiac.jpg"
+    },
+    {
+      "constellations": "Chamaeleon",
+      "distance": 6440,
+      "id": "NGC 3195",
+      "link": "https://en.wikipedia.org/wiki/NGC_3195",
+      "name": "- central star is a binary system",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Ngc3195.jpg"
+    },
+    {
+      "constellations": "Chamaeleon",
+      "distance": 130e6,
+      "id": "ESO 021-G004",
+      "link": "https://www.nasa.gov/image-feature/goddard/2019/hubble-views-a-galaxy-with-an-active-center",
+      "name": "- central star is a binary system",
+      "type": "Spiral galaxy",
+      "url": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw1951a.jpg"
     }
   ]
 }
