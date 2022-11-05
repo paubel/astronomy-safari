@@ -53,6 +53,8 @@ fetch("./astroData.json")
           createAstroElement(value);
         } else if (value.type === astroData) {
           createAstroElement(value);
+        } else {
+          createAstroElement(value);
         }
       });
     }
