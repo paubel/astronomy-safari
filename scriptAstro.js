@@ -49,11 +49,12 @@ fetch("./astroData.json")
 
       Object.entries(data.astroObject).forEach(([key, value]) => {
         const words = value.type.split(" ");
+
         if (words[1].toLowerCase() === astroData.toLowerCase()) {
           createAstroElement(value);
         } else if (value.type === astroData) {
           createAstroElement(value);
-        } else {
+        } else if (astroData === "All objects") {
           createAstroElement(value);
         }
       });
