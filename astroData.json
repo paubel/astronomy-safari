@@ -1238,9 +1238,45 @@
       "distance": 130e6,
       "id": "ESO 021-G004",
       "link": "https://www.nasa.gov/image-feature/goddard/2019/hubble-views-a-galaxy-with-an-active-center",
-      "name": "- central star is a binary system",
+      "name": "- active Center",
       "type": "Spiral galaxy",
       "url": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw1951a.jpg"
+    },
+    {
+      "constellations": "Circinus",
+      "distance": 6.5e3,
+      "id": "NGC 5315",
+      "link": "https://en.wikipedia.org/wiki/NGC_5315",
+      "name": "- the central star may be a member of a binary system",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NGC_5315HSTfull.jpg/600px-NGC_5315HSTfull.jpg"
+    },
+    {
+      "constellations": "Circinus",
+      "distance": 13e6,
+      "id": "ESO 97-G13",
+      "link": "https://en.wikipedia.org/wiki/Circinus_Galaxy",
+      "name": "- the Circinus Galaxy is one of twelve large galaxies in the 'Council of Giants' surrounding the Local Group in the Local Sheet",
+      "type": "Seyfert galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/142_circinus_galaxy.png/600px-142_circinus_galaxy.png"
+    },
+    {
+      "constellations": "Circinus",
+      "distance": 17000,
+      "id": "PSR B1509-58",
+      "link": "https://chandra.harvard.edu/photo/2009/b1509/",
+      "name": "- a pulsar that sits in a nebula that spans about 150 light years",
+      "type": "X-ray nebula",
+      "url": "https://chandra.harvard.edu/photo/2009/b1509/b1509_w11.jpg"
+    },
+    {
+      "constellations": "Circinus",
+      "distance": 9100,
+      "id": "SN 185",
+      "link": "https://en.wikipedia.org/wiki/SN_185",
+      "name": "- observed in the year AD 185, likely a supernova",
+      "type": "Supernova-remnant nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/RCW_86.jpg/627px-RCW_86.jpg"
     }
   ]
 }
