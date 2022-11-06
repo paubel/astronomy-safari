@@ -1277,6 +1277,132 @@
       "name": "- observed in the year AD 185, likely a supernova",
       "type": "Supernova-remnant nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/RCW_86.jpg/627px-RCW_86.jpg"
+    },
+    {
+      "constellations": "Columba",
+      "distance": 36.4e6,
+      "id": "NGC 1792",
+      "link": "https://en.wikipedia.org/wiki/NGC_1792",
+      "name": "- NGC 1792 is a member of the NGC 1808 cluster of galaxies",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/NGC1792_-_HST_-_Potw2049a.tif/lossy-page1-637px-NGC1792_-_HST_-_Potw2049a.tif.jpg"
+    },
+    {
+      "constellations": "Columba",
+      "distance": 36.4e6,
+      "id": "NGC 1808",
+      "link": "https://en.wikipedia.org/wiki/NGC_1808",
+      "name": "- suspected weak active galactic nucleus",
+      "type": "Spiral galaxy",
+      "url": "http://annesastronomynews.com/wp-content/uploads/2012/02/NGC-1808.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 40.1e6,
+      "id": "NGC 4725",
+      "link": "https://en.wikipedia.org/wiki/NGC_4725",
+      "name": "- strongly disturbed and is interacting with neighboring irregular galaxy NGC 4747",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/NGC_4725.jpg/600px-NGC_4725.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 48.1e6,
+      "id": "NGC 4747",
+      "link": "https://en.wikipedia.org/wiki/NGC_4725",
+      "name": "- interacting with neighboring spiral galaxy NGC 4725",
+      "type": "Irregular galaxy",
+      "url": "https://www.deepskycorner.ch/thumb/5d31fccab6517b05fac8f94bee8dd775_fig.webp"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 55e6,
+      "id": "M 100",
+      "link": "https://en.wikipedia.org/wiki/Messier_100",
+      "name": "- one of the brightest and largest galaxies in the Virgo Cluster ",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Messier_100_%E2%80%94_Grand_Design_Splendour.jpg/640px-Messier_100_%E2%80%94_Grand_Design_Splendour.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 45.2e6,
+      "id": "M 99",
+      "link": "https://en.wikipedia.org/wiki/Messier_99",
+      "name": "Coma Pinwheel",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/M99s_crop.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 280,
+      "id": "Melotte 111",
+      "link": "https://en.wikipedia.org/wiki/Coma_Star_Cluster",
+      "name": "Coma Star Cluster",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/ComaCluster.jpg/640px-ComaCluster.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 58e3,
+      "id": "M 53",
+      "link": "https://en.wikipedia.org/wiki/Messier_53",
+      "name": "- a metal-poor cluster",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Messier53_-_SDSS_DR14_%28panorama%29.jpg/600px-Messier53_-_SDSS_DR14_%28panorama%29.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 53.8e6,
+      "id": "Virgo Cluster",
+      "link": "https://en.wikipedia.org/wiki/Virgo_Cluster",
+      "name": "- a large cluster of galaxies that alsp lies also in the constellation of Virgo",
+      "type": "Group galaxy",
+      "url": "https://science.nasa.gov/science-pink/s3fs-public/styles/image_gallery_scale_960w/public/atoms/markarian_FernandoPena1024.jpg?itok=gF-DiSTu"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 17.3e6,
+      "id": "M 64",
+      "link": "https://en.wikipedia.org/wiki/Virgo_Cluster",
+      "name": "Black Eye Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/NGC_4826_-_HST.png/716px-NGC_4826_-_HST.png"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 53.2e6,
+      "id": "NGC 4314",
+      "link": "https://en.wikipedia.org/wiki/NGC_4314",
+      "name": "- prominent ring of star formation about the galactic nucleus",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/NGC_4314HST1998-21-b-full.jpg/600px-NGC_4314HST1998-21-b-full.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 35e6,
+      "id": "NGC 4651",
+      "link": "https://en.wikipedia.org/wiki/NGC_4651",
+      "name": "Umbrella Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Small_ngc4651.jpg/640px-Small_ngc4651.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 1.19e9,
+      "id": "Malin 1",
+      "link": "https://en.wikipedia.org/wiki/Malin_1",
+      "name": "- the largest known spiral galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://compote.slate.com/images/93cdc85f-b64b-4ea9-84d7-980e969b2faf.jpg?crop=590%2C388%2Cx0%2Cy0&width=1280"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 1.19e9,
+      "id": "Malin 1",
+      "link": "https://en.wikipedia.org/wiki/Malin_1",
+      "name": "- the largest known spiral galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://compote.slate.com/images/93cdc85f-b64b-4ea9-84d7-980e969b2faf.jpg?crop=590%2C388%2Cx0%2Cy0&width=1280"
     }
   ]
 }
