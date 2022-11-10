@@ -1218,9 +1218,9 @@
     {
       "constellations": "Chamaeleon",
       "distance": 590,
-      "id": "Chamaeleon complex",
+      "id": "Cha I",
       "link": "https://en.wikipedia.org/wiki/Chamaeleon_complex",
-      "name": "Chamaeleon complex",
+      "name": "Chamaeleon Cloud I",
       "type": "Star-forming nebula",
       "url": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_cha1_mosiac.jpg"
     },
@@ -1396,13 +1396,130 @@
       "url": "https://compote.slate.com/images/93cdc85f-b64b-4ea9-84d7-980e969b2faf.jpg?crop=590%2C388%2Cx0%2Cy0&width=1280"
     },
     {
-      "constellations": "Coma Berenices",
-      "distance": 1.19e9,
-      "id": "Malin 1",
+      "constellations": "Corona Australis",
+      "distance": 400,
+      "id": "NGC 6729",
       "link": "https://en.wikipedia.org/wiki/Malin_1",
-      "name": "- the largest known spiral galaxy",
+      "name": "- reflection/emission nebula",
+      "type": "Reflection nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/R_Coronae_Australis_region.jpg/615px-R_Coronae_Australis_region.jpg"
+    },
+    {
+      "constellations": "Corvus",
+      "distance": 3377,
+      "id": "NGC 4361",
+      "link": "https://en.wikipedia.org/wiki/NGC_4361",
+      "name": "- central star is an extremely hot Wolf-Rayet type star",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/N4361s.jpg/600px-N4361s.jpg"
+    },
+    {
+      "constellations": "Corvus",
+      "distance": 45e6,
+      "id": "NGC 4038/NGC 4039",
+      "link": "https://en.wikipedia.org/wiki/NGC_4361",
+      "name": "Antennae Galaxies",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Antennae_Galaxies_reloaded.jpg/604px-Antennae_Galaxies_reloaded.jpg"
+    },
+    {
+      "constellations": "Corvus",
+      "distance": 83e6,
+      "id": "NGC 4027",
+      "link": "https://en.wikipedia.org/wiki/NGC_4027",
+      "name": "- is also a peculiar galaxy because one of its spiral arms goes out more than the other. This is probably due to a galactic collision in NGC 4027's past",
       "type": "Spiral galaxy",
-      "url": "https://compote.slate.com/images/93cdc85f-b64b-4ea9-84d7-980e969b2faf.jpg?crop=590%2C388%2Cx0%2Cy0&width=1280"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/NGC_4027.jpg/616px-NGC_4027.jpg"
+    },
+    {
+      "constellations": "Crater",
+      "distance": 41.5e6,
+      "id": "NGC 3511",
+      "link": "https://en.wikipedia.org/wiki/NGC_3511",
+      "name": "- forms a pair with NGC 3513, which lies 10.5 arcminutes away from NGC 3511",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/NGC_3511_PanSTARRS1_i.g.jpg/640px-NGC_3511_PanSTARRS1_i.g.jpg"
+    },
+    {
+      "constellations": "Crater",
+      "distance": 62e6,
+      "id": "NGC 3981",
+      "link": "https://en.wikipedia.org/wiki/NGC_3981",
+      "name": "- is a member of the NGC 4038 which is part of the Virgo Supercluster",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/A_Galactic_Gem_NGC_3981.tif/lossy-page1-581px-A_Galactic_Gem_NGC_3981.tif.jpg"
+    },
+    {
+      "constellations": "Crater",
+      "distance": 6.05e9,
+      "id": "RX J1131-1231",
+      "link": "https://en.wikipedia.org/wiki/RX_J1131-1231",
+      "name": "- supermassive-black-hole-containing quasar",
+      "type": "Quasar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RX_J1131.jpg/603px-RX_J1131.jpg"
+    },
+    {
+      "constellations": "Crux",
+      "distance": 6.44e3,
+      "id": "NGC 4755",
+      "link": "https://en.wikipedia.org/wiki/Jewel_Box_(star_cluster)",
+      "name": "Jewel Box",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/A_Snapshot_of_the_Jewel_Box_cluster_with_the_ESO_VLT.jpg/598px-A_Snapshot_of_the_Jewel_Box_cluster_with_the_ESO_VLT.jpg"
+    },
+    {
+      "constellations": "Crux",
+      "distance": 600,
+      "id": "C 99",
+      "link": "https://en.wikipedia.org/wiki/Coalsack_Nebula",
+      "name": "Coalsack Nebula",
+      "type": "Dark nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Part_of_the_Coalsack_Nebula.jpg/541px-Part_of_the_Coalsack_Nebula.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 163e3,
+      "id": "LMC",
+      "link": "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud",
+      "name": "Large Magellanic Cloud",
+      "type": "Dwarf galaxy",
+      "url": "https://astronomy.com/-/media/Images/Magazine%20Articles/2020/11/ASYTG1120_02a.jpg?mw=600"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 168e3,
+      "id": "SN 1987A",
+      "link": "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud",
+      "name": "- type II supernova in the Large Magellanic Cloud",
+      "type": "Supernova-remnant nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/New_Hubble_Observations_of_Supernova_1987A_Trace_Shock_Wave_%284954621859%29.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 160e3,
+      "id": "N 180B",
+      "link": "https://hubblesite.org/contents/media/images/2006/41/1983-Image.html",
+      "name": "- HII region located in the Large Magellanic Cloud",
+      "type": "Emission nebula",
+      "url": "https://cdn.sci.news/images/2019/02/image_6884_1-Herbig-Haro-1177.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 160e3,
+      "id": "N 11",
+      "link": "https://en.wikipedia.org/wiki/N11_(emission_nebula)",
+      "name": "- elliptical shape and consists of a large bubble, generally clear interstellar area, surrounded by nine large nebulae the Large Magellanic Cloud. NGC 1763 a brightest nebulosity within N11 also known as the Bean Nebula because of its shape.",
+      "type": "Emission nebula",
+      "url": "https://astrojosep.files.wordpress.com/2016/11/n11-sl-hooh-05-final4-bcc.jpg?w=600"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 160e3,
+      "id": "NGC 1763",
+      "link": "https://en.wikipedia.org/wiki/NGC_1763",
+      "name": "- part of N11 in the Large Magellanic Cloud.",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/N11_%28Hubble%29.jpg/610px-N11_%28Hubble%29.jpg"
     }
   ]
 }
