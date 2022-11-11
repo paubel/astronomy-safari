@@ -1508,7 +1508,7 @@
       "distance": 160e3,
       "id": "N 11",
       "link": "https://en.wikipedia.org/wiki/N11_(emission_nebula)",
-      "name": "- elliptical shape and consists of a large bubble, generally clear interstellar area, surrounded by nine large nebulae the Large Magellanic Cloud. NGC 1763 a brightest nebulosity within N11 also known as the Bean Nebula because of its shape.",
+      "name": "- elliptical shape and consists of a large bubble, generally clear interstellar area, surrounded by nine large nebulae the Large Magellanic Cloud. NGC 1763 a brightest nebulosity within N11 also known as the Bean Nebula because of its shape",
       "type": "Emission nebula",
       "url": "https://astrojosep.files.wordpress.com/2016/11/n11-sl-hooh-05-final4-bcc.jpg?w=600"
     },
@@ -1517,9 +1517,54 @@
       "distance": 160e3,
       "id": "NGC 1763",
       "link": "https://en.wikipedia.org/wiki/NGC_1763",
-      "name": "- part of N11 in the Large Magellanic Cloud.",
+      "name": "- part of N11 in the Large Magellanic Cloud",
       "type": "Emission nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/N11_%28Hubble%29.jpg/610px-N11_%28Hubble%29.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 160e3,
+      "id": "N 44",
+      "link": "https://en.wikipedia.org/wiki/N44_(emission_nebula)",
+      "name": "- superbubble structure located in the Large Magellanic Cloud",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/LHA_120-N_44.jpg/601px-LHA_120-N_44.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 163e3,
+      "id": "NGC 2014",
+      "link": "https://en.wikipedia.org/wiki/NGC_2014",
+      "name": "- the red nebula to upper right is surrounding an open cluster of stars in the Large Magellanic Cloud",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/NGC_2014%2C_NGC_2020_-_HST_-_Heic2007a.jpg/640px-NGC_2014%2C_NGC_2020_-_HST_-_Heic2007a.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 163e3,
+      "id": "NGC 2020",
+      "link": "https://en.wikipedia.org/wiki/NGC_2020",
+      "name": "- an HII Region, the blue nebula lower left, surrounding the Wolf-Rayet star BAT99-59 in the Large Magellanic Cloud",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/NGC_2014%2C_NGC_2020_-_HST_-_Heic2007a.jpg/640px-NGC_2014%2C_NGC_2020_-_HST_-_Heic2007a.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 160e3,
+      "id": "NGC 2032",
+      "link": "https://en.wikipedia.org/wiki/NGC_2032",
+      "name": "Seagull Nebula - NGC 2035, just right of centre, with NGC 2032 on the right and NGC 2040 on the left in the Large Magellanic Cloud",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/The_star_formation_region_NGC_2035_imaged_by_the_ESO_Very_Large_Telescope.jpg/598px-The_star_formation_region_NGC_2035_imaged_by_the_ESO_Very_Large_Telescope.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 170e3,
+      "id": "NGC 2074",
+      "link": "https://en.wikipedia.org/wiki/NGC_2074",
+      "name": "Seahorse nebula in the Tarantula Nebula in the Large Magellanic Cloud",
+      "type": "Emission nebula",
+      "url": "http://annesastronomynews.com/wp-content/uploads/2012/02/NGC-2074-The-Seahorse.jpg"
     }
   ]
 }
