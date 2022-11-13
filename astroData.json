@@ -1565,6 +1565,42 @@
       "name": "Seahorse nebula in the Tarantula Nebula in the Large Magellanic Cloud",
       "type": "Emission nebula",
       "url": "http://annesastronomynews.com/wp-content/uploads/2012/02/NGC-2074-The-Seahorse.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 160e3,
+      "id": "30 Doradus",
+      "link": "https://en.wikipedia.org/wiki/Tarantula_Nebula",
+      "name": "Tarantula Nebula in the Large Magellanic Cloud. Largest stellar nursery we know in the local Universe. In fact if this enormous complex of stars, gas and dust were at the distance of the Orion Nebula it would be visible during the day and cover a quarter of the sky",
+      "type": "Star-forming nebula",
+      "url": "https://cdn.eso.org/images/screen/tarantula.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 160e3,
+      "id": "NGC 2080",
+      "link": "https://en.wikipedia.org/wiki/NGC_2080",
+      "name": "Ghost Head Nebula in the Large Magellanic Cloud",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/NGC2080.jpg/600px-NGC2080.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 69e6,
+      "id": "NGC 1566",
+      "link": "https://en.wikipedia.org/wiki/NGC_1566",
+      "name": "Spanish Dancer Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Potw1422a.jpg/643px-Potw1422a.jpg"
+    },
+    {
+      "constellations": "Eridanus",
+      "distance": 6200,
+      "id": "NGC 1535",
+      "link": "https://en.wikipedia.org/wiki/NGC_1535",
+      "name": "- very similar to the Eskimo Nebula in both color and structure",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/N1535s.jpg"
     }
   ]
 }
