@@ -1601,6 +1601,96 @@
       "name": "- very similar to the Eskimo Nebula in both color and structure",
       "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/N1535s.jpg"
+    },
+    {
+      "constellations": "Eridanus",
+      "distance": 1000,
+      "id": "IC 2118",
+      "link": "https://en.wikipedia.org/wiki/IC_2118",
+      "name": "Witch Head Nebula",
+      "type": "Reflection nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Reflection.nebula.arp.750pix.jpg/455px-Reflection.nebula.arp.750pix.jpg"
+    },
+    {
+      "constellations": "Eridanus",
+      "distance": 61e6,
+      "id": "NGC 1232",
+      "link": "https://en.wikipedia.org/wiki/NGC_1232",
+      "name": "Witch Head Nebula",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/NGC_1232.jpg/595px-NGC_1232.jpg"
+    },
+    {
+      "constellations": "Eridanus",
+      "distance": 1.7e8,
+      "id": "NGC 1234",
+      "link": "https://en.wikipedia.org/wiki/NGC_1234",
+      "name": "- discovered in 1886",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/NGC1234_-_SDSS_DR14.jpg/600px-NGC1234_-_SDSS_DR14.jpg"
+    },
+    {
+      "constellations": "Eridanus",
+      "distance": 33e6,
+      "id": "NGC 1291",
+      "link": "https://en.wikipedia.org/wiki/NGC_1291",
+      "name": "- Like other early-type galaxies, NGC 1291 has a population of old globular clusters",
+      "type": "Ring galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/NGC_1291.jpg/600px-NGC_1291.jpg"
+    },
+    {
+      "constellations": "Eridanus",
+      "distance": 61.3e6,
+      "id": "NGC 1300",
+      "link": "https://en.wikipedia.org/wiki/NGC_1291",
+      "name": "- the galaxy is about 110,000 light-years across",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/640px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg"
+    },
+    {
+      "constellations": "Fornax",
+      "distance": 1145,
+      "id": "NGC 1360",
+      "link": "https://en.wikipedia.org/wiki/NGC_1360",
+      "name": "Robin's Egg Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/NGC1360_Planetary_Nebula_from_the_Mount_Lemmon_SkyCenter_Schulman_Telescope_courtesy_Adam_Block.jpg/559px-NGC1360_Planetary_Nebula_from_the_Mount_Lemmon_SkyCenter_Schulman_Telescope_courtesy_Adam_Block.jpg"
+    },
+    {
+      "constellations": "Fornax",
+      "distance": 466e3,
+      "id": "Fornax Dwarf",
+      "link": "https://en.wikipedia.org/wiki/Fornax_Dwarf",
+      "name": "Fornax Dwarf Spheroidal",
+      "type": "Dwarf galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Fornax_dwarf_galaxy.jpg/600px-Fornax_dwarf_galaxy.jpg"
+    },
+    {
+      "constellations": "Fornax",
+      "distance": 45e6,
+      "id": "NGC 1097",
+      "link": "https://en.wikipedia.org/wiki/NGC_1097",
+      "name": "- It is a severely interacting galaxy with obvious tidal debris and distortions caused by interaction with the companion galaxy NGC 1097A",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/NGC1097_-_ESO_-_eso0438d.jpg/512px-NGC1097_-_ESO_-_eso0438d.jpg"
+    },
+    {
+      "constellations": "Fornax",
+      "distance": 62e6,
+      "id": "Fornax Cluster",
+      "link": "https://en.wikipedia.org/wiki/Fornax_Cluster",
+      "name": "- At the centre of the cluster lies NGC 1399. Other cluster members include NGC 1316 (the group's brightest galaxy), NGC 1365, NGC 1427A, NGC 1427 and NGC 1404. The second richest galaxy cluster within 100 million light-years, after the considerably larger Virgo Cluster",
+      "type": "Group galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/VST_image_of_the_Fornax_Galaxy_Cluster.jpg/640px-VST_image_of_the_Fornax_Galaxy_Cluster.jpg"
+    },
+    {
+      "constellations": "Fornax",
+      "distance": 56.2e6,
+      "id": "NGC 1365",
+      "link": "https://en.wikipedia.org/wiki/NGC_1365",
+      "name": "Great Barred Spiral Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Portrait_of_the_Great_Barred_Spiral.jpg/622px-Portrait_of_the_Great_Barred_Spiral.jpg"
     }
   ]
 }

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="On this web page you can look at images of astronomical objects.">
+    <title>Space Safari</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./scriptAstro.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Space Safari</h1>
+
+            <nav>
+
+                <a class="menu-button" href="./index.html">Start</a>
+                <!--                 <a class="menu-button" href="./d3-celestial.html">Skymap</a> -->
+                <label for="astro-type" class="astro-type">
+                    <select id="astro-type">
+
+                        <option value="">Type of object</option>
+                        <option value="All objects">All objects</option>
+                        <optgroup label="Galaxies">
+                            <option value="Galaxy" class="optionGroup">Galaxies</option>
+                            <option value="Group galaxy">Group of galaxies</option>
+                            <option value="Elliptical galaxy">Elliptical galaxies</option>
+                            <option value="Distant galaxy">Distant galaxy</option>
+                            <option value="Dwarf galaxy">Dwarf galaxy</option>
+                            <option value="Interacting galaxy">Interacting galaxies</option>
+                            <option value="Irregular galaxy">Irregular galaxies</option>
+                            <option value="Lenticular galaxy">Lenticular galaxy</option>
+                            <option value="Quasar galaxy">Quasar</option>
+                            <option value="Seyfert galaxy">Seyfert galaxy</option>
+                            <option value="Spiral galaxy">Spiral galaxies</option>
+
+                        </optgroup>
+                        <optgroup label="Nebulae">
+                            <option value="Nebula" class="optionGroup">Nebulae</option>
+                            <option value="Dark nebula">Dark nebula</option>
+                            <option value="Diffuse nebula">Diffuse nebula</option>
+
+                            <option value="Emission nebula">Emission nebulae</option>
+                            <option value="Planetary nebula">Planetary nebulae</option>
+                            <option value="Reflection nebula">Reflection nebulae</option>
+                            <option value="Star-forming nebula">Starforming nebulae</option>
+                            <option value="Supernova-remnant nebula">Supernova remnant</option>
+                            <option value="X-ray nebula">X-ray nebula</option>
+                        </optgroup>
+                        <optgroup label="Clusters">
+                            <option value="Cluster" class="optionGroup">Clusters</option>
+                            <option value="Globular cluster">Globular clusters</option>
+                            <option value="Open cluster">Open clusters</option>
+                            <option value="Super-star cluster">Super star cluster
+                            </option>
+                        </optgroup>
+                    </select>
+                </label>
+                <label for="astro-const" class="astro-const">
+                    <select id="astro-const">
+                        <option value="">Constellations</option>
+                        <optgroup label="A">
+
+                            <option value="Andromeda">Andromeda</option>
+                            <option value="Antilia">Antilia</option>
+                            <option value="Apus">Apus</option>
+                            <option value="Ara">Ara</option>
+                            <option value="Aries">Aries</option>
+
+                            <option value="Aquarius">Aquarius</option>
+                            <option value="Aquila">Aquila</option>
+                            <option value="Auriga">Auriga</option>
+
+                        </optgroup>
+                        <optgroup label="B">
+                            <option value="Boötes">Boötes</option>
+                        </optgroup>
+                        <optgroup label="C">
+                            <option value="Caelum">Caelum</option>
+                            <option value="Camelopardalis">Camelopardalis</option>
+                            <option value="Cancer">Cancer</option>
+                            <option value="Canes Venatici">Canes Venatici</option>
+                            <option value="Canis Major">Canis Major</option>
+                            <option value="Canis Minor">Canis Minor</option>
+                            <option value="Capricornus">Capricornus</option>
+                            <option value="Carina">Carina</option>
+                            <option value="Cassiopeia">Cassiopeia</option>
+                            <option value="Centaurus">Centaurus</option>
+                            <option value="Cepheus">Cepheus</option>
+                            <option value="Cetus">Cetus</option>
+                            <option value="Chamaeleon">Chamaeleon</option>
+                            <option value="Circinus">Circinus</option>
+                            <option value="Columba">Columba</option>
+                            <option value="Coma Berenices">Coma Berenices</option>
+                            <option value="Corona Australis">Corona Australis</option>
+                            <option value="Corvus">Corvus</option>
+                            <option value="Crater">Crater</option>
+                            <option value="Crux">Crux</option>
+                            <option value="Cygnus">Cygnus</option>
+                        </optgroup>
+                        <optgroup label="D">
+                            <option value="Delphinus">Delphinus</option>
+                            <option value="Dorado">Dorado</option>
+                            <option value="Draco">Draco</option>
+                        </optgroup>
+                        <optgroup label="E">
+                            <option value="Equuleus">Equuleus</option>
+                            <option value="Eridanus">Eridanus</option>
+                        </optgroup>
+                        <optgroup label="F">
+                            <option value="Fornax">Fornax</option>
+                        </optgroup>
+                        <optgroup label="G">
+                            <option value="Gemini">Gemini</option>
+                        </optgroup>
+                        <optgroup label="H">
+                            <option value="Hercules">Hercules</option>
+                        </optgroup>
+                        <optgroup label="L">
+                            <option value="Lacerta">Lacerta</option>
+                            <option value="Lyra">Lyra</option>
+                        </optgroup>
+                        <optgroup label="O">
+                            <option value="Ophiuchus">Ophiuchus</option>
+
+                        </optgroup>
+                        <optgroup label="P">
+                            <option value="Pegasus">Pegasus</option>
+
+                        </optgroup>
+                        <optgroup label="S">
+                            <option value="Sagitta">Sagitta</option>
+                            <option value="Serpens Caput">Serpens Caput</option>
+                        </optgroup>
+                        <optgroup label="T">
+                            <option value="Triangulum">Triangulum</option>
+
+                        </optgroup>
+                        <optgroup label="U">
+                            <option value="Ursa Major">Ursa Major</option>
+
+                        </optgroup>
+                        <optgroup label="V">
+                            <option value="Vulpecula">Vulpecula</option>
+
+                        </optgroup>
+                        <optgroup label="S">
+                            <option value="Sculptor">Sculptor</option>
+                            <option value="Sagitta">Sagitta</option>
+                        </optgroup>
+
+
+                    </select>
+                </label>
+                <label for="astro-dist" class="astro-dist">
+                    <select id="astro-dist">
+                        <option value="">Distance</option>
+                        <optgroup label="A">
+                            <option value="100">100 ly - 1 kly</option>
+                            <option value="1000">1 kly - 10 kly</option>
+                            <option value="10000">10 kly - 100 kly</option>
+                            <option value="100000">100 kly - 1 Mly</option>
+                            <option value="1000000">1 Mly - 10 Mly</option>
+                            <option value="10000000">10 Mly - 100 Mly</option>
+                            <option value="100000000">100 Mly - 1 Gly</option>
+                            <option value="1000000000">1 Gly - 10 Gly</option>
+                        </optgroup>
+                    </select>
+                </label>
+
+            </nav>
+        </header>
+        <main>
+            <script type="module">
+                "use strict";
+                //import data from "./astroData.json" assert { type: "json" }; Do not work in FF
+
+                fetch("./astroData.json")
+                    .then((res) => res.json())
+                    .then((data) => {
+                        // do stuff with the data
+
+                        data.astroObject = data.astroObject.sort((a, b) => {
+                            if (a.distance < b.distance) {
+                                return -1;
+                            }
+                        });
+
+
+
+                        const selectElementType = document.querySelector("#astro-type");
+                        const selectElementConst = document.querySelector("#astro-const");
+                        const selectElementDist = document.querySelector("#astro-dist");
+                        let main = null;
+                        let myH2 = null;
+                        let mySection = null;
+                        let selectedOption = "";
+
+                        selectElementType.addEventListener("change", (event) => {
+                            resetSelectElement(selectElementConst);
+                            resetSelectElement(selectElementDist);
+                            clearMainAndSelectOption();
+                            populateType(selectedOption);
+                            lazyLoadFunc();
+                        });
+
+                        selectElementConst.addEventListener("change", (event) => {
+                            resetSelectElement(selectElementType);
+                            resetSelectElement(selectElementDist);
+                            clearMainAndSelectOption();
+                            populateConst(selectedOption);
+                            lazyLoadFunc();
+                        });
+
+                        selectElementDist.addEventListener("change", (event) => {
+                            resetSelectElement(selectElementType);
+                            resetSelectElement(selectElementConst);
+                            clearMainAndSelectOption();
+                            populateDist(selectedOption);
+                            lazyLoadFunc();
+                        });
+
+                        function populateType(astroData) {
+                            createH2inMain(astroData);
+
+                            Object.entries(data.astroObject).forEach(([key, value]) => {
+                                const words = value.type.split(" ");
+
+                                if (words[1].toLowerCase() === astroData.toLowerCase()) {
+                                    createAstroElement(value);
+                                } else if (value.type === astroData) {
+                                    createAstroElement(value);
+                                } else if (astroData === "All objects") {
+                                    createAstroElement(value);
+                                }
+                            });
+                        }
+
+                        function populateConst(astroData) {
+                            createH2inMain(astroData);
+                            Object.entries(data.astroObject).forEach(([key, value]) => {
+                                if (value.constellations === astroData) {
+                                    createAstroElement(value);
+                                }
+                            });
+                        }
+
+                        function populateDist(astroData) {
+                            createH2inMainDistance(astroData);
+                            Object.entries(data.astroObject).forEach(([key, value]) => {
+                                let astroDataNumb = Number(astroData);
+
+                                if (
+                                    value.distance >= Number(astroDataNumb) &&
+                                    value.distance <= Number(astroDataNumb) * 10
+                                ) {
+                                    createAstroElement(value);
+                                }
+                            });
+                        }
+
+                        function clearMainAndSelectOption() {
+                            let node = document.querySelector("main");
+                            node.querySelectorAll("*").forEach((n) => n.remove());
+                            selectedOption = event.target.value;
+                        }
+
+                        function createH2inMain(astroData) {
+                            main = document.querySelector("main");
+                            myH2 = document.createElement("h2");
+                            mySection = document.createElement("section");
+                            myH2.textContent = astroData;
+                            main.appendChild(myH2);
+                            main.appendChild(mySection);
+                        }
+
+                        function createH2inMainDistance(astroData) {
+                            main = document.querySelector("main");
+                            myH2 = document.createElement("h2");
+                            mySection = document.createElement("section");
+                            myH2.textContent =
+                                numberWithCommas(astroData) +
+                                ` ly to ` +
+                                numberWithCommas(astroData * 10) +
+                                ` ly`;
+
+                            main.appendChild(myH2);
+                            main.appendChild(mySection);
+                        }
+
+                        function createAstroElement(value) {
+                            const myFigure = document.createElement("figure");
+                            const myImg = document.createElement("img");
+                            const myFigcaption = document.createElement("figcaption");
+                            const myA = document.createElement("a");
+
+                            //myImg.src = `${value.url}`;
+                            const imgValue = `${value.url}`;
+                            const attr = document.createAttribute("data-src");
+                            attr.value = imgValue;
+                            myImg.setAttributeNode(attr);
+                            //myImg.loading = `lazy`;
+                            myImg.classList.add("lazy");
+                            myImg.alt = `${value.id} ${value.name}`;
+                            myFigcaption.textContent = ` ${value.type} in ${value.constellations
+                                } at ${numberWithCommas(value.distance)} ly.`;
+
+                            /*      myA.title = `test`; */
+                            myA.href = `${value.link}`;
+                            myA.target = "_blank";
+                            const linkText = document.createTextNode(`${value.id} ${value.name}.`);
+                            mySection.appendChild(myFigure);
+                            myFigure.appendChild(myImg);
+                            myFigure.appendChild(myA);
+                            myFigure.appendChild(myFigcaption);
+                            myA.appendChild(linkText);
+                        }
+
+                        function resetSelectElement(selectElement) {
+                            selectElement.selectedIndex = 0; //
+                        }
+
+                        function numberWithCommas(x) {
+                            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                        }
+
+                        function lazyLoadFunc() {
+                            //      document.addEventListener("DOMContentLoaded", function () {
+                            var lazyloadImages;
+
+                            if ("IntersectionObserver" in window) {
+                                lazyloadImages = document.querySelectorAll(".lazy");
+                                var imageObserver = new IntersectionObserver(function (
+                                    entries,
+                                    observer
+                                ) {
+                                    entries.forEach(function (entry) {
+                                        if (entry.isIntersecting) {
+                                            var image = entry.target;
+                                            image.src = image.dataset.src;
+                                            image.classList.remove("lazy");
+                                            imageObserver.unobserve(image);
+                                        }
+                                    });
+                                });
+
+                                lazyloadImages.forEach(function (image) {
+                                    imageObserver.observe(image);
+                                });
+                            } else {
+                                var lazyloadThrottleTimeout;
+                                lazyloadImages = document.querySelectorAll(".lazy");
+
+                                function lazyload() {
+                                    if (lazyloadThrottleTimeout) {
+                                        clearTimeout(lazyloadThrottleTimeout);
+                                    }
+
+                                    lazyloadThrottleTimeout = setTimeout(function () {
+                                        var scrollTop = window.pageYOffset;
+                                        lazyloadImages.forEach(function (img) {
+                                            if (img.offsetTop < window.innerHeight + scrollTop) {
+                                                img.src = img.dataset.src;
+                                                img.classList.remove("lazy");
+                                            }
+                                        });
+                                        if (lazyloadImages.length == 0) {
+                                            document.removeEventListener("scroll", lazyload);
+                                            window.removeEventListener("resize", lazyload);
+                                            window.removeEventListener("orientationChange", lazyload);
+                                        }
+                                    }, 20);
+                                }
+
+                                document.addEventListener("scroll", lazyload);
+                                window.addEventListener("resize", lazyload);
+                                window.addEventListener("orientationChange", lazyload);
+                            }
+                            //});
+                        }
+
+                        resetSelectElement(selectElementConst);
+                        resetSelectElement(selectElementDist);
+                        //clearMainAndSelectOption();
+                        populateType("Planetary nebula");
+                        lazyLoadFunc();
+                    });
+
+                /* START lazy loading */
+
+            </script>
+
+
+        </main>
+    </div>
+</body>
+
+</html>
