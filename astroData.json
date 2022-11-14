@@ -1688,9 +1688,54 @@
       "distance": 56.2e6,
       "id": "NGC 1365",
       "link": "https://en.wikipedia.org/wiki/NGC_1365",
-      "name": "Great Barred Spiral Galaxy",
+      "name": "Great Barred Spiral Galaxy in the Fornax cluster.",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Portrait_of_the_Great_Barred_Spiral.jpg/622px-Portrait_of_the_Great_Barred_Spiral.jpg"
+    },
+    {
+      "constellations": "Fornax",
+      "distance": 62e6,
+      "id": "NGC 1316",
+      "link": "https://en.wikipedia.org/wiki/NGC_1316",
+      "name": "Fornax A is located at the edge of the Fornax Cluster",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ngc1316_hst.jpg/590px-Ngc1316_hst.jpg"
+    },
+    {
+      "constellations": "Fornax",
+      "distance": 66e6,
+      "id": "NGC 1399",
+      "link": "https://en.wikipedia.org/wiki/NGC_1399",
+      "name": "Central galaxy in the Fornax Cluster",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/NGC_1399_HST_10911_R814GB475.png/579px-NGC_1399_HST_10911_R814GB475.png"
+    },
+    {
+      "constellations": "Fornax",
+      "distance": 52.6e6,
+      "id": "NGC 1386",
+      "link": "https://en.wikipedia.org/wiki/NGC_1386",
+      "name": "- the only Seyfert upload one in Fornax Cluster",
+      "type": "Seyfert galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/NGC_1386_-HST06419_02R791GB658n.png"
+    },
+    {
+      "constellations": "Fornax",
+      "distance": 51.9e6,
+      "id": "NGC 1427A",
+      "link": "https://en.wikipedia.org/wiki/NGC_1427A",
+      "name": "- brightest dwarf irregular member of the Fornax cluster",
+      "type": "Irregular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Irregular_galaxy_NGC_1427A_%28captured_by_the_Hubble_Space_Telescope%29.jpg/532px-Irregular_galaxy_NGC_1427A_%28captured_by_the_Hubble_Space_Telescope%29.jpg"
+    },
+    {
+      "constellations": "Fornax",
+      "distance": 62.8e6,
+      "id": "NGC 1460",
+      "link": "https://en.wikipedia.org/wiki/NGC_1460",
+      "name": "- member of Fornax Cluster",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NGC_1460_-HST10217_18-R850GB475.png/576px-NGC_1460_-HST10217_18-R850GB475.png"
     }
   ]
 }
