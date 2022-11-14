@@ -12,6 +12,21 @@ fetch("./astroData.json")
       }
     });
 
+    const numbOfObjects = Object.keys(data.astroObject).length;
+
+    const selectNumbOfObjectsElement = document.querySelector("#num-obj");
+    console.log(selectNumbOfObjectsElement);
+    const numP = document.createElement("p");
+    numP.textContent = `Number of astronomical objects: ${numbOfObjects}`;
+    selectNumbOfObjectsElement.appendChild(numP);
+
+    /*     main = document.querySelector("main");
+    myH2 = document.createElement("h2");
+    mySection = document.createElement("section");
+    myH2.textContent = astroData;
+    main.appendChild(myH2);
+    main.appendChild(mySection); */
+
     const selectElementType = document.querySelector("#astro-type");
     const selectElementConst = document.querySelector("#astro-const");
     const selectElementDist = document.querySelector("#astro-dist");

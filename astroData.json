@@ -1736,6 +1736,24 @@
       "name": "- member of Fornax Cluster",
       "type": "Lenticular galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NGC_1460_-HST10217_18-R850GB475.png/576px-NGC_1460_-HST10217_18-R850GB475.png"
+    },
+    {
+      "constellations": "Gemini",
+      "distance": 2970,
+      "id": "M 35",
+      "link": "https://en.wikipedia.org/wiki/Messier_35",
+      "name": "- M 35 upper right with NGC 2158",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/M35atlas.jpg/603px-M35atlas.jpg"
+    },
+    {
+      "constellations": "Gemini",
+      "distance": 6520,
+      "id": "NGC 2392",
+      "link": "https://en.wikipedia.org/wiki/Eskimo_Nebula",
+      "name": "Eskimo Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ngc2392.jpg/600px-Ngc2392.jpg"
     }
   ]
 }
