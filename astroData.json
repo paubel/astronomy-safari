@@ -1754,6 +1754,88 @@
       "name": "Eskimo Nebula",
       "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ngc2392.jpg/600px-Ngc2392.jpg"
+    },
+    {
+      "constellations": "Gemini",
+      "distance": 1500,
+      "id": "NGC 2392",
+      "link": "https://en.wikipedia.org/wiki/Medusa_Nebula",
+      "name": "Medusa Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Abell21_-_Noaoann09008a.jpg/602px-Abell21_-_Noaoann09008a.jpg"
+    },
+    {
+      "constellations": "Gemini",
+      "distance": 7200,
+      "id": "NGC 2129",
+      "link": "https://en.wikipedia.org/wiki/Medusa_Nebula",
+      "name": "Medusa Nebula",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/NGC2129_-_SDSS_DR14_%28panorama%29.jpg/600px-NGC2129_-_SDSS_DR14_%28panorama%29.jpg"
+    },
+    {
+      "constellations": "Gemini",
+      "distance": 7200,
+      "id": "NGC 2129",
+      "link": "https://en.wikipedia.org/wiki/Medusa_Nebula",
+      "name": "Medusa Nebula",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/NGC2129_-_SDSS_DR14_%28panorama%29.jpg/600px-NGC2129_-_SDSS_DR14_%28panorama%29.jpg"
+    },
+    {
+      "constellations": "Grus",
+      "distance": 3000,
+      "id": "IC 5148",
+      "link": "https://en.wikipedia.org/wiki/IC_5148",
+      "name": "Spare-tyre nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/From_Cosmic_Spare_Tyre_to_Ethereal_Blossom.tif/lossy-page1-600px-From_Cosmic_Spare_Tyre_to_Ethereal_Blossom.tif.jpg"
+    },
+    {
+      "constellations": "Grus",
+      "distance": 56e6,
+      "id": "NGC 7552",
+      "link": "https://en.wikipedia.org/wiki/NGC_7552",
+      "name": "- forms with three other spiral galaxies the Grus Quartet",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/NGC_7552_HST_31737678125_a8a55d8310_o.png/593px-NGC_7552_HST_31737678125_a8a55d8310_o.png"
+    },
+
+    {
+      "constellations": "Grus",
+      "distance": 69e6,
+      "id": "NGC 7582",
+      "link": "https://en.wikipedia.org/wiki/NGC_7582",
+      "name": "- forms with three other spiral galaxies the Grus Quartet",
+      "type": "Spiral galaxy",
+      "url": "https://www.gemini.edu/files/styles/hd/public/gallery/21017/20130808ngc7582f2final.jpg"
+    },
+    {
+      "constellations": "Grus",
+      "distance": 62e6,
+      "id": "Grus Quartet",
+      "link": "https://skyandtelescope.org/online-gallery/the-grus-quartet-galaxy-ngc-7552-7582-7590-7599/",
+      "name": "- NGC 7552, 7582, 7590 and 7599 forms the Grus Quartet",
+      "type": "Group galaxy",
+      "url": "https://cdn.astrobin.com/thumbs/2ldizbvr-sFp_620x0_eR_-8ChC.png"
+    },
+    {
+      "constellations": "Grus",
+      "distance": 37.5e6,
+      "id": "NGC 7424",
+      "link": "https://en.wikipedia.org/wiki/NGC_7424",
+      "name": "One supernova and two ultraluminous X-ray sources have been discovered in NGC 7424",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Phot-33c-04-fullres.jpg/538px-Phot-33c-04-fullres.jpg"
+    },
+    {
+      "constellations": "Grus",
+      "distance": 72e6,
+      "id": "NGC 7213",
+      "link": "https://en.wikipedia.org/wiki/NGC_7424",
+      "name": "- has a low-luminosity active galactic nuclei",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/NGC_7213_hst_09107_R814B555.png/600px-NGC_7213_hst_09107_R814B555.png"
     }
   ]
 }
