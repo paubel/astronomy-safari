@@ -887,7 +887,7 @@
       "id": "MS 0735.6+7421",
       "link": "https://en.wikipedia.org/wiki/MS_0735.6%2B7421#:~:text=MS%200735.6%2B7421%20is%20a,2.6%20billion%20light%2Dyears%20away",
       "name": "- Galaxy cluster - the location of one of the largest central galactic black holes in the known universe",
-      "type": "Group galaxy",
+      "type": "Cluster galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/MS_0735.jpg/598px-MS_0735.jpg"
     },
     {
@@ -1155,9 +1155,9 @@
       "constellations": "Centaurus",
       "distance": 171e6,
       "id": "A3526",
-      "link": "https://en.wikipedia.org/wiki/NGC_4650A",
+      "link": "https://en.wikipedia.org/wiki/Centaurus_Cluster",
       "name": "Centaurus Cluster",
-      "type": "Group galaxy",
+      "type": "Cluster galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Centaurus_cluster.png/600px-Centaurus_cluster.png"
     },
     {
@@ -1175,7 +1175,7 @@
       "id": "JKCS 041",
       "link": "https://en.wikipedia.org/wiki/JKCS_041",
       "name": "- at least 19 members in the cluster",
-      "type": "Group galaxy",
+      "type": "Cluster galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/JKCS_041.jpg/782px-JKCS_041.jpg"
     },
     {
@@ -1356,7 +1356,7 @@
       "id": "Virgo Cluster",
       "link": "https://en.wikipedia.org/wiki/Virgo_Cluster",
       "name": "- a large cluster of galaxies that alsp lies also in the constellation of Virgo",
-      "type": "Group galaxy",
+      "type": "Cluster galaxy",
       "url": "https://science.nasa.gov/science-pink/s3fs-public/styles/image_gallery_scale_960w/public/atoms/markarian_FernandoPena1024.jpg?itok=gF-DiSTu"
     },
     {
@@ -1680,7 +1680,7 @@
       "id": "Fornax Cluster",
       "link": "https://en.wikipedia.org/wiki/Fornax_Cluster",
       "name": "- At the centre of the cluster lies NGC 1399. Other cluster members include NGC 1316 (the group's brightest galaxy), NGC 1365, NGC 1427A, NGC 1427 and NGC 1404. The second richest galaxy cluster within 100 million light-years, after the considerably larger Virgo Cluster",
-      "type": "Group galaxy",
+      "type": "Cluster galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/VST_image_of_the_Fornax_Galaxy_Cluster.jpg/640px-VST_image_of_the_Fornax_Galaxy_Cluster.jpg"
     },
     {
@@ -1836,6 +1836,52 @@
       "name": "- has a low-luminosity active galactic nuclei",
       "type": "Lenticular galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/NGC_7213_hst_09107_R814B555.png/600px-NGC_7213_hst_09107_R814B555.png"
+    },
+    {
+      "constellations": "Horologium",
+      "distance": 53e3,
+      "id": "NGC 1261",
+      "link": "https://en.wikipedia.org/wiki/NGC_1261",
+      "name": "-  22 RR Lyrae variables have been discovered in this cluster",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Ngc_1261.jpg/600px-Ngc_1261.jpg"
+    },
+
+    {
+      "constellations": "Horologium",
+      "distance": 398e3,
+      "id": "Arp-Madore 1",
+      "link": "https://en.wikipedia.org/wiki/Arp-Madore_1",
+      "name": "- one of the most distant known globular clusters of the Milky Way galaxy's halo",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/AM1_hst_06512_02_R814GB555.png/600px-AM1_hst_06512_02_R814GB555.png"
+    },
+    {
+      "constellations": "Horologium",
+      "distance": 38e6,
+      "id": "NGC 1512",
+      "link": "https://en.wikipedia.org/wiki/NGC_1512",
+      "name": "- Gravitational tidal forces of NGC 1512 are influencing nearby dwarf lenticular galaxy NGC 1510",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/NGC_1512.jpg"
+    },
+    {
+      "constellations": "Horologium",
+      "distance": 38e6,
+      "id": "NGC 1510",
+      "link": "https://en.wikipedia.org/wiki/NGC_1512",
+      "name": "- is under the influence of gravitational tidal forces of the large neighbour barred spiral galaxy NGC 1512",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/NGC_1510_and_NGC_1512_in_UV_Light.jpg/600px-NGC_1510_and_NGC_1512_in_UV_Light.jpg"
+    },
+    {
+      "constellations": "Horologium",
+      "distance": 950e6,
+      "id": "Horologium-Reticulum Supercluster",
+      "link": "https://en.wikipedia.org/wiki/Horologium-Reticulum_Supercluster",
+      "name": "- has about 5,000 galaxy groups (30,000 giant galaxies and 300,000 dwarf galaxies)2",
+      "type": "Super-cluster galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Horologium_reticulum_supercluster.png/600px-Horologium_reticulum_supercluster.png"
     }
   ]
 }
