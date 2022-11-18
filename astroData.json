@@ -428,7 +428,7 @@
       "id": "NGC 7015",
       "link": "https://en.wikipedia.org/wiki/NGC_7015",
       "name": "- calculated velocity is 4,881 km/s",
-      "type": "Spiral galaxy ",
+      "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/NGC_7015_by_G%C3%B6ran_Nilsson_%26_The_Liverpool_Telescope.jpg/633px-NGC_7015_by_G%C3%B6ran_Nilsson_%26_The_Liverpool_Telescope.jpg"
     },
     {
@@ -527,7 +527,7 @@
       "id": "M 76",
       "link": "https://en.wikipedia.org/wiki/Little_Dumbbell_Nebula",
       "name": "Little Dumbbell Nebula",
-      "type": "Planetary nebula ",
+      "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Little_Dumbbell_Nebula_M76_by_Goran_Nilsson%2C_Wim_van_Berlo_%26_Liverpool_Telescope.jpg/605px-Little_Dumbbell_Nebula_M76_by_Goran_Nilsson%2C_Wim_van_Berlo_%26_Liverpool_Telescope.jpg"
     },
     {
@@ -617,7 +617,7 @@
       "id": "IC 5332",
       "link": "https://en.wikipedia.org/wiki/IC_5332",
       "name": "- as viewed from earth it is nearly face on",
-      "type": "Spiral galaxy ",
+      "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/IC_5332_-_HST.jpg/644px-IC_5332_-_HST.jpg"
     },
     {
@@ -833,7 +833,7 @@
       "id": "NGC 1679",
       "link": "https://www.constellation-guide.com/ngc-1679-in-caelum/",
       "name": "The galaxy is faint and pretty difficult to observe",
-      "type": "Spiral galaxy ",
+      "type": "Spiral galaxy",
       "url": "https://www.constellation-guide.com/wp-content/uploads/2021/07/NGC-1679.webp"
     },
     {
@@ -1879,9 +1879,99 @@
       "distance": 950e6,
       "id": "Horologium-Reticulum Supercluster",
       "link": "https://en.wikipedia.org/wiki/Horologium-Reticulum_Supercluster",
-      "name": "- has about 5,000 galaxy groups (30,000 giant galaxies and 300,000 dwarf galaxies)2",
+      "name": "- has about 5,000 galaxy groups (30,000 giant galaxies and 300,000 dwarf galaxies)",
       "type": "Super-cluster galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Horologium_reticulum_supercluster.png/600px-Horologium_reticulum_supercluster.png"
+    },
+    {
+      "constellations": "Hydra",
+      "distance": 14.7e6,
+      "id": "M 83",
+      "link": "https://en.wikipedia.org/wiki/Messier_83",
+      "name": "Southern Pinwheel",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Hubble_view_of_barred_spiral_galaxy_Messier_83.jpg/640px-Hubble_view_of_barred_spiral_galaxy_Messier_83.jpg"
+    },
+    {
+      "constellations": "Hydra",
+      "distance": 33.6e3,
+      "id": "M 68",
+      "link": "https://en.wikipedia.org/wiki/Messier_68",
+      "name": "- as of 2015, 50 variable stars have been identified in this cluster",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Messier_68_Hubble_WikiSky.jpg/600px-Messier_68_Hubble_WikiSky.jpg"
+    },
+    {
+      "constellations": "Hydra",
+      "distance": 2500,
+      "id": "M 48",
+      "link": "https://en.wikipedia.org/wiki/Messier_48",
+      "name": "- intermediate in age between the Pleiades, at around 100 Myr, and the Hyades, at about 650 My",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/M48_Mazur.jpg/636px-M48_Mazur.jpg"
+    },
+    {
+      "constellations": "Hydra",
+      "distance": 4800,
+      "id": "NGC 3242",
+      "link": "https://en.wikipedia.org/wiki/NGC_3242",
+      "name": "Ghost of Jupiter",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/NGC_3242_%22Ghost_of_Jupiter%22.png/618px-NGC_3242_%22Ghost_of_Jupiter%22.png"
+    },
+    {
+      "constellations": "Hydra",
+      "distance": 2700,
+      "id": "Abell 33",
+      "link": "https://en.wikipedia.org/wiki/Abell_33",
+      "name": "-the star HD 83535 is responsible for the 'diamond ring' effect seen in the photograph",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Abell33s.jpg/640px-Abell33s.jpg"
+    },
+    {
+      "constellations": "Hydra",
+      "distance": 117e6,
+      "id": "NGC 3314",
+      "link": "https://en.wikipedia.org/wiki/NGC_3314",
+      "name": "- a pair of overlapping spiral galaxies between 117 and 140 million light-years away. Members of the Hydra Cluster",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Hubble_view_of_NGC_3314_-_Heic1208a.tif/lossy-page1-671px-Hubble_view_of_NGC_3314_-_Heic1208a.tif.jpg"
+    },
+    {
+      "constellations": "Hydra",
+      "distance": 150e6,
+      "id": "ESO 510-G13",
+      "link": "https://en.wikipedia.org/wiki/ESO_510-G13",
+      "name": "- the equatorial dust cloud is heavily warped",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Warped_galaxy.jpg/640px-Warped_galaxy.jpg"
+    },
+    {
+      "constellations": "Hydra",
+      "distance": 22e6,
+      "id": "NGC 5068",
+      "link": "https://en.wikipedia.org/wiki/NGC_5068",
+      "name": "- has a diameter that exceeds 45000 light-years",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NGC_5068_PanS.jpg/640px-NGC_5068_PanS.jpg"
+    },
+    {
+      "constellations": "Hydra",
+      "distance": 144e6,
+      "id": "NGC 4993",
+      "link": "https://en.wikipedia.org/wiki/NGC_4993",
+      "name": "- insert showing GW 170817 that was a gravitational wave that produced by the last minutes of two neutron stars spiralling closer to each other and finally merging",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/NGC_4993_and_GRB170817A_after_glow.gif"
+    },
+    {
+      "constellations": "Hydra",
+      "distance": 191e6,
+      "id": "Abell 1060",
+      "link": "https://en.wikipedia.org/wiki/Hydra_Cluster",
+      "name": "- contains 157 bright galaxies. Spans about ten million light-years and has an unusually high proportion of dark matter",
+      "type": "Cluster galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hydra_cluster.png/600px-Hydra_cluster.png"
     }
   ]
 }
