@@ -1972,6 +1972,43 @@
       "name": "- contains 157 bright galaxies. Spans about ten million light-years and has an unusually high proportion of dark matter",
       "type": "Cluster galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hydra_cluster.png/600px-Hydra_cluster.png"
+    },
+    {
+      "constellations": "Hydrus",
+      "distance": 158e6,
+      "id": "NGC 1466",
+      "link": "https://en.wikipedia.org/wiki/NGC_1466",
+      "name": "- located in the outskirts of the Large Magellanic Cloud",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/NGC1466_-_HST_-_Potw1852a.tif/lossy-page1-605px-NGC1466_-_HST_-_Potw1852a.tif.jpg"
+    },
+    {
+      "constellations": "Hydrus",
+      "distance": 345e6,
+      "id": "PGC 6240",
+      "link": "https://en.wikipedia.org/wiki/PGC_6240",
+      "name": "White Rose Galaxy",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Hubble_image_of_PGC_6240.jpg/594px-Hubble_image_of_PGC_6240.jpg"
+    },
+
+    {
+      "constellations": "Indus",
+      "distance": 100e6,
+      "id": "NGC 7049",
+      "link": "https://en.wikipedia.org/wiki/NGC_7049",
+      "name": "- appearance is largely due to a prominent rope-like dust ring which stands out against the starlight behind it",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/NGC_7049aa.jpg/543px-NGC_7049aa.jpg"
+    },
+    {
+      "constellations": "Indus",
+      "distance": 31e6,
+      "id": "NGC 7090",
+      "link": "https://en.wikipedia.org/wiki/NGC_7090",
+      "name": "- spiral with loosely-wound and somewhat disorganized arms",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/NGC_7090_spiral_galaxy_by_Hubble_Space_Telescope.jpg/520px-NGC_7090_spiral_galaxy_by_Hubble_Space_Telescope.jpg"
     }
   ]
 }
