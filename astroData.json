@@ -2078,9 +2078,18 @@
       "distance": 37e6,
       "id": "M96 Group",
       "link": "https://en.wikipedia.org/wiki/NGC_3384",
-      "name": "- alaso called the Leo I Group. Contains between 8 and 24 galaxies, one of many groups that lies within the Virgo Supercluster",
+      "name": "- also called the Leo I Group. Contains between 8 and 24 galaxies, one of many groups that lies within the Virgo Supercluster",
       "type": "Group galaxy",
       "url": "https://static.wixstatic.com/media/d8a647_df4b826bd50345fd90fbc148b6cd3aa9.jpg/v1/fill/w_940,h_564,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d8a647_df4b826bd50345fd90fbc148b6cd3aa9.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 5.2e9,
+      "id": "Cosmic Horseshoe",
+      "link": "https://en.wikipedia.org/wiki/Cosmic_Horseshoe",
+      "name": "- nickname given to a gravitationally lensed system of two galaxies ",
+      "type": "Group galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/A_Horseshoe_Einstein_Ring_from_Hubble.JPG/640px-A_Horseshoe_Einstein_Ring_from_Hubble.JPG"
     }
   ]
 }
