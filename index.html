@@ -50,18 +50,6 @@
                             <option value="Group galaxy">Group of galaxies</option>
                             <option value="Super-cluster galaxy">Supercluster</option>
                         </optgroup>
-                        <optgroup label="Nebulae">
-                            <option value="Nebula" class="optionGroup">Nebulae</option>
-                            <option value="Dark nebula">Dark nebula</option>
-                            <option value="Diffuse nebula">Diffuse nebula</option>
-
-                            <option value="Emission nebula">Emission nebulae</option>
-                            <option value="Planetary nebula">Planetary nebulae</option>
-                            <option value="Reflection nebula">Reflection nebulae</option>
-                            <option value="Star-forming nebula">Starforming nebulae</option>
-                            <option value="Supernova-remnant nebula">Supernova remnant</option>
-                            <option value="X-ray nebula">X-ray nebula</option>
-                        </optgroup>
                         <optgroup label="Clusters">
                             <option value="Cluster" class="optionGroup">Clusters</option>
                             <option value="Globular cluster">Globular clusters</option>
@@ -69,6 +57,22 @@
                             <option value="Super-star cluster">Super star cluster
                             </option>
                         </optgroup>
+                        <optgroup label="Nebulae">
+                            <option value="Nebula" class="optionGroup">Nebulae</option>
+                            <option value="Dark nebula">Dark nebula</option>
+                            <option value="Diffuse nebula">Diffuse nebula</option>
+                            <option value="Emission nebula">Emission nebulae</option>
+                            <option value="Planetary nebula">Planetary nebulae</option>
+                            <option value="Reflection nebula">Reflection nebulae</option>
+                            <option value="Star-forming nebula">Starforming nebulae</option>
+                            <option value="Supernova-remnant nebula">Supernova remnant</option>
+                            <option value="X-ray nebula">X-ray nebula</option>
+                        </optgroup>
+                        <optgroup label="Gas Cloud">
+                            <option value="Intergalactic cloud" class="optionGroup">Intergalactic cloud</option>
+
+                        </optgroup>
+
                     </select>
                 </label>
                 <label for="astro-const" class="astro-const">
@@ -199,30 +203,57 @@
             </nav>
         </header>
         <main>
-            <h3>Welcome to Space Safari</h3>
-            <div id="num-obj">
+            <div class="start-page">
+                <article>
+                    <h3>Welcome to Space Safari</h3>
+                    <div id="num-obj">
+                    </div>
+                    <p class="start-text">
+                    <p>On this web page you can look at images of astronomical objects. In the menu
+                        “Type of object" you can choose between different types of galaxies and nebulae, and in the
+                        menu “Constellation” you can choose one of the 88 constellations and look at images of
+                        astronomical objects that belong to that constellation.
+                        If you are interested in finding out how far away an astronomical object is then click on the
+                        menu
+                        "Distance" and choose a range between different lightyears.</p>
+                    <p>Some objects could fit inside multiple categories. For example NGC 604 is an an huge starforming
+                        H II
+                        region inside the Triangulum Galaxy. According to <a
+                            href="http://annesastronomynews.com/photo-gallery-ii/nebulae-clouds/converted-pnm-file/">Anne's
+                            Astronomy News:</a> <i>NGC 604 is an emission nebula, a star-forming (H II) region of nearly
+                            1,500
+                            light-years across, located in a spiral arm of the Triangulum Galaxy</i> but some other
+                        sources
+                        do
+                        not mention that it is an emission nebula. Then i usually out it in a category that most soures
+                        agree
+                        upon. </p>
+                </article>
+                <aside>
+                    <h3>Sources</h3>
+                    <div class="sources">
+
+                        <a href="http://www.atlasoftheuniverse.com/" target="_blank">An Atlas of The Universe</a>
+                        <a href="http://annesastronomynews.com/" target="_blank">Anne's Astronomy News</a>
+                        <a href="http://www.astronexus.com/index.php" target="_blank">The Astronomy Nexus</a>
+                        <a href="https://www.constellation-guide.com/" target="_blank">Constellation Guide</a>
+                        <a href="http://www.constellationdirectory.org/" target="_blank">The Constellation Directory</a>
+
+                        <a href="https://www.deepskycorner.ch/index.en.php" target="_blank">Deep⋆Sky Corner</a>
+                        <a href="https://www.nexstarsite.com/Book/DSO.htm" target="_blank">NexStar Resource Site</a>
+
+
+                        <a href="https://throughlightandtime.com/" target="_blank">THROUGH LIGHT AND TIME</a>
+                        <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>
+                        <!--   <a href="" target="_blank">xxx</a> -->
+
+                    </div>
+                </aside>
             </div>
-            <p class="start-text">
-            <p>On this web page you can look at images of astronomical objects. In the menu
-                “Type of object" you can choose between different types of galaxies and nebulae, and in the
-                menu “Constellation” you can choose one of the 88 constellations and look at images of
-                astronomical objects that belong to that constellation.
-                If you are interested in finding out how far away an astronomical object is then click on the menu
-                "Distance" and choose a range between different lightyears.</p>
-            <p>Some objects could fit inside multiple categories. For example NGC 604 is an an huge starforming H II
-                region inside the Triangulum Galaxy. According to <a
-                    href="http://annesastronomynews.com/photo-gallery-ii/nebulae-clouds/converted-pnm-file/">Anne's
-                    Astronomy News:</a> <i>NGC 604 is an emission nebula, a star-forming (H II) region of nearly 1,500
-                    light-years across, located in a spiral arm of the Triangulum Galaxy</i> but some other sources do
-                not mention that it is an emission nebula. Then i usually out it in a category that most soures agree
-                upon. </p>
-
-            <h3>Sources</h3>
-            <a href="https://www.wikipedia.org/">Wikipedia</a>
-
-
-
         </main>
+
+
+
     </div>
 </body>
 

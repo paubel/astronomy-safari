@@ -2009,6 +2009,78 @@
       "name": "- spiral with loosely-wound and somewhat disorganized arms",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/NGC_7090_spiral_galaxy_by_Hubble_Space_Telescope.jpg/520px-NGC_7090_spiral_galaxy_by_Hubble_Space_Telescope.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 31e6,
+      "id": "M 66",
+      "link": "https://en.wikipedia.org/wiki/NGC_7090",
+      "name": "- galaxy is a member of a small group of galaxies that includes M65 and NGC 3628, known as the Leo Triplets",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Phot-33c-03-fullres.jpg/601px-Phot-33c-03-fullres.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 32.6e6,
+      "id": "M 95",
+      "link": "https://en.wikipedia.org/wiki/Messier_95",
+      "name": "- a Type II supernova, designated as SN 2012aw, was discovered within in 2012",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/M95_-_HST_-_Potw1841a.tiff/lossy-page1-500px-M95_-_HST_-_Potw1841a.tiff.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 31e6,
+      "id": "M 96",
+      "link": "https://en.wikipedia.org/wiki/Messier_96",
+      "name": "- is the brightest galaxy within the M96 Group, a group of galaxies in Leo, the other Messier objects of which are M95 and M105. To this are added at least nine other galaxies",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/A_galactic_maelstrom.jpg/588px-A_galactic_maelstrom.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 36.6e6,
+      "id": "M 105",
+      "link": "https://en.wikipedia.org/wiki/Messier_105",
+      "name": "-  is known to have a supermassive black hole at its core",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Messier105_-_HST_-_Potw1901a.jpg/591px-Messier105_-_HST_-_Potw1901a.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 36.6e6,
+      "id": "NGC 3628",
+      "link": "https://en.wikipedia.org/wiki/NGC_3628",
+      "name": "Hamburger Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/NGC3628_Zoom.jpg/640px-NGC3628_Zoom.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 38e6,
+      "id": "Leo Ring",
+      "link": "https://en.wikipedia.org/wiki/Leo_Ring",
+      "name": "- is an immense intergalactic cloud of hydrogen and helium gas some 650 kilolight-years (200 kpc) in diameter, in orbit of two galaxies, in the center of the Leo Group of galaxies. It has been suggested that 1.2 billion years ago, NGC 3384 collided with M96, at the heart of the Leo Group, expelling a galaxy's worth of gas into intergalactic space. This gas gathered into a vast set of clouds, the Leo Ring",
+      "type": "Intergalactic cloud",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Leo_Ring.jpg/401px-Leo_Ring.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 35.1e6,
+      "id": "NGC 3384",
+      "link": "https://en.wikipedia.org/wiki/NGC_3384",
+      "name": "- is a member of the M96 Group,",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Settling_into_old_age_NGC_3384.jpg/580px-Settling_into_old_age_NGC_3384.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 37e6,
+      "id": "M96 Group",
+      "link": "https://en.wikipedia.org/wiki/NGC_3384",
+      "name": "- alaso called the Leo I Group. Contains between 8 and 24 galaxies, one of many groups that lies within the Virgo Supercluster",
+      "type": "Group galaxy",
+      "url": "https://static.wixstatic.com/media/d8a647_df4b826bd50345fd90fbc148b6cd3aa9.jpg/v1/fill/w_940,h_564,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d8a647_df4b826bd50345fd90fbc148b6cd3aa9.jpg"
     }
   ]
 }
