@@ -53,6 +53,8 @@ p {
   padding: 0 1vw;
   display: grid;
   grid-template-columns: 1fr;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 
   place-items: center center;
@@ -188,11 +190,18 @@ figure img {
   grid-template-columns: repeat(1, 1fr);
 }
 
-article {
+article,
+footer {
   padding: 1vw 1vh;
   background-color: #01302699;
   border-radius: 10px;
   margin-right: 1vw;
+}
+
+footer {
+  padding: 5px;
+  font-size: 0.6rem;
+  margin-bottom: 5px;
 }
 
 @media (min-width: 750px) {

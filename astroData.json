@@ -2117,6 +2117,42 @@
       "name": "-  interaction with UGC 5983, a near by dwarf galaxy, it features tidal filaments and intense star formation",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Ngc3432-hst-625-R814GB450.jpg/600px-Ngc3432-hst-625-R814GB450.jpg"
+    },
+    {
+      "constellations": "Leo Minor",
+      "distance": 63.6e6,
+      "id": "NGC 3003",
+      "link": "https://en.wikipedia.org/wiki/NGC_3432",
+      "name": "- in 1961, a type II supernova with an apparent magnitude of 13.0 was detected within the galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/NGC3003_-_SDSS_DR14.jpg/600px-NGC3003_-_SDSS_DR14.jpg"
+    },
+    {
+      "constellations": "Leo Minor",
+      "distance": 35e6,
+      "id": "NGC 3504",
+      "link": "https://en.wikipedia.org/wiki/NGC_3504",
+      "name": "- a large amount of molecular gas centered on the galactic nucleus",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/N3504s.jpg/640px-N3504s.jpg"
+    },
+    {
+      "constellations": "Leo Minor",
+      "distance": 27.4e6,
+      "id": "NGC 3486",
+      "link": "https://en.wikipedia.org/wiki/NGC_3486",
+      "name": "- low-luminosity Seyfert galaxy with an active nucleus",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/NGC3486-hst-R814GB450.jpg/600px-NGC3486-hst-R814GB450.jpg"
+    },
+    {
+      "constellations": "Leo Minor",
+      "distance": 82.8e6,
+      "id": "NGC 2859",
+      "link": "https://en.wikipedia.org/wiki/NGC_2859",
+      "name": "- low-luminosity Seyfert galaxy with an active nucleus",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/NGC_2859_HST_9788_14_R814asinhG814logB658n.png/600px-NGC_2859_HST_9788_14_R814asinhG814logB658n.png"
     }
   ]
 }
