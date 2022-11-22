@@ -1562,7 +1562,7 @@
       "distance": 170e3,
       "id": "NGC 2074",
       "link": "https://en.wikipedia.org/wiki/NGC_2074",
-      "name": " - Seahorse nebula in the Tarantula Nebula in the Large Magellanic Cloud",
+      "name": "Seahorse nebula in the Tarantula Nebula in the Large Magellanic Cloud",
       "type": "Emission nebula",
       "url": "http://annesastronomynews.com/wp-content/uploads/2012/02/NGC-2074-The-Seahorse.jpg"
     },
@@ -2090,6 +2090,32 @@
       "name": "- nickname given to a gravitationally lensed system of two galaxies ",
       "type": "Group galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/A_Horseshoe_Einstein_Ring_from_Hubble.JPG/640px-A_Horseshoe_Einstein_Ring_from_Hubble.JPG"
-    }
+    },
+    {
+      "constellations": "Leo",
+      "distance": 30.4e6,
+      "id": "NGC 2903",
+      "link": "https://en.wikipedia.org/wiki/Cosmic_Horseshoe",
+      "name": "- member of the Virgo Supercluster",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/NGC_2903_GALEX.jpg/600px-NGC_2903_GALEX.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 338.6e6,
+      "id": "Leo Cluster",
+      "link": "https://en.wikipedia.org/wiki/Leo_Cluster",
+      "name": "- member of the Virgo Supercluster",
+      "type": "Cluster galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/A1367.jpg"
+    },
+    {
+      "constellations": "Leo Minor",
+      "distance": 38.2e6,
+      "id": "NGC 3432",
+      "link": "https://en.wikipedia.org/wiki/NGC_3432",
+      "name": "-  interaction with UGC 5983, a near by dwarf galaxy, it features tidal filaments and intense star formation",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Ngc3432-hst-625-R814GB450.jpg/600px-Ngc3432-hst-625-R814GB450.jpg"
   ]
 }

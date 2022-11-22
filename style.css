@@ -42,6 +42,9 @@ h3 {
   color: var(--green-100);
   text-align: center;
 }
+p {
+  margin-bottom: 1.2vh;
+}
 
 .container {
   /*   min-height: 80vh; */
@@ -183,6 +186,13 @@ figure img {
   display: grid;
 
   grid-template-columns: repeat(1, 1fr);
+}
+
+article {
+  padding: 1vw 1vh;
+  background-color: #01302699;
+  border-radius: 10px;
+  margin-right: 1vw;
 }
 
 @media (min-width: 750px) {
