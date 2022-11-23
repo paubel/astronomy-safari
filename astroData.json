@@ -2153,6 +2153,51 @@
       "name": "- low-luminosity Seyfert galaxy with an active nucleus",
       "type": "Lenticular galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/NGC_2859_HST_9788_14_R814asinhG814logB658n.png/600px-NGC_2859_HST_9788_14_R814asinhG814logB658n.png"
+    },
+    {
+      "constellations": "Lepus",
+      "distance": 12.9e3,
+      "id": "M 79",
+      "link": "https://en.wikipedia.org/wiki/Messier_79",
+      "name": "- low-luminosity Seyfert galaxy with an active nucleus",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/A_snowstorm_of_stars.jpg/640px-A_snowstorm_of_stars.jpg"
+    },
+    {
+      "constellations": "Libra",
+      "distance": 24.1e3,
+      "id": "NGC 5897",
+      "link": "https://en.wikipedia.org/wiki/NGC_5897",
+      "name": "- this satellite of the Milky Way, which is quite remote",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/NGC5897-NRGBhi.jpg/320px-NGC5897-NRGBhi.jpg"
+    },
+    {
+      "constellations": "Lupus",
+      "distance": 7.7e3,
+      "id": "NGC 5882",
+      "link": "https://en.wikipedia.org/wiki/NGC_5882",
+      "name": "- nebular region consists of the cast-off outer atmosphere of an aging star",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/NGC5897-NRGBhi.jpg/320px-NGC5897-NRGBhi.jpg"
+    },
+    {
+      "constellations": "Lupus",
+      "distance": 500,
+      "id": "B 228",
+      "link": "https://telescope.live/gallery/b228-aka-dark-wolf-nebula#:~:text=The%20distance%20ranges%20from%20326,in%20the%20constellation%20of%20Lupus.",
+      "name": "Dark Wolf Nebula",
+      "type": "Dark nebula",
+      "url": "https://telescope.live/sites/default/files/styles/photo_main/public/2022-08/2744BBE9-A269-4457-899D-46AF75C64824.jpeg?itok=VyqUJypE"
+    },
+    {
+      "constellations": "Lupus",
+      "distance": 7200,
+      "id": "SN 1006",
+      "link": "https://telescope.live/gallery/b228-aka-dark-wolf-nebula#:~:text=The%20distance%20ranges%20from%20326,in%20the%20constellation%20of%20Lupus.",
+      "name": "- was a supernova that is likely the brightest observed stellar event in recorded history, reaching an estimated −7.5 visual magnitude, and exceeding roughly sixteen times the brightness of Venus",
+      "type": "Supernova-remnant nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/SN_1006.jpg/600px-SN_1006.jpg"
     }
   ]
 }
