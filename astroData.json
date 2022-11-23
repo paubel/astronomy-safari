@@ -2198,6 +2198,24 @@
       "name": "- was a supernova that is likely the brightest observed stellar event in recorded history, reaching an estimated −7.5 visual magnitude, and exceeding roughly sixteen times the brightness of Venus",
       "type": "Supernova-remnant nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/SN_1006.jpg/600px-SN_1006.jpg"
+    },
+    {
+      "constellations": "Lynx",
+      "distance": 275e6,
+      "id": "NGC 2419",
+      "link": "https://telescope.live/gallery/b228-aka-dark-wolf-nebula#:~:text=The%20distance%20ranges%20from%20326,in%20the%20constellation%20of%20Lupus.",
+      "name": "- its orbit takes it further away from the galactic center than the Magellanic Clouds, but it can (with qualifications) be considered as part of the Milky Way. At this great distance it takes three billion years to make one trip around the galaxy",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Caldwell_25.jpg/603px-Caldwell_25.jpg"
+    },
+    {
+      "constellations": "Lynx",
+      "distance": 22e6,
+      "id": "NGC 2537",
+      "link": "https://telescope.live/gallery/b228-aka-dark-wolf-nebula#:~:text=The%20distance%20ranges%20from%20326,in%20the%20constellation%20of%20Lupus.",
+      "name": "- Bear Paw Galaxy",
+      "type": "Dwarf galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/NGC2537_-_SDSS_DR14.jpg/600px-NGC2537_-_SDSS_DR14.jpg"
     }
   ]
 }
