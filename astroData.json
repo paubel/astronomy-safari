@@ -2216,6 +2216,33 @@
       "name": "- Bear Paw Galaxy",
       "type": "Dwarf galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/NGC2537_-_SDSS_DR14.jpg/600px-NGC2537_-_SDSS_DR14.jpg"
+    },
+    {
+      "constellations": "Lynx",
+      "distance": 77e6,
+      "id": "NGC 2770",
+      "link": "https://en.wikipedia.org/wiki/NGC_2770",
+      "name": "- as of 2017, up to four supernovae events have been discovered in this galax",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/86/NGC_2770_Gemini.jpg"
+    },
+    {
+      "constellations": "Lynx",
+      "distance": 23.6e9,
+      "id": "APM 08279+5255",
+      "link": "https://en.wikipedia.org/wiki/APM_08279%2B5255",
+      "name": "- it appears to be a giant elliptical galaxy with a supermassive black hole and associated accretion disk",
+      "type": "Quasar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Quasar_Mark_Johnston.jpg/689px-Quasar_Mark_Johnston.jpg"
+    },
+    {
+      "constellations": "Lynx",
+      "distance": 12e9,
+      "id": "Lynx Arc",
+      "link": "https://en.wikipedia.org/wiki/Lynx_Arc",
+      "name": "- the image is an artist impression. Considered to be the hottest known star-birthing region in the Universe. ",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/2003-32-GravitationalLens.jpg/600px-2003-32-GravitationalLens.jpg"
     }
   ]
 }
