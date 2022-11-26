@@ -42,9 +42,6 @@ h3 {
   color: var(--green-100);
   text-align: center;
 }
-p {
-  margin-bottom: 1.2vh;
-}
 
 .container {
   /*   min-height: 80vh; */
@@ -137,6 +134,7 @@ figure figcaption {
 }
 .start-text {
   width: 60vw;
+  margin-bottom: 1.2vh;
 }
 
 .menu-button {
@@ -200,9 +198,42 @@ footer {
 
 footer {
   padding: 5px;
-  font-size: 0.6rem;
-  margin-bottom: 5px;
+  font-size: 0.8rem;
+  margin-bottom: 0.5vh;
 }
+
+.disclaimer {
+  font-size: 0.6rem;
+}
+
+/*Contact start*/
+.soc-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.soc-media a:nth-of-type(1):after {
+  content: "Twitter";
+}
+.soc-media a:nth-of-type(2):after {
+  content: "LinkedIn";
+}
+.soc-media a:nth-of-type(3):after {
+  content: "YouTube";
+}
+
+.soc-media a:nth-of-type(4):after {
+  content: "Email";
+}
+
+@media (min-width: 600px) {
+  .soc-media {
+    display: flex;
+    flex-direction: row;
+  }
+}
+/*Contact end*/
 
 @media (min-width: 750px) {
   nav {
