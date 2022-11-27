@@ -15,7 +15,7 @@ fetch("./astroData.json")
     const numbOfObjects = Object.keys(data.astroObject).length;
 
     const selectNumbOfObjectsElement = document.querySelector("#num-obj");
-    console.log(selectNumbOfObjectsElement);
+    /*     console.log(selectNumbOfObjectsElement); */
     const numP = document.createElement("p");
     numP.textContent = `Number of astronomical objects: ${numbOfObjects}`;
     selectNumbOfObjectsElement.appendChild(numP);
