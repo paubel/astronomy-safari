@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B13NZ97YS4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-B13NZ97YS4');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="On this web page you can look at images of astronomical objects.">
+    <title>Astronomy Safari</title>
+    <link rel="icon" type="image/x-icon" href="./astro-safari.ico">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./scriptAstro.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Astronomy Safari - Explanation</h1>
+
+            <nav>
+
+                <a class="menu-button" href="./index.html">Start</a>
+                <a class="menu-button" href="./explanation-of-astronomical-terms.html">Objects explained</a>
+                <!--                 <a class="menu-button" href="./d3-celestial.html">Skymap</a> -->
+                <label for="astro-type" class="astro-type">
+                    <select id="astro-type">
+
+                        <option value="">Type of object</option>
+                        <option value="All objects">All objects</option>
+                        <optgroup label="Galaxies">
+                            <option value="Galaxy" class="optionGroup">Galaxies</option>
+                            <option value="Elliptical galaxy">Elliptical galaxies</option>
+                            <option value="Distant galaxy">Distant galaxy</option>
+                            <option value="Dwarf galaxy">Dwarf galaxy</option>
+                            <option value="Interacting galaxy">Interacting galaxies</option>
+                            <option value="Irregular galaxy">Irregular galaxies</option>
+                            <option value="Lenticular galaxy">Lenticular galaxy</option>
+                            <option value="Quasar galaxy">Quasar</option>
+                            <option value="Ring galaxy">Ring galaxy</option>
+                            <option value="Seyfert galaxy">Seyfert galaxy</option>
+                            <option value="Spiral galaxy">Spiral galaxies</option>
+
+                        </optgroup>
+                        <optgroup label="Multiple Galaxies">
+                            <option value="Cluster galaxy">Cluster</option>
+                            <option value="Group galaxy">Group of galaxies</option>
+                            <option value="Super-cluster galaxy">Supercluster</option>
+                        </optgroup>
+                        <optgroup label="Clusters">
+                            <option value="Cluster" class="optionGroup">Clusters</option>
+                            <option value="Globular cluster">Globular clusters</option>
+                            <option value="Open cluster">Open clusters</option>
+                            <option value="Super-star cluster">Super star cluster
+                            </option>
+                        </optgroup>
+                        <optgroup label="Nebulae">
+                            <option value="Nebula" class="optionGroup">Nebulae</option>
+                            <option value="Dark nebula">Dark nebula</option>
+
+                            <option value="Emission nebula">Emission nebulae</option>
+                            <option value="Planetary nebula">Planetary nebulae</option>
+                            <option value="Reflection nebula">Reflection nebulae</option>
+                            <option value="Star-forming nebula">Starforming nebulae</option>
+                            <option value="Supernova-remnant nebula">Supernova remnant</option>
+                            <option value="Variable nebula">Variable nebula</option>
+
+                        </optgroup>
+
+
+                    </select>
+                </label>
+                <label for="astro-const" class="astro-const">
+                    <select id="astro-const">
+                        <option value="">Constellations</option>
+                        <optgroup label="A">
+
+                            <option value="Andromeda">Andromeda</option>
+                            <option value="Antilia">Antilia</option>
+                            <option value="Apus">Apus</option>
+                            <option value="Ara">Ara</option>
+                            <option value="Aries">Aries</option>
+
+                            <option value="Aquarius">Aquarius</option>
+                            <option value="Aquila">Aquila</option>
+                            <option value="Auriga">Auriga</option>
+
+                        </optgroup>
+                        <optgroup label="B">
+                            <option value="Boötes">Boötes</option>
+                        </optgroup>
+                        <optgroup label="C">
+                            <option value="Caelum">Caelum</option>
+                            <option value="Camelopardalis">Camelopardalis</option>
+                            <option value="Cancer">Cancer</option>
+                            <option value="Canes Venatici">Canes Venatici</option>
+                            <option value="Canis Major">Canis Major</option>
+                            <option value="Canis Minor">Canis Minor</option>
+                            <option value="Capricornus">Capricornus</option>
+                            <option value="Carina">Carina</option>
+                            <option value="Cassiopeia">Cassiopeia</option>
+                            <option value="Centaurus">Centaurus</option>
+                            <option value="Cepheus">Cepheus</option>
+                            <option value="Cetus">Cetus</option>
+                            <option value="Chamaeleon">Chamaeleon</option>
+                            <option value="Circinus">Circinus</option>
+                            <option value="Columba">Columba</option>
+                            <option value="Coma Berenices">Coma Berenices</option>
+                            <option value="Corona Australis">Corona Australis</option>
+                            <option value="Corvus">Corvus</option>
+                            <option value="Crater">Crater</option>
+                            <option value="Crux">Crux</option>
+                            <option value="Cygnus">Cygnus</option>
+                        </optgroup>
+                        <optgroup label="D">
+                            <option value="Delphinus">Delphinus</option>
+                            <option value="Dorado">Dorado</option>
+                            <option value="Draco">Draco</option>
+                        </optgroup>
+                        <optgroup label="E">
+                            <option value="Equuleus">Equuleus</option>
+                            <option value="Eridanus">Eridanus</option>
+                        </optgroup>
+                        <optgroup label="F">
+                            <option value="Fornax">Fornax</option>
+                        </optgroup>
+                        <optgroup label="G">
+                            <option value="Gemini">Gemini</option>
+                            <option value="Grus">Grus</option>
+                        </optgroup>
+                        <optgroup label="H">
+                            <option value="Hercules">Hercules</option>
+                            <option value="Horologium">Horologium</option>
+                            <option value="Hydra">Hydra</option>
+                            <option value="Hydrus">Hydrus</option>
+                        </optgroup>
+                        <optgroup label="I">
+                            <option value="Indus">Indus</option>
+                        </optgroup>
+                        <optgroup label="L">
+                            <option value="Lacerta">Lacerta</option>
+                            <option value="Leo">Leo</option>
+                            <option value="Leo Minor">Leo Minor</option>
+                            <option value="Lepus">Lepus</option>
+                            <option value="Libra">Libra</option>
+                            <option value="Lupus">Lupus</option>
+                            <option value="Lynx">Lynx</option>
+                            <option value="Lyra">Lyra</option>
+                        </optgroup>
+                        <optgroup label="M">
+                            <option value="Mensa">Mensa</option>
+                            <option value="Microscopium">Microscopium</option>
+                            <option value="Monoceros">Monoceros</option>
+                            <option value="Musca">Musca</option>
+
+                        </optgroup>
+                        <optgroup label="O">
+                            <option value="Ophiuchus">Ophiuchus</option>
+
+                        </optgroup>
+                        <optgroup label="P">
+                            <option value="Pegasus">Pegasus</option>
+
+                        </optgroup>
+                        <optgroup label="S">
+                            <option value="Sagitta">Sagitta</option>
+                            <option value="Serpens Caput">Serpens Caput</option>
+                        </optgroup>
+                        <optgroup label="T">
+                            <option value="Triangulum">Triangulum</option>
+
+                        </optgroup>
+                        <optgroup label="U">
+                            <option value="Ursa Major">Ursa Major</option>
+
+                        </optgroup>
+                        <optgroup label="V">
+                            <option value="Vulpecula">Vulpecula</option>
+
+                        </optgroup>
+                        <optgroup label="S">
+                            <option value="Sculptor">Sculptor</option>
+                            <option value="Sagitta">Sagitta</option>
+                        </optgroup>
+
+
+                    </select>
+                </label>
+                <label for="astro-dist" class="astro-dist">
+                    <select id="astro-dist">
+                        <option value="">Distance</option>
+                        <optgroup label="A">
+                            <option value="100">100 ly - 1 kly</option>
+                            <option value="1000">1 kly - 10 kly</option>
+                            <option value="10000">10 kly - 100 kly</option>
+                            <option value="100000">100 kly - 1 Mly</option>
+                            <option value="1000000">1 Mly - 10 Mly</option>
+                            <option value="10000000">10 Mly - 100 Mly</option>
+                            <option value="100000000">100 Mly - 1 Gly</option>
+                            <option value="1000000000">1 Gly - 10 Gly</option>
+                        </optgroup>
+                    </select>
+                </label>
+
+            </nav>
+        </header>
+        <main>
+            <div class="start-page">
+
+                <article class="explanation">
+                    <!--                 <div id="num-obj"> </div> -->
+                    <h2>Galaxies</h2>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/291px-NGC_4414_%28NASA-med%29.jpg"
+                            alt="Spiral galaxy NGC 4414">
+                        <figcaption>Spiral galaxy NGC 4414</figcaption>
+                    </figure>
+                    <p class="start-text">A galaxy is a system of stars, stellar remnants, interstellar gas, dust,
+                        dark
+                        matter, bound together by gravity. Range in size from dwarfs with less than a hundred
+                        million
+                        stars, to the largest galaxies known – supergiants with one hundred trillion stars, each
+                        orbiting its galaxy's center of mass. Many are thought to have supermassive black holes at their
+                        centers. Most galaxies are 3,000 to 300,000 light years and are separated by distances on the
+                        order of millions of light years. </p>
+
+                    <h3>Elliptical galaxies</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Abell_S740%2C_cropped_to_ESO_325-G004.jpg/224px-Abell_S740%2C_cropped_to_ESO_325-G004.jpg"
+                            alt="Elliptical galaxy ESO 325-G004">
+                        <figcaption>Elliptical galaxy ESO 325-G004</figcaption>
+                    </figure>
+                    <p class="start-text">An elliptical galaxy is a type of galaxy with an approximately ellipsoidal
+                        shape and a smooth, nearly featureless image. Most elliptical galaxies are composed of older,
+                        low-mass stars, with a sparse interstellar medium and minimal star formation activity, and they
+                        tend to be surrounded by large numbers of globular clusters. Elliptical galaxies range in size
+                        from dwarf ellipticals with tens of millions of stars, to supergiants of over one hundred
+                        trillion stars that dominate their galaxy clusters.</p>
+                    <h3>Distant galaxies</h3>
+                    <figure> <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/MACS0647-JD.JPG"
+                            alt="Distant galaxy MACS0647-JD">
+                        <figcaption>Distant galaxy MACS0647-JD</figcaption>
+                    </figure>
+                    <p class="start-text">Being extremely distant it is difficult to know what type of galaxy
+                        distant
+                        galaxies are. It has also taken time for the light to reach us so the observed galaxy was
+                        probably very early in its development. Another aspect is that we have so little data to go
+                        on
+                        with that other than say it is some kind of early galaxy we can’t be sure what type it is.
+                        galxies are</p>
+
+
+
+                    <h3>Dwarf galaxies</h3>
+                    <figure> <img
+                            src=" https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/NGC_5264_HST.jpg/233px-NGC_5264_HST.jpg"
+                            alt="Hubble Space Telescope image of MACS0647-JD">
+                        <figcaption>Dwarf galaxy NGC 5264 </figcaption>
+                    </figure>
+                    <p class="start-text">A dwarf galaxy is a small galaxy composed of about 1000 up to several billion
+                        stars. The Large Magellanic Cloud, which closely orbits the Milky Way and contains over 30
+                        billion stars, is sometimes classified as a dwarf galaxy; others consider it a full-fledged
+                        galaxy. Dwarf galaxies' formation and activity are thought to be heavily influenced by
+                        interactions with larger galaxies. Astronomers identify numerous types of dwarf galaxies, based
+                        on their shape and composition.</p>
+                    <h3>Interacting galaxies</h3>
+                    <figure>
+
+                        <video width="320" height="240" controls>
+                            <source
+                                src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Galaxy_Collision_Animation-_James_Webb_Space_Telescope_Science.webm"
+                                type="video/webm">
+
+                            Your browser does not support the video tag.
+                        </video>
+                        <img src="  ">
+                        <figcaption>Animation of galaxies colliding</figcaption>
+                    </figure>
+                    <p class="start-text">Interacting galaxies (colliding galaxies) are galaxies whose gravitational
+                        fields result in a disturbance of one another. An example of a minor interaction is a satellite
+                        galaxy disturbing the primary galaxy's spiral arms. An example of a major interaction is a
+                        galactic collision, which may lead to a galaxy merger. Colliding galaxies are common during
+                        galaxy evolution.The extremely tenuous distribution of matter in galaxies means these are not
+                        collisions in the traditional sense of the word, but rather gravitational interactions.
+
+                    </p>
+
+
+
+                    <h3>Irregular galaxies</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Irregular_galaxy_NGC_1427A_%28captured_by_the_Hubble_Space_Telescope%29.jpg/213px-Irregular_galaxy_NGC_1427A_%28captured_by_the_Hubble_Space_Telescope%29.jpg"
+                            alt="Irregular galaxy NGC 1427A">
+                        <figcaption>Irregular galaxy NGC 1427A</figcaption>
+                    </figure>
+                    <p class="start-text">An irregular galaxy is a galaxy that does not have a distinct regular shape,
+                        unlike a spiral or an elliptical galaxy. Irregular galaxies do not fall into any of the regular
+                        classes, and they are often chaotic in appearance, with neither a nuclear
+                        bulge nor any trace of spiral arm structure. Collectively they are thought to make up about a
+                        quarter of all galaxies. Some irregular galaxies were once spiral or elliptical galaxies but
+                        were deformed by an uneven external gravitational force. Irregular galaxies may contain abundant
+                        amounts of gas and dust.
+                        Irregular galaxies are commonly small, about one tenth the mass of the Milky Way galaxy. Due to
+                        their small sizes, they are prone to environmental effects like crashing with large galaxies and
+                        intergalactic clouds.</p>
+                    <h3>Lenticular galaxies</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ngc5866_hst_big.png/204px-Ngc5866_hst_big.png"
+                            alt="Lenticular galaxy NGC 5866">
+                        <figcaption>Lenticular galaxy NGC 5866</figcaption>
+                    </figure>
+                    <p class="start-text">A lenticular galaxy is a type of galaxy intermediate between an
+                        elliptical and a spiral galaxy. It
+                        contains a large-scale disc but does not have large-scale spiral arms. Lenticular galaxies are
+                        disc galaxies that have used up or lost most of their interstellar matter and therefore have
+                        very little ongoing star formation. They may, however, retain significant dust in their
+                        disks. As a result, they consist mainly of aging stars (like elliptical galaxies). Despite the
+                        morphological differences, lenticular and elliptical galaxies share common properties like
+                        spectral features and scaling relations. Both can be considered early-type galaxies that are
+                        passively evolving, at least in the local part of the Universe.</p>
+                    <h3>Quasar</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Artist%27s_rendering_ULAS_J1120%2B0641.jpg/320px-Artist%27s_rendering_ULAS_J1120%2B0641.jpg"
+                            alt="Quasar in ULAS J1120+0641 (Artist's rendering of the accretion disc)">
+                        <figcaption>Quasar in ULAS J1120+0641 (Artist's rendering of the accretion disc) </figcaption>
+                    </figure>
+                    <p class="start-text">A quasar, also known as a quasi-stellar object,
+                        is an extremely luminous active galactic nucleus (AGN), powered by a
+                        supermassive black hole, with mass ranging from millions to tens of billions of solar masses,
+                        surrounded by a gaseous accretion disc. Gas in the disc falling towards the black hole heats up
+                        because of friction and releases energy in the form of electromagnetic radiation. The radiant
+                        energy of quasars is enormous; the most powerful quasars have luminosities thousands of times
+                        greater than that of a galaxy such as the Milky Way. Usually, quasars are categorized as a
+                        subclass of the more general category of AGN. </p>
+                    <h3>Ring galaxies</h3>
+
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hoag%27s_object.jpg/245px-Hoag%27s_object.jpg"
+                            alt="Ring galaxy Hoag's Object">
+                        <figcaption>Ring galaxy Hoag's Object</figcaption>
+                    </figure>
+                    <p class="start-text">A ring galaxy is a galaxy with a circle-like appearance. The ring contains
+                        many
+                        massive, relatively young blue stars, which are extremely bright. The central region contains
+                        relatively little luminous matter. Some astronomers believe that ring galaxies are formed when a
+                        smaller galaxy passes through the center of a larger galaxy. Because most of a galaxy consists
+                        of empty space, this "collision" rarely results in any actual collisions between stars. However,
+                        the gravitational disruptions caused by such an event could cause a wave of star formation to
+                        move through the larger galaxy. Other astronomers think that rings are formed around some
+                        galaxies when external accretion takes place. Star formation would then take place in the
+                        accreted material because of the shocks and compressions of the accreted material.</p>
+                    <h3>Seyfert galaxy</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Circinus.galaxy.750pix.jpg/240px-Circinus.galaxy.750pix.jpg"
+                            alt="Seyfert galaxy The Circinus Galaxy">
+                        <figcaption>Seyfert galaxy The Circinus Galaxy</figcaption>
+                    </figure>
+                    <p class="start-text">Seyfert galaxies are one of the two largest groups of active galaxies, along
+                        with quasars. They have quasar-like nuclei (very luminous, distant and bright sources of
+                        electromagnetic radiation) with very high surface brightnesses whose spectra reveal strong,
+                        high-ionisation emission lines, but unlike quasars, their host galaxies are clearly
+                        detectable.</p>
+                    <p>
+                        Seyfert galaxies account for about 10% of all galaxies and are some of the most intensely
+                        studied objects in astronomy, as they are thought to be powered by the same phenomena that occur
+                        in quasars, although they are closer and less luminous than quasars. These galaxies have
+                        supermassive black holes at their centers which are surrounded by accretion discs of in-falling
+                        material. The accretion discs are believed to be the source of the observed ultraviolet
+                        radiation. Ultraviolet emission and absorption lines provide the best diagnostics for the
+                        composition of the surrounding material.</p>
+                    <p>
+                        Seen in visible light, most Seyfert galaxies look like normal spiral galaxies, but when studied
+                        under other wavelengths, it becomes clear that the luminosity of their cores is of comparable
+                        intensity to the luminosity of whole galaxies the size of the Milky Way.
+
+                        Seyfert galaxies are named after Carl Seyfert, who first described this class in 1943.</p>
+
+
+                    <h2>Multiple Galaxies</h2>
+
+                    <h3>Galaxy cluster</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg/250px-Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg"
+                            alt="Galaxy cluster MCS J0416.1–2403">
+                        <figcaption>Galaxy cluster MCS J0416.1–2403</figcaption>
+                    </figure>
+                    <p class="start-text">A galaxy cluster, or a cluster of galaxies, is a structure that consists of
+                        anywhere from hundreds to thousands of galaxies that are bound together by gravity, with
+                        typical masses ranging from 10<sup>14</sup> to 10<sup>15</sup> solar masses. One of the key
+                        features of clusters is the intracluster medium (ICM). The ICM
+                        consists of heated gas between the galaxies that is
+                        dependent on the total mass of the cluster. Galaxy clusters should not be confused with galactic
+                        clusters (also known as open clusters), which are star clusters within galaxies, or with
+                        globular clusters, which typically orbit galaxies. Small aggregates of galaxies are referred to
+                        as galaxy groups rather than clusters of galaxies. The galaxy groups and clusters can themselves
+                        cluster together to form superclusters.
+
+                        Notable galaxy clusters in the relatively nearby Universe include the Virgo Cluster, Fornax
+                        Cluster, Hercules Cluster, and the Coma Cluster. A very large aggregation of galaxies known as
+                        the Great Attractor, dominated by the Norma Cluster, is massive enough to affect the local
+                        expansion of the Universe.</p>
+                    <h3>Galaxy group</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Hubble_views_bizarre_cosmic_quartet_HCG_16.jpg/320px-Hubble_views_bizarre_cosmic_quartet_HCG_16.jpg"
+                            alt="Galaxy group HCG 16">
+                        <figcaption>Galaxy group HCG 16</figcaption>
+                    </figure>
+                    <p class="start-text">A galaxy group or group of galaxies is an aggregation of
+                        galaxies comprising about 50 or fewer gravitationally bound members, each at least as luminous
+                        as the Milky Way. Collections of galaxies larger
+                        than groups are called galaxy clusters. The groups and
+                        clusters of galaxies can themselves be clustered, into superclusters of galaxies.
+                        The Milky Way galaxy is part of a group of galaxies called the Local Group.</p>
+                    <h3>Supercluster</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/An_Intergalactic_Heavyweight.jpg/241px-An_Intergalactic_Heavyweight.jpg"
+                            alt="Supercluster Abell 901/902">
+                        <figcaption>Supercluster Abell 901/902</figcaption>
+                    </figure>
+                    <p class="start-text">A supercluster is a large group of smaller galaxy clusters or galaxy
+                        groups; they are among the largest known structures in the universe. The Milky Way is part of
+                        the Local Group galaxy group (which contains more than 54 galaxies), which in turn is part of
+                        the Virgo Supercluster, which is part of the Laniakea Supercluster. The large size and low
+                        density of superclusters means that they, unlike clusters, expand with the Hubble expansion. The
+                        number of superclusters in the observable universe is estimated to be 10 million.</p>
+                </article>
+                <article class="explanation">
+                    <h2>Nebulae</h2>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Trifid_Nebula_by_Deddy_Dayag.jpg/320px-Trifid_Nebula_by_Deddy_Dayag.jpg"
+                            alt="text">
+                        <figcaption>Nebula: Trifid Nebula</figcaption>
+                    </figure>
+                    <p class="start-text">A nebula ('cloud' or 'fog' in Latin; pl. nebulae
+                        A distinct luminescent part of interstellar medium, which can consist of ionized, neutral
+                        or molecular hydrogen and also cosmic dust. Nebulae are often star-forming regions, such as
+                        in the "Pillars of Creation" in the Eagle Nebula. In these regions, the formations of gas,
+                        dust, and other materials "clump" together to form denser regions, which attract further
+                        matter, and eventually will become dense enough to form stars. The remaining material is
+                        then thought to form planets and other planetary system objects.</p>
+                    <p class="start-text">Most nebulae are of vast size; some are hundreds of light-years in diameter.
+                        Although denser than the space surrounding them, most nebulae are far less dense than any vacuum
+                        created on Earth – a nebular cloud the size of the Earth would have a total mass of only a few
+                        kilograms. Earth's air has a density of approximately 10<sup>10</sup> molecules per cubic
+                        centimeter; by
+                        contrast the densest nebulae can have densities of 10,000 molecules per cubic centimeter. Many
+                        nebulae are visible due to fluorescence caused by embedded hot stars, while others are so
+                        diffused that they can be detected only with long exposures and special filters.</p>
+
+
+                    <h3>Dark nebulae</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/All_Quiet_in_the_Nursery%3F.jpg/252px-All_Quiet_in_the_Nursery%3F.jpg"
+                            alt="Dark nebula LDN 1768">
+                        <figcaption>Dark nebula LDN 1768</figcaption>
+                    </figure>
+                    <p class="start-text">A dark nebula or absorption nebula is a type of interstellar cloud,
+                        particularly molecular clouds, that is so dense that it obscures the visible wavelengths of
+                        light from objects behind it, such as background stars and emission or reflection nebulae. The
+                        extinction of the light is caused by interstellar dust grains located in the coldest, densest
+                        parts of molecular clouds. Clusters and large complexes of dark nebulae are associated with
+                        Giant Molecular Clouds. Isolated small dark nebulae are called Bok globules. Like other
+                        interstellar dust or material, things it obscures are only visible using radio waves in radio
+                        astronomy or infrared in infrared astronomy.</p>
+
+
+
+                    <h3>Emission nebulae</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/New_Hubble_image_of_NGC_2174.jpg/240px-New_Hubble_image_of_NGC_2174.jpg"
+                            alt="Emission nebula NGC 2174">
+                        <figcaption>
+                            Emission nebula NGC 2174
+
+                        </figcaption>
+                    </figure>
+                    <p class="start-text">An emission nebula is a nebula formed of ionized gases that emit light of
+                        various
+                        wavelengths. The most common source of ionization is high-energy ultraviolet photons emitted
+                        from a nearby hot star. Among the several different types of emission nebulae are H II
+                        regions, in which star formation is taking place and young, massive stars are the source of
+                        the ionizing photons; and planetary nebulae, in which a dying star has thrown off its outer
+                        layers, with the exposed hot core then ionizing them. </p>
+
+                    <h3>Planetary nebulae</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/NGC7293_%282004%29.jpg/223px-NGC7293_%282004%29.jpg"
+                            alt="text">
+                        <figcaption>
+
+                            Emission nebula NGC 7293, the Helix Nebula.
+                        </figcaption>
+                    </figure>
+                    <p class="start-text">A planetary nebula is a type of emission nebula consisting of
+                        an
+                        expanding, glowing shell of ionized gas ejected from red giant stars late in their lives.
+
+                        The term "planetary nebula" is a misnomer because they are unrelated to planets.</p>
+                    <p class="start-text">
+                        All planetary nebulae form at the end of the life of a star of intermediate mass, about 1-8
+                        solar masses. It is expected that the Sun will form a planetary nebula at the end of its
+                        life cycle. They are relatively short-lived phenomena, lasting perhaps a few tens of
+                        millennia, compared to considerably longer phases of stellar evolution. Once all of the
+                        red giant's atmosphere has been dissipated, energetic ultraviolet radiation from the exposed
+                        hot luminous core, called a planetary nebula nucleus, ionizes the ejected
+                        material. Absorbed ultraviolet light then energizes the shell of nebulous gas around the
+                        central star, causing it to appear as a brightly coloured planetary nebula.</p>
+
+
+                    <h3>Reflection nebulae</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Reflection.nebula.arp.750pix.jpg/182px-Reflection.nebula.arp.750pix.jpg"
+                            alt="Reflection nebula IC2118. The Witch Head">
+                        <figcaption>Reflection nebula IC2118. The Witch Head</figcaption>
+                    </figure>
+                    <p class="start-text">In astronomy, reflection nebula are clouds of interstellar dust which might
+                        reflect the light of a nearby star or stars. The energy from the nearby stars is insufficient to
+                        ionize the gas of the nebula to create an emission nebula, but is enough to give sufficient
+                        scattering to make the dust visible. Thus, the frequency spectrum shown by reflection nebulae is
+                        similar to that of the illuminating stars. Among the microscopic particles responsible for the
+                        scattering are carbon compounds (e. g. diamond dust) and compounds of other elements such as
+                        iron and nickel. The latter two are often aligned with the galactic magnetic field and cause the
+                        scattered light to be slightly polarized.</p>
+
+                    <h3>Star-forming regions</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/240px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg"
+                            alt="text">
+                        <figcaption>Star-forming region M42, Orion Nebula</figcaption>
+                    </figure>
+                    <p class="start-text">A spiral galaxy like the Milky Way contains stars, stellar remnants, and a
+                        diffuse
+                        interstellar medium of gas and dust. The interstellar medium typically composed of roughly 70%
+                        hydrogen by mass, with most of
+                        the remaining gas consisting of helium. This medium has been chemically enriched by trace
+                        amounts of heavier elements that were produced and ejected from stars via the fusion of
+                        helium as they passed beyond the end of their main sequence lifetime. Higher density regions
+                        of the interstellar medium form clouds, or diffuse nebulae, where star formation takes
+                        place. In contrast to spirals, an elliptical galaxy loses the cold component of its
+                        interstellar medium within roughly a billion years, which hinders the galaxy from forming
+                        diffuse nebulae except through mergers with other galaxies.</p>
+                    <p class="start-text">
+
+                        In the dense nebulae where stars are produced, much of the hydrogen is in the molecular (H2)
+                        form, so these nebulae are called molecular clouds. The nearest nebula to the Sun
+                        where massive stars are being formed is the Orion Nebula, 1,300 ly away.
+                        However, lower mass star formation is occurring about 400–450 light years distant in the ρ
+                        Ophiuchi cloud complex. </p>
+
+                    <h3>Supernova-remnant</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/240px-Crab_Nebula.jpg"
+                            alt="Supernova remnant M1, Crab Nebula">
+                        <figcaption>Supernova remnant M1, Crab Nebula</figcaption>
+                    </figure>
+                    <p class="start-text">A supernova remnant (SNR) is the structure resulting from the explosion of a
+                        star in a supernova. The supernova remnant is bounded by an expanding shock wave, and consists
+                        of ejected material expanding from the explosion, and the interstellar material it sweeps up and
+                        shocks along the way.
+
+                        There are two common routes to a supernova: either a massive star may run out of fuel, ceasing
+                        to generate fusion energy in its core, and collapsing inward under the force of its own gravity
+                        to form a neutron star or a black hole; or a white dwarf star may accrete material from a
+                        companion star until it reaches a critical mass and undergoes a thermonuclear explosion.
+
+                    </p>
+
+                    <h3>Variable nebulae</h3>
+                    <figure> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Ngc2261.jpg/235px-Ngc2261.jpg"
+                            alt="Variable nebula NGC 2261">
+                        <figcaption>Variable nebula NGC 2261</figcaption>
+                    </figure>
+                    <p class="start-text">Variable nebulae are reflection nebulae that change in brightness because of
+                        changes in their star.</p>
+
+
+
+                </article>
+            </div>
+            <!--           <div id="num-obj"></div> -->
+        </main>
+
+        <footer>
+
+
+
+
+
+
+            <nav class="soc-media">
+                <span id="num-obj"></span>
+                <span class="soc-media-text">Made by Paul Belfrage</span>
+                <a href="https://twitter.com/paulbelfrage" target="_blank"><i class="fa-brands fa-twitter"></i> </a>
+                <a href="https://www.linkedin.com/in/paubelfrage/" target="_blank"><i class="fa-brands fa-linkedin">
+                    </i> </a>
+
+            </nav>
+            <p class="disclaimer">Disclaimer: Text on this page i from <a
+                    href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a> and slightly modified. I do not own the
+                images on this page, except if
+                clearly
+                stated. Data is collected from the
+                sources on the <a href="./index.html">start page</a>.</p>
+
+        </footer>
+
+
+
+    </div>
+    <script src='https://kit.fontawesome.com/84637af1fc.js'></script>
+</body>
+
+</html>
