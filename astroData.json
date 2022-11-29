@@ -2453,6 +2453,51 @@
       "name": "Flame Nebula",
       "type": "Emission nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/NASA-FlameNebula-NGC2024-20140507.jpg/600px-NASA-FlameNebula-NGC2024-20140507.jpg"
+    },
+    {
+      "constellations": "Pavo",
+      "distance": 13e3,
+      "id": "NGC 6752",
+      "link": "https://en.wikipedia.org/wiki/NGC_6752",
+      "name": "Great Peacock Globular",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/NGC_6752_Hubble_WikiSky.jpg/600px-NGC_6752_Hubble_WikiSky.jpg"
+    },
+    {
+      "constellations": "Pavo",
+      "distance": 31e6,
+      "id": "NGC 6744",
+      "link": "https://en.wikipedia.org/wiki/NGC_6744",
+      "name": "- it is considered as a Milky Way mimic in the immediate vicinity, displaying flocculent (fluffy) arms and an elongated core",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wide_Field_Imager_view_of_a_Milky_Way_look-alike_NGC_6744.jpg/570px-Wide_Field_Imager_view_of_a_Milky_Way_look-alike_NGC_6744.jpg"
+    },
+    {
+      "constellations": "Pavo",
+      "distance": 652e6,
+      "id": "SCl 124",
+      "link": "https://en.wikipedia.org/wiki/Shapley_Supercluster",
+      "name": "Shapley Supercluster - the largest concentration of galaxies in our nearby universe that forms a gravitationally interacting unit, thereby pulling itself together instead of expanding with the universe",
+      "type": "Super-cluster galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Shapley_supercluster.png/600px-Shapley_supercluster.png"
+    },
+    {
+      "constellations": "Pavo",
+      "distance": 212e6,
+      "id": "NGC 6872",
+      "link": "https://en.wikipedia.org/wiki/NGC_6872",
+      "name": "Condor Galaxy - is interacting with the lenticular galaxy IC 4970, which is less than one twelfth as large",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/NGC_6872.png/600px-NGC_6872.png"
+    },
+    {
+      "constellations": "Pavo",
+      "distance": 212e6,
+      "id": "IC 4970",
+      "link": "https://en.wikipedia.org/wiki/IC_4970",
+      "name": "- NGC 6872 is interacting with the lenticular galaxy IC 4970, which is less than one twelfth as large",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/IC_4970_by_Hubble.jpg"
     }
   ]
 }
