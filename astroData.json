@@ -2543,6 +2543,24 @@
       "name": " - this nebula is in the western part of the Perseus molecular cloud and is a young region of very active star formation",
       "type": "Reflection nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ngc1333.jpg/465px-Ngc1333.jpg"
+    },
+    {
+      "constellations": "Perseus",
+      "distance": 19e6,
+      "id": "NGC 1023",
+      "link": "https://en.wikipedia.org/wiki/NGC_1023",
+      "name": " - has been estimated to have about 490 globular clusters, consistent with similar early-type galaxies",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/NGC1023_JeffJohnson.jpg"
+    },
+    {
+      "constellations": "Perseus",
+      "distance": 260e6,
+      "id": "NGC 1260",
+      "link": "https://en.wikipedia.org/wiki/NGC_1023",
+      "name": " - is a member of the Perseus Cluster and forms a tight pair with the galaxy PGC 12230",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/NGC_1260-HST10877_38R814GB555.png/610px-NGC_1260-HST10877_38R814GB555.png"
     }
   ]
 }
