@@ -2294,12 +2294,102 @@
     },
     {
       "constellations": "Musca",
-      "distance": 2480,
+      "distance": 3000,
       "id": "NGC 5189",
       "link": "https://en.wikipedia.org/wiki/NGC_5189",
-      "name": "Hubble's Variable Nebula - The nebula is illuminated by the star R Monocerotis (R Mon), which is not directly visible itself",
-      "type": "Reflection nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Hubble%27s_Variable_Nebula_-_NGC_2261.png/606px-Hubble%27s_Variable_Nebula_-_NGC_2261.png"
+      "name": "Spiral Planetary Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/NGC_5189.png/450px-NGC_5189.png"
+    },
+    {
+      "constellations": "Musca",
+      "distance": 8000,
+      "id": "MyCn 18",
+      "link": "https://en.wikipedia.org/wiki/Engraved_Hourglass_Nebula",
+      "name": "Engraved Hourglass Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/MyCn18-crop.png"
+    },
+    {
+      "constellations": "Musca",
+      "distance": 700,
+      "id": "C99",
+      "link": "https://en.wikipedia.org/wiki/Dark_Doodad_Nebula",
+      "name": "Dark Doodad Nebula",
+      "type": "Dark nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Dark_Doodad_Nebulae.jpg"
+    },
+    {
+      "constellations": "Musca",
+      "distance": 600,
+      "id": "BHR 71",
+      "link": "https://en.wikipedia.org/wiki/BHR_71",
+      "name": " - In visible light, BHR 71 is just a large black structure. The burst of yellow light toward the bottom of the cloud is the only indication that stars might be forming inside.",
+      "type": "Dark nebula",
+      "url": "http://images.astronet.ru/pubd/2003/01/27/0001186207/bhr71_vlt.jpg"
+    },
+    {
+      "constellations": "Norma",
+      "distance": 4900,
+      "id": "Shapley 1",
+      "link": "https://en.wikipedia.org/wiki/Shapley_1",
+      "name": " - is around 8700 years old",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Fine_Ring_Nebula.jpg/600px-Fine_Ring_Nebula.jpg"
+    },
+    {
+      "constellations": "Norma",
+      "distance": 221e6,
+      "id": "Abell 3627",
+      "link": "https://en.wikipedia.org/wiki/Norma_Cluster",
+      "name": "Norma Cluster",
+      "type": "Cluster galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/View_Towards_the_Great_Attractor.jpg/619px-View_Towards_the_Great_Attractor.jpg"
+    },
+    {
+      "constellations": "Norma",
+      "distance": 8000,
+      "id": "Mz 3",
+      "link": "https://en.wikipedia.org/wiki/Mz_3r",
+      "name": "- composed of a bright core and four distinct high-velocity outflows that have been named lobes, columns, rays, and chakram",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ant_Nebula.jpg/640px-Ant_Nebula.jpg"
+    },
+    {
+      "constellations": "Norma",
+      "distance": 95e6,
+      "id": "NGC 7098",
+      "link": "https://en.wikipedia.org/wiki/NGC_7098",
+      "name": "- has a very prominent bar that is shaped like a broad oval with very prominent, nearly straight ansae",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/NGC_7098_ESO.jpg/582px-NGC_7098_ESO.jpg"
+    },
+    {
+      "constellations": "Orion",
+      "distance": 1000,
+      "id": "Sh 2-276",
+      "link": "https://en.wikipedia.org/wiki/NGC_7098",
+      "name": "Barnard's Loop - part of the Orion molecular cloud complex which also contains the dark Horsehead and bright Orion nebulae",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/BarnardLoopHunterWilson.jpg"
+    },
+    {
+      "constellations": "Orion",
+      "distance": 1000,
+      "id": "Orion complex",
+      "link": "https://en.wikipedia.org/wiki/NGC_7098",
+      "name": "Orion molecular cloud complex - includes a large group of bright nebulae, dark clouds in the Orion constellation. Several nebulae can be observed through binoculars and small telescopes, and some parts (such as the Orion Nebula) are visible to the naked eye",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Orion_Head_to_Toe.jpg/498px-Orion_Head_to_Toe.jpg"
+    },
+    {
+      "constellations": "Orion",
+      "distance": 1344,
+      "id": "Trapezium Cluster",
+      "link": "https://en.wikipedia.org/wiki/Trapezium_Cluster",
+      "name": "Trapezium Cluster - Trapezium in optical (left) and infrared light (right). A tight open cluster of stars in the heart of the Orion Nebula",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Trapezium_cluster_optical_and_infrared_comparison.jpg"
     }
   ]
 }
