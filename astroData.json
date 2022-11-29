@@ -477,7 +477,7 @@
       "url": "https://cdn.spacetelescope.org/archives/images/screen/potw1003a.jpg"
     },
     {
-      "constellations": "Pegasus",
+      "constellations": "Perseus",
       "distance": 1000,
       "id": "NGC 1499",
       "link": "https://en.wikipedia.org/wiki/California_Nebula",
@@ -2498,6 +2498,51 @@
       "name": "- NGC 6872 is interacting with the lenticular galaxy IC 4970, which is less than one twelfth as large",
       "type": "Lenticular galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/IC_4970_by_Hubble.jpg"
+    },
+    {
+      "constellations": "Perseus",
+      "distance": 7.5e3,
+      "id": "NGC 869",
+      "link": "https://en.wikipedia.org/wiki/IC_4970",
+      "name": "- is about 14 million years old. It is the westernmost of the Double Cluster with NGC 884",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/NGC869NGC884.jpg"
+    },
+    {
+      "constellations": "Perseus",
+      "distance": 7.6e3,
+      "id": "NGC 884",
+      "link": "https://en.wikipedia.org/wiki/NGC_884",
+      "name": "- the easternmost of the Double Cluster with NGC 869",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Double_Cluster.jpg/640px-Double_Cluster.jpg"
+    },
+    {
+      "constellations": "Perseus",
+      "distance": 1500,
+      "id": "M 34",
+      "link": "https://en.wikipedia.org/wiki/Messier_34",
+      "name": "- the easternmost of the Double Cluster with NGC 869",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/M34_Mazur.jpg/635px-M34_Mazur.jpg"
+    },
+    {
+      "constellations": "Perseus",
+      "distance": 2500,
+      "id": "M 76",
+      "link": "https://en.wikipedia.org/wiki/Little_Dumbbell_Nebula",
+      "name": "Little Dumbbell Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Little_Dumbbell_Nebula_M76_by_Goran_Nilsson%2C_Wim_van_Berlo_%26_Liverpool_Telescope.jpg/605px-Little_Dumbbell_Nebula_M76_by_Goran_Nilsson%2C_Wim_van_Berlo_%26_Liverpool_Telescope.jpg"
+    },
+    {
+      "constellations": "Perseus",
+      "distance": 967,
+      "id": "NGC 1333",
+      "link": "https://en.wikipedia.org/wiki/NGC_1333",
+      "name": " - this nebula is in the western part of the Perseus molecular cloud and is a young region of very active star formation",
+      "type": "Reflection nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ngc1333.jpg/465px-Ngc1333.jpg"
     }
   ]
 }
