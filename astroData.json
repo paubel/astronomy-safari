@@ -2390,6 +2390,69 @@
       "name": "Trapezium Cluster - Trapezium in optical (left) and infrared light (right). A tight open cluster of stars in the heart of the Orion Nebula",
       "type": "Open cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Trapezium_cluster_optical_and_infrared_comparison.jpg"
+    },
+    {
+      "constellations": "Orion",
+      "distance": 1344,
+      "id": "M42",
+      "link": "https://en.wikipedia.org/wiki/Trapezium_Cluster",
+      "name": "Orion Nebula - closest region of massive star formation to Earth",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/600px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg"
+    },
+    {
+      "constellations": "Orion",
+      "distance": 1350,
+      "id": "M78",
+      "link": "https://en.wikipedia.org/wiki/Messier_78",
+      "name": "Orion Nebula - closest region of massive star formation to Earth",
+      "type": "Reflection nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Messier_78.jpg/619px-Messier_78.jpg"
+    },
+    {
+      "constellations": "Orion",
+      "distance": 1500,
+      "id": "NGC 1999",
+      "link": "https://en.wikipedia.org/wiki/NGC_1999",
+      "name": "Orion Nebula - closest region of massive star formation to Earth",
+      "type": "Reflection nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ngc1999.jpg/589px-Ngc1999.jpg"
+    },
+    {
+      "constellations": "Orion",
+      "distance": 1375,
+      "id": "Barnard 33",
+      "link": "https://en.wikipedia.org/wiki/Horsehead_Nebula",
+      "name": "Horsehead Nebula",
+      "type": "Dark nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Barnard_33.jpg/610px-Barnard_33.jpg"
+    },
+    {
+      "constellations": "Orion",
+      "distance": 6400,
+      "id": "NGC 2174",
+      "link": "https://en.wikipedia.org/wiki/NGC_2174",
+      "name": "Monkey Head Nebula",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/NGC-2174.tif/lossy-page1-640px-NGC-2174.tif.jpg"
+    },
+    {
+      "constellations": "Orion",
+      "distance": 1300,
+      "id": "M43",
+      "link": "https://en.wikipedia.org/wiki/Messier_43",
+      "name": "De Mairan's Nebula",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/M43_HST.jpg/600px-M43_HST.jpg"
+    },
+    {
+      "constellations": "Orion",
+      "distance": 1350,
+      "id": "NGC 2024",
+      "link": "https://en.wikipedia.org/wiki/Flame_Nebula",
+      "name": "Flame Nebula",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/NASA-FlameNebula-NGC2024-20140507.jpg/600px-NASA-FlameNebula-NGC2024-20140507.jpg"
     }
   ]
 }
