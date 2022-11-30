@@ -1470,6 +1470,15 @@
     },
     {
       "constellations": "Dorado",
+      "distance": 160e3,
+      "id": "DEM L 190",
+      "link": "https://esahubble.org/images/potw2248a/",
+      "name": "- is the brightest supernova remnant in the Large Magellanic Cloud",
+      "type": "Supernova-remnant nebula",
+      "url": "https://cdn.spacetelescope.org/archives/images/screen/potw2248a.jpg"
+    },
+    {
+      "constellations": "Dorado",
       "distance": 163e3,
       "id": "LMC",
       "link": "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud",
