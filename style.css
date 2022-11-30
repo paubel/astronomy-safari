@@ -125,10 +125,13 @@ section {
 nav {
   grid-area: n;
 }
-
-# h1,
+h1,
 h2 {
   text-align: center;
+}
+
+h3 {
+  margin-top: 1vh;
 }
 
 .info-container {
@@ -187,6 +190,15 @@ figure img {
   object-fit: cover;
 
   max-height: 40vh;
+}
+
+.image-startpage {
+  max-width: 200px;
+  float: right;
+  font-size: 0.7rem;
+  border: 1px solid green;
+  border-radius: 25px;
+  padding: 1vh 1vh;
 }
 
 .sources {
