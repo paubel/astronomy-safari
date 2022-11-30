@@ -2570,6 +2570,33 @@
       "name": " - is a member of the Perseus Cluster and forms a tight pair with the galaxy PGC 12230",
       "type": "Lenticular galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/NGC_1260-HST10877_38R814GB555.png/610px-NGC_1260-HST10877_38R814GB555.png"
+    },
+    {
+      "constellations": "Perseus",
+      "distance": 260e6,
+      "id": "SN 2006gy",
+      "link": "https://en.wikipedia.org/wiki/SN_2006gy",
+      "name": " - was an extremely energetic supernova, also referred to as a hypernova or quark-nova in NGC 1260",
+      "type": "Supernova-remnant nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sn2006gy_CHANDRA_x-ray.jpg/314px-Sn2006gy_CHANDRA_x-ray.jpg"
+    },
+    {
+      "constellations": "Perseus",
+      "distance": 240e6,
+      "id": "Perseus Cluster",
+      "link": "https://en.wikipedia.org/wiki/Perseus_Cluster",
+      "name": " - Image above: Chandra X-ray Observatory observations of the central regions of the Perseus galaxy cluster",
+      "type": "Cluster galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Central_regions_Perseus_galaxy_cluster.jpg/505px-Central_regions_Perseus_galaxy_cluster.jpg"
+    },
+    {
+      "constellations": "Perseus",
+      "distance": 237e6,
+      "id": "NGC 1275",
+      "link": "https://en.wikipedia.org/wiki/Perseus_Cluster",
+      "name": " - an active supermassive black hole in the galaxy powers strong jets of particles into the Perseus Cluster causing the gas present to reach 60 million degrees Celsius and emit X-ray light",
+      "type": "Seyfert galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/NGC_1275_Hubble.jpg/620px-NGC_1275_Hubble.jpg"
     }
   ]
 }
