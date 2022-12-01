@@ -2597,6 +2597,51 @@
       "name": " - an active supermassive black hole in the galaxy powers strong jets of particles into the Perseus Cluster causing the gas present to reach 60 million degrees Celsius and emit X-ray light",
       "type": "Seyfert galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/NGC_1275_Hubble.jpg/620px-NGC_1275_Hubble.jpg"
+    },
+    {
+      "constellations": "Phoenix",
+      "distance": 12.7e6,
+      "id": "NGC 625",
+      "link": "https://en.wikipedia.org/wiki/NGC_625",
+      "name": " - a member of the Sculptor Group",
+      "type": "Dwarf galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/NGC_625_GALEX.jpg/600px-NGC_625_GALEX.jpg"
+    },
+    {
+      "constellations": "Phoenix",
+      "distance": 160e6,
+      "id": "Robert's Quartet",
+      "link": "https://en.wikipedia.org/wiki/Robert%27s_Quartet",
+      "name": " - its members are NGC 87, NGC 88, NGC 89 and NGC 92",
+      "type": "Group galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Phot-34a-05-fullres.jpg/519px-Phot-34a-05-fullres.jpg"
+    },
+    {
+      "constellations": "Phoenix",
+      "distance": 5.8e9,
+      "id": "Phoenix Cluster",
+      "link": "https://en.wikipedia.org/wiki/Phoenix_Cluster",
+      "name": " - one of the most massive galaxy clusters known",
+      "type": "Cluster galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/SPT-CLJ2344%E2%80%934243_%28Phoenix_Cluster%29_Chandra.jpg/600px-SPT-CLJ2344%E2%80%934243_%28Phoenix_Cluster%29_Chandra.jpg"
+    },
+    {
+      "constellations": "Phoenix",
+      "distance": 5.8e9,
+      "id": "ACT-CL J0102-4915",
+      "link": "https://en.wikipedia.org/wiki/El_Gordo_(galaxy_cluster)",
+      "name": " - 'El Gordo' largest distant galaxy cluster to have been discovered as of 2014",
+      "type": "Cluster galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/ACT-CL_J0102%E2%88%924915.jpg/311px-ACT-CL_J0102%E2%88%924915.jpg"
+    },
+    {
+      "constellations": "Pictor",
+      "distance": 16.6e6,
+      "id": "NGC 1705",
+      "link": "https://en.wikipedia.org/wiki/NGC_1705",
+      "name": " - is a peculiar lenticular galaxy and a blue compact dwarf galaxy",
+      "type": "Dwarf galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/NGC1705_-_HST_-_Potw2205a.jpg/640px-NGC1705_-_HST_-_Potw2205a.jpg"
     }
   ]
 }
