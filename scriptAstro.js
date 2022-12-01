@@ -1,223 +1,143 @@
 "use strict";
-//import data from "./astroData.json" assert { type: "json" }; Do not work in FF
-
 fetch("./astroData.json")
-  .then((res) => res.json())
-  .then((data) => {
-    // do stuff with the data
-
-    data.astroObject = data.astroObject.sort((a, b) => {
-      if (a.distance < b.distance) {
-        return -1;
-      }
+  .then((e) => e.json())
+  .then((e) => {
+    e.astroObject = e.astroObject.sort((e, t) => {
+      if (e.distance < t.distance) return -1;
     });
-
-    const numbOfObjects = Object.keys(data.astroObject).length;
-
-    const selectNumbOfObjectsElement = document.querySelector("#num-obj");
-    /*     console.log(selectNumbOfObjectsElement); */
-    const numP = document.createElement("p");
-    numP.textContent = `Number of astronomical objects: ${numbOfObjects}`;
-    selectNumbOfObjectsElement.appendChild(numP);
-
-    /*     main = document.querySelector("main");
-    myH2 = document.createElement("h2");
-    mySection = document.createElement("section");
-    myH2.textContent = astroData;
-    main.appendChild(myH2);
-    main.appendChild(mySection); */
-
-    const selectElementType = document.querySelector("#astro-type");
-    const selectElementConst = document.querySelector("#astro-const");
-    const selectElementDist = document.querySelector("#astro-dist");
-    let main = null;
-    let myH2 = null;
-    let mySection = null;
-    let selectedOption = "";
-
-    selectElementType.addEventListener("change", (event) => {
-      resetSelectElement(selectElementConst);
-      resetSelectElement(selectElementDist);
-      clearMainAndSelectOption();
-      populateType(selectedOption);
-      lazyLoadFunc();
-    });
-
-    selectElementConst.addEventListener("change", (event) => {
-      resetSelectElement(selectElementType);
-      resetSelectElement(selectElementDist);
-      clearMainAndSelectOption();
-      populateConst(selectedOption);
-      lazyLoadFunc();
-    });
-
-    selectElementDist.addEventListener("change", (event) => {
-      resetSelectElement(selectElementType);
-      resetSelectElement(selectElementConst);
-      clearMainAndSelectOption();
-      populateDist(selectedOption);
-      lazyLoadFunc();
-    });
-
-    function populateType(astroData) {
-      createH2inMain(astroData);
-
-      Object.entries(data.astroObject).forEach(([key, value]) => {
-        const words = value.type.split(" ");
-
-        if (words[1].toLowerCase() === astroData.toLowerCase()) {
-          createAstroElement(value);
-        } else if (value.type === astroData) {
-          createAstroElement(value);
-        } else if (astroData === "All objects") {
-          createAstroElement(value);
-        }
-      });
+    let t = Object.keys(e.astroObject).length,
+      n = document.querySelector("#num-obj"),
+      r = document.createElement("p");
+    (r.textContent = `Number of astronomical objects: ${t}`), n.appendChild(r);
+    let a = document.querySelector("#astro-type"),
+      o = document.querySelector("#astro-const"),
+      i = document.querySelector("#astro-dist"),
+      c = null,
+      l = null,
+      s = null,
+      d = "";
+    function u(t) {
+      E(t),
+        Object.entries(e.astroObject).forEach(([e, n]) => {
+          let r = n.type.split(" ");
+          r[1].toLowerCase() === t.toLowerCase()
+            ? v(n)
+            : n.type === t
+            ? v(n)
+            : "All objects" === t && v(n);
+        });
     }
-
-    function populateConst(astroData) {
-      createH2inMain(astroData);
-      Object.entries(data.astroObject).forEach(([key, value]) => {
-        if (value.constellations === astroData) {
-          createAstroElement(value);
-        }
-      });
+    function f(t) {
+      E(t),
+        Object.entries(e.astroObject).forEach(([e, n]) => {
+          n.constellations === t && v(n);
+        });
     }
-
-    function populateDist(astroData) {
-      createH2inMainDistance(astroData);
-      Object.entries(data.astroObject).forEach(([key, value]) => {
-        let astroDataNumb = Number(astroData);
-
-        if (
-          value.distance >= Number(astroDataNumb) &&
-          value.distance <= Number(astroDataNumb) * 10
-        ) {
-          createAstroElement(value);
-        }
-      });
+    function h(t) {
+      m(t),
+        Object.entries(e.astroObject).forEach(([e, n]) => {
+          let r = Number(t);
+          n.distance >= Number(r) && n.distance <= 10 * Number(r) && v(n);
+        });
     }
-
-    function clearMainAndSelectOption() {
-      let node = document.querySelector("main");
-      node.querySelectorAll("*").forEach((n) => n.remove());
-      selectedOption = event.target.value;
+    function p() {
+      document
+        .querySelector("main")
+        .querySelectorAll("*")
+        .forEach((e) => e.remove()),
+        (d = event.target.value);
     }
-
-    function createH2inMain(astroData) {
-      main = document.querySelector("main");
-      myH2 = document.createElement("h2");
-      mySection = document.createElement("section");
-      myH2.textContent = astroData;
-      main.appendChild(myH2);
-      main.appendChild(mySection);
+    function E(e) {
+      (c = document.querySelector("main")),
+        (l = document.createElement("h2")),
+        (s = document.createElement("section")),
+        (l.textContent = e),
+        c.appendChild(l),
+        c.appendChild(s);
     }
-
-    function createH2inMainDistance(astroData) {
-      main = document.querySelector("main");
-      myH2 = document.createElement("h2");
-      mySection = document.createElement("section");
-      myH2.textContent =
-        numberWithCommas(astroData) +
-        ` ly to ` +
-        numberWithCommas(astroData * 10) +
-        ` ly`;
-
-      main.appendChild(myH2);
-      main.appendChild(mySection);
+    function m(e) {
+      (c = document.querySelector("main")),
+        (l = document.createElement("h2")),
+        (s = document.createElement("section")),
+        (l.textContent = g(e) + " ly to " + g(10 * e) + " ly"),
+        c.appendChild(l),
+        c.appendChild(s);
     }
-
-    function createAstroElement(value) {
-      const myFigure = document.createElement("figure");
-      const myImg = document.createElement("img");
-      const myFigcaption = document.createElement("figcaption");
-      const myA = document.createElement("a");
-
-      //myImg.src = `${value.url}`;
-      const imgValue = `${value.url}`;
-      const attr = document.createAttribute("data-src");
-      attr.value = imgValue;
-      myImg.setAttributeNode(attr);
-      //myImg.loading = `lazy`;
-      myImg.classList.add("lazy");
-      myImg.alt = `${value.id} ${value.name}`;
-      myFigcaption.textContent = ` ${value.type} in ${
-        value.constellations
-      } at ${numberWithCommas(value.distance)} ly.`;
-
-      /*      myA.title = `test`; */
-      myA.href = `${value.link}`;
-      myA.target = "_blank";
-      const linkText = document.createTextNode(`${value.id} ${value.name}.`);
-      mySection.appendChild(myFigure);
-      myFigure.appendChild(myImg);
-      myFigure.appendChild(myA);
-      myFigure.appendChild(myFigcaption);
-      myA.appendChild(linkText);
+    function v(e) {
+      let t = document.createElement("figure"),
+        n = document.createElement("img"),
+        r = document.createElement("figcaption"),
+        a = document.createElement("a"),
+        o = `${e.url}`,
+        i = document.createAttribute("data-src");
+      (i.value = o),
+        n.setAttributeNode(i),
+        n.classList.add("lazy"),
+        (n.alt = `${e.id} ${e.name}`),
+        (r.textContent = ` ${e.type} in ${e.constellations} at ${g(
+          e.distance
+        )} ly.`),
+        (a.href = `${e.link}`),
+        (a.target = "_blank");
+      let c = document.createTextNode(`${e.id} ${e.name}.`);
+      s.appendChild(t),
+        t.appendChild(n),
+        t.appendChild(a),
+        t.appendChild(r),
+        a.appendChild(c);
     }
-
-    function resetSelectElement(selectElement) {
-      selectElement.selectedIndex = 0; //
+    function y(e) {
+      e.selectedIndex = 0;
     }
-
-    function numberWithCommas(x) {
-      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    function g(e) {
+      return e.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
-
-    function lazyLoadFunc() {
-      //      document.addEventListener("DOMContentLoaded", function () {
-      var lazyloadImages;
-
+    function C() {
       if ("IntersectionObserver" in window) {
-        lazyloadImages = document.querySelectorAll(".lazy");
-        var imageObserver = new IntersectionObserver(function (
-          entries,
-          observer
-        ) {
-          entries.forEach(function (entry) {
-            if (entry.isIntersecting) {
-              var image = entry.target;
-              image.src = image.dataset.src;
-              image.classList.remove("lazy");
-              imageObserver.unobserve(image);
-            }
-          });
-        });
-
-        lazyloadImages.forEach(function (image) {
-          imageObserver.observe(image);
-        });
-      } else {
-        var lazyloadThrottleTimeout;
-        lazyloadImages = document.querySelectorAll(".lazy");
-
-        function lazyload() {
-          if (lazyloadThrottleTimeout) {
-            clearTimeout(lazyloadThrottleTimeout);
-          }
-
-          lazyloadThrottleTimeout = setTimeout(function () {
-            var scrollTop = window.pageYOffset;
-            lazyloadImages.forEach(function (img) {
-              if (img.offsetTop < window.innerHeight + scrollTop) {
-                img.src = img.dataset.src;
-                img.classList.remove("lazy");
+        e = document.querySelectorAll(".lazy");
+        var e,
+          t,
+          n = new IntersectionObserver(function (e, t) {
+            e.forEach(function (e) {
+              if (e.isIntersecting) {
+                var t = e.target;
+                (t.src = t.dataset.src),
+                  t.classList.remove("lazy"),
+                  n.unobserve(t);
               }
             });
-            if (lazyloadImages.length == 0) {
-              document.removeEventListener("scroll", lazyload);
-              window.removeEventListener("resize", lazyload);
-              window.removeEventListener("orientationChange", lazyload);
-            }
-          }, 20);
+          });
+        e.forEach(function (e) {
+          n.observe(e);
+        });
+      } else {
+        function r() {
+          t && clearTimeout(t),
+            (t = setTimeout(function () {
+              var t = window.pageYOffset;
+              e.forEach(function (e) {
+                e.offsetTop < window.innerHeight + t &&
+                  ((e.src = e.dataset.src), e.classList.remove("lazy"));
+              }),
+                0 == e.length &&
+                  (document.removeEventListener("scroll", r),
+                  window.removeEventListener("resize", r),
+                  window.removeEventListener("orientationChange", r));
+            }, 20));
         }
-
-        document.addEventListener("scroll", lazyload);
-        window.addEventListener("resize", lazyload);
-        window.addEventListener("orientationChange", lazyload);
+        (e = document.querySelectorAll(".lazy")),
+          document.addEventListener("scroll", r),
+          window.addEventListener("resize", r),
+          window.addEventListener("orientationChange", r);
       }
-      //});
     }
+    a.addEventListener("change", (e) => {
+      y(o), y(i), p(), u(d), C();
+    }),
+      o.addEventListener("change", (e) => {
+        y(a), y(i), p(), f(d), C();
+      }),
+      i.addEventListener("change", (e) => {
+        y(a), y(o), p(), h(d), C();
+      });
   });
-
-/* START lazy loading */
