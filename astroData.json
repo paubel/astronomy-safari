@@ -2230,6 +2230,16 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/2003-32-GravitationalLens.jpg/600px-2003-32-GravitationalLens.jpg"
     },
     {
+      "constellations": "Lynx",
+      "distance": 3.56e9,
+      "id": "Alcyoneus",
+      "link": " https://en.wikipedia.org/wiki/Alcyoneus_(galaxy)",
+      "name": "- has the largest extent of any radio galaxy identified",
+      "type": "Radio galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/GRGAlcyoneusIRBlueRadioOrange.png/600px-GRGAlcyoneusIRBlueRadioOrange.png"
+    },
+
+    {
       "constellations": "Mensa",
       "distance": 160e3,
       "id": "Lynx Arc",
@@ -2296,10 +2306,10 @@
       "constellations": "Monoceros",
       "distance": 2480,
       "id": "IC 447",
-      "link": "https://en.wikipedia.org/wiki/NGC_2261",
-      "name": "Hubble's Variable Nebula - The nebula is illuminated by the star R Monocerotis (R Mon), which is not directly visible itself",
+      "link": "https://en.wikipedia.org/wiki/IC_447",
+      "name": "- HII Ionized region",
       "type": "Reflection nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Hubble%27s_Variable_Nebula_-_NGC_2261.png/606px-Hubble%27s_Variable_Nebula_-_NGC_2261.png"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/IC2169.jpg"
     },
     {
       "constellations": "Musca",
@@ -2636,12 +2646,12 @@
     },
     {
       "constellations": "Pictor",
-      "distance": 16.6e6,
-      "id": "NGC 1705",
-      "link": "https://en.wikipedia.org/wiki/NGC_1705",
+      "distance": 485e6,
+      "id": "Pictor A",
+      "link": "https://en.wikipedia.org/wiki/Pictor_A",
       "name": " - is a peculiar lenticular galaxy and a blue compact dwarf galaxy",
-      "type": "Dwarf galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/NGC1705_-_HST_-_Potw2205a.jpg/640px-NGC1705_-_HST_-_Potw2205a.jpg"
+      "type": "Radio galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pictor_A_Chandra_X-ray.jpg"
     }
   ]
 }
