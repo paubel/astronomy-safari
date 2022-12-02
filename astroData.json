@@ -2646,12 +2646,66 @@
     },
     {
       "constellations": "Pictor",
+      "distance": 16.6e6,
+      "id": "NGC 1705",
+      "link": "https://en.wikipedia.org/wiki/Pictor_A",
+      "name": " - is a peculiar lenticular galaxy and a blue compact dwarf galaxy",
+      "type": "Dwarf galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/NGC1705_-_HST_-_Potw2205a.jpg/640px-NGC1705_-_HST_-_Potw2205a.jpg"
+    },
+    {
+      "constellations": "Pictor",
       "distance": 485e6,
       "id": "Pictor A",
       "link": "https://en.wikipedia.org/wiki/Pictor_A",
-      "name": " - is a peculiar lenticular galaxy and a blue compact dwarf galaxy",
+      "name": " - powerful source of radio waves. From a supermassive black hole at its centre, a relativistic jet shoots out to an X-ray hot spot 300,000 light years away",
       "type": "Radio galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pictor_A_Chandra_X-ray.jpg"
+    },
+    {
+      "constellations": "Pisces",
+      "distance": 30e6,
+      "id": "M 74",
+      "link": "https://en.wikipedia.org/wiki/Messier_74",
+      "name": "Phantom Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/PESSTO_Snaps_Supernova_in_Messier_74.jpg/596px-PESSTO_Snaps_Supernova_in_Messier_74.jpg"
+    },
+    {
+      "constellations": "Pisces",
+      "distance": 98e6,
+      "id": "NGC 488",
+      "link": "https://en.wikipedia.org/wiki/NGC_488",
+      "name": "- has a large central bulge, and is considered a prototype galaxy with multiple spiral arms",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/N488s.jpg/640px-N488s.jpg"
+    },
+    {
+      "constellations": "Pisces",
+      "distance": 105e6,
+      "id": "NGC 520",
+      "link": "https://en.wikipedia.org/wiki/NGC_520",
+      "name": "- a pair of colliding spiral galaxies",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Hubble_Interacting_Galaxy_NGC_520_%282008-04-24%29.jpg/640px-Hubble_Interacting_Galaxy_NGC_520_%282008-04-24%29.jpg"
+    },
+    {
+      "constellations": "Piscis Austrinus",
+      "distance": 54.6e6,
+      "id": "NGC 7314",
+      "link": "https://en.wikipedia.org/wiki/NGC_7314",
+      "name": "- the core is a source for X-ray emission that is seen to vary dramatically on time scales as low as hours",
+      "type": "Seyfert galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/NGC7314-HST-R814GB450.jpg/607px-NGC7314-HST-R814GB450.jpg"
+    },
+    {
+      "constellations": "Piscis Austrinus",
+      "distance": 1.5e9,
+      "id": "PKS 2155-304",
+      "link": "https://en.wikipedia.org/wiki/PKS_2155-304",
+      "name": "- is a BL Lac object, a galaxy hosting a type of blazar. It is a strong emitter from radio to high-energy frequencies",
+      "type": "Blazar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Bllac_image_P2155dec.png"
     }
   ]
 }
