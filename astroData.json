@@ -2312,6 +2312,15 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/IC2169.jpg"
     },
     {
+      "constellations": "Monoceros",
+      "distance": 2300,
+      "id": "HD 44179",
+      "link": "https://en.wikipedia.org/wiki/Red_Rectangle_Nebula",
+      "name": "Red Rectangle Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Redrectangle_hst_full.jpg/619px-Redrectangle_hst_full.jpg"
+    },
+    {
       "constellations": "Musca",
       "distance": 3000,
       "id": "NGC 5189",
