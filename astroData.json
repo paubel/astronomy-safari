@@ -2742,6 +2742,24 @@
       "name": "- about 78 million years old",
       "type": "Open cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Noao-m47.jpg/600px-Noao-m47.jpg"
+    },
+    {
+      "constellations": "Pyxis",
+      "distance": 10400,
+      "id": "NGC 2818",
+      "link": "https://en.wikipedia.org/wiki/NGC_2818",
+      "name": "- consists largely of glowing gases from the star's outer layers ejected during the final stages of its life",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/NGC_2818_by_the_Hubble_Space_Telescope.jpg/800px-NGC_2818_by_the_Hubble_Space_Telescope.jpg"
+    },
+    {
+      "constellations": "Pyxis",
+      "distance": 78e6,
+      "id": "NGC 2613",
+      "link": "https://en.wikipedia.org/wiki/NGC_2613",
+      "name": "- consists largely of glowing gases from the star's outer layers ejected during the final stages of its life",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/NGC_2613_%28captured_by_ESO%27s_1.5-metre_Danish_telescope%29.jpg/630px-NGC_2613_%28captured_by_ESO%27s_1.5-metre_Danish_telescope%29.jpg"
     }
   ]
 }
