@@ -2706,6 +2706,42 @@
       "name": "- is a BL Lac object, a galaxy hosting a type of blazar. It is a strong emitter from radio to high-energy frequencies",
       "type": "Blazar galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Bllac_image_P2155dec.png"
+    },
+    {
+      "constellations": "Puppis",
+      "distance": 4920,
+      "id": "M 46",
+      "link": "https://en.wikipedia.org/wiki/Messier_46",
+      "name": "- planetary nebula NGC 2438 appears to lie within the cluster near its northern edge (the faint almost rainbow array of colored smudge at the top-center of the image), but it is most likely unrelated since it does not share the cluster's radial velocity",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Messier_46_-_NGC_2437.jpg/635px-Messier_46_-_NGC_2437.jpg"
+    },
+    {
+      "constellations": "Puppis",
+      "distance": 1370,
+      "id": "NGC 2438",
+      "link": "https://en.wikipedia.org/wiki/NGC_2438",
+      "name": "- consists of material ejected from the central star during",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/N2438s-crop.jpg/591px-N2438s-crop.jpg"
+    },
+    {
+      "constellations": "Puppis",
+      "distance": 4420,
+      "id": "NGC 2467",
+      "link": "https://en.wikipedia.org/wiki/NGC_2467",
+      "name": "Skull and Crossbones Nebula",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/NGC_2467_and_Surroundings.jpg/600px-NGC_2467_and_Surroundings.jpg"
+    },
+    {
+      "constellations": "Puppis",
+      "distance": 1624,
+      "id": "M 47",
+      "link": "https://en.wikipedia.org/wiki/Messier_47",
+      "name": "- about 78 million years old",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Noao-m47.jpg/600px-Noao-m47.jpg"
     }
   ]
 }
