@@ -2878,6 +2878,60 @@
       "name": "Sagittarius Dwarf Spheroidal Galaxy - Artist's concept of the four tails of the Sagittarius dwarf galaxy (orange clump on left of the image) orbiting the Milky Way",
       "type": "Dwarf galaxy",
       "url": "https://cdn.mos.cms.futurecdn.net/umts9He6Vp5YuM3DCTJwb9-1920-80.jpg.webp"
+    },
+    {
+      "constellations": "Scorpius",
+      "distance": 1.59e3,
+      "id": "M 6",
+      "link": "https://en.wikipedia.org/wiki/Butterfly_Cluster",
+      "name": "- The cluster is estimated to be 94.2 million years old",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/M6a.jpg/640px-M6a.jpg"
+    },
+    {
+      "constellations": "Scorpius",
+      "distance": 980,
+      "id": "M 7",
+      "link": "https://en.wikipedia.org/wiki/Messier_7",
+      "name": "Ptolemy Cluster",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/The_star_cluster_Messier_7.jpg/495px-The_star_cluster_Messier_7.jpg"
+    },
+    {
+      "constellations": "Scorpius",
+      "distance": 5600,
+      "id": "NGC 6231",
+      "link": "https://en.wikipedia.org/wiki/NGC_6231",
+      "name": "- cluster is estimated about 2–7 million years old",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/NGC6231_Chandra.jpg/480px-NGC6231_Chandra.jpg"
+    },
+    {
+      "constellations": "Scorpius",
+      "distance": 7200,
+      "id": "M 4",
+      "link": "https://en.wikipedia.org/wiki/Messier_4",
+      "name": "- it appears about the same size as the Moon in the sky",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Globular_star_cluster_Messier_4.jpg/497px-Globular_star_cluster_Messier_4.jpg"
+    },
+    {
+      "constellations": "Scorpius",
+      "distance": 32.6e3,
+      "id": "M 80",
+      "link": "https://en.wikipedia.org/wiki/Messier_80",
+      "name": "- it hosts relatively many blue stragglers, stars that appear to be much younger than the cluster",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/A_Swarm_of_Ancient_Stars_-_GPN-2000-000930.jpg/458px-A_Swarm_of_Ancient_Stars_-_GPN-2000-000930.jpg"
+    },
+    {
+      "constellations": "Scorpius",
+      "distance": 4.37e3,
+      "id": "NGC 6334",
+      "link": "https://en.wikipedia.org/wiki/NGC_6334",
+      "name": "Cat's Paw Nebula",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/PIA22568-CatsPawNebula-Spitzer-20181023.jpg/640px-PIA22568-CatsPawNebula-Spitzer-20181023.jpg"
     }
   ]
 }
