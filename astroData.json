@@ -2790,13 +2790,94 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NGC_6886.jpg/600px-NGC_6886.jpg"
     },
     {
-      "constellations": "Sagitta",
+      "constellations": "Sagittarius",
       "distance": 10e3,
       "id": "M 24",
-      "link": "https://en.wikipedia.org/wiki/NGC_6886",
-      "name": "Small Sagittarius Star Cloud ",
+      "link": "https://en.wikipedia.org/wiki/Small_Sagittarius_Star_Cloud",
+      "name": "Small Sagittarius Star Cloud",
       "type": "Star cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Messier_24_Colombari_crop_invert.jpg"
+    },
+    {
+      "constellations": "Sagittarius",
+      "distance": 25e3,
+      "id": "Large Sagittarius Star Cloud",
+      "link": "https://en.wikipedia.org/wiki/Large_Sagittarius_Star_Cloud",
+      "name": "- brightest visible region of the Milky Way galaxy",
+      "type": "Star cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Large_Sagittarius_star_cloud.jpg"
+    },
+    {
+      "constellations": "Sagittarius",
+      "distance": 4100,
+      "id": "M 8",
+      "link": "https://en.wikipedia.org/wiki/Lagoon_Nebula",
+      "name": "Lagoon Nebula",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/VST_images_the_Lagoon_Nebula.jpg/640px-VST_images_the_Lagoon_Nebula.jpg"
+    },
+    {
+      "constellations": "Sagittarius",
+      "distance": 5500,
+      "id": "M 17",
+      "link": "https://en.wikipedia.org/wiki/Omega_Nebula",
+      "name": "Omega Nebula",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/VST_image_of_the_spectacular_star-forming_region_Messier_17_%28Omega_Nebula%29.jpg/480px-VST_image_of_the_spectacular_star-forming_region_Messier_17_%28Omega_Nebula%29.jpg"
+    },
+    {
+      "constellations": "Sagittarius",
+      "distance": 4100,
+      "id": "M 20",
+      "link": "https://en.wikipedia.org/wiki/Trifid_Nebula",
+      "name": "Trifid Nebula - an unusual combination of an open cluster of stars, an emission nebula (the relatively dense, reddish-pink portion), a reflection nebula (the mainly NNE blue portion), and a dark nebula (the apparent 'gaps' in the former that cause the trifurcated appearance",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/ESO-Trifid_Nebula.jpg/465px-ESO-Trifid_Nebula.jpg"
+    },
+    {
+      "constellations": "Sagittarius",
+      "distance": 5000,
+      "id": "NGC 6537",
+      "link": "https://en.wikipedia.org/wiki/Red_Spider_Nebula",
+      "name": "Red Spider Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bipolar_planetary_nebula_NGC_6537.jpg/515px-Bipolar_planetary_nebula_NGC_6537.jpg"
+    },
+    {
+      "constellations": "Sagittarius",
+      "distance": 5000,
+      "id": "NGC 6559",
+      "link": "https://en.wikipedia.org/wiki/Red_Spider_Nebula",
+      "name": "- emission (red) and reflection (bluish) regions",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/The_star_formation_region_NGC_6559.jpg/498px-The_star_formation_region_NGC_6559.jpg"
+    },
+    {
+      "constellations": "Sagittarius",
+      "distance": 4500,
+      "id": "NGC 6445",
+      "link": "https://en.wikipedia.org/wiki/NGC_6445",
+      "name": "- Little Gem Nebula or Box Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/NGC_6445_PanSTARRS1_r.g.jpg/480px-NGC_6445_PanSTARRS1_r.g.jpg"
+    },
+    {
+      "constellations": "Sagittarius",
+      "distance": 31.3e3,
+      "id": "NGC 6638",
+      "link": "https://en.wikipedia.org/wiki/NGC_6638",
+      "name": "- discovered in 1784 by the astronomer William Herschel",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NGC6638_-_HST_-_Potw2231a.jpg/498px-NGC6638_-_HST_-_Potw2231a.jpg"
+    },
+    {
+      "constellations": "Sagittarius",
+      "distance": 65e3,
+      "id": "Sgr dE",
+      "link": "https://en.wikipedia.org/wiki/Sagittarius_Dwarf_Spheroidal_Galaxy",
+      "name": "Sagittarius Dwarf Spheroidal Galaxy - Artist's concept of the four tails of the Sagittarius dwarf galaxy (orange clump on left of the image) orbiting the Milky Way",
+      "type": "Dwarf galaxy",
+      "url": "https://cdn.mos.cms.futurecdn.net/umts9He6Vp5YuM3DCTJwb9-1920-80.jpg.webp"
     }
   ]
 }
