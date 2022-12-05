@@ -602,15 +602,7 @@
       "type": "Globular cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/M71.jpg"
     },
-    {
-      "constellations": "Sculptor",
-      "distance": 15000,
-      "id": "NGC 6886",
-      "link": "https://en.wikipedia.org/wiki/NGC_6886",
-      "name": "- composed of a hot central post-AGB star",
-      "type": "Planetary nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NGC_6886.jpg/480px-NGC_6886.jpg"
-    },
+
     {
       "constellations": "Sculptor",
       "distance": 30000000,
@@ -2769,6 +2761,33 @@
       "name": "- consists largely of glowing gases from the star's outer layers ejected during the final stages of its life",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/NGC_2613_%28captured_by_ESO%27s_1.5-metre_Danish_telescope%29.jpg/630px-NGC_2613_%28captured_by_ESO%27s_1.5-metre_Danish_telescope%29.jpg"
+    },
+    {
+      "constellations": "Reticulum",
+      "distance": 50e6,
+      "id": "NGC 1559",
+      "link": "https://en.wikipedia.org/wiki/NGC_1559",
+      "name": "- is also a spiral galaxy. In 2005, a Type 1a supernova, (SN 2005df) was observed",
+      "type": "Seyfert galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/NGC_1559.png/605px-NGC_1559.png"
+    },
+    {
+      "constellations": "Sagitta",
+      "distance": 13e3,
+      "id": "M 71",
+      "link": "https://en.wikipedia.org/wiki/Messier_71",
+      "name": "- spans 27 light-years",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/M71.jpg"
+    },
+    {
+      "constellations": "Sagitta",
+      "distance": 15e3,
+      "id": "NGC 6886",
+      "link": "https://en.wikipedia.org/wiki/NGC_6886",
+      "name": "- composed of a hot central post-AGB star that has 55% of the Sun's mass yet 2700 ± 850 its luminosity",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NGC_6886.jpg/600px-NGC_6886.jpg"
     }
   ]
 }
