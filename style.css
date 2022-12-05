@@ -281,7 +281,7 @@ footer {
     flex-direction: row;
   }
   .start-text {
-    max-width: 60vw;
+    max-width: 100vw;
   }
 }
 /*Contact end*/

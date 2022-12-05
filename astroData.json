@@ -2788,6 +2788,15 @@
       "name": "- composed of a hot central post-AGB star that has 55% of the Sun's mass yet 2700 ± 850 its luminosity",
       "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NGC_6886.jpg/600px-NGC_6886.jpg"
+    },
+    {
+      "constellations": "Sagitta",
+      "distance": 10e3,
+      "id": "M 24",
+      "link": "https://en.wikipedia.org/wiki/NGC_6886",
+      "name": "Small Sagittarius Star Cloud ",
+      "type": "Star cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Messier_24_Colombari_crop_invert.jpg"
     }
   ]
 }
