@@ -29,7 +29,7 @@ body {
   background-color: var(--black);
   background-image: url("./green-cosmos.webp");
   background-color: #444;
-  background-blend-mode: multiply;
+  background-blend-mode: overlay;
   background-size: cover;
   color: var(--green-100);
   font-family: "Montserrat", sans-serif;

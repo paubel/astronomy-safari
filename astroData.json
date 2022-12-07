@@ -2932,6 +2932,51 @@
       "name": "Cat's Paw Nebula",
       "type": "Emission nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/PIA22568-CatsPawNebula-Spitzer-20181023.jpg/640px-PIA22568-CatsPawNebula-Spitzer-20181023.jpg"
+    },
+    {
+      "constellations": "Scutum",
+      "distance": 32000,
+      "id": "M1-63",
+      "link": "https://en.wikipedia.org/wiki/M1-63_nebula",
+      "name": "- a bipolar planetary nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/M1-63_Nebula.jpg"
+    },
+    {
+      "constellations": "Scutum",
+      "distance": 6120,
+      "id": "M 11",
+      "link": "https://en.wikipedia.org/wiki/Wild_Duck_Cluster",
+      "name": "Wild Duck Cluster",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Eso1430a.jpg/547px-Eso1430a.jpg"
+    },
+    {
+      "constellations": "Scutum",
+      "distance": 5160,
+      "id": "M 26",
+      "link": "https://en.wikipedia.org/wiki/Messier_26",
+      "name": "- spans 22 light years across",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Messier_26.jpg/600px-Messier_26.jpg"
+    },
+    {
+      "constellations": "Scutum",
+      "distance": 4700,
+      "id": "IC 1295",
+      "link": "https://en.wikipedia.org/wiki/IC_1295",
+      "name": "- the central star of the planetary nebula has a spectral type of hgO(H)",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ESO%27s_VLT_images_the_planetary_nebula_IC_1295.jpg/480px-ESO%27s_VLT_images_the_planetary_nebula_IC_1295.jpg"
+    },
+    {
+      "constellations": "Sculptor",
+      "distance": 4700,
+      "id": "IC 1295",
+      "link": "https://en.wikipedia.org/wiki/IC_1295",
+      "name": "- the central star of the planetary nebula has a spectral type of hgO(H)",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ESO%27s_VLT_images_the_planetary_nebula_IC_1295.jpg/480px-ESO%27s_VLT_images_the_planetary_nebula_IC_1295.jpg"
     }
   ]
 }
