@@ -2975,13 +2975,40 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/The_Spitzer_Space_Telescope%27s_view_of_W40.jpg/320px-The_Spitzer_Space_Telescope%27s_view_of_W40.jpg"
     },
     {
+      "constellations": "Sextans",
+      "distance": 31.6e6,
+      "id": "Westerhout 40",
+      "link": "https://en.wikipedia.org/wiki/Westerhout_40",
+      "name": "- interstellar gas forming a diffuse nebula surrounds a cluster of several hundred new-born stars",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/The_Spitzer_Space_Telescope%27s_view_of_W40.jpg/320px-The_Spitzer_Space_Telescope%27s_view_of_W40.jpg"
+    },
+    {
+      "constellations": "Sextans",
+      "distance": 4.44e6,
+      "id": "Sextans B",
+      "link": "https://en.wikipedia.org/wiki/Westerhout_40",
+      "name": "- one of the most distant members of the Local Group",
+      "type": "Irregular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Sextans_B.jpg/640px-Sextans_B.jpg"
+    },
+    {
+      "constellations": "Sextans",
+      "distance": 11.1e9,
+      "id": "CL J1001+0220",
+      "link": "https://en.wikipedia.org/wiki/CL_J1001%2B0220",
+      "name": "- the cluster is forming new stars at the rate of about 3,400 Suns per year. In contrast, the Milky Way produces only the equivalent of one Sun per year",
+      "type": "Cluster galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Composite_X-Ray_Radio_and_Infrared_of_galaxy_cluster_CL_J1001%2B0220.jpg/480px-Composite_X-Ray_Radio_and_Infrared_of_galaxy_cluster_CL_J1001%2B0220.jpg"
+    },
+    {
       "constellations": "Triangulum",
       "distance": 21000000,
-      "id": "IC 1727",
+      "id": "NGC 3115",
       "link": "https://en.wikipedia.org/wiki/NGC_672",
-      "name": "- NGC 672 (left) forms an interacting pair with the irregular galaxy IC 1727 (right)",
-      "type": "Spiral galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/NGC_672-IC_1727_Group.jpg/600px-NGC_672-IC_1727_Group.jpg"
+      "name": "Spindle Galaxy",
+      "type": "Lenticular galaxy",
+      "url": "https://theskylive.com/sky/deepsky/deepsky-images/84/ngc3115-spindle-galaxy-dss2r-800.jpg"
     },
     {
       "constellations": "Triangulum",
