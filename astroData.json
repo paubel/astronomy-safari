@@ -2382,7 +2382,7 @@
       "id": "NGC 1491",
       "link": "https://noirlab.edu/public/images/noao-ngc1491/",
       "name": "Fossil Footprint Nebula",
-      "type": "Emission Nebula",
+      "type": "Emission nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Fossil-Footprint.jpg/590px-Fossil-Footprint.jpg"
     },
     {
@@ -2911,6 +2911,16 @@
     },
     {
       "constellations": "Serpens Caput",
+      "distance": 613000000,
+      "id": "PGC 54559",
+      "link": "https://en.wikipedia.org/wiki/Hoag%27s_Object",
+      "name": "Hoag's Object",
+      "type": "Ring galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hoag%27s_object.jpg/490px-Hoag%27s_object.jpg"
+    },
+
+    {
+      "constellations": "Serpens Cauda",
       "distance": 5700,
       "id": "M 16",
       "link": "https://en.wikipedia.org/wiki/Eagle_Nebula",
@@ -2919,13 +2929,50 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Eagle_Nebula_from_ESO.jpg/600px-Eagle_Nebula_from_ESO.jpg"
     },
     {
-      "constellations": "Serpens Caput",
-      "distance": 613000000,
-      "id": "PGC 54559",
-      "link": "https://en.wikipedia.org/wiki/Hoag%27s_Object",
-      "name": "Hoag's Object",
-      "type": "Ring galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hoag%27s_object.jpg/490px-Hoag%27s_object.jpg"
+      "constellations": "Serpens Cauda",
+      "distance": 6500,
+      "id": "Pillars of Creation",
+      "link": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "name": "- the pillars are composed of cool molecular hydrogen and dust that are being eroded by photoevaporation from the ultraviolet light of relatively close and hot stars",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pillars_of_Creation_%28NIRCam_Image%29.jpg/443px-Pillars_of_Creation_%28NIRCam_Image%29.jpg"
+    },
+    {
+      "constellations": "Serpens Cauda",
+      "distance": 6200,
+      "id": "Sh2-54",
+      "link": "https://en.wikipedia.org/wiki/Sh2-54",
+      "name": "- In its core there are many protostars and many infrared sources. Belongs to an extended nebulosity that includes also the Eagle Nebula and the Omega Nebula",
+      "type": "Emission nebula",
+      "url": "https://cdn.astrobin.com/thumbs/VBMs8tL7Kw3M_620x0_kWXURFLk.jpg"
+    },
+    {
+      "constellations": "Serpens Cauda",
+      "distance": 4580,
+      "id": "NGC 6604",
+      "link": "https://en.wikipedia.org/wiki/Sh2-54",
+      "name": "- is inside the nebula Sh2-54. The cluster has an estimated age of 6.5 million",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/The_star_cluster_NGC_6604_and_its_surroundings.jpg/495px-The_star_cluster_NGC_6604_and_its_surroundings.jpg"
+    },
+    {
+      "constellations": "Serpens Cauda",
+      "distance": 5000,
+      "id": "Red Square Nebula",
+      "link": "https://en.wikipedia.org/wiki/Red_Square_Nebula",
+      "name": "- one of the most nearly discrete-symmetrical celestial objects ever imaged",
+      "type": "Planetary nebula",
+      "url": "https://www.aps.org/about/physics-images/images/redsquare_full.jpg"
+    },
+
+    {
+      "constellations": "Serpens Cauda",
+      "distance": 1420,
+      "id": "Westerhout 40",
+      "link": "https://en.wikipedia.org/wiki/Westerhout_40",
+      "name": "- interstellar gas forming a diffuse nebula surrounds a cluster of several hundred new-born stars",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/The_Spitzer_Space_Telescope%27s_view_of_W40.jpg/320px-The_Spitzer_Space_Telescope%27s_view_of_W40.jpg"
     },
     {
       "constellations": "Triangulum",
