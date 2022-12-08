@@ -3038,6 +3038,15 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/VST_snaps_a_very_detailed_view_of_the_Triangulum_Galaxy.jpg/503px-VST_snaps_a_very_detailed_view_of_the_Triangulum_Galaxy.jpg"
     },
     {
+      "constellations": "Triangulum Australe",
+      "distance": 9000,
+      "id": "NGC 5979",
+      "link": "https://en.wikipedia.org/wiki/Triangulum_Galaxy",
+      "name": "- the central star of the planetary nebula is an O-type star",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/NGC_5979.jpg/549px-NGC_5979.jpg"
+    },
+    {
       "constellations": "Ursa Major",
       "distance": 18000000,
       "id": "NGC 4605",
