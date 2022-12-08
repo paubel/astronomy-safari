@@ -3069,9 +3069,54 @@
       "distance": 6000,
       "id": "NGC 6820",
       "link": "https://en.wikipedia.org/wiki/NGC_6820_and_NGC_6823",
-      "name": "- small reflection nebula near the open cluster NGC 6823 in Vulpecula",
+      "name": "Hyades",
       "type": "Reflection nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NGC6820_JeffJohnson.jpg/488px-NGC6820_JeffJohnson.jpg"
+    },
+    {
+      "constellations": "Taurus",
+      "distance": 153,
+      "id": "Caldwell 41",
+      "link": "https://en.wikipedia.org/wiki/Hyades_(star_cluster)",
+      "name": "- the nearest open cluster to us",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Hyades.jpg/640px-Hyades.jpg"
+    },
+    {
+      "constellations": "Taurus",
+      "distance": 1520,
+      "id": "NGC 1514",
+      "link": "https://en.wikipedia.org/wiki/NGC_1514",
+      "name": "- the nebula originated from a binary star system",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/NGC_1514_by_Goran_Nilsson_%26_The_Liverpool_Telescope.jpg/491px-NGC_1514_by_Goran_Nilsson_%26_The_Liverpool_Telescope.jpg"
+    },
+    {
+      "constellations": "Taurus",
+      "distance": 6500,
+      "id": "M 1",
+      "link": "https://en.wikipedia.org/wiki/Crab_Nebula",
+      "name": "Crab Nebula - Historical records revealed that a new star bright enough to be seen in the daytime had been recorded in the same part of the sky by Chinese astronomers on 4 July 1054",
+      "type": "Supernova-remnant nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/480px-Crab_Nebula.jpg"
+    },
+    {
+      "constellations": "Taurus",
+      "distance": 6500,
+      "id": "M 1",
+      "link": "https://en.wikipedia.org/wiki/Crab_Nebula",
+      "name": "Crab Nebula - Historical records revealed that a new star bright enough to be seen in the daytime had been recorded in the same part of the sky by Chinese astronomers on 4 July 1054",
+      "type": "Supernova-remnant nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/480px-Crab_Nebula.jpg"
+    },
+    {
+      "constellations": "Taurus",
+      "distance": 430,
+      "id": "M 1",
+      "link": "https://en.wikipedia.org/wiki/Crab_Nebula",
+      "name": "Crab Nebula - Historical records revealed that a new star bright enough to be seen in the daytime had been recorded in the same part of the sky by Chinese astronomers on 4 July 1054",
+      "type": "",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/480px-Crab_Nebula.jpg"
     }
   ]
 }
