@@ -3110,13 +3110,13 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/480px-Crab_Nebula.jpg"
     },
     {
-      "constellations": "Taurus",
-      "distance": 430,
-      "id": "M 1",
-      "link": "https://en.wikipedia.org/wiki/Crab_Nebula",
-      "name": "Crab Nebula - Historical records revealed that a new star bright enough to be seen in the daytime had been recorded in the same part of the sky by Chinese astronomers on 4 July 1054",
-      "type": "",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/480px-Crab_Nebula.jpg"
+      "constellations": "Telescopium",
+      "distance": 98.14e6,
+      "id": "NGC 6861",
+      "link": "https://en.wikipedia.org/wiki/NGC_6861",
+      "name": "- exhibits a thick obscuring ring of dust around the nucleus where star formation is occurring",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/The_third_way_of_galaxies.jpg"
     }
   ]
 }

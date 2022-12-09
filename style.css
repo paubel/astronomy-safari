@@ -67,6 +67,7 @@ h3 {
 
 header {
   grid-area: h;
+  z-index: 1;
   text-align: center;
   position: sticky;
   top: 5px;
@@ -86,6 +87,7 @@ header {
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-area: n;
   /*   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
   gap: 1vh 1vw;
 }
@@ -122,9 +124,6 @@ section {
   /*   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
 }
 
-nav {
-  grid-area: n;
-}
 h1,
 h2 {
   text-align: center;
@@ -163,16 +162,19 @@ h3 {
 .menu-button {
   background-color: var(--green-250);
   color: black;
-  border-radius: 10px;
-  padding: 6px 6px;
+  border-radius: 5px;
+  padding: 0.5vh 0.5vw;
 }
 
 .menu-button:hover {
-  background-color: var(--green-250);
-  color: black;
-  border-radius: 10px;
-  padding: 6px 6px;
   text-decoration: none;
+  background-color: var(--green-300);
+  color: var(--green-100);
+}
+
+.menu-button:active {
+  background-color: var(--green-500);
+  color: var(--green-100);
 }
 
 a {
@@ -185,11 +187,18 @@ a:hover {
   text-decoration: underline;
 }
 
+/* TIP */
+figure {
+  margin-bottom: 2rem;
+}
+/*TIP*/
 figure img {
   margin: 0 auto;
   object-fit: cover;
-
-  max-height: 40vh;
+  width: 100%;
+  aspect-ratio: 1;
+  margin-bottom: 1em;
+  max-height: 70vh;
 }
 
 .image-startpage {
@@ -369,10 +378,11 @@ select {
   background-position: right 10px center;
   background-repeat: no-repeat;
   background-size: auto 50%;
-  border-radius: 10px;
+  border-radius: 5px;
+  text-align: center;
   border: none;
   color: #000;
-  padding: 5px 20px 5px 10px;
+  padding: 0.5vh 0.5vw;
   width: 12em;
   outline: none;
   -moz-appearance: none;
@@ -383,4 +393,14 @@ select {
   } */
 }
 
+select:hover {
+  background-color: var(--green-300);
+  color: var(--green-100);
+  cursor: pointer;
+}
+
+select:active {
+  background-color: var(--green-500);
+  color: var(--green-100);
+}
 /*END option*/
