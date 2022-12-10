@@ -3162,6 +3162,42 @@
       "name": "- composed of very old stars and is very isolated from other galaxies. Its location on the opposite side of the Milky Way from other Local Group galaxies",
       "type": "Dwarf galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tucana_Dwarf_Hubble_WikiSky.jpg/600px-Tucana_Dwarf_Hubble_WikiSky.jpg"
+    },
+    {
+      "constellations": "Ursa Minor",
+      "distance": 200e3,
+      "id": "Ursa Minor Dwarf",
+      "link": "https://en.wikipedia.org/wiki/Ursa_Minor_Dwarf",
+      "name": "- composed of very old stars and is very isolated from other galaxies. Its location on the opposite side of the Milky Way from other Local Group galaxies",
+      "type": "Dwarf galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Ursa_Minor_Dwarf_-_Giuseppe_Donatiello.jpg/480px-Ursa_Minor_Dwarf_-_Giuseppe_Donatiello.jpg"
+    },
+    {
+      "constellations": "Ursa Minor",
+      "distance": 285e6,
+      "id": "NGC 3172",
+      "link": "https://en.wikipedia.org/wiki/NGC_3172",
+      "name": "Polarissima Borealis",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/NGC_3172_PanS.jpg/640px-NGC_3172_PanS.jpg"
+    },
+    {
+      "constellations": "Ursa Minor",
+      "distance": 67.2e6,
+      "id": "NGC 6217",
+      "link": "https://en.wikipedia.org/wiki/NGC_3172",
+      "name": "- characterized as a starburst galaxy, which means it is undergoing a high rate of star formation compared to a typical galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/NGC_6217_hs-2009-25-bc-full.jpg/479px-NGC_6217_hs-2009-25-bc-full.jpg"
+    },
+    {
+      "constellations": "Ursa Minor",
+      "distance": 340e6,
+      "id": "NGC 6251",
+      "link": "https://en.wikipedia.org/wiki/NGC_3172",
+      "name": "- one of the most extreme examples of a Seyfert galaxy. This galaxy may be associated with gamma-ray source 3EG J1621+8203, which has high-energy gamma-ray emission",
+      "type": "Seyfert galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/NGC_6251_R814B547.png"
     }
   ]
 }
