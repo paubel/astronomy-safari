@@ -1956,7 +1956,7 @@
       "constellations": "Lynx",
       "distance": 275000000,
       "id": "NGC 2419",
-      "link": "https://telescope.live/gallery/b228-aka-dark-wolf-nebula#:~:text=The%20distance%20ranges%20from%20326,in%20the%20constellation%20of%20Lupus.",
+      "link": "https://en.wikipedia.org/wiki/NGC_2419",
       "name": "- its orbit takes it further away from the galactic center than the Magellanic Clouds, but it can (with qualifications) be considered as part of the Milky Way. At this great distance it takes three billion years to make one trip around the galaxy",
       "type": "Globular cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Caldwell_25.jpg/603px-Caldwell_25.jpg"
@@ -2345,7 +2345,7 @@
       "distance": 39790000,
       "id": "NGC 7331 Group",
       "link": "https://en.wikipedia.org/wiki/NGC_7331_Group",
-      "name": "Deer Lick Group",
+      "name": "- Deer Lick Group",
       "type": "Group galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/NGC_7331_-_Peris.jpg/600px-NGC_7331_-_Peris.jpg"
     },
@@ -3117,6 +3117,51 @@
       "name": "- exhibits a thick obscuring ring of dust around the nucleus where star formation is occurring",
       "type": "Lenticular galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/The_third_way_of_galaxies.jpg"
+    },
+    {
+      "constellations": "Telescopium",
+      "distance": 294e6,
+      "id": "NGC 6845",
+      "link": "https://en.wikipedia.org/wiki/NGC_6845",
+      "name": "- the components of the galaxy cluster are the two spiral galaxies NGC 6845A and NGC 6845B as well as the two lenticular galaxies NGC 6845C and NGC 6845D",
+      "type": "Group galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/NGC6845_-_Iotw2247a.jpg/544px-NGC6845_-_Iotw2247a.jpg"
+    },
+    {
+      "constellations": "Tucana",
+      "distance": 14500,
+      "id": "47 Tucanae",
+      "link": "https://en.wikipedia.org/wiki/47_Tucanae",
+      "name": "- the second brightest globular cluster after Omega Centauri",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Heic1510a.tif/lossy-page1-490px-Heic1510a.tif.jpg"
+    },
+    {
+      "constellations": "Tucana",
+      "distance": 203.7e3,
+      "id": "SMC",
+      "link": "https://en.wikipedia.org/wiki/Small_Magellanic_Cloud",
+      "name": "Small Magellanic Cloud - located across both the constellations of Tucana and part of Hydrus",
+      "type": "Dwarf galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Small_Magellanic_Cloud_%28Digitized_Sky_Survey_2%29.jpg/577px-Small_Magellanic_Cloud_%28Digitized_Sky_Survey_2%29.jpg"
+    },
+    {
+      "constellations": "Tucana",
+      "distance": 199e3,
+      "id": "NGC 121",
+      "link": "https://en.wikipedia.org/wiki/NGC_121",
+      "name": "- located in Small Magellanic Cloud",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Potw1428a.tif/lossy-page1-491px-Potw1428a.tif.jpg"
+    },
+    {
+      "constellations": "Tucana",
+      "distance": 3.2e6,
+      "id": "Tucana Dwarf",
+      "link": "https://en.wikipedia.org/wiki/NGC_121",
+      "name": "- composed of very old stars and is very isolated from other galaxies. Its location on the opposite side of the Milky Way from other Local Group galaxies",
+      "type": "Dwarf galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tucana_Dwarf_Hubble_WikiSky.jpg/600px-Tucana_Dwarf_Hubble_WikiSky.jpg"
     }
   ]
 }

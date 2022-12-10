@@ -89,7 +89,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-area: n;
   /*   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
-  gap: 1vh 1vw;
+  gap: 0.5vh 0.5vw;
 }
 
 main {
