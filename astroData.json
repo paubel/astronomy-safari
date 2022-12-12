@@ -3110,6 +3110,15 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/480px-Crab_Nebula.jpg"
     },
     {
+      "constellations": "Taurus",
+      "distance": 444,
+      "id": "M 47",
+      "link": "https://en.wikipedia.org/wiki/Pleiades#:~:text=The%20Pleiades%20(%2F%CB%88pl,west%20of%20the%20constellation%20Taurus.",
+      "name": "Pleiades",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Pleiades_large.jpg/640px-Pleiades_large.jpg"
+    },
+    {
       "constellations": "Telescopium",
       "distance": 98.14e6,
       "id": "NGC 6861",
@@ -3324,6 +3333,42 @@
       "name": "- one of the closest supernova remnant known to us",
       "type": "Supernova-remnant nebula",
       "url": "https://astrodonimaging.com/image.php?src=https://astrodonimaging.com/wp-content/uploads/2019/05/Vela-SNR-Mosaic-Web-DG-JD.jpg&zc=1&w=770"
+    },
+    {
+      "constellations": "Vela",
+      "distance": 815,
+      "id": "NGC 2736",
+      "link": "https://en.wikipedia.org/wiki/NGC_2736",
+      "name": "Pencil Nebula - a small part of the Vela Supernova Remnant, located near the Vela Pulsar",
+      "type": "Supernova-remnant nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/The_Pencil_Nebula%2C_a_strangely_shaped_leftover_from_a_vast_explosion.jpg/600px-The_Pencil_Nebula%2C_a_strangely_shaped_leftover_from_a_vast_explosion.jpg"
+    },
+    {
+      "constellations": "Vela",
+      "distance": 1.19e3,
+      "id": "NGC 2547",
+      "link": "https://en.wikipedia.org/wiki/NGC_2736",
+      "name": "- The star cluster is young with an age of 20-30 million years",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Star_cluster_NGC_2547.jpg/640px-Star_cluster_NGC_2547.jpg"
+    },
+    {
+      "constellations": "Vela",
+      "distance": 2300,
+      "id": "RCW 36",
+      "link": "https://en.wikipedia.org/wiki/RCW_36",
+      "name": "-  part of a larger-scale star-forming complex known as the Vela Molecular Ridge, a collection of molecular clouds in the Milky Way that contain multiple sites of ongoing star-formation activity",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RCW_36_Cloudy_with_a_Chance_of_Dust.jpg/481px-RCW_36_Cloudy_with_a_Chance_of_Dust.jpg"
+    },
+    {
+      "constellations": "Vela",
+      "distance": 3900,
+      "id": "NGC 2626",
+      "link": "https://en.wikipedia.org/wiki/NGC_2626",
+      "name": "- a reflection nebula, emission nebula, and absorption nebula ",
+      "type": "Reflection nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ngc2626atlas.jpg/600px-Ngc2626atlas.jpg"
     }
   ]
 }
