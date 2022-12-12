@@ -3198,6 +3198,96 @@
       "name": "- one of the most extreme examples of a Seyfert galaxy. This galaxy may be associated with gamma-ray source 3EG J1621+8203, which has high-energy gamma-ray emission",
       "type": "Seyfert galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/NGC_6251_R814B547.png"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 11.8e6,
+      "id": "M 81",
+      "link": "https://en.wikipedia.org/wiki/Messier_81",
+      "name": "Bode's Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Messier_81_HST.jpg/640px-Messier_81_HST.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 12e6,
+      "id": "M 82",
+      "link": "https://en.wikipedia.org/wiki/Messier_82",
+      "name": "Cigar Galaxy",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/M82_HST_ACS_2006-14-a-large_web.jpg/616px-M82_HST_ACS_2006-14-a-large_web.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 2030,
+      "id": "M 97",
+      "link": "https://en.wikipedia.org/wiki/Owl_Nebula",
+      "name": "Owl Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Noao-m97.tif/lossy-page1-500px-Noao-m97.tif.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 20.9e6,
+      "id": "M 101",
+      "link": "https://en.wikipedia.org/wiki/Pinwheel_Galaxy",
+      "name": "Pinwheel Galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/M101_hires_STScI-PRC2006-10a.jpg/614px-M101_hires_STScI-PRC2006-10a.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 24.17e6,
+      "id": "NGC 2787",
+      "link": "https://en.wikipedia.org/wiki/NGC_2787",
+      "name": "- The central region of the galaxy contains dust rings that are tilted with respect to the disk, which may be the result of an encounter with another galaxy",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/NGC_2787.jpg/491px-NGC_2787.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 49.84e6,
+      "id": "NGC 2950",
+      "link": "https://en.wikipedia.org/wiki/NGC_2950",
+      "name": "- it is not part of a galaxy cluster or galaxy group, and thus is gravitationally isolated",
+      "type": "Lenticular galaxy",
+      "url": "https://live.staticflickr.com/8013/7303955636_52210fc9ff_z.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 50e6,
+      "id": "NGC 3079",
+      "link": "https://en.wikipedia.org/wiki/NGC_3079",
+      "name": "- The bubble forming in the center is believed to be about 3000 light-years wide and to rise more than 3500 light-years above the disc of the galaxy",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/NGC_3079.jpg/606px-NGC_3079.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 34.8e6,
+      "id": "NGC 3310",
+      "link": "https://en.wikipedia.org/wiki/NGC_3310",
+      "name": "- is a starburst galaxy and it is likely that it collided with one of its satellite galaxies about 100 million years ago, triggering widespread star formation",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/NGC_3310.jpg/545px-NGC_3310.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 60.6e6,
+      "id": "NGC 4013",
+      "link": "https://en.wikipedia.org/wiki/NGC_4013",
+      "name": "- a recent deep color image of NGC 4013 revealed a looping tidal stream of stars extending over 80 thousand light-years from the Galactic Center",
+      "type": "Spiral galaxy",
+      "url": "http://annesastronomynews.com/wp-content/uploads/2012/02/NGC-4013-by-R.-Jay-GaBany.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 59e6,
+      "id": "I Zwicky 18",
+      "link": "https://en.wikipedia.org/wiki/I_Zwicky_18",
+      "name": "- The galaxy's primordial makeup suggests that its rate of star formation has been much lower than that of other galaxies of similar age",
+      "type": "Dwarf galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/I_Zwicky_18a.jpg/538px-I_Zwicky_18a.jpg"
     }
   ]
 }
