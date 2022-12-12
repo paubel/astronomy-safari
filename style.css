@@ -194,7 +194,7 @@ figure {
 /*TIP*/
 figure img {
   margin: 0 auto;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
   aspect-ratio: 1;
   margin-bottom: 1em;

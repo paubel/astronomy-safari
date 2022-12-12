@@ -3288,6 +3288,42 @@
       "name": "- The galaxy's primordial makeup suggests that its rate of star formation has been much lower than that of other galaxies of similar age",
       "type": "Dwarf galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/I_Zwicky_18a.jpg/538px-I_Zwicky_18a.jpg"
+    },
+    {
+      "constellations": "Vela",
+      "distance": 2000,
+      "id": "NGC 3132",
+      "link": "https://en.wikipedia.org/wiki/NGC_3132",
+      "name": "Eight-Burst Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Southern_Ring_Nebula_%28NIRCam_Image%29.png/515px-Southern_Ring_Nebula_%28NIRCam_Image%29.png"
+    },
+    {
+      "constellations": "Vela",
+      "distance": 6500,
+      "id": "NGC 2899",
+      "link": "https://en.wikipedia.org/wiki/NGC_3132",
+      "name": "Eight-Burst Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/New_ESO%E2%80%99s_VLT_image_of_the_NGC_2899_planetary_nebula.jpg/596px-New_ESO%E2%80%99s_VLT_image_of_the_NGC_2899_planetary_nebula.jpg"
+    },
+    {
+      "constellations": "Vela",
+      "distance": 1470,
+      "id": "Gum 12",
+      "link": "https://en.wikipedia.org/wiki/Gum_Nebula",
+      "name": "Gum Nebula",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/GumNebula.png/599px-GumNebula.png"
+    },
+    {
+      "constellations": "Vela",
+      "distance": 1470,
+      "id": "Vela Supernova Remnant",
+      "link": "https://en.wikipedia.org/wiki/Vela_Supernova_Remnant",
+      "name": "- one of the closest supernova remnant known to us",
+      "type": "Supernova-remnant nebula",
+      "url": "https://astrodonimaging.com/image.php?src=https://astrodonimaging.com/wp-content/uploads/2019/05/Vela-SNR-Mosaic-Web-DG-JD.jpg&zc=1&w=770"
     }
   ]
 }
