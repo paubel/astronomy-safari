@@ -86,7 +86,7 @@ header {
 
 nav {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-area: n;
   /*   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
   gap: 0.5vh 0.5vw;
@@ -187,6 +187,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.explanation figure {
+  margin-bottom: 0rem;
+}
+
 /* TIP */
 figure {
   margin-bottom: 2rem;
@@ -197,7 +201,7 @@ figure img {
   object-fit: contain;
   width: 100%;
   aspect-ratio: 1;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   max-height: 70vh;
 }
 
@@ -284,7 +288,16 @@ footer {
   content: "Email";
 }
 
+@media (min-width: 350px) {
+  nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (min-width: 600px) {
+  nav {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .soc-media {
     display: flex;
     flex-direction: row;
@@ -295,7 +308,7 @@ footer {
 }
 /*Contact end*/
 
-@media (min-width: 750px) {
+@media (min-width: 850px) {
   nav {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -313,7 +326,7 @@ footer {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   nav {
     grid-template-columns: repeat(5, 1fr);
   }
@@ -328,7 +341,7 @@ footer {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
   /*   .container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
