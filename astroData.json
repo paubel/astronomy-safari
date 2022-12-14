@@ -935,15 +935,7 @@
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/NGC_4314HST1998-21-b-full.jpg/600px-NGC_4314HST1998-21-b-full.jpg"
     },
-    {
-      "constellations": "Coma Berenices",
-      "distance": 53800000,
-      "id": "Virgo Cluster",
-      "link": "https://en.wikipedia.org/wiki/Virgo_Cluster",
-      "name": "- a large cluster of galaxies that alsp lies also in the constellation of Virgo",
-      "type": "Cluster galaxy",
-      "url": "https://science.nasa.gov/science-pink/s3fs-public/styles/image_gallery_scale_960w/public/atoms/markarian_FernandoPena1024.jpg?itok=gF-DiSTu"
-    },
+
     {
       "constellations": "Coma Berenices",
       "distance": 55000000,
@@ -3366,9 +3358,162 @@
       "distance": 3900,
       "id": "NGC 2626",
       "link": "https://en.wikipedia.org/wiki/NGC_2626",
-      "name": "- a reflection nebula, emission nebula, and absorption nebula ",
+      "name": "- a reflection nebula, emission nebula, and absorption nebula",
       "type": "Reflection nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ngc2626atlas.jpg/600px-Ngc2626atlas.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 53.8e6,
+      "id": "Virgo Cluster",
+      "link": "https://en.wikipedia.org/wiki/Virgo_Cluster",
+      "name": "- the cluster forms the heart of the larger Virgo Supercluster, of which the Local Group (containing our Milky Way galaxy) is a member. Part of the cluster lies in Coma Berenices",
+      "type": "Cluster galaxy",
+      "url": "https://science.nasa.gov/files/styles/image_gallery_scale_960w/public/atoms/markarian_FernandoPena1024.jpg?itok=gF-DiSTu"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 55.9e6,
+      "id": "M 49",
+      "link": "https://en.wikipedia.org/wiki/Messier_49",
+      "name": "- first member of the Virgo Cluster of galaxies to be discovered",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Noao-m49.tif/lossy-page1-585px-Noao-m49.tif.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 64e6,
+      "id": "M 49",
+      "link": "https://en.wikipedia.org/wiki/Messier_58",
+      "name": "- one of the brightest galaxies in the Virgo Cluster",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/M58s_%28visible%29.jpg/510px-M58s_%28visible%29.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 50.1e6,
+      "id": "M 59",
+      "link": "https://en.wikipedia.org/wiki/Messier_59",
+      "name": "- member of the Virgo Cluster. Is very rich in globular clusters",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Messier59_-_HST_-_Potw1921a.jpg/602px-Messier59_-_HST_-_Potw1921a.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 56.7e6,
+      "id": "M 60",
+      "link": "https://en.wikipedia.org/wiki/Messier_60",
+      "name": "- member of the Virgo Cluster. Together with NGC 4647, it forms a pair known as Arp 116",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Messier_60_-_Hubble_%282013-9-24%29.jpg/480px-Messier_60_-_Hubble_%282013-9-24%29.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 56.7e6,
+      "id": "NGC 4647",
+      "link": "https://en.wikipedia.org/wiki/NGC_4647",
+      "name": "- member of the Virgo Cluster. Together with M 60, it forms a pair known as Arp 116",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/NGC_4647_cropped.jpg/488px-NGC_4647_cropped.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 52.5e6,
+      "id": "M 61",
+      "link": "https://en.wikipedia.org/wiki/Messier_61",
+      "name": "- one of the largest members of Virgo Cluster. Eight extragalactic supernovae have so far been observed in M61, making it one of the most prodigious galaxies for such cataclysmic events",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/A_hungry_starburst_galaxy.jpg/501px-A_hungry_starburst_galaxy.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 54.9e6,
+      "id": "M 84",
+      "link": "https://en.wikipedia.org/wiki/Messier_84",
+      "name": "- part of the Virgo_Cluster. Radio observations and Hubble Space Telescope images of M84 have revealed two jets of matter shooting out from its center",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/A_fascinating_core.jpg/452px-A_fascinating_core.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 52e6,
+      "id": "M 86",
+      "link": "https://en.wikipedia.org/wiki/Messier_86",
+      "name": "- lies in the heart of the Virgo Cluster of galaxies and forms a most conspicuous group with another large galaxy known as M 84",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Beacon_of_Light_Messier_86.jpg/538px-Beacon_of_Light_Messier_86.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 53.5e6,
+      "id": "M 87",
+      "link": "https://en.wikipedia.org/wiki/Messier_87",
+      "name": "-  one of the largest and most massive galaxies in the local universe. A jet of energetic plasma that originates at the core and extends at least 4,900 light-years, traveling at a relativistic speed. Part of Virgo_Cluster",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Messier_87_Hubble_WikiSky.jpg/480px-Messier_87_Hubble_WikiSky.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 50e6,
+      "id": "M 89",
+      "link": "https://en.wikipedia.org/wiki/Messier_89",
+      "name": "- part of Virgo Cluster",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Messier89_-_HST_-_Potw1902a.tif/lossy-page1-640px-Messier89_-_HST_-_Potw1902a.tif.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 58.7e6,
+      "id": "M 90",
+      "link": "https://en.wikipedia.org/wiki/Messier_90",
+      "name": "- part of Virgo Cluster and one of its largest and brightest spiral galaxies",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Messier_90_-_HST.png/494px-Messier_90_-_HST.png"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 31.1e6,
+      "id": "M 104",
+      "link": "https://en.wikipedia.org/wiki/Messier_90",
+      "name": "Sombrero Galaxy - It has a bright nucleus, an unusually large central bulge, and a prominent dust lane in its outer disk, which is viewed almost edge-on",
+      "type": "Peculiar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/M104_ngc4594_sombrero_galaxy_hi-res.jpg/640px-M104_ngc4594_sombrero_galaxy_hi-res.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 72e6,
+      "id": "NGC 4639",
+      "link": "https://en.wikipedia.org/wiki/NGC_4639",
+      "name": "- has a mildly active galactic nucleus of the Seyfert type 1; one of the weakest known",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Elegant_spiral_hides_a_hungry_monster.jpg/458px-Elegant_spiral_hides_a_hungry_monster.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 52e6,
+      "id": "NGC 4435-NGC 4438",
+      "link": "https://en.wikipedia.org/wiki/NGC_4639",
+      "name": "- Eyes Galaxies - The larger of the galaxies, NGC 4438, at the top of the picture, is thought to have once been a spiral galaxy that was strongly deformed by collisions with NGC 4438, below",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/NGC4438-NGC4435-eso1131a.jpg/570px-NGC4438-NGC4435-eso1131a.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 95.9e6,
+      "id": "NGC 4261",
+      "link": "https://en.wikipedia.org/wiki/NGC_4261",
+      "name": "- Two prominent jets emanating from the nucleus can be observed in the radio band. It has an active galactic nucleus with a supermassive black hole at the core",
+      "type": "Elliptical galaxy",
+      "url": "https://live.staticflickr.com/65535/49502933466_814ec6c657_o.png"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 2.223e9,
+      "id": "3C 273",
+      "link": "https://en.wikipedia.org/wiki/3C_273",
+      "name": "- The quasar has a large-scale visible jet, which measures ~200 kilolight-years long",
+      "type": "Quasar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Best_image_of_bright_quasar_3C_273.jpg/486px-Best_image_of_bright_quasar_3C_273.jpg"
     }
   ]
 }
