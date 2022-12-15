@@ -96,7 +96,7 @@
       "link": "https://en.wikipedia.org/wiki/Helix_Nebula",
       "name": "Helix Nebula",
       "type": "Planetary nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Comets_Kick_up_Dust_in_Helix_Nebula_%28PIA09178%29.jpg/577px-Comets_Kick_up_Dust_in_Helix_Nebula_%28PIA09178%29.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/NGC7293_%282004%29.jpg/445px-NGC7293_%282004%29.jpg"
     },
     {
       "constellations": "Aquila",
@@ -3001,7 +3001,7 @@
       "distance": 153,
       "id": "Caldwell 41",
       "link": "https://en.wikipedia.org/wiki/Hyades_(star_cluster)",
-      "name": "- the nearest open cluster to us",
+      "name": "- Hyades - the nearest open cluster to us",
       "type": "Open cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Hyades.jpg/640px-Hyades.jpg"
     },
@@ -3343,8 +3343,8 @@
       "distance": 2223000000,
       "id": "3C 273",
       "link": "https://en.wikipedia.org/wiki/3C_273",
-      "name": "- The quasar has a large-scale visible jet, which measures ~200 kilolight-years long",
-      "type": "Quasar galaxy",
+      "name": "- The blazar, is also a quasar, has a large-scale visible jet, which measures ~200 kilolight-years long",
+      "type": "Blazar galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Best_image_of_bright_quasar_3C_273.jpg/486px-Best_image_of_bright_quasar_3C_273.jpg"
     },
     {
@@ -3523,9 +3523,117 @@
       "distance": 6000,
       "id": "NGC 6820",
       "link": "https://en.wikipedia.org/wiki/NGC_6820_and_NGC_6823",
-      "name": "Hyades",
+      "name": "- is embedded in a large faint emission nebula called Sh 2-86.",
       "type": "Reflection nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NGC6820_JeffJohnson.jpg/488px-NGC6820_JeffJohnson.jpg"
+    },
+    {
+      "constellations": "Andromeda",
+      "distance": 1300,
+      "id": "NGC 752",
+      "link": "https://en.wikipedia.org/wiki/NGC_752",
+      "name": "- easily seen through binoculars, although it may approach naked eye visibility under good observing conditions",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/NGC_752.png"
+    },
+    {
+      "constellations": "Aquarius",
+      "distance": 55000,
+      "id": "M 2",
+      "link": "https://en.wikipedia.org/wiki/Messier_2",
+      "name": "- easily seen through binoculars, although it may approach naked eye visibility under good observing conditions",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Messier2_-_HST_-_Potw1913a.jpg/478px-Messier2_-_HST_-_Potw1913a.jpg"
+    },
+    {
+      "constellations": "Aquarius",
+      "distance": 54.57e3,
+      "id": "M 72",
+      "link": "https://en.wikipedia.org/wiki/Messier_72",
+      "name": "-  visible in a good night sky as a faint nebula in a telescope with a 6 cm",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/M72_Hubble_WikiSky.jpg/480px-M72_Hubble_WikiSky.jpg"
+    },
+    {
+      "constellations": "Aquarius",
+      "distance": 76e6,
+      "id": "NGC 7727",
+      "link": "https://en.wikipedia.org/wiki/NGC_7727",
+      "name": "- In all likelihood, this system is the product of the merger of two previous spiral galaxies that took place 1 billion years ago",
+      "type": "Peculiar galaxy",
+      "url": "https://www.astronomiamo.it/Plugin/fileman/Uploads/Images/DSO/NGC7727.jpg"
+    },
+    {
+      "constellations": "Aquarius",
+      "distance": 220e6,
+      "id": "NGC 7252",
+      "link": "https://en.wikipedia.org/wiki/NGC_7252",
+      "name": "- Atoms for Peace Galaxy - The galaxy is the result of a collision of two galaxies",
+      "type": "Peculiar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Hubble_image_of_NGC_7252.jpg/640px-Hubble_image_of_NGC_7252.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 397e6,
+      "id": "Mrk 421",
+      "link": "https://en.wikipedia.org/wiki/Markarian_421",
+      "name": "- The object is an active galaxy and is a strong source of gamma rays",
+      "type": "Blazar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/SDSS_Mrk_421.jpg"
+    },
+    {
+      "constellations": "Hercules",
+      "distance": 456e6,
+      "id": "Mrk 501",
+      "link": "https://en.wikipedia.org/wiki/Markarian_501",
+      "name": "- It is a blazar or BL Lac object, which is an active galactic nucleus with a jet that is shooting towards the Earth.",
+      "type": "Blazar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/SDSS_Mrk_501.jpg"
+    },
+    {
+      "constellations": "Cepheus",
+      "distance": 1.2e10,
+      "id": "S5 0014+81",
+      "link": "https://en.wikipedia.org/wiki/S5_0014%2B81",
+      "name": "- The object is an OVV (optically violent variable) quasar, a type of blazar. It belongs to the most energetic subclass of active galactic nuclei, which are produced by the rapid accretion of matter by a central supermassive black hole, changing gravitational energy to light energy that can be visible across cosmic distances. The image is an artist's impression",
+      "type": "Blazar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Black-hole-feeding-accreting-esa-nasa.jpg"
+    },
+    {
+      "constellations": "Lacerta",
+      "distance": 0.9e9,
+      "id": "BL Lacertae",
+      "link": "https://en.wikipedia.org/wiki/BL_Lacertae",
+      "name": "- is a highly variable, extragalactic active galactic nucleus (AGN or active galaxy). Due to its early discovery, BL Lacertae became the prototype and namesake of the class of active galactic nuclei known as 'BL Lacertae objects'. The image is an artist's impression",
+      "type": "Blazar galaxy",
+      "url": "https://scitechdaily.com/images/Blazar-1536x1086.jpg?ezimgfmt=ngcb2/notWebP"
+    },
+    {
+      "constellations": "Centaurus",
+      "distance": 450e6,
+      "id": "ESO 325-G004",
+      "link": "https://esahubble.org/images/opo0708b/",
+      "name": "- is home to thousands of globular clusters, small compact groups of hundreds of thousands of stars that are gravitationally bound systems",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Abell_S740%2C_cropped_to_ESO_325-G004.jpg/448px-Abell_S740%2C_cropped_to_ESO_325-G004.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 1154.6e6,
+      "id": "IC 1101",
+      "link": "https://en.wikipedia.org/wiki/IC_1101",
+      "name": "- It possesses a diffuse core which is the one of the largest known core of any galaxy to date and also hosts a supermassive black hole that is one of the largest black holes known",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/IC_1101.jpg/600px-IC_1101.jpg"
+    },
+    {
+      "constellations": "Hercules",
+      "distance": 2.1e9,
+      "id": "Hercules A",
+      "link": "https://en.wikipedia.org/wiki/Hercules_A",
+      "name": "- 3C 348, the galaxy at the image center, appears to be a relatively normal elliptical galaxy in visible light. When imaged in radio waves, however, plasma jets over one million light years long appear.",
+      "type": "Radio galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/A_Multi-Wavelength_View_of_Radio_Galaxy_Hercules_A.jpg/640px-A_Multi-Wavelength_View_of_Radio_Galaxy_Hercules_A.jpg"
     }
   ]
 }
