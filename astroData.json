@@ -3631,9 +3631,90 @@
       "distance": 2.1e9,
       "id": "Hercules A",
       "link": "https://en.wikipedia.org/wiki/Hercules_A",
-      "name": "- 3C 348, the galaxy at the image center, appears to be a relatively normal elliptical galaxy in visible light. When imaged in radio waves, however, plasma jets over one million light years long appear.",
+      "name": "- 3C 348, the galaxy at the image center, appears to be a relatively normal elliptical galaxy in visible light. When imaged in radio waves, however, plasma jets over one million light years long appear",
       "type": "Radio galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/A_Multi-Wavelength_View_of_Radio_Galaxy_Hercules_A.jpg/640px-A_Multi-Wavelength_View_of_Radio_Galaxy_Hercules_A.jpg"
+    },
+    {
+      "constellations": "Cassiopeia",
+      "distance": 9.3e6,
+      "id": "Maffei 1",
+      "link": "https://en.wikipedia.org/wiki/Maffei_1",
+      "name": "-  Once believed to be a member of the Local Group of galaxies, it is now known to belong to a separate group, the IC 342/Maffei Group",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Maf1atlas.jpg"
+    },
+    {
+      "constellations": "Ophiuchus",
+      "distance": 411e6,
+      "id": "NeVe 1",
+      "link": "https://en.wikipedia.org/wiki/NeVe_1",
+      "name": "- and its fuzzy halo partially obscured by the dense foreground stars of the Milky Way",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/OPH_Cluster_BCG_galaxy_by_the_PanSTARRS_DR1_color.png/496px-OPH_Cluster_BCG_galaxy_by_the_PanSTARRS_DR1_color.png"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 32e9,
+      "id": "GN-z11",
+      "link": "https://en.wikipedia.org/wiki/GN-z11",
+      "name": "- one of the farthest known galaxies from Earth ever discovered",
+      "type": "Distant galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Distant_galaxy_GN-z11_in_GOODS-N_image_by_HST.jpg/320px-Distant_galaxy_GN-z11_in_GOODS-N_image_by_HST.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 33.6e9,
+      "id": "JADES-GS-z13-0",
+      "link": "https://en.wikipedia.org/wiki/JADES-GS-z13-0",
+      "name": "- discovered by the James Webb Space Telescope (JWST) during its JWST Advanced Deep Extragalactic Survey (JADES) observing program on 29 September 2022",
+      "type": "Distant galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/JADES-GS-z13-0.png"
+    },
+    {
+      "constellations": "Sextans",
+      "distance": 57e6,
+      "id": "NGC 3169",
+      "link": "https://en.wikipedia.org/wiki/NGC_3169",
+      "name": "- (left) is located in close physical proximity to NGC 3166(right), and the two have an estimated separation of around 160 kly. Their interaction is creating a gravitational distortion that has left the disk of NGC 3166 warped",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/NGC_3169_NGC_3166.jpg/480px-NGC_3169_NGC_3166.jpg"
+    },
+    {
+      "constellations": "Aries",
+      "distance": 424e6,
+      "id": "UGC 2369",
+      "link": "https://en.wikipedia.org/wiki/UGC_2369",
+      "name": "- Interaction between galaxies is not an uncommon event, however, two similarly sized ones merging is rare. The images released by NASA show both the galaxies distorting as they pulled closer. In the images, a thin bridge of gas, dust and stars can also be seen",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/UGC_2369NS.jpeg/467px-UGC_2369NS.jpeg"
+    },
+    {
+      "constellations": "Lepus",
+      "distance": 500e6,
+      "id": "IRAS 06076-2139",
+      "link": "https://esahubble.org/images/potw1719a/",
+      "name": "- stands out from the crowd by actually being composed of two separate galaxies rushing past each other at about 2 million kilometres per hour.",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Close_encounter_IRAS_06076-2139.jpg/586px-Close_encounter_IRAS_06076-2139.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 55e6,
+      "id": "NGC 4302 and NGC 4298",
+      "link": "https://svs.gsfc.nasa.gov/30950",
+      "name": "- These galaxies look quite different because we see them angled at different positions on the sky. They are actually very similar in terms of their structure and contents",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/NGC_4298_and_NGC_4302_-_Heic1709a.jpg/561px-NGC_4298_and_NGC_4302_-_Heic1709a.jpg"
+    },
+    {
+      "constellations": "Hercules",
+      "distance": 399e6,
+      "id": "NGC 6052",
+      "link": "https://en.wikipedia.org/wiki/NGC_6052",
+      "name": "- The two galaxies, attracted by each other's gravity, have collided and are interacting with each other. NGC 6052 is currently in a late stage of merging, where the shape of the two galaxies is not distinctly defined",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/NGC6052_-_HST_-_Potw1909a.jpg/606px-NGC6052_-_HST_-_Potw1909a.jpg"
     }
   ]
 }
