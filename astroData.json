@@ -3715,6 +3715,177 @@
       "name": "- The two galaxies, attracted by each other's gravity, have collided and are interacting with each other. NGC 6052 is currently in a late stage of merging, where the shape of the two galaxies is not distinctly defined",
       "type": "Interacting galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/NGC6052_-_HST_-_Potw1909a.jpg/606px-NGC6052_-_HST_-_Potw1909a.jpg"
+    },
+    {
+      "constellations": "Draco",
+      "distance": 443e6,
+      "id": "NGC 6052",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2014/08/Galactic_soup",
+      "name": "- two galaxies on the left. One of the great questions in galaxy evolution is how interactions between galaxies trigger waves of star formation, and why these stars then abruptly stop forming. Interacting pairs like this one present astronomers with perfect opportunities to investigate this",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Galactic_soup.jpg/615px-Galactic_soup.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 254e6,
+      "id": "ESO 576-69",
+      "link": "https://www.nasa.gov/multimedia/imagegallery/image_feature_2523.html",
+      "name": "- a spiral galaxy is in the process of colliding with a lenticular galaxy",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/The_messy_result_of_a_galactic_collision.jpg/525px-The_messy_result_of_a_galactic_collision.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 290e6,
+      "id": "NGC 4676",
+      "link": "https://www.nasa.gov/multimedia/imagegallery/image_feature_2523.html",
+      "name": "Mice Galaxies - two spiral galaxies have begun the process of colliding and merging",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Merging_galaxies_NGC_4676_%28captured_by_the_Hubble_Space_Telescope%29.jpg/640px-Merging_galaxies_NGC_4676_%28captured_by_the_Hubble_Space_Telescope%29.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 60e6,
+      "id": "NGC 3447",
+      "link": "https://esahubble.org/images/potw1712a/",
+      "name": "- Some galaxies are harder to classify than others. The two sit so close that they are strongly influenced and distorted by the gravitational forces between them, causing the galaxies to twist themselves into the unusual and unique shapes seen here",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Defying_cosmic_convention.jpg/561px-Defying_cosmic_convention.jpg"
+    },
+    {
+      "constellations": "Horologium",
+      "distance": 38e6,
+      "id": "NGC 1510 and NGC 1512",
+      "link": "https://en.wikipedia.org/wiki/NGC_1510",
+      "name": "- Gravitational tidal forces of NGC 1512 (left) are influencing nearby dwarf lenticular galaxy NGC 1510 (right). In the process of a lengthy merger which has been going on for 400 million years. At the end of this process NGC 1512 will have cannibalised its smaller companion",
+      "type": "Interacting galaxy",
+      "url": "https://cdn.spacetelescope.org/archives/images/screen/heic1712a.jpg"
+    },
+    {
+      "constellations": "Horologium",
+      "distance": 650e6,
+      "id": "ESO 593-8",
+      "link": "https://en.wikipedia.org/wiki/ESO_593-8",
+      "name": "- was created by a merger of two spiral galaxies and an irregular dwarf-galaxy",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hubble_Interacting_Galaxy_ESO_593-8_%282008-04-24%29.jpg/480px-Hubble_Interacting_Galaxy_ESO_593-8_%282008-04-24%29.jpg"
+    },
+    {
+      "constellations": "Pavo",
+      "distance": 34e6,
+      "id": "IC 4710",
+      "link": "https://en.wikipedia.org/wiki/IC_4710",
+      "name": "- this galaxy is composed of bright stars, with bright pockets — marking bursts of new star formation — scattered around its edges",
+      "type": "Irregular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/A_frenzy_of_stars_IC_4710.jpg/528px-A_frenzy_of_stars_IC_4710.jpg"
+    },
+    {
+      "constellations": "Pavo",
+      "distance": 100e6,
+      "id": "ESO 338-4",
+      "link": "https://esahubble.org/images/potw1845a/",
+      "name": "- Blue compact dwarf galaxies take their name from the intensely blue star-forming regions that are often found within their cores. One such region can be seen embedded in ESO 338-4, which is populated with bright young stars voraciously consuming hydroge",
+      "type": "Dwarf galaxy",
+      "url": "https://cdn.spacetelescope.org/archives/images/wallpaper1/potw1845a.jpg"
+    },
+    {
+      "constellations": "Pavo",
+      "distance": 30e6,
+      "id": "IC 3583",
+      "link": "https://en.wikipedia.org/wiki/IC_3583",
+      "name": "- It may seem to have no discernable structure, but IC 3583 has been found to have a bar of stars running through its centre",
+      "type": "Irregular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/IC_3583_-_HST_-_Potw1648a.tif/lossy-page1-487px-IC_3583_-_HST_-_Potw1648a.tif.jpg"
+    },
+    {
+      "constellations": "Lynx",
+      "distance": 25e6,
+      "id": "NGC 2337",
+      "link": "https://www.nasa.gov/image-feature/goddard/2016/nasas-hubble-spots-a-lopsided-lynx",
+      "name": "- Some irregular galaxies may have once fallen into one of the regular classes of the Hubble sequence, but were warped and deformed by a passing cosmic companion. As such, irregular galaxies provide astronomers with a valuable opportunity to learn more about galactic evolution and interaction",
+      "type": "Irregular galaxy",
+      "url": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/a_lopsided_lynx_ngc_2337.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 11e6,
+      "id": "UGC 4459",
+      "link": "https://esahubble.org/images/potw1613a/",
+      "name": "- Rich with young blue stars and older red stars",
+      "type": "Irregular galaxy",
+      "url": "https://cdn.spacetelescope.org/archives/images/screen/potw1613a.jpg"
+    },
+    {
+      "constellations": "Eridanus",
+      "distance": 109e6,
+      "id": "NGC 1222",
+      "link": "https://en.wikipedia.org/wiki/NGC_1222",
+      "name": "- is currently interacting with and swallowing two dwarf galaxies that are supplying the gas and dust needed to become a starburst galaxy",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/NGC_1222_-_HST_-_potw1645a.tif/lossy-page1-307px-NGC_1222_-_HST_-_potw1645a.tif.jpg"
+    },
+    {
+      "constellations": "Canes Venatici",
+      "distance": 43e6,
+      "id": "NGC 4111",
+      "link": "https://en.wikipedia.org/wiki/NGC_4111",
+      "name": "- is characterised by a series of dusty filaments running through its centre",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Elegance_conceals_an_eventful_past.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 28.85e9,
+      "id": "ULAS J1120+0641",
+      "link": "https://en.wikipedia.org/wiki/ULAS_J1120%2B0641",
+      "name": "- Artist's rendering. The quasar emitted the light observed on Earth today less than 770 million years after the Big Bang, about 13 billion years ago",
+      "type": "Quasar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Artist%27s_rendering_ULAS_J1120%2B0641.jpg/640px-Artist%27s_rendering_ULAS_J1120%2B0641.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 300e6,
+      "id": "NGC 3808",
+      "link": "https://en.wikipedia.org/wiki/Arp_87",
+      "name": "- NGC 3808A (right), the brighter, is a peculiar spiral galaxy, while NGC 3808B (left) is an irregular galaxy.",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Arp87full.jpg/640px-Arp87full.jpg"
+    },
+    {
+      "constellations": "Hydra",
+      "distance": 352e6,
+      "id": "NGC 2936",
+      "link": "https://en.wikipedia.org/wiki/NGC_2936",
+      "name": "- NGC 2936 (bottom middle) and NGC 2937 (bottom)",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Heic1311a.jpg/584px-Heic1311a.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 500e6,
+      "id": "Arp 148",
+      "link": "https://hubblesite.org/contents/media/images/2008/16/2309-Image.html",
+      "name": "-  the staggering aftermath of an encounter between two galaxies, resulting in a ring-shaped galaxy and a long-tailed companion",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Hubble_Interacting_Galaxy_Arp_148_%282008-04-24%29.jpg/480px-Hubble_Interacting_Galaxy_Arp_148_%282008-04-24%29.jpg"
+    },
+    {
+      "constellations": "Draco",
+      "distance": 420e6,
+      "id": "UGC 10214",
+      "link": "https://en.wikipedia.org/wiki/Tadpole_Galaxy",
+      "name": "- Tadpole Galaxy - The staggering aftermath of an encounter between two galaxies, resulting in a ring-shaped galaxy and a long-tailed companion",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/UGC_10214HST.jpg/444px-UGC_10214HST.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 160e3,
+      "id": "LHA 120-N 55",
+      "link": "https://en.wikipedia.org/wiki/LHA_120-N_55",
+      "name": "- glowing clump of gas and dust that gets its light output from the hydrogen atoms shedding electrons within it. Located within the Large Magellanic Cloud",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/The_glowing_gas_cloud_LHA_120-N55_in_the_Large_Magellanic_Cloud.jpg/572px-The_glowing_gas_cloud_LHA_120-N55_in_the_Large_Magellanic_Cloud.jpg"
     }
   ]
 }
