@@ -380,7 +380,7 @@ button {
 }
 
 .contact-button {
-  max-width: 150px;
+  max-width: 20em;
   justify-self: center;
 }
 
