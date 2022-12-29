@@ -112,7 +112,7 @@
       "distance": 1500,
       "id": "NGC 6781",
       "link": "https://en.wikipedia.org/wiki/NGC_6781",
-      "name": "Snowglobe cluster",
+      "name": "- The bipolar dust shell of this nebula is believed to be barrel-shaped and is being viewed from nearly pole-on",
       "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NGC-6781.jpg/480px-NGC-6781.jpg"
     },
@@ -2154,7 +2154,7 @@
       "constellations": "Orion",
       "distance": 1000,
       "id": "Orion complex",
-      "link": "https://en.wikipedia.org/wiki/NGC_7098",
+      "link": "https://en.wikipedia.org/wiki/Orion_molecular_cloud_complex",
       "name": "Orion molecular cloud complex - includes a large group of bright nebulae, dark clouds in the Orion constellation. Several nebulae can be observed through binoculars and small telescopes, and some parts (such as the Orion Nebula) are visible to the naked eye",
       "type": "Star-forming nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Orion_Head_to_Toe.jpg/498px-Orion_Head_to_Toe.jpg"
@@ -2704,9 +2704,9 @@
       "distance": 4100,
       "id": "M 8",
       "link": "https://en.wikipedia.org/wiki/Lagoon_Nebula",
-      "name": "Lagoon Nebula",
+      "name": "- Lagoon Nebula bottom and Trifid nebulae top",
       "type": "Emission nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/VST_images_the_Lagoon_Nebula.jpg/640px-VST_images_the_Lagoon_Nebula.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lagoon_and_Trifid_from_Los_Angeles_.jpg/994px-Lagoon_and_Trifid_from_Los_Angeles_.jpg"
     },
     {
       "constellations": "Sagittarius",
@@ -2724,7 +2724,7 @@
       "link": "https://en.wikipedia.org/wiki/Red_Spider_Nebula",
       "name": "Red Spider Nebula",
       "type": "Planetary nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bipolar_planetary_nebula_NGC_6537.jpg/515px-Bipolar_planetary_nebula_NGC_6537.jpg"
+      "url": "https://cdn.spacetelescope.org/archives/images/screen/heic0109a.jpg"
     },
     {
       "constellations": "Sagittarius",
@@ -3023,15 +3023,7 @@
       "type": "Supernova-remnant nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/480px-Crab_Nebula.jpg"
     },
-    {
-      "constellations": "Taurus",
-      "distance": 6500,
-      "id": "M 1",
-      "link": "https://en.wikipedia.org/wiki/Crab_Nebula",
-      "name": "Crab Nebula - Historical records revealed that a new star bright enough to be seen in the daytime had been recorded in the same part of the sky by Chinese astronomers on 4 July 1054",
-      "type": "Supernova-remnant nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/480px-Crab_Nebula.jpg"
-    },
+
     {
       "constellations": "Telescopium",
       "distance": 294000000,
@@ -3886,6 +3878,60 @@
       "name": "- glowing clump of gas and dust that gets its light output from the hydrogen atoms shedding electrons within it. Located within the Large Magellanic Cloud",
       "type": "Emission nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/The_glowing_gas_cloud_LHA_120-N55_in_the_Large_Magellanic_Cloud.jpg/572px-The_glowing_gas_cloud_LHA_120-N55_in_the_Large_Magellanic_Cloud.jpg"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 20000,
+      "id": "Westerhout 2",
+      "link": "https://en.wikipedia.org/wiki/Westerlund_2",
+      "name": "- contains some of the hottest, brightest, and most massive stars known. Part of RCW 49",
+      "type": "Star cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/NASA_Unveils_Celestial_Fireworks_as_Official_Hubble_25th_Anniversary_Image.jpg/640px-NASA_Unveils_Celestial_Fireworks_as_Official_Hubble_25th_Anniversary_Image.jpg"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 13700,
+      "id": "RCW 49",
+      "link": "https://en.wikipedia.org/wiki/RCW_49",
+      "name": "- Whirling Dervish Nebula - a dusty stellar nursery that contains more than 2,200 stars and is about 350 light years across",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/ESO-The_Gum_29_Nebula-phot-37-08-fullres.jpg/477px-ESO-The_Gum_29_Nebula-phot-37-08-fullres.jpg"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 22500,
+      "id": "NGC 3603",
+      "link": "https://en.wikipedia.org/wiki/RCW_49",
+      "name": "- the most massive visible cloud of glowing gas and plasma, known as a H II region, in the Milky Way",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Stellar_nursery_NGC_3603.jpg/476px-Stellar_nursery_NGC_3603.jpg"
+    },
+    {
+      "constellations": "Scorpius",
+      "distance": 4000,
+      "id": "NGC 6302",
+      "link": "https://esahubble.org/images/heic0910h/",
+      "name": "Butterfly Nebula - the structure in the nebula is among the most complex ever observed in planetary nebulae",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/NGC_6302_Hubble_2009.full.jpg/659px-NGC_6302_Hubble_2009.full.jpg"
+    },
+    {
+      "constellations": "Tucana",
+      "distance": 210000,
+      "id": "NGC 346",
+      "link": "https://en.wikipedia.org/wiki/NGC_346",
+      "name": "- Open cluster with starforminglocated in Small Magellanic Cloud",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ngc346.jpg/411px-Ngc346.jpg"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 7500,
+      "id": "HH 901, HH 902",
+      "link": "https://esahubble.org/images/heic1007a/",
+      "name": "- Mystic Mountain - part of the Carina Nebula",
+      "type": "Star-forming nebula",
+      "url": "https://cdn.spacetelescope.org/archives/images/screen/heic1007a.jpg"
     }
   ]
 }
