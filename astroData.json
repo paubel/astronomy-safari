@@ -2,6 +2,15 @@
   "astroObject": [
     {
       "constellations": "Andromeda",
+      "distance": 1300,
+      "id": "NGC 752",
+      "link": "https://en.wikipedia.org/wiki/NGC_752",
+      "name": "- easily seen through binoculars, although it may approach naked eye visibility under good observing conditions",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/NGC_752.png"
+    },
+    {
+      "constellations": "Andromeda",
       "distance": 1800,
       "id": "NGC 7662",
       "link": "https://en.wikipedia.org/wiki/NGC_7662",
@@ -91,12 +100,48 @@
     },
     {
       "constellations": "Aquarius",
+      "distance": 220000000,
+      "id": "NGC 7252",
+      "link": "https://en.wikipedia.org/wiki/NGC_7252",
+      "name": "- Atoms for Peace Galaxy - The galaxy is the result of a collision of two galaxies",
+      "type": "Peculiar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Hubble_image_of_NGC_7252.jpg/640px-Hubble_image_of_NGC_7252.jpg"
+    },
+    {
+      "constellations": "Aquarius",
+      "distance": 54570,
+      "id": "M 72",
+      "link": "https://en.wikipedia.org/wiki/Messier_72",
+      "name": "-  visible in a good night sky as a faint nebula in a telescope with a 6 cm",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/M72_Hubble_WikiSky.jpg/480px-M72_Hubble_WikiSky.jpg"
+    },
+    {
+      "constellations": "Aquarius",
+      "distance": 55000,
+      "id": "M 2",
+      "link": "https://en.wikipedia.org/wiki/Messier_2",
+      "name": "- easily seen through binoculars, although it may approach naked eye visibility under good observing conditions",
+      "type": "Globular cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Messier2_-_HST_-_Potw1913a.jpg/478px-Messier2_-_HST_-_Potw1913a.jpg"
+    },
+    {
+      "constellations": "Aquarius",
       "distance": 650,
       "id": "NGC 7293",
       "link": "https://en.wikipedia.org/wiki/Helix_Nebula",
       "name": "Helix Nebula",
       "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/NGC7293_%282004%29.jpg/445px-NGC7293_%282004%29.jpg"
+    },
+    {
+      "constellations": "Aquarius",
+      "distance": 76000000,
+      "id": "NGC 7727",
+      "link": "https://en.wikipedia.org/wiki/NGC_7727",
+      "name": "- In all likelihood, this system is the product of the merger of two previous spiral galaxies that took place 1 billion years ago",
+      "type": "Peculiar galaxy",
+      "url": "https://www.astronomiamo.it/Plugin/fileman/Uploads/Images/DSO/NGC7727.jpg"
     },
     {
       "constellations": "Aquila",
@@ -232,6 +277,15 @@
       "name": "- an unbarred spiral galaxy",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/NGC772_-_Noirlab2209a.jpg/553px-NGC772_-_Noirlab2209a.jpg"
+    },
+    {
+      "constellations": "Aries",
+      "distance": 424000000,
+      "id": "UGC 2369",
+      "link": "https://en.wikipedia.org/wiki/UGC_2369",
+      "name": "- Interaction between galaxies is not an uncommon event, however, two similarly sized ones merging is rare. The images released by NASA show both the galaxies distorting as they pulled closer. In the images, a thin bridge of gas, dust and stars can also be seen",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/UGC_2369NS.jpeg/467px-UGC_2369NS.jpeg"
     },
     {
       "constellations": "Auriga",
@@ -432,6 +486,15 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Messier51_sRGB.jpg/640px-Messier51_sRGB.jpg"
     },
     {
+      "constellations": "Canes Venatici",
+      "distance": 43000000,
+      "id": "NGC 4111",
+      "link": "https://en.wikipedia.org/wiki/NGC_4111",
+      "name": "- is characterised by a series of dusty filaments running through its centre",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Elegance_conceals_an_eventful_past.jpg"
+    },
+    {
       "constellations": "Canis Major",
       "distance": 2300,
       "id": "NGC 4707",
@@ -496,12 +559,48 @@
     },
     {
       "constellations": "Carina",
+      "distance": 13700,
+      "id": "RCW 49",
+      "link": "https://en.wikipedia.org/wiki/RCW_49",
+      "name": "- Whirling Dervish Nebula - a dusty stellar nursery that contains more than 2,200 stars and is about 350 light years across",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/ESO-The_Gum_29_Nebula-phot-37-08-fullres.jpg/477px-ESO-The_Gum_29_Nebula-phot-37-08-fullres.jpg"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 20000,
+      "id": "Westerhout 2",
+      "link": "https://en.wikipedia.org/wiki/Westerlund_2",
+      "name": "- contains some of the hottest, brightest, and most massive stars known. Part of RCW 49",
+      "type": "Star cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/NASA_Unveils_Celestial_Fireworks_as_Official_Hubble_25th_Anniversary_Image.jpg/640px-NASA_Unveils_Celestial_Fireworks_as_Official_Hubble_25th_Anniversary_Image.jpg"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 22500,
+      "id": "NGC 3603",
+      "link": "https://en.wikipedia.org/wiki/RCW_49",
+      "name": "- the most massive visible cloud of glowing gas and plasma, known as a H II region, in the Milky Way",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Stellar_nursery_NGC_3603.jpg/476px-Stellar_nursery_NGC_3603.jpg"
+    },
+    {
+      "constellations": "Carina",
       "distance": 31300,
       "id": "NGC 2808",
       "link": "https://en.wikipedia.org/wiki/NGC_2808",
       "name": "- one of the Milky Way's most massive clusters",
       "type": "Globular cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/NGC_2808_HST.jpg/598px-NGC_2808_HST.jpg"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 7500,
+      "id": "HH 901, HH 902",
+      "link": "https://esahubble.org/images/heic1007a/",
+      "name": "- Mystic Mountain - part of the Carina Nebula",
+      "type": "Star-forming nebula",
+      "url": "https://cdn.spacetelescope.org/archives/images/screen/heic1007a.jpg"
     },
     {
       "constellations": "Carina",
@@ -574,6 +673,15 @@
       "name": "Caroline's Rose",
       "type": "Open cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/NGC7789HunterWilson.jpg/640px-NGC7789HunterWilson.jpg"
+    },
+    {
+      "constellations": "Cassiopeia",
+      "distance": 9300000,
+      "id": "Maffei 1",
+      "link": "https://en.wikipedia.org/wiki/Maffei_1",
+      "name": "-  Once believed to be a member of the Local Group of galaxies, it is now known to belong to a separate group, the IC 342/Maffei Group",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Maf1atlas.jpg"
     },
     {
       "constellations": "Cassiopeia",
@@ -658,6 +766,15 @@
     },
     {
       "constellations": "Centaurus",
+      "distance": 450000000,
+      "id": "ESO 325-G004",
+      "link": "https://esahubble.org/images/opo0708b/",
+      "name": "- is home to thousands of globular clusters, small compact groups of hundreds of thousands of stars that are gravitationally bound systems",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Abell_S740%2C_cropped_to_ESO_325-G004.jpg/448px-Abell_S740%2C_cropped_to_ESO_325-G004.jpg"
+    },
+    {
+      "constellations": "Centaurus",
       "distance": 4900,
       "id": "NGC 3918",
       "link": "https://en.wikipedia.org/wiki/NGC_3918",
@@ -673,6 +790,15 @@
       "name": "- located in the vast star-forming region known as the Carina molecular cloud",
       "type": "Open cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Star_cluster_NGC_3766.jpg/500px-Star_cluster_NGC_3766.jpg"
+    },
+    {
+      "constellations": "Cepheus",
+      "distance": 12000000000,
+      "id": "S5 0014+81",
+      "link": "https://en.wikipedia.org/wiki/S5_0014%2B81",
+      "name": "- The object is an OVV (optically violent variable) quasar, a type of blazar. It belongs to the most energetic subclass of active galactic nuclei, which are produced by the rapid accretion of matter by a central supermassive black hole, changing gravitational energy to light energy that can be visible across cosmic distances. The image is an artist's impression",
+      "type": "Blazar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Black-hole-feeding-accreting-esa-nasa.jpg"
     },
     {
       "constellations": "Cepheus",
@@ -892,6 +1018,15 @@
     },
     {
       "constellations": "Coma Berenices",
+      "distance": 290000000,
+      "id": "NGC 4676",
+      "link": "https://www.nasa.gov/multimedia/imagegallery/image_feature_2523.html",
+      "name": "Mice Galaxies - two spiral galaxies have begun the process of colliding and merging",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Merging_galaxies_NGC_4676_%28captured_by_the_Hubble_Space_Telescope%29.jpg/640px-Merging_galaxies_NGC_4676_%28captured_by_the_Hubble_Space_Telescope%29.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
       "distance": 35000000,
       "id": "NGC 4651",
       "link": "https://en.wikipedia.org/wiki/NGC_4651",
@@ -943,6 +1078,15 @@
       "name": "- one of the brightest and largest galaxies in the Virgo Cluster ",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Messier_100_%E2%80%94_Grand_Design_Splendour.jpg/640px-Messier_100_%E2%80%94_Grand_Design_Splendour.jpg"
+    },
+    {
+      "constellations": "Coma Berenices",
+      "distance": 55000000,
+      "id": "NGC 4302 and NGC 4298",
+      "link": "https://svs.gsfc.nasa.gov/30950",
+      "name": "- These galaxies look quite different because we see them angled at different positions on the sky. They are actually very similar in terms of their structure and contents",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/NGC_4298_and_NGC_4302_-_Heic1709a.jpg/561px-NGC_4298_and_NGC_4302_-_Heic1709a.jpg"
     },
     {
       "constellations": "Coma Berenices",
@@ -1163,6 +1307,15 @@
     {
       "constellations": "Dorado",
       "distance": 160000,
+      "id": "LHA 120-N 55",
+      "link": "https://en.wikipedia.org/wiki/LHA_120-N_55",
+      "name": "- glowing clump of gas and dust that gets its light output from the hydrogen atoms shedding electrons within it. Located within the Large Magellanic Cloud",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/The_glowing_gas_cloud_LHA_120-N55_in_the_Large_Magellanic_Cloud.jpg/572px-The_glowing_gas_cloud_LHA_120-N55_in_the_Large_Magellanic_Cloud.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 160000,
       "id": "N 11",
       "link": "https://en.wikipedia.org/wiki/N11_(emission_nebula)",
       "name": "- elliptical shape and consists of a large bubble, generally clear interstellar area, surrounded by nine large nebulae the Large Magellanic Cloud. NGC 1763 a brightest nebulosity within N11 also known as the Bean Nebula because of its shape",
@@ -1288,6 +1441,24 @@
     },
     {
       "constellations": "Draco",
+      "distance": 420000000,
+      "id": "UGC 10214",
+      "link": "https://en.wikipedia.org/wiki/Tadpole_Galaxy",
+      "name": "- Tadpole Galaxy - The staggering aftermath of an encounter between two galaxies, resulting in a ring-shaped galaxy and a long-tailed companion",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/UGC_10214HST.jpg/444px-UGC_10214HST.jpg"
+    },
+    {
+      "constellations": "Draco",
+      "distance": 443000000,
+      "id": "NGC 6052",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2014/08/Galactic_soup",
+      "name": "- two galaxies on the left. One of the great questions in galaxy evolution is how interactions between galaxies trigger waves of star formation, and why these stars then abruptly stop forming. Interacting pairs like this one present astronomers with perfect opportunities to investigate this",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Galactic_soup.jpg/615px-Galactic_soup.jpg"
+    },
+    {
+      "constellations": "Draco",
       "distance": 50000000,
       "id": "M 102",
       "link": "https://en.wikipedia.org/wiki/NGC_5866",
@@ -1321,6 +1492,15 @@
       "name": "Witch Head Nebula",
       "type": "Reflection nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Reflection.nebula.arp.750pix.jpg/455px-Reflection.nebula.arp.750pix.jpg"
+    },
+    {
+      "constellations": "Eridanus",
+      "distance": 109000000,
+      "id": "NGC 1222",
+      "link": "https://en.wikipedia.org/wiki/NGC_1222",
+      "name": "- is currently interacting with and swallowing two dwarf galaxies that are supplying the gas and dust needed to become a starburst galaxy",
+      "type": "Lenticular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/NGC_1222_-_HST_-_potw1645a.tif/lossy-page1-307px-NGC_1222_-_HST_-_potw1645a.tif.jpg"
     },
     {
       "constellations": "Eridanus",
@@ -1549,12 +1729,48 @@
     },
     {
       "constellations": "Hercules",
+      "distance": 2100000000,
+      "id": "Hercules A",
+      "link": "https://en.wikipedia.org/wiki/Hercules_A",
+      "name": "- 3C 348, the galaxy at the image center, appears to be a relatively normal elliptical galaxy in visible light. When imaged in radio waves, however, plasma jets over one million light years long appear",
+      "type": "Radio galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/A_Multi-Wavelength_View_of_Radio_Galaxy_Hercules_A.jpg/640px-A_Multi-Wavelength_View_of_Radio_Galaxy_Hercules_A.jpg"
+    },
+    {
+      "constellations": "Hercules",
       "distance": 22200,
       "id": "M 13",
       "link": "https://en.wikipedia.org/wiki/Messier_13",
       "name": "Great Globular Cluster in Hercules",
       "type": "Globular cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Messier_13.jpg/640px-Messier_13.jpg"
+    },
+    {
+      "constellations": "Hercules",
+      "distance": 399000000,
+      "id": "NGC 6052",
+      "link": "https://en.wikipedia.org/wiki/NGC_6052",
+      "name": "- The two galaxies, attracted by each other's gravity, have collided and are interacting with each other. NGC 6052 is currently in a late stage of merging, where the shape of the two galaxies is not distinctly defined",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/NGC6052_-_HST_-_Potw1909a.jpg/606px-NGC6052_-_HST_-_Potw1909a.jpg"
+    },
+    {
+      "constellations": "Hercules",
+      "distance": 456000000,
+      "id": "Mrk 501",
+      "link": "https://en.wikipedia.org/wiki/Markarian_501",
+      "name": "- It is a blazar or BL Lac object, which is an active galactic nucleus with a jet that is shooting towards the Earth.",
+      "type": "Blazar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/SDSS_Mrk_501.jpg"
+    },
+    {
+      "constellations": "Horologium",
+      "distance": 38000000,
+      "id": "NGC 1510 and NGC 1512",
+      "link": "https://en.wikipedia.org/wiki/NGC_1510",
+      "name": "- Gravitational tidal forces of NGC 1512 (left) are influencing nearby dwarf lenticular galaxy NGC 1510 (right). In the process of a lengthy merger which has been going on for 400 million years. At the end of this process NGC 1512 will have cannibalised its smaller companion",
+      "type": "Interacting galaxy",
+      "url": "https://cdn.spacetelescope.org/archives/images/screen/heic1712a.jpg"
     },
     {
       "constellations": "Horologium",
@@ -1591,6 +1807,15 @@
       "name": "-  22 RR Lyrae variables have been discovered in this cluster",
       "type": "Globular cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Ngc_1261.jpg/600px-Ngc_1261.jpg"
+    },
+    {
+      "constellations": "Horologium",
+      "distance": 650000000,
+      "id": "ESO 593-8",
+      "link": "https://en.wikipedia.org/wiki/ESO_593-8",
+      "name": "- was created by a merger of two spiral galaxies and an irregular dwarf-galaxy",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hubble_Interacting_Galaxy_ESO_593-8_%282008-04-24%29.jpg/480px-Hubble_Interacting_Galaxy_ESO_593-8_%282008-04-24%29.jpg"
     },
     {
       "constellations": "Horologium",
@@ -1684,6 +1909,15 @@
     },
     {
       "constellations": "Hydra",
+      "distance": 352000000,
+      "id": "NGC 2936",
+      "link": "https://en.wikipedia.org/wiki/NGC_2936",
+      "name": "- NGC 2936 (bottom middle) and NGC 2937 (bottom)",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Heic1311a.jpg/584px-Heic1311a.jpg"
+    },
+    {
+      "constellations": "Hydra",
       "distance": 4800,
       "id": "NGC 3242",
       "link": "https://en.wikipedia.org/wiki/NGC_3242",
@@ -1737,6 +1971,15 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/NGC_7243_.jpg/484px-NGC_7243_.jpg"
     },
     {
+      "constellations": "Lacerta",
+      "distance": 900000000,
+      "id": "BL Lacertae",
+      "link": "https://en.wikipedia.org/wiki/BL_Lacertae",
+      "name": "- is a highly variable, extragalactic active galactic nucleus (AGN or active galaxy). Due to its early discovery, BL Lacertae became the prototype and namesake of the class of active galactic nuclei known as 'BL Lacertae objects'. The image is an artist's impression",
+      "type": "Blazar galaxy",
+      "url": "https://scitechdaily.com/images/Blazar-1536x1086.jpg?ezimgfmt=ngcb2/notWebP"
+    },
+    {
       "constellations": "Leo Minor",
       "distance": 27400000,
       "id": "NGC 3486",
@@ -1780,6 +2023,24 @@
       "name": "- low-luminosity Seyfert galaxy with an active nucleus",
       "type": "Lenticular galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/NGC_2859_HST_9788_14_R814asinhG814logB658n.png/600px-NGC_2859_HST_9788_14_R814asinhG814logB658n.png"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 28850000000,
+      "id": "ULAS J1120+0641",
+      "link": "https://en.wikipedia.org/wiki/ULAS_J1120%2B0641",
+      "name": "- Artist's rendering. The quasar emitted the light observed on Earth today less than 770 million years after the Big Bang, about 13 billion years ago",
+      "type": "Quasar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Artist%27s_rendering_ULAS_J1120%2B0641.jpg/640px-Artist%27s_rendering_ULAS_J1120%2B0641.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 300000000,
+      "id": "NGC 3808",
+      "link": "https://en.wikipedia.org/wiki/Arp_87",
+      "name": "- NGC 3808A (right), the brighter, is a peculiar spiral galaxy, while NGC 3808B (left) is an irregular galaxy.",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Arp87full.jpg/640px-Arp87full.jpg"
     },
     {
       "constellations": "Leo",
@@ -1872,6 +2133,15 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/A_Horseshoe_Einstein_Ring_from_Hubble.JPG/640px-A_Horseshoe_Einstein_Ring_from_Hubble.JPG"
     },
     {
+      "constellations": "Leo",
+      "distance": 60000000,
+      "id": "NGC 3447",
+      "link": "https://esahubble.org/images/potw1712a/",
+      "name": "- Some galaxies are harder to classify than others. The two sit so close that they are strongly influenced and distorted by the gravitational forces between them, causing the galaxies to twist themselves into the unusual and unique shapes seen here",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Defying_cosmic_convention.jpg/561px-Defying_cosmic_convention.jpg"
+    },
+    {
       "constellations": "Lepus",
       "distance": 12900,
       "id": "M 79",
@@ -1879,6 +2149,15 @@
       "name": "- low-luminosity Seyfert galaxy with an active nucleus",
       "type": "Globular cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/A_snowstorm_of_stars.jpg/640px-A_snowstorm_of_stars.jpg"
+    },
+    {
+      "constellations": "Lepus",
+      "distance": 500000000,
+      "id": "IRAS 06076-2139",
+      "link": "https://esahubble.org/images/potw1719a/",
+      "name": "- stands out from the crowd by actually being composed of two separate galaxies rushing past each other at about 2 million kilometres per hour.",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Close_encounter_IRAS_06076-2139.jpg/586px-Close_encounter_IRAS_06076-2139.jpg"
     },
     {
       "constellations": "Libra",
@@ -1942,6 +2221,15 @@
       "name": "- it appears to be a giant elliptical galaxy with a supermassive black hole and associated accretion disk",
       "type": "Quasar galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Quasar_Mark_Johnston.jpg/689px-Quasar_Mark_Johnston.jpg"
+    },
+    {
+      "constellations": "Lynx",
+      "distance": 25000000,
+      "id": "NGC 2337",
+      "link": "https://www.nasa.gov/image-feature/goddard/2016/nasas-hubble-spots-a-lopsided-lynx",
+      "name": "- Some irregular galaxies may have once fallen into one of the regular classes of the Hubble sequence, but were warped and deformed by a passing cosmic companion. As such, irregular galaxies provide astronomers with a valuable opportunity to learn more about galactic evolution and interaction",
+      "type": "Irregular galaxy",
+      "url": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/a_lopsided_lynx_ngc_2337.jpg"
     },
     {
       "constellations": "Lynx",
@@ -2134,6 +2422,15 @@
     },
     {
       "constellations": "Ophiuchus",
+      "distance": 411000000,
+      "id": "NeVe 1",
+      "link": "https://en.wikipedia.org/wiki/NeVe_1",
+      "name": "- and its fuzzy halo partially obscured by the dense foreground stars of the Milky Way",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/OPH_Cluster_BCG_galaxy_by_the_PanSTARRS_DR1_color.png/496px-OPH_Cluster_BCG_galaxy_by_the_PanSTARRS_DR1_color.png"
+    },
+    {
+      "constellations": "Ophiuchus",
       "distance": 6500,
       "id": "IC 4634 ",
       "link": "https://en.wikipedia.org/wiki/NGC_6309#:~:text=NGC%206309%2C%20also%20known%20as,1800%20times%20of%20the%20Sun.",
@@ -2242,6 +2539,15 @@
     },
     {
       "constellations": "Pavo",
+      "distance": 100000000,
+      "id": "ESO 338-4",
+      "link": "https://esahubble.org/images/potw1845a/",
+      "name": "- Blue compact dwarf galaxies take their name from the intensely blue star-forming regions that are often found within their cores. One such region can be seen embedded in ESO 338-4, which is populated with bright young stars voraciously consuming hydroge",
+      "type": "Dwarf galaxy",
+      "url": "https://cdn.spacetelescope.org/archives/images/wallpaper1/potw1845a.jpg"
+    },
+    {
+      "constellations": "Pavo",
       "distance": 13000,
       "id": "NGC 6752",
       "link": "https://en.wikipedia.org/wiki/NGC_6752",
@@ -2269,12 +2575,30 @@
     },
     {
       "constellations": "Pavo",
+      "distance": 30000000,
+      "id": "IC 3583",
+      "link": "https://en.wikipedia.org/wiki/IC_3583",
+      "name": "- It may seem to have no discernable structure, but IC 3583 has been found to have a bar of stars running through its centre",
+      "type": "Irregular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/IC_3583_-_HST_-_Potw1648a.tif/lossy-page1-487px-IC_3583_-_HST_-_Potw1648a.tif.jpg"
+    },
+    {
+      "constellations": "Pavo",
       "distance": 31000000,
       "id": "NGC 6744",
       "link": "https://en.wikipedia.org/wiki/NGC_6744",
       "name": "- it is considered as a Milky Way mimic in the immediate vicinity, displaying flocculent (fluffy) arms and an elongated core",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wide_Field_Imager_view_of_a_Milky_Way_look-alike_NGC_6744.jpg/570px-Wide_Field_Imager_view_of_a_Milky_Way_look-alike_NGC_6744.jpg"
+    },
+    {
+      "constellations": "Pavo",
+      "distance": 34000000,
+      "id": "IC 4710",
+      "link": "https://en.wikipedia.org/wiki/IC_4710",
+      "name": "- this galaxy is composed of bright stars, with bright pockets — marking bursts of new star formation — scattered around its edges",
+      "type": "Irregular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/A_frenzy_of_stars_IC_4710.jpg/528px-A_frenzy_of_stars_IC_4710.jpg"
     },
     {
       "constellations": "Pavo",
@@ -2773,6 +3097,15 @@
     },
     {
       "constellations": "Scorpius",
+      "distance": 4000,
+      "id": "NGC 6302",
+      "link": "https://esahubble.org/images/heic0910h/",
+      "name": "Butterfly Nebula - the structure in the nebula is among the most complex ever observed in planetary nebulae",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/NGC_6302_Hubble_2009.full.jpg/659px-NGC_6302_Hubble_2009.full.jpg"
+    },
+    {
+      "constellations": "Scorpius",
       "distance": 4370,
       "id": "NGC 6334",
       "link": "https://en.wikipedia.org/wiki/NGC_6334",
@@ -2988,6 +3321,15 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Sextans_B.jpg/640px-Sextans_B.jpg"
     },
     {
+      "constellations": "Sextans",
+      "distance": 57000000,
+      "id": "NGC 3169",
+      "link": "https://en.wikipedia.org/wiki/NGC_3169",
+      "name": "- (left) is located in close physical proximity to NGC 3166(right), and the two have an estimated separation of around 160 kly. Their interaction is creating a gravitational distortion that has left the disk of NGC 3166 warped",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/NGC_3169_NGC_3166.jpg/480px-NGC_3169_NGC_3166.jpg"
+    },
+    {
       "constellations": "Taurus",
       "distance": 1520,
       "id": "NGC 1514",
@@ -3023,7 +3365,6 @@
       "type": "Supernova-remnant nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/480px-Crab_Nebula.jpg"
     },
-
     {
       "constellations": "Telescopium",
       "distance": 294000000,
@@ -3116,12 +3457,30 @@
     },
     {
       "constellations": "Tucana",
+      "distance": 210000,
+      "id": "NGC 346",
+      "link": "https://en.wikipedia.org/wiki/NGC_346",
+      "name": "- Open cluster with starforminglocated in Small Magellanic Cloud",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ngc346.jpg/411px-Ngc346.jpg"
+    },
+    {
+      "constellations": "Tucana",
       "distance": 3200000,
       "id": "Tucana Dwarf",
       "link": "https://en.wikipedia.org/wiki/NGC_121",
       "name": "- composed of very old stars and is very isolated from other galaxies. Its location on the opposite side of the Milky Way from other Local Group galaxies",
       "type": "Dwarf galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tucana_Dwarf_Hubble_WikiSky.jpg/600px-Tucana_Dwarf_Hubble_WikiSky.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 11000000,
+      "id": "UGC 4459",
+      "link": "https://esahubble.org/images/potw1613a/",
+      "name": "- Rich with young blue stars and older red stars",
+      "type": "Irregular galaxy",
+      "url": "https://cdn.spacetelescope.org/archives/images/screen/potw1613a.jpg"
     },
     {
       "constellations": "Ursa Major",
@@ -3179,12 +3538,39 @@
     },
     {
       "constellations": "Ursa Major",
+      "distance": 32000000000,
+      "id": "GN-z11",
+      "link": "https://en.wikipedia.org/wiki/GN-z11",
+      "name": "- one of the farthest known galaxies from Earth ever discovered",
+      "type": "Distant galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Distant_galaxy_GN-z11_in_GOODS-N_image_by_HST.jpg/320px-Distant_galaxy_GN-z11_in_GOODS-N_image_by_HST.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 33600000000,
+      "id": "JADES-GS-z13-0",
+      "link": "https://en.wikipedia.org/wiki/JADES-GS-z13-0",
+      "name": "- discovered by the James Webb Space Telescope (JWST) during its JWST Advanced Deep Extragalactic Survey (JADES) observing program on 29 September 2022",
+      "type": "Distant galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/JADES-GS-z13-0.png"
+    },
+    {
+      "constellations": "Ursa Major",
       "distance": 34800000,
       "id": "NGC 3310",
       "link": "https://en.wikipedia.org/wiki/NGC_3310",
       "name": "- is a starburst galaxy and it is likely that it collided with one of its satellite galaxies about 100 million years ago, triggering widespread star formation",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/NGC_3310.jpg/545px-NGC_3310.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 397000000,
+      "id": "Mrk 421",
+      "link": "https://en.wikipedia.org/wiki/Markarian_421",
+      "name": "- The object is an active galaxy and is a strong source of gamma rays",
+      "type": "Blazar galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/SDSS_Mrk_421.jpg"
     },
     {
       "constellations": "Ursa Major",
@@ -3203,6 +3589,15 @@
       "name": "- The bubble forming in the center is believed to be about 3000 light-years wide and to rise more than 3500 light-years above the disc of the galaxy",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/NGC_3079.jpg/606px-NGC_3079.jpg"
+    },
+    {
+      "constellations": "Ursa Major",
+      "distance": 500000000,
+      "id": "Arp 148",
+      "link": "https://hubblesite.org/contents/media/images/2008/16/2309-Image.html",
+      "name": "-  the staggering aftermath of an encounter between two galaxies, resulting in a ring-shaped galaxy and a long-tailed companion",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Hubble_Interacting_Galaxy_Arp_148_%282008-04-24%29.jpg/480px-Hubble_Interacting_Galaxy_Arp_148_%282008-04-24%29.jpg"
     },
     {
       "constellations": "Ursa Major",
@@ -3332,12 +3727,30 @@
     },
     {
       "constellations": "Virgo",
+      "distance": 1154600000,
+      "id": "IC 1101",
+      "link": "https://en.wikipedia.org/wiki/IC_1101",
+      "name": "- It possesses a diffuse core which is the one of the largest known core of any galaxy to date and also hosts a supermassive black hole that is one of the largest black holes known",
+      "type": "Elliptical galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/IC_1101.jpg/600px-IC_1101.jpg"
+    },
+    {
+      "constellations": "Virgo",
       "distance": 2223000000,
       "id": "3C 273",
       "link": "https://en.wikipedia.org/wiki/3C_273",
       "name": "- The blazar, is also a quasar, has a large-scale visible jet, which measures ~200 kilolight-years long",
       "type": "Blazar galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Best_image_of_bright_quasar_3C_273.jpg/486px-Best_image_of_bright_quasar_3C_273.jpg"
+    },
+    {
+      "constellations": "Virgo",
+      "distance": 254000000,
+      "id": "ESO 576-69",
+      "link": "https://www.nasa.gov/multimedia/imagegallery/image_feature_2523.html",
+      "name": "- a spiral galaxy is in the process of colliding with a lenticular galaxy",
+      "type": "Interacting galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/The_messy_result_of_a_galactic_collision.jpg/525px-The_messy_result_of_a_galactic_collision.jpg"
     },
     {
       "constellations": "Virgo",
@@ -3518,420 +3931,6 @@
       "name": "- is embedded in a large faint emission nebula called Sh 2-86.",
       "type": "Reflection nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NGC6820_JeffJohnson.jpg/488px-NGC6820_JeffJohnson.jpg"
-    },
-    {
-      "constellations": "Andromeda",
-      "distance": 1300,
-      "id": "NGC 752",
-      "link": "https://en.wikipedia.org/wiki/NGC_752",
-      "name": "- easily seen through binoculars, although it may approach naked eye visibility under good observing conditions",
-      "type": "Open cluster",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/NGC_752.png"
-    },
-    {
-      "constellations": "Aquarius",
-      "distance": 55000,
-      "id": "M 2",
-      "link": "https://en.wikipedia.org/wiki/Messier_2",
-      "name": "- easily seen through binoculars, although it may approach naked eye visibility under good observing conditions",
-      "type": "Globular cluster",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Messier2_-_HST_-_Potw1913a.jpg/478px-Messier2_-_HST_-_Potw1913a.jpg"
-    },
-    {
-      "constellations": "Aquarius",
-      "distance": 54.57e3,
-      "id": "M 72",
-      "link": "https://en.wikipedia.org/wiki/Messier_72",
-      "name": "-  visible in a good night sky as a faint nebula in a telescope with a 6 cm",
-      "type": "Globular cluster",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/M72_Hubble_WikiSky.jpg/480px-M72_Hubble_WikiSky.jpg"
-    },
-    {
-      "constellations": "Aquarius",
-      "distance": 76e6,
-      "id": "NGC 7727",
-      "link": "https://en.wikipedia.org/wiki/NGC_7727",
-      "name": "- In all likelihood, this system is the product of the merger of two previous spiral galaxies that took place 1 billion years ago",
-      "type": "Peculiar galaxy",
-      "url": "https://www.astronomiamo.it/Plugin/fileman/Uploads/Images/DSO/NGC7727.jpg"
-    },
-    {
-      "constellations": "Aquarius",
-      "distance": 220e6,
-      "id": "NGC 7252",
-      "link": "https://en.wikipedia.org/wiki/NGC_7252",
-      "name": "- Atoms for Peace Galaxy - The galaxy is the result of a collision of two galaxies",
-      "type": "Peculiar galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Hubble_image_of_NGC_7252.jpg/640px-Hubble_image_of_NGC_7252.jpg"
-    },
-    {
-      "constellations": "Ursa Major",
-      "distance": 397e6,
-      "id": "Mrk 421",
-      "link": "https://en.wikipedia.org/wiki/Markarian_421",
-      "name": "- The object is an active galaxy and is a strong source of gamma rays",
-      "type": "Blazar galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/SDSS_Mrk_421.jpg"
-    },
-    {
-      "constellations": "Hercules",
-      "distance": 456e6,
-      "id": "Mrk 501",
-      "link": "https://en.wikipedia.org/wiki/Markarian_501",
-      "name": "- It is a blazar or BL Lac object, which is an active galactic nucleus with a jet that is shooting towards the Earth.",
-      "type": "Blazar galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/SDSS_Mrk_501.jpg"
-    },
-    {
-      "constellations": "Cepheus",
-      "distance": 1.2e10,
-      "id": "S5 0014+81",
-      "link": "https://en.wikipedia.org/wiki/S5_0014%2B81",
-      "name": "- The object is an OVV (optically violent variable) quasar, a type of blazar. It belongs to the most energetic subclass of active galactic nuclei, which are produced by the rapid accretion of matter by a central supermassive black hole, changing gravitational energy to light energy that can be visible across cosmic distances. The image is an artist's impression",
-      "type": "Blazar galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Black-hole-feeding-accreting-esa-nasa.jpg"
-    },
-    {
-      "constellations": "Lacerta",
-      "distance": 0.9e9,
-      "id": "BL Lacertae",
-      "link": "https://en.wikipedia.org/wiki/BL_Lacertae",
-      "name": "- is a highly variable, extragalactic active galactic nucleus (AGN or active galaxy). Due to its early discovery, BL Lacertae became the prototype and namesake of the class of active galactic nuclei known as 'BL Lacertae objects'. The image is an artist's impression",
-      "type": "Blazar galaxy",
-      "url": "https://scitechdaily.com/images/Blazar-1536x1086.jpg?ezimgfmt=ngcb2/notWebP"
-    },
-    {
-      "constellations": "Centaurus",
-      "distance": 450e6,
-      "id": "ESO 325-G004",
-      "link": "https://esahubble.org/images/opo0708b/",
-      "name": "- is home to thousands of globular clusters, small compact groups of hundreds of thousands of stars that are gravitationally bound systems",
-      "type": "Elliptical galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Abell_S740%2C_cropped_to_ESO_325-G004.jpg/448px-Abell_S740%2C_cropped_to_ESO_325-G004.jpg"
-    },
-    {
-      "constellations": "Virgo",
-      "distance": 1154.6e6,
-      "id": "IC 1101",
-      "link": "https://en.wikipedia.org/wiki/IC_1101",
-      "name": "- It possesses a diffuse core which is the one of the largest known core of any galaxy to date and also hosts a supermassive black hole that is one of the largest black holes known",
-      "type": "Elliptical galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/IC_1101.jpg/600px-IC_1101.jpg"
-    },
-    {
-      "constellations": "Hercules",
-      "distance": 2.1e9,
-      "id": "Hercules A",
-      "link": "https://en.wikipedia.org/wiki/Hercules_A",
-      "name": "- 3C 348, the galaxy at the image center, appears to be a relatively normal elliptical galaxy in visible light. When imaged in radio waves, however, plasma jets over one million light years long appear",
-      "type": "Radio galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/A_Multi-Wavelength_View_of_Radio_Galaxy_Hercules_A.jpg/640px-A_Multi-Wavelength_View_of_Radio_Galaxy_Hercules_A.jpg"
-    },
-    {
-      "constellations": "Cassiopeia",
-      "distance": 9.3e6,
-      "id": "Maffei 1",
-      "link": "https://en.wikipedia.org/wiki/Maffei_1",
-      "name": "-  Once believed to be a member of the Local Group of galaxies, it is now known to belong to a separate group, the IC 342/Maffei Group",
-      "type": "Elliptical galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Maf1atlas.jpg"
-    },
-    {
-      "constellations": "Ophiuchus",
-      "distance": 411e6,
-      "id": "NeVe 1",
-      "link": "https://en.wikipedia.org/wiki/NeVe_1",
-      "name": "- and its fuzzy halo partially obscured by the dense foreground stars of the Milky Way",
-      "type": "Elliptical galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/OPH_Cluster_BCG_galaxy_by_the_PanSTARRS_DR1_color.png/496px-OPH_Cluster_BCG_galaxy_by_the_PanSTARRS_DR1_color.png"
-    },
-    {
-      "constellations": "Ursa Major",
-      "distance": 32e9,
-      "id": "GN-z11",
-      "link": "https://en.wikipedia.org/wiki/GN-z11",
-      "name": "- one of the farthest known galaxies from Earth ever discovered",
-      "type": "Distant galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Distant_galaxy_GN-z11_in_GOODS-N_image_by_HST.jpg/320px-Distant_galaxy_GN-z11_in_GOODS-N_image_by_HST.jpg"
-    },
-    {
-      "constellations": "Ursa Major",
-      "distance": 33.6e9,
-      "id": "JADES-GS-z13-0",
-      "link": "https://en.wikipedia.org/wiki/JADES-GS-z13-0",
-      "name": "- discovered by the James Webb Space Telescope (JWST) during its JWST Advanced Deep Extragalactic Survey (JADES) observing program on 29 September 2022",
-      "type": "Distant galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/JADES-GS-z13-0.png"
-    },
-    {
-      "constellations": "Sextans",
-      "distance": 57e6,
-      "id": "NGC 3169",
-      "link": "https://en.wikipedia.org/wiki/NGC_3169",
-      "name": "- (left) is located in close physical proximity to NGC 3166(right), and the two have an estimated separation of around 160 kly. Their interaction is creating a gravitational distortion that has left the disk of NGC 3166 warped",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/NGC_3169_NGC_3166.jpg/480px-NGC_3169_NGC_3166.jpg"
-    },
-    {
-      "constellations": "Aries",
-      "distance": 424e6,
-      "id": "UGC 2369",
-      "link": "https://en.wikipedia.org/wiki/UGC_2369",
-      "name": "- Interaction between galaxies is not an uncommon event, however, two similarly sized ones merging is rare. The images released by NASA show both the galaxies distorting as they pulled closer. In the images, a thin bridge of gas, dust and stars can also be seen",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/UGC_2369NS.jpeg/467px-UGC_2369NS.jpeg"
-    },
-    {
-      "constellations": "Lepus",
-      "distance": 500e6,
-      "id": "IRAS 06076-2139",
-      "link": "https://esahubble.org/images/potw1719a/",
-      "name": "- stands out from the crowd by actually being composed of two separate galaxies rushing past each other at about 2 million kilometres per hour.",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Close_encounter_IRAS_06076-2139.jpg/586px-Close_encounter_IRAS_06076-2139.jpg"
-    },
-    {
-      "constellations": "Coma Berenices",
-      "distance": 55e6,
-      "id": "NGC 4302 and NGC 4298",
-      "link": "https://svs.gsfc.nasa.gov/30950",
-      "name": "- These galaxies look quite different because we see them angled at different positions on the sky. They are actually very similar in terms of their structure and contents",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/NGC_4298_and_NGC_4302_-_Heic1709a.jpg/561px-NGC_4298_and_NGC_4302_-_Heic1709a.jpg"
-    },
-    {
-      "constellations": "Hercules",
-      "distance": 399e6,
-      "id": "NGC 6052",
-      "link": "https://en.wikipedia.org/wiki/NGC_6052",
-      "name": "- The two galaxies, attracted by each other's gravity, have collided and are interacting with each other. NGC 6052 is currently in a late stage of merging, where the shape of the two galaxies is not distinctly defined",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/NGC6052_-_HST_-_Potw1909a.jpg/606px-NGC6052_-_HST_-_Potw1909a.jpg"
-    },
-    {
-      "constellations": "Draco",
-      "distance": 443e6,
-      "id": "NGC 6052",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2014/08/Galactic_soup",
-      "name": "- two galaxies on the left. One of the great questions in galaxy evolution is how interactions between galaxies trigger waves of star formation, and why these stars then abruptly stop forming. Interacting pairs like this one present astronomers with perfect opportunities to investigate this",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Galactic_soup.jpg/615px-Galactic_soup.jpg"
-    },
-    {
-      "constellations": "Virgo",
-      "distance": 254e6,
-      "id": "ESO 576-69",
-      "link": "https://www.nasa.gov/multimedia/imagegallery/image_feature_2523.html",
-      "name": "- a spiral galaxy is in the process of colliding with a lenticular galaxy",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/The_messy_result_of_a_galactic_collision.jpg/525px-The_messy_result_of_a_galactic_collision.jpg"
-    },
-    {
-      "constellations": "Coma Berenices",
-      "distance": 290e6,
-      "id": "NGC 4676",
-      "link": "https://www.nasa.gov/multimedia/imagegallery/image_feature_2523.html",
-      "name": "Mice Galaxies - two spiral galaxies have begun the process of colliding and merging",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Merging_galaxies_NGC_4676_%28captured_by_the_Hubble_Space_Telescope%29.jpg/640px-Merging_galaxies_NGC_4676_%28captured_by_the_Hubble_Space_Telescope%29.jpg"
-    },
-    {
-      "constellations": "Leo",
-      "distance": 60e6,
-      "id": "NGC 3447",
-      "link": "https://esahubble.org/images/potw1712a/",
-      "name": "- Some galaxies are harder to classify than others. The two sit so close that they are strongly influenced and distorted by the gravitational forces between them, causing the galaxies to twist themselves into the unusual and unique shapes seen here",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Defying_cosmic_convention.jpg/561px-Defying_cosmic_convention.jpg"
-    },
-    {
-      "constellations": "Horologium",
-      "distance": 38e6,
-      "id": "NGC 1510 and NGC 1512",
-      "link": "https://en.wikipedia.org/wiki/NGC_1510",
-      "name": "- Gravitational tidal forces of NGC 1512 (left) are influencing nearby dwarf lenticular galaxy NGC 1510 (right). In the process of a lengthy merger which has been going on for 400 million years. At the end of this process NGC 1512 will have cannibalised its smaller companion",
-      "type": "Interacting galaxy",
-      "url": "https://cdn.spacetelescope.org/archives/images/screen/heic1712a.jpg"
-    },
-    {
-      "constellations": "Horologium",
-      "distance": 650e6,
-      "id": "ESO 593-8",
-      "link": "https://en.wikipedia.org/wiki/ESO_593-8",
-      "name": "- was created by a merger of two spiral galaxies and an irregular dwarf-galaxy",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hubble_Interacting_Galaxy_ESO_593-8_%282008-04-24%29.jpg/480px-Hubble_Interacting_Galaxy_ESO_593-8_%282008-04-24%29.jpg"
-    },
-    {
-      "constellations": "Pavo",
-      "distance": 34e6,
-      "id": "IC 4710",
-      "link": "https://en.wikipedia.org/wiki/IC_4710",
-      "name": "- this galaxy is composed of bright stars, with bright pockets — marking bursts of new star formation — scattered around its edges",
-      "type": "Irregular galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/A_frenzy_of_stars_IC_4710.jpg/528px-A_frenzy_of_stars_IC_4710.jpg"
-    },
-    {
-      "constellations": "Pavo",
-      "distance": 100e6,
-      "id": "ESO 338-4",
-      "link": "https://esahubble.org/images/potw1845a/",
-      "name": "- Blue compact dwarf galaxies take their name from the intensely blue star-forming regions that are often found within their cores. One such region can be seen embedded in ESO 338-4, which is populated with bright young stars voraciously consuming hydroge",
-      "type": "Dwarf galaxy",
-      "url": "https://cdn.spacetelescope.org/archives/images/wallpaper1/potw1845a.jpg"
-    },
-    {
-      "constellations": "Pavo",
-      "distance": 30e6,
-      "id": "IC 3583",
-      "link": "https://en.wikipedia.org/wiki/IC_3583",
-      "name": "- It may seem to have no discernable structure, but IC 3583 has been found to have a bar of stars running through its centre",
-      "type": "Irregular galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/IC_3583_-_HST_-_Potw1648a.tif/lossy-page1-487px-IC_3583_-_HST_-_Potw1648a.tif.jpg"
-    },
-    {
-      "constellations": "Lynx",
-      "distance": 25e6,
-      "id": "NGC 2337",
-      "link": "https://www.nasa.gov/image-feature/goddard/2016/nasas-hubble-spots-a-lopsided-lynx",
-      "name": "- Some irregular galaxies may have once fallen into one of the regular classes of the Hubble sequence, but were warped and deformed by a passing cosmic companion. As such, irregular galaxies provide astronomers with a valuable opportunity to learn more about galactic evolution and interaction",
-      "type": "Irregular galaxy",
-      "url": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/a_lopsided_lynx_ngc_2337.jpg"
-    },
-    {
-      "constellations": "Ursa Major",
-      "distance": 11e6,
-      "id": "UGC 4459",
-      "link": "https://esahubble.org/images/potw1613a/",
-      "name": "- Rich with young blue stars and older red stars",
-      "type": "Irregular galaxy",
-      "url": "https://cdn.spacetelescope.org/archives/images/screen/potw1613a.jpg"
-    },
-    {
-      "constellations": "Eridanus",
-      "distance": 109e6,
-      "id": "NGC 1222",
-      "link": "https://en.wikipedia.org/wiki/NGC_1222",
-      "name": "- is currently interacting with and swallowing two dwarf galaxies that are supplying the gas and dust needed to become a starburst galaxy",
-      "type": "Lenticular galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/NGC_1222_-_HST_-_potw1645a.tif/lossy-page1-307px-NGC_1222_-_HST_-_potw1645a.tif.jpg"
-    },
-    {
-      "constellations": "Canes Venatici",
-      "distance": 43e6,
-      "id": "NGC 4111",
-      "link": "https://en.wikipedia.org/wiki/NGC_4111",
-      "name": "- is characterised by a series of dusty filaments running through its centre",
-      "type": "Lenticular galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Elegance_conceals_an_eventful_past.jpg"
-    },
-    {
-      "constellations": "Leo",
-      "distance": 28.85e9,
-      "id": "ULAS J1120+0641",
-      "link": "https://en.wikipedia.org/wiki/ULAS_J1120%2B0641",
-      "name": "- Artist's rendering. The quasar emitted the light observed on Earth today less than 770 million years after the Big Bang, about 13 billion years ago",
-      "type": "Quasar galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Artist%27s_rendering_ULAS_J1120%2B0641.jpg/640px-Artist%27s_rendering_ULAS_J1120%2B0641.jpg"
-    },
-    {
-      "constellations": "Leo",
-      "distance": 300e6,
-      "id": "NGC 3808",
-      "link": "https://en.wikipedia.org/wiki/Arp_87",
-      "name": "- NGC 3808A (right), the brighter, is a peculiar spiral galaxy, while NGC 3808B (left) is an irregular galaxy.",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Arp87full.jpg/640px-Arp87full.jpg"
-    },
-    {
-      "constellations": "Hydra",
-      "distance": 352e6,
-      "id": "NGC 2936",
-      "link": "https://en.wikipedia.org/wiki/NGC_2936",
-      "name": "- NGC 2936 (bottom middle) and NGC 2937 (bottom)",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Heic1311a.jpg/584px-Heic1311a.jpg"
-    },
-    {
-      "constellations": "Ursa Major",
-      "distance": 500e6,
-      "id": "Arp 148",
-      "link": "https://hubblesite.org/contents/media/images/2008/16/2309-Image.html",
-      "name": "-  the staggering aftermath of an encounter between two galaxies, resulting in a ring-shaped galaxy and a long-tailed companion",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Hubble_Interacting_Galaxy_Arp_148_%282008-04-24%29.jpg/480px-Hubble_Interacting_Galaxy_Arp_148_%282008-04-24%29.jpg"
-    },
-    {
-      "constellations": "Draco",
-      "distance": 420e6,
-      "id": "UGC 10214",
-      "link": "https://en.wikipedia.org/wiki/Tadpole_Galaxy",
-      "name": "- Tadpole Galaxy - The staggering aftermath of an encounter between two galaxies, resulting in a ring-shaped galaxy and a long-tailed companion",
-      "type": "Spiral galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/UGC_10214HST.jpg/444px-UGC_10214HST.jpg"
-    },
-    {
-      "constellations": "Dorado",
-      "distance": 160e3,
-      "id": "LHA 120-N 55",
-      "link": "https://en.wikipedia.org/wiki/LHA_120-N_55",
-      "name": "- glowing clump of gas and dust that gets its light output from the hydrogen atoms shedding electrons within it. Located within the Large Magellanic Cloud",
-      "type": "Emission nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/The_glowing_gas_cloud_LHA_120-N55_in_the_Large_Magellanic_Cloud.jpg/572px-The_glowing_gas_cloud_LHA_120-N55_in_the_Large_Magellanic_Cloud.jpg"
-    },
-    {
-      "constellations": "Carina",
-      "distance": 20000,
-      "id": "Westerhout 2",
-      "link": "https://en.wikipedia.org/wiki/Westerlund_2",
-      "name": "- contains some of the hottest, brightest, and most massive stars known. Part of RCW 49",
-      "type": "Star cluster",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/NASA_Unveils_Celestial_Fireworks_as_Official_Hubble_25th_Anniversary_Image.jpg/640px-NASA_Unveils_Celestial_Fireworks_as_Official_Hubble_25th_Anniversary_Image.jpg"
-    },
-    {
-      "constellations": "Carina",
-      "distance": 13700,
-      "id": "RCW 49",
-      "link": "https://en.wikipedia.org/wiki/RCW_49",
-      "name": "- Whirling Dervish Nebula - a dusty stellar nursery that contains more than 2,200 stars and is about 350 light years across",
-      "type": "Star-forming nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/ESO-The_Gum_29_Nebula-phot-37-08-fullres.jpg/477px-ESO-The_Gum_29_Nebula-phot-37-08-fullres.jpg"
-    },
-    {
-      "constellations": "Carina",
-      "distance": 22500,
-      "id": "NGC 3603",
-      "link": "https://en.wikipedia.org/wiki/RCW_49",
-      "name": "- the most massive visible cloud of glowing gas and plasma, known as a H II region, in the Milky Way",
-      "type": "Star-forming nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Stellar_nursery_NGC_3603.jpg/476px-Stellar_nursery_NGC_3603.jpg"
-    },
-    {
-      "constellations": "Scorpius",
-      "distance": 4000,
-      "id": "NGC 6302",
-      "link": "https://esahubble.org/images/heic0910h/",
-      "name": "Butterfly Nebula - the structure in the nebula is among the most complex ever observed in planetary nebulae",
-      "type": "Planetary nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/NGC_6302_Hubble_2009.full.jpg/659px-NGC_6302_Hubble_2009.full.jpg"
-    },
-    {
-      "constellations": "Tucana",
-      "distance": 210000,
-      "id": "NGC 346",
-      "link": "https://en.wikipedia.org/wiki/NGC_346",
-      "name": "- Open cluster with starforminglocated in Small Magellanic Cloud",
-      "type": "Star-forming nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ngc346.jpg/411px-Ngc346.jpg"
-    },
-    {
-      "constellations": "Carina",
-      "distance": 7500,
-      "id": "HH 901, HH 902",
-      "link": "https://esahubble.org/images/heic1007a/",
-      "name": "- Mystic Mountain - part of the Carina Nebula",
-      "type": "Star-forming nebula",
-      "url": "https://cdn.spacetelescope.org/archives/images/screen/heic1007a.jpg"
     }
   ]
 }
