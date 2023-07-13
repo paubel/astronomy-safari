@@ -3931,6 +3931,24 @@
       "name": "- is embedded in a large faint emission nebula called Sh 2-86.",
       "type": "Reflection nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NGC6820_JeffJohnson.jpg/488px-NGC6820_JeffJohnson.jpg"
+    },
+    {
+      "constellations": "Ophiuchus",
+      "distance": 460,
+      "id": "Rho Ophiuchi cloud complex",
+      "link": "https://en.wikipedia.org/wiki/Rho_Ophiuchi_cloud_complex",
+      "name": "- a complex of interstellar clouds with different nebulae, particularly dark nebulae.",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Antares_and_Rho_Ophiuchi_by_Adam_Block.jpg/489px-Antares_and_Rho_Ophiuchi_by_Adam_Block.jpg"
+    },
+    {
+      "constellations": "Ophiuchus",
+      "distance": 420,
+      "id": "IC 4603",
+      "link": "https://esawebb.org/images/weic2316a/",
+      "name": "- The turbulent heart of the rho ophiuchi complex.",
+      "type": "Star-forming nebula",
+      "url": "https://live.staticflickr.com/65535/53040527259_43692103bd_z.jpg"
     }
   ]
 }
