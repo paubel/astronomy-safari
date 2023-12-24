@@ -933,7 +933,7 @@
       "link": "https://en.wikipedia.org/wiki/Chamaeleon_complex",
       "name": "Chamaeleon Cloud I",
       "type": "Star-forming nebula",
-      "url": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_cha1_mosiac.jpg"
+      "url": "https://telescope.live/sites/default/files/styles/photo_main/public/2022-08/Chamaeleon%20Dark%20Cloud%20Complex.jpg?itok=mudjpW4I"
     },
     {
       "constellations": "Chamaeleon",
@@ -3949,6 +3949,15 @@
       "name": "- The turbulent heart of the rho ophiuchi complex.",
       "type": "Star-forming nebula",
       "url": "https://live.staticflickr.com/65535/53040527259_43692103bd_z.jpg"
+    },
+    {
+      "constellations": "Vela",
+      "distance": 120e6,
+      "id": "NGC 3256",
+      "link": "https://en.wikipedia.org/wiki/NGC_3256",
+      "name": "- This image contains data from Webb’s Near-InfraRed Camera and Mid-InfraRed Instrument, which uses infrared wavelengths",
+      "type": "Peculiar galaxy",
+      "url": "https://live.staticflickr.com/65535/53019007937_fbd34fd663_z.jpg"
     }
   ]
 }
