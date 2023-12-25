@@ -798,7 +798,7 @@
       "link": "https://en.wikipedia.org/wiki/S5_0014%2B81",
       "name": "- The object is an OVV (optically violent variable) quasar, a type of blazar. It belongs to the most energetic subclass of active galactic nuclei, which are produced by the rapid accretion of matter by a central supermassive black hole, changing gravitational energy to light energy that can be visible across cosmic distances. The image is an artist's impression",
       "type": "Blazar galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Black-hole-feeding-accreting-esa-nasa.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Molecular_Torus_Surrounds_Black_Hole.jpg/640px-Molecular_Torus_Surrounds_Black_Hole.jpg"
     },
     {
       "constellations": "Cepheus",
@@ -825,7 +825,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_6946",
       "name": "Fireworks Galaxy. Half of it also lies in Cygnus",
       "type": "Spiral galaxy",
-      "url": "https://science.nasa.gov/science-pink/s3fs-public/styles/image_gallery_scale_960w/public/atoms/NGC6946-Subaru-Gendler900c.jpg?itok=JduT_4qj"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/SpiralGalaxy_NGC6946.jpg/492px-SpiralGalaxy_NGC6946.jpg"
     },
     {
       "constellations": "Cepheus",
@@ -924,7 +924,7 @@
       "link": "https://www.nasa.gov/image-feature/goddard/2019/hubble-views-a-galaxy-with-an-active-center",
       "name": "- active Center",
       "type": "Spiral galaxy",
-      "url": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw1951a.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/An_Active_Centre_ESO_021-G004.jpg/491px-An_Active_Centre_ESO_021-G004.jpg"
     },
     {
       "constellations": "Chamaeleon",
@@ -1851,7 +1851,7 @@
       "link": "https://en.wikipedia.org/wiki/Messier_83",
       "name": "Southern Pinwheel",
       "type": "Spiral galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Hubble_view_of_barred_spiral_galaxy_Messier_83.jpg/640px-Hubble_view_of_barred_spiral_galaxy_Messier_83.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/M83_-_Southern_Pinwheel.jpg/480px-M83_-_Southern_Pinwheel.jpg"
     },
     {
       "constellations": "Hydra",
@@ -2229,7 +2229,7 @@
       "link": "https://www.nasa.gov/image-feature/goddard/2016/nasas-hubble-spots-a-lopsided-lynx",
       "name": "- Some irregular galaxies may have once fallen into one of the regular classes of the Hubble sequence, but were warped and deformed by a passing cosmic companion. As such, irregular galaxies provide astronomers with a valuable opportunity to learn more about galactic evolution and interaction",
       "type": "Irregular galaxy",
-      "url": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/a_lopsided_lynx_ngc_2337.jpg"
+      "url": "https://cdn.mos.cms.futurecdn.net/8mSMzgSowPosBkYvPLZKre-1200-80.jpg.webp"
     },
     {
       "constellations": "Lynx",
@@ -2256,7 +2256,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_2770",
       "name": "- as of 2017, up to four supernovae events have been discovered in this galax",
       "type": "Spiral galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/en/8/86/NGC_2770_Gemini.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Imposter_or_the_Real_Deal%3F_%2849361318593%29.jpg/514px-Imposter_or_the_Real_Deal%3F_%2849361318593%29.jpg"
     },
     {
       "constellations": "Lyra",
@@ -2661,7 +2661,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_7331_Group",
       "name": "- Deer Lick Group",
       "type": "Group galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/NGC_7331_-_Peris.jpg/600px-NGC_7331_-_Peris.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/PIA21088_-_Supernova_SN_2014C_%28Optical_and_X-Ray%29%2C_Unannotated_Version.jpg/480px-PIA21088_-_Supernova_SN_2014C_%28Optical_and_X-Ray%29%2C_Unannotated_Version.jpg"
     },
     {
       "constellations": "Pegasus",
@@ -3822,7 +3822,7 @@
       "link": "https://en.wikipedia.org/wiki/Virgo_Cluster",
       "name": "- the cluster forms the heart of the larger Virgo Supercluster, of which the Local Group (containing our Milky Way galaxy) is a member. Part of the cluster lies in Coma Berenices",
       "type": "Cluster galaxy",
-      "url": "https://science.nasa.gov/files/styles/image_gallery_scale_960w/public/atoms/markarian_FernandoPena1024.jpg?itok=gF-DiSTu"
+      "url": "https://www.astronomy.com/wp-content/uploads/sites/2/2023/04/Markarianschain.jpg?fit=600%2C408"
     },
     {
       "constellations": "Virgo",
@@ -3958,6 +3958,15 @@
       "name": "- This image contains data from Webb’s Near-InfraRed Camera and Mid-InfraRed Instrument, which uses infrared wavelengths",
       "type": "Peculiar galaxy",
       "url": "https://live.staticflickr.com/65535/53019007937_fbd34fd663_z.jpg"
+    },
+    {
+      "constellations": "Cassiopeia",
+      "distance": 11000,
+      "id": "Cassiopeia A",
+      "link": "https://en.wikipedia.org/wiki/Cassiopeia_A",
+      "name": "is a supernova remnant (SNR) and the brightest extrasolar radio source in the sky at frequencies above 1 GHz.",
+      "type": "Supernova-remnant nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cassiopeia_A_Spitzer_Crop.jpg/630px-Cassiopeia_A_Spitzer_Crop.jpg"
     }
   ]
 }
