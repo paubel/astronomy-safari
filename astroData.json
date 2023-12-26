@@ -3994,6 +3994,15 @@
       "name": "- taken by the Hubble Space Telescope is probably the most well known image of this Herbig-Haro object",
       "type": "Herbig–Haro nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Hubble_Sees_the_Force_Awakening_in_a_Newborn_Star_%2823807356641%29.jpg/505px-Hubble_Sees_the_Force_Awakening_in_a_Newborn_Star_%2823807356641%29.jpg"
+    },
+    {
+      "constellations": "Sagittarius",
+      "distance": 26000,
+      "id": "Sagittarius C",
+      "link": "https://webbtelescope.org/contents/media/images/2023/148/01HF7NQKFCWPXHB5MT68G7Z2ED",
+      "name": "- is a star-forming region about 300 light-years away from the supermassive black hole at the Milky Way’s center.",
+      "type": "Star-forming nebula",
+      "url": "https://stsci-opo.org/STScI-01HF7NQYVC0E5DHBFT1D9BK79E.png"
     }
   ]
 }
