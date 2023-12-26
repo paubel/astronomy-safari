@@ -3462,7 +3462,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_346",
       "name": "- Open cluster with starforminglocated in Small Magellanic Cloud",
       "type": "Star-forming nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ngc346.jpg/411px-Ngc346.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/NGC_346_MIRI_image_%28weic2324a%29.jpg/690px-NGC_346_MIRI_image_%28weic2324a%29.jpg"
     },
     {
       "constellations": "Tucana",
@@ -4003,6 +4003,24 @@
       "name": "- is a star-forming region about 300 light-years away from the supermassive black hole at the Milky Way’s center.",
       "type": "Star-forming nebula",
       "url": "https://stsci-opo.org/STScI-01HF7NQYVC0E5DHBFT1D9BK79E.png"
+    },
+    {
+      "constellations": "Sculptor",
+      "distance": 3982e6,
+      "id": "Abell 2744",
+      "link": "https://en.wikipedia.org/wiki/Abell_2744",
+      "name": "- nicknamed Pandora's Cluster, is a giant galaxy cluster resulting from the simultaneous pile-up of at least four separate, smaller galaxy clusters that took place over a span of 350 million years.",
+      "type": "Galaxy cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Pandora%E2%80%99s_Cluster_%28Abell_2744%29_Uncover_program.png/631px-Pandora%E2%80%99s_Cluster_%28Abell_2744%29_Uncover_program.png"
+    },
+    {
+      "constellations": "Serpens Caput",
+      "distance": 250e6,
+      "id": "Arp 220",
+      "link": "https://en.wikipedia.org/wiki/Arp_220",
+      "name": "- is the result of a collision between two galaxies which are now in the process of merging.",
+      "type": "Galaxy merger",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Arp_220_-_JWST%2C_HST.png/499px-Arp_220_-_JWST%2C_HST.png"
     }
   ]
 }
