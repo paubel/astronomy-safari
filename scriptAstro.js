@@ -13,7 +13,7 @@ fetch("./astroData.json")
     });
 
     const numbOfObjects = Object.keys(data.astroObject).length;
-
+    console.log(numbOfObjects);
     const selectNumbOfObjectsElement = document.querySelector("#num-obj");
     /*     console.log(selectNumbOfObjectsElement); */
     const numP = document.createElement("p");
