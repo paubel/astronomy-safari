@@ -4030,6 +4030,15 @@
       "name": "- is a barred irregular galaxy. It is the closest non-satellite galaxy to the Milky Way",
       "type": "Irregular galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Barnard%27s_Galaxy.jpg/662px-Barnard%27s_Galaxy.jpg"
+    },
+    {
+      "constellations": "Lynx",
+      "distance": 1600,
+      "id": "Jones-Emberson 1",
+      "link": "https://en.wikipedia.org/wiki/Jones-Emberson_1",
+      "name": "- also known as the Headphone Nebula. It is a larger planetary with low surface brightness",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Jones-Emberson1HunterWilson.jpg/480px-Jones-Emberson1HunterWilson.jpg"
     }
   ]
 }
