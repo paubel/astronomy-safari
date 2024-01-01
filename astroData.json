@@ -4039,6 +4039,24 @@
       "name": "- also known as the Headphone Nebula. It is a larger planetary with low surface brightness",
       "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Jones-Emberson1HunterWilson.jpg/480px-Jones-Emberson1HunterWilson.jpg"
+    },
+    {
+      "constellations": "Cepheus",
+      "distance": 2900,
+      "id": "NGC 7822",
+      "link": "https://en.wikipedia.org/wiki/NGC_7822",
+      "name": "- is a young star forming complex",
+      "type": "Star-forming nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Cederblad_214_and_NGC_7822_Nebulae_-_Davidedemartin_6.jpg/380px-Cederblad_214_and_NGC_7822_Nebulae_-_Davidedemartin_6.jpg"
+    },
+    {
+      "constellations": "Cepheus",
+      "distance": 7500,
+      "id": "Sh2-170",
+      "link": "https://en.wikipedia.org/wiki/NGC_7822",
+      "name": " - The Little Rosette Nebula",
+      "type": "Emission nebula",
+      "url": "http://www.simg.de/nebulae1/cas-03-sho-1400.jpg"
     }
   ]
 }
