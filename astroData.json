@@ -2265,7 +2265,7 @@
       "link": "https://en.wikipedia.org/wiki/Ring_Nebula",
       "name": "Ring Nebula",
       "type": "Planetary nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/M57_The_Ring_Nebula.JPG/587px-M57_The_Ring_Nebula.JPG"
+      "url": "https://blogs.nasa.gov/webb/wp-content/uploads/sites/326/2023/08/weic2320a-h1dd3n-1-1514x1536.jpg"
     },
     {
       "constellations": "Mensa",
@@ -2478,7 +2478,7 @@
       "constellations": "Orion",
       "distance": 1344,
       "id": "M42",
-      "link": "https://en.wikipedia.org/wiki/Trapezium_Cluster",
+      "link": "https://en.wikipedia.org/wiki/Orion_Nebula",
       "name": "Orion Nebula - closest region of massive star formation to Earth",
       "type": "Star-forming nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/600px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg"
@@ -4021,6 +4021,15 @@
       "name": "- is the result of a collision between two galaxies which are now in the process of merging.",
       "type": "Galaxy merger",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Arp_220_-_JWST%2C_HST.png/499px-Arp_220_-_JWST%2C_HST.png"
+    },
+    {
+      "constellations": "Sagittarius",
+      "distance": 1.63e6,
+      "id": "NGC 6822",
+      "link": "https://en.wikipedia.org/wiki/NGC_6822",
+      "name": "- is a barred irregular galaxy. It is the closest non-satellite galaxy to the Milky Way",
+      "type": "Irregular galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Barnard%27s_Galaxy.jpg/662px-Barnard%27s_Galaxy.jpg"
     }
   ]
 }
