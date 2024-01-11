@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat&display=swap");
+ */
 /* HEX CODES:
 #013026
 #014760
@@ -40,13 +40,17 @@ body {
   background-blend-mode: overlay;
   background-size: cover;
   color: var(--green-100);
-  font-family: "Montserrat", sans-serif;
+  font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+    sans-serif;
+  font-weight: normal;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Kdam Thmor Pro", sans-serif;
+  font-family: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans",
+    source-sans-pro, sans-serif;
+  font-weight: normal;
   color: var(--green-100);
   text-align: center;
 }
@@ -272,7 +276,7 @@ footer {
 }
 
 .disclaimer {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 /*Contact start*/
@@ -283,17 +287,10 @@ footer {
 }
 
 .soc-media a:nth-of-type(1):after {
-  content: "Twitter";
+  content: "";
 }
 .soc-media a:nth-of-type(2):after {
-  content: "LinkedIn";
-}
-.soc-media a:nth-of-type(3):after {
-  content: "YouTube";
-}
-
-.soc-media a:nth-of-type(4):after {
-  content: "Email";
+  content: "";
 }
 
 @media (min-width: 350px) {
