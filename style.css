@@ -9,12 +9,20 @@
 
 :root {
   --black: #000000;
-  --green-500: #013026;
+  /*   --green-500: #013026;
   --green-400: #014760;
   --green-300: #107e57;
   --green-200: #a1ce3f;
   --green-250: #a9fa80;
-  --green-100: #cbe58e;
+  --green-100: #cbe58e; */
+
+  --green-500: #0f5298;
+  --green-400: #2565ae;
+  --green-300: #3c99dc;
+  --green-200: #66d3fa;
+  --green-250: #d5f3fe;
+  --green-100: #f0f8ff;
+
   --light-gray: hsl(100, 0%, 80%);
   --white: #fff;
   --primary: hsl(60, 10%, 10%);
@@ -27,8 +35,8 @@ html {
 
 body {
   background-color: var(--black);
-  background-image: url("./green-cosmos.webp");
-  background-color: #444;
+  /*   background-image: url("./green-cosmos.webp"); */
+  background-color: var(--black);
   background-blend-mode: overlay;
   background-size: cover;
   color: var(--green-100);
@@ -209,7 +217,7 @@ figure img {
   max-width: 200px;
   float: right;
   font-size: 0.7rem;
-  border: 1px solid green;
+  border: 1px solid var(--green-300);
   border-radius: 25px;
   padding: 1vh 1vh;
 }
@@ -221,7 +229,7 @@ figure img {
   gap: 10px;
 }
 .sources > * {
-  background-color: #01302699;
+  background-color: #01103099;
 
   border-radius: 10px;
   padding: 10px;
@@ -251,7 +259,7 @@ figure img {
 article,
 footer {
   padding: 1vw 1vh;
-  background-color: #01302699;
+  background-color: #01103099;
   border-radius: 10px;
   margin-right: 1vw;
   /*   max-width: 50vw; */
@@ -363,7 +371,7 @@ input,
 textarea,
 button {
   font-size: 1rem;
-  background-color: #a9fa80;
+  background-color: #var(--green-200);
   background-position: right 10px center;
   background-repeat: no-repeat;
   background-size: auto 50%;
@@ -386,7 +394,7 @@ button {
 
 select {
   font-size: 1rem;
-  background-color: #a9fa80;
+  background-color: #var(--green-300);
   background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A@{arrow}%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E%0A");
   background-position: right 10px center;
   background-repeat: no-repeat;
