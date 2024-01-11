@@ -204,7 +204,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_6741",
       "name": "Phantom Streak Nebula",
       "type": "Planetary nebula",
-      "url": "https://cdn.spacetelescope.org/archives/images/screen/potw1022a.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NGC_6741.tif/lossy-page1-1200px-NGC_6741.tif.jpg"
     },
     {
       "constellations": "Ara",
@@ -636,7 +636,7 @@
       "link": "https://hubblesite.org/contents/media/images/2018/42/4242-Image.html?news=true",
       "name": "The ghost of Cassiopeia",
       "type": "Emission nebula",
-      "url": "https://cdn.spacetelescope.org/archives/images/thumb700x/heic1818a.jpg"
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZXk_9i4N1UXwggkb9Xwi9ybuH1QXPy9xjGFwVM7HC-N9SVNBppnWNVQ6n3kJi1xd9yOY&usqp=CAUg"
     },
     {
       "constellations": "Cassiopeia",
@@ -2436,7 +2436,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_6309#:~:text=NGC%206309%2C%20also%20known%20as,1800%20times%20of%20the%20Sun.",
       "name": "Box Nebula",
       "type": "Planetary nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/NGC6309-HST-R814GB555.png/525px-NGC6309-HST-R814GB555.png"
+      "url": "https://cdn.esahubble.org/archives/images/screen/potw1003a.jpg"
     },
     {
       "constellations": "Ophiuchus",
@@ -3048,7 +3048,7 @@
       "link": "https://en.wikipedia.org/wiki/Red_Spider_Nebula",
       "name": "Red Spider Nebula",
       "type": "Planetary nebula",
-      "url": "https://cdn.spacetelescope.org/archives/images/screen/heic0109a.jpg"
+      "url": "https://imageio.forbes.com/blogs-images/davidewalt/files/2012/11/red-spider-planetary-nebula.jpg?format=jpg&width=600"
     },
     {
       "constellations": "Sagittarius",
@@ -3981,7 +3981,7 @@
       "constellations": "Orion",
       "distance": 1300,
       "id": "HH 24-26",
-      "link": "https://www.nasa.gov/missions/webb/nasas-webb-snaps-supersonic-outflow-of-young-star/",
+      "link": "https://en.wikipedia.org/wiki/HH_24-26",
       "name": "- is a molecular cloud and star-forming region containing the Herbig-Haro objects HH 24, HH 25 and HH 26. This region contains the highest concentration of astrophysical jets known anywhere in the sky",
       "type": "Herbig–Haro nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HH_24-26.jpg/325px-HH_24-26.jpg"
@@ -4049,6 +4049,24 @@
       "name": " - The Little Rosette Nebula",
       "type": "Emission nebula",
       "url": "http://www.simg.de/nebulae1/cas-03-sho-1400.jpg"
+    },
+    {
+      "constellations": "Gemini",
+      "distance": 4400,
+      "id": "NGC 2371-2",
+      "link": "https://en.wikipedia.org/wiki/NGC_2371-2",
+      "name": " - Peanut Nebula",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/NGC_2371_legacy_dr10.jpg/480px-NGC_2371_legacy_dr10.jpg"
+    },
+    {
+      "constellations": "Cygnus",
+      "distance": 5000,
+      "id": "NGC 6888",
+      "link": "https://en.wikipedia.org/wiki/Crescent_Nebula",
+      "name": " - Crescent Nebula",
+      "type": "Emission nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/CrescentBicolorHunterWilson.jpg"
     }
   ]
 }
