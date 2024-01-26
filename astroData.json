@@ -4076,6 +4076,24 @@
       "name": " - massive star-forming region within the Large Magellanic Cloud",
       "type": "Star-forming nebula",
       "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/01/a_massive_cluster_is_born/25437811-1-eng-GB/A_massive_cluster_is_born_pillars.jpg"
+    },
+    {
+      "constellations": "Camelopardalis",
+      "distance": 4.5e3,
+      "id": "IC 3568",
+      "link": "https://en.wikipedia.org/wiki/Lemon_Slice_Nebula",
+      "name": "Lemon Slice Nebula -  relatively young nebula and has a core diameter of only about 0.4 light years",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/IC_3568_%22Lemon_Slice%22.jpg"
+    },
+    {
+      "constellations": "Lepus",
+      "distance": 3.6e3,
+      "id": "IC 418",
+      "link": "https://en.wikipedia.org/wiki/IC_418",
+      "name": "Spirograph Nebula - nebula formed a few thousand years ago during the stars last stages of its red giant phase",
+      "type": "Planetary nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Spirograph_Nebula_-_Hubble_1999.jpg"
     }
   ]
 }
