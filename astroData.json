@@ -4067,6 +4067,15 @@
       "name": " - Crescent Nebula",
       "type": "Emission nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/CrescentBicolorHunterWilson.jpg"
+    },
+    {
+      "constellations": "Dorado",
+      "distance": 163000,
+      "id": "N79",
+      "link": "https://en.wikipedia.org/wiki/Crescent_Nebula",
+      "name": " - massive star-forming region within the Large Magellanic Cloud",
+      "type": "Star-forming nebula",
+      "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/01/a_massive_cluster_is_born/25437811-1-eng-GB/A_massive_cluster_is_born_pillars.jpg"
     }
   ]
 }
