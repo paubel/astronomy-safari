@@ -1,5 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat&display=swap");
- */
 /* HEX CODES:
 #013026
 #014760
@@ -8,7 +6,7 @@
 #cbe58e */
 
 :root {
-  --black: #000000;
+  --black: #121212;
   /*   --green-500: #013026;
   --green-400: #014760;
   --green-300: #107e57;
@@ -24,7 +22,7 @@
   --green-100: #f0f8ff;
 
   --light-gray: hsl(100, 0%, 80%);
-  --white: #fff;
+  --white: #ebebeb;
   --primary: hsl(60, 10%, 10%);
   --secondary: hsl(60, 100%, 5%);
   --tertiary-color: hsl(60, 70%, 50%);
@@ -39,7 +37,7 @@ body {
   background-color: var(--black);
   background-blend-mode: overlay;
   background-size: cover;
-  color: var(--green-100);
+  color: var(--white);
   font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
     sans-serif;
   font-weight: normal;
