@@ -420,3 +420,10 @@ select:active {
   color: var(--green-100);
 }
 /*END option*/
+
+.news-text {
+  border: 1px solid var(--white);
+  border-radius: 25px;
+  padding: 1vh 1vh;
+  margin-bottom: 1vh;
+}
