@@ -599,8 +599,8 @@
       "id": "HH 901, HH 902",
       "link": "https://esahubble.org/images/heic1007a/",
       "name": "- Mystic Mountain - part of the Carina Nebula",
-      "type": "Star-forming nebula",
-      "url": "https://cdn.spacetelescope.org/archives/images/screen/heic1007a.jpg"
+      "type": "Herbig–Haro nebula",
+      "url": "https://cdn.esahubble.org/archives/images/screen/heic1007a.jpg"
     },
     {
       "constellations": "Carina",
@@ -4094,6 +4094,15 @@
       "name": "Spirograph Nebula - nebula formed a few thousand years ago during the stars last stages of its red giant phase",
       "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Spirograph_Nebula_-_Hubble_1999.jpg"
+    },
+    {
+      "constellations": "Carina",
+      "distance": 9270,
+      "id": "Trumpler 16",
+      "link": "https://en.wikipedia.org/wiki/Trumpler_16",
+      "name": "- is the cluster of stars at the left, around Eta Carinae (the brightest star in the image).",
+      "type": "Open cluster",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/ESO_-_The_Carina_Nebula_%28by%29.jpg/640px-ESO_-_The_Carina_Nebula_%28by%29.jpg"
     }
   ]
 }
