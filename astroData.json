@@ -4100,9 +4100,18 @@
       "distance": 9270,
       "id": "Trumpler 16",
       "link": "https://en.wikipedia.org/wiki/Trumpler_16",
-      "name": "- is the cluster of stars at the left, around Eta Carinae (the brightest star in the image).",
+      "name": "- is the cluster of stars at the left, around Eta Carinae (the brightest star in the image.",
       "type": "Open cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/ESO_-_The_Carina_Nebula_%28by%29.jpg/640px-ESO_-_The_Carina_Nebula_%28by%29.jpg"
+    },
+    {
+      "constellations": "Taurus",
+      "distance": 3000,
+      "id": "Simeis 147",
+      "link": "https://en.wikipedia.org/wiki/Simeis_147",
+      "name": "Spaghetti Nebula - The nebulous area has an almost spherical shell and a filamentary structure. ",
+      "type": "Supernova-remnant nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/S147_SH2-240_GeorgesAttard_Apod1012020.jpg/529px-S147_SH2-240_GeorgesAttard_Apod1012020.jpg"
     }
   ]
 }
