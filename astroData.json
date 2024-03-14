@@ -1354,7 +1354,7 @@
       "distance": 160000,
       "id": "NGC 2032",
       "link": "https://en.wikipedia.org/wiki/NGC_2032",
-      "name": "Seagull Nebula - NGC 2035, just right of centre, with NGC 2032 on the right and NGC 2040 on the left in the Large Magellanic Cloud",
+      "name": " NGC 2035, just right of centre, with NGC 2032 on the right and NGC 2040 on the left in the Large Magellanic Cloud",
       "type": "Emission nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/The_star_formation_region_NGC_2035_imaged_by_the_ESO_Very_Large_Telescope.jpg/598px-The_star_formation_region_NGC_2035_imaged_by_the_ESO_Very_Large_Telescope.jpg"
     },
@@ -2287,13 +2287,23 @@
     },
     {
       "constellations": "Monoceros",
-      "distance": 2300,
+      "distance": 3650,
       "id": "HD 44179",
       "link": "https://en.wikipedia.org/wiki/Red_Rectangle_Nebula",
       "name": "Red Rectangle Nebula",
       "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Redrectangle_hst_full.jpg/619px-Redrectangle_hst_full.jpg"
     },
+    {
+      "constellations": "Monoceros",
+      "distance": 3650,
+      "id": "IC 2177",
+      "link": "https://en.wikipedia.org/wiki/IC_2177",
+      "name": "Seagull Nebula",
+      "type": "Emission nebula",
+      "url": "https://apod.nasa.gov/apod/image/2403/Seagull_Lacroce_2048.jpg"
+    },
+
     {
       "constellations": "Monoceros",
       "distance": 2350,
