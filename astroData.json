@@ -4123,6 +4123,15 @@
       "name": "Spaghetti Nebula - The nebulous area has an almost spherical shell and a filamentary structure. ",
       "type": "Supernova-remnant nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/S147_SH2-240_GeorgesAttard_Apod1012020.jpg/529px-S147_SH2-240_GeorgesAttard_Apod1012020.jpg"
+    },
+    {
+      "constellations": "Cetus",
+      "distance": 52e6,
+      "id": "NGC 1055",
+      "link": "https://en.wikipedia.org/wiki/NGC_1055",
+      "name": "The galaxy has a prominent nuclear bulge crossed by a wide, knotty, dark lane of dust and gas",
+      "type": "Spiral galaxy",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/NGC_1055_-_Eso1707a.tiff/lossy-page1-492px-NGC_1055_-_Eso1707a.tiff.jpg"
     }
   ]
 }
