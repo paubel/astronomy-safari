@@ -3833,7 +3833,7 @@
       "link": "https://en.wikipedia.org/wiki/Virgo_Cluster",
       "name": "- the cluster forms the heart of the larger Virgo Supercluster, of which the Local Group (containing our Milky Way galaxy) is a member. Part of the cluster lies in Coma Berenices",
       "type": "Cluster galaxy",
-      "url": "https://www.astronomy.com/wp-content/uploads/sites/2/2023/04/Markarianschain.jpg?fit=600%2C408"
+      "url": "https://www.messier-objects.com/wp-content/uploads/2017/08/Virgo-Cluster.jpg"
     },
     {
       "constellations": "Virgo",
@@ -4141,6 +4141,42 @@
       "name": "it is one of the two major clusters comprising the Coma Supercluster",
       "type": "Galaxy cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Coma_cluster_leo.jpg/640px-Coma_cluster_leo.jpg"
+    },
+    {
+      "constellations": "Gemini",
+      "distance": 5000,
+      "id": "IC 443",
+      "link": "https://en.wikipedia.org/wiki/Coma_Cluster",
+      "name": " Jellyfish Nebula - may be the remains of a supernova that occurred 30,000 - 35,000 years ago",
+      "type": "Supernova-remnant nebula",
+      "url": "https://www.irida-observatory.org/CCD/IC443/IC443_1800.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 35e6,
+      "id": "M66 Group",
+      "link": "https://en.wikipedia.org/wiki/Leo_Triplet",
+      "name": "Leo Triplet",
+      "type": "Supernova-remnant nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/LeoTripletHunterWilson.jpg/586px-LeoTripletHunterWilson.jpg"
+    },
+    {
+      "constellations": "Monoceros",
+      "distance": 2700,
+      "id": "NGC 2170",
+      "link": "https://en.wikipedia.org/wiki/Leo_Triplet",
+      "name": " Angel Nebula - part of Monoceros R2, one of the closest massive star forming regions to the Sun",
+      "type": "Reflection nebula",
+      "url": "https://www.constellation-guide.com/wp-content/uploads/2024/01/Angel-Nebula-NGC-2170.webp"
+    },
+    {
+      "constellations": "Monoceros",
+      "distance": 2700,
+      "id": "Monoceros R2 Molecular Cloud",
+      "link": "https://noirlab.edu/public/images/noao-mon_r2/",
+      "name": " Monoceros R2 is an association of massive hot young stars illuminating a beautiful collection of reflection nebulae: the Angel Nebula",
+      "type": "Star-forming nebula",
+      "url": "https://delsaert.com/wp-content/uploads/2018/10/ngc2170v2_lrgb.jpg"
     }
   ]
 }
