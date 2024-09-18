@@ -141,7 +141,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_7727",
       "name": "- In all likelihood, this system is the product of the merger of two previous spiral galaxies that took place 1 billion years ago",
       "type": "Peculiar galaxy",
-      "url": "https://www.astronomiamo.it/Plugin/fileman/Uploads/Images/DSO/NGC7727.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Gemini_South_Reveals_Tangled_Spiral_Arms_of_the_Peculiar_Galaxy_NGC_7727_%28noirlab2325xa%29.jpg/496px-Gemini_South_Reveals_Tangled_Spiral_Arms_of_the_Peculiar_Galaxy_NGC_7727_%28noirlab2325xa%29.jpg"
     },
     {
       "constellations": "Aquila",
@@ -979,7 +979,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_1792",
       "name": "- NGC 1792 is a member of the NGC 1808 cluster of galaxies",
       "type": "Spiral galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/NGC1792_-_HST_-_Potw2049a.tif/lossy-page1-637px-NGC1792_-_HST_-_Potw2049a.tif.jpg"
+      "url": "https://cdn.esahubble.org/archives/images/screen/opo9812b.jpg"
     },
     {
       "constellations": "Columba",
@@ -1150,7 +1150,7 @@
       "link": "https://en.wikipedia.org/wiki/RX_J1131-1231",
       "name": "- is a distant, supermassive-black-hole-containing quasar",
       "type": "Quasar galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RX_J1131.jpg/603px-RX_J1131.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Space_telescopes_measure_black_hole%27s_spin_cropped.jpg/480px-Space_telescopes_measure_black_hole%27s_spin_cropped.jpg"
     },
     {
       "constellations": "Crater",
@@ -1449,15 +1449,7 @@
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/UGC_10214HST.jpg/444px-UGC_10214HST.jpg"
     },
-    {
-      "constellations": "Draco",
-      "distance": 443000000,
-      "id": "NGC 6052",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2014/08/Galactic_soup",
-      "name": "- two galaxies on the left. One of the great questions in galaxy evolution is how interactions between galaxies trigger waves of star formation, and why these stars then abruptly stop forming. Interacting pairs like this one present astronomers with perfect opportunities to investigate this",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Galactic_soup.jpg/615px-Galactic_soup.jpg"
-    },
+
     {
       "constellations": "Draco",
       "distance": 50000000,
@@ -2861,7 +2853,7 @@
       "link": "https://en.wikipedia.org/wiki/Pictor_A",
       "name": " - powerful source of radio waves. From a supermassive black hole at its centre, a relativistic jet shoots out to an X-ray hot spot 300,000 light years away",
       "type": "Radio galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pictor_A_Chandra_X-ray.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pictor_A-_Spectacular_X-ray_Jet_Points_Toward_Cosmic_Energy_Booster_%282000-pictor_-_pictor_xray%29.jpg"
     },
     {
       "constellations": "Pisces",
