@@ -141,7 +141,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_7727",
       "name": "- In all likelihood, this system is the product of the merger of two previous spiral galaxies that took place 1 billion years ago",
       "type": "Peculiar galaxy",
-      "url": "https://www.astronomiamo.it/Plugin/fileman/Uploads/Images/DSO/NGC7727.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Gemini_South_Reveals_Tangled_Spiral_Arms_of_the_Peculiar_Galaxy_NGC_7727_%28noirlab2325xa%29.jpg/496px-Gemini_South_Reveals_Tangled_Spiral_Arms_of_the_Peculiar_Galaxy_NGC_7727_%28noirlab2325xa%29.jpg"
     },
     {
       "constellations": "Aquila",
@@ -979,7 +979,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_1792",
       "name": "- NGC 1792 is a member of the NGC 1808 cluster of galaxies",
       "type": "Spiral galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/NGC1792_-_HST_-_Potw2049a.tif/lossy-page1-637px-NGC1792_-_HST_-_Potw2049a.tif.jpg"
+      "url": "https://cdn.esahubble.org/archives/images/screen/opo9812b.jpg"
     },
     {
       "constellations": "Columba",
@@ -1150,7 +1150,7 @@
       "link": "https://en.wikipedia.org/wiki/RX_J1131-1231",
       "name": "- is a distant, supermassive-black-hole-containing quasar",
       "type": "Quasar galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RX_J1131.jpg/603px-RX_J1131.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Space_telescopes_measure_black_hole%27s_spin_cropped.jpg/480px-Space_telescopes_measure_black_hole%27s_spin_cropped.jpg"
     },
     {
       "constellations": "Crater",
@@ -1449,15 +1449,7 @@
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/UGC_10214HST.jpg/444px-UGC_10214HST.jpg"
     },
-    {
-      "constellations": "Draco",
-      "distance": 443000000,
-      "id": "NGC 6052",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2014/08/Galactic_soup",
-      "name": "- two galaxies on the left. One of the great questions in galaxy evolution is how interactions between galaxies trigger waves of star formation, and why these stars then abruptly stop forming. Interacting pairs like this one present astronomers with perfect opportunities to investigate this",
-      "type": "Interacting galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Galactic_soup.jpg/615px-Galactic_soup.jpg"
-    },
+
     {
       "constellations": "Draco",
       "distance": 50000000,
@@ -1771,7 +1763,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_1510",
       "name": "- Gravitational tidal forces of NGC 1512 (left) are influencing nearby dwarf lenticular galaxy NGC 1510 (right). In the process of a lengthy merger which has been going on for 400 million years. At the end of this process NGC 1512 will have cannibalised its smaller companion",
       "type": "Interacting galaxy",
-      "url": "https://cdn.spacetelescope.org/archives/images/screen/heic1712a.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/NGC_1510_and_NGC_1512_in_UV_Light.jpg/480px-NGC_1510_and_NGC_1512_in_UV_Light.jpg"
     },
     {
       "constellations": "Horologium",
@@ -2861,7 +2853,7 @@
       "link": "https://en.wikipedia.org/wiki/Pictor_A",
       "name": " - powerful source of radio waves. From a supermassive black hole at its centre, a relativistic jet shoots out to an X-ray hot spot 300,000 light years away",
       "type": "Radio galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pictor_A_Chandra_X-ray.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pictor_A-_Spectacular_X-ray_Jet_Points_Toward_Cosmic_Energy_Booster_%282000-pictor_-_pictor_xray%29.jpg"
     },
     {
       "constellations": "Pisces",
@@ -3678,8 +3670,8 @@
       "distance": 1470,
       "id": "Gum 12",
       "link": "https://en.wikipedia.org/wiki/Gum_Nebula",
-      "name": "Gum Nebula",
-      "type": "Emission nebula",
+      "name": "Gum Nebula - remains of a supernova that took place about a million years ago",
+      "type": "Supernova-remnant nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/GumNebula.png/599px-GumNebula.png"
     },
     {
@@ -3833,7 +3825,7 @@
       "link": "https://en.wikipedia.org/wiki/Virgo_Cluster",
       "name": "- the cluster forms the heart of the larger Virgo Supercluster, of which the Local Group (containing our Milky Way galaxy) is a member. Part of the cluster lies in Coma Berenices",
       "type": "Cluster galaxy",
-      "url": "https://www.astronomy.com/wp-content/uploads/sites/2/2023/04/Markarianschain.jpg?fit=600%2C408"
+      "url": "https://www.messier-objects.com/wp-content/uploads/2017/08/Virgo-Cluster.jpg"
     },
     {
       "constellations": "Virgo",
@@ -4051,7 +4043,6 @@
       "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Jones-Emberson1HunterWilson.jpg/480px-Jones-Emberson1HunterWilson.jpg"
     },
-
     {
       "constellations": "Cepheus",
       "distance": 7500,
@@ -4059,7 +4050,16 @@
       "link": "https://en.wikipedia.org/wiki/NGC_7822",
       "name": " - The Little Rosette Nebula",
       "type": "Emission nebula",
-      "url": "http://www.simg.de/nebulae1/cas-03-sho-1400.jpg"
+      "url": "https://live.staticflickr.com/65535/50895916687_7d444100ba_b.jpg"
+    },
+    {
+      "constellations": "Cepheus",
+      "distance": 2300,
+      "id": "Sh2-129 and OU4",
+      "link": "https://en.wikipedia.org/wiki/NGC_7822",
+      "name": " - Flying Bat and Squid nebulae",
+      "type": "Emission nebula",
+      "url": "https://www.nebulaphotos.com/img/sh2-129Medium.jpg"
     },
     {
       "constellations": "Gemini",
@@ -4141,6 +4141,42 @@
       "name": "it is one of the two major clusters comprising the Coma Supercluster",
       "type": "Galaxy cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Coma_cluster_leo.jpg/640px-Coma_cluster_leo.jpg"
+    },
+    {
+      "constellations": "Gemini",
+      "distance": 5000,
+      "id": "IC 443",
+      "link": "https://en.wikipedia.org/wiki/Coma_Cluster",
+      "name": " Jellyfish Nebula - may be the remains of a supernova that occurred 30,000 - 35,000 years ago",
+      "type": "Supernova-remnant nebula",
+      "url": "https://www.irida-observatory.org/CCD/IC443/IC443_1800.jpg"
+    },
+    {
+      "constellations": "Leo",
+      "distance": 35e6,
+      "id": "M66 Group",
+      "link": "https://en.wikipedia.org/wiki/Leo_Triplet",
+      "name": "Leo Triplet",
+      "type": "Supernova-remnant nebula",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/LeoTripletHunterWilson.jpg/586px-LeoTripletHunterWilson.jpg"
+    },
+    {
+      "constellations": "Monoceros",
+      "distance": 2700,
+      "id": "NGC 2170",
+      "link": "https://en.wikipedia.org/wiki/Leo_Triplet",
+      "name": " Angel Nebula - part of Monoceros R2, one of the closest massive star forming regions to the Sun",
+      "type": "Reflection nebula",
+      "url": "https://www.constellation-guide.com/wp-content/uploads/2024/01/Angel-Nebula-NGC-2170.webp"
+    },
+    {
+      "constellations": "Monoceros",
+      "distance": 2700,
+      "id": "Monoceros R2 Molecular Cloud",
+      "link": "https://noirlab.edu/public/images/noao-mon_r2/",
+      "name": " Monoceros R2 is an association of massive hot young stars illuminating a beautiful collection of reflection nebulae: the Angel Nebula",
+      "type": "Star-forming nebula",
+      "url": "https://delsaert.com/wp-content/uploads/2018/10/ngc2170v2_lrgb.jpg"
     }
   ]
 }
