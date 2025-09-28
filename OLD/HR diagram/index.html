@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- D3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel='stylesheet' type='text/css'>
+    <title>Our nearest Stars
+        In a Hertzsprung-Russell diagram</title>
+
+    <style>
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            font-size: 1rem;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            fill: #8C8C8C;
+            text-align: center;
+            background: #03010C;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #CCCCCC;
+            shape-rendering: crispEdges;
+        }
+
+        .axisTitle {
+            text-anchor: middle;
+            fill: white;
+            font-size: 2.8rem;
+            font-weight: 300;
+        }
+
+        .axisSubtitle {
+            text-anchor: middle;
+            fill: #AAAAAA;
+            font-size: 1.6rem;
+            font-weight: 300;
+        }
+
+        .axis text {
+            fill: #CCCCCC;
+            font-size: 1.35rem;
+            font-weight: 300;
+        }
+
+        .title {
+            font-size: 2.4rem;
+            fill: white;
+            font-weight: 300;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            fill: #AAAAAA;
+            font-weight: 300;
+        }
+
+        .explanation {
+            font-size: 1.6rem;
+            fill: #AAAAAA;
+            font-weight: 300;
+        }
+
+        .credit {
+            font-size: 1rem;
+            fill: #AAAAAA;
+            font-weight: 300;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="chart"></div>
+
+    <script src="starsSample.js"></script>
+    <script>
+
+        ///////////////////////////////////////////////////////////////////////////
+        //////////////////// Set up and initiate svg containers ///////////////////
+        ///////////////////////////////////////////////////////////////////////////	
+
+        var margin = {
+            top: 100,
+            right: 60,
+            bottom: 90,
+            left: 180
+        };
+        var width = Math.min(Math.max(window.innerWidth - margin.left - margin.right - 30, 400), 600),
+            height = width * 3 / 2;
+
+        // Changing iframe height - Thanks to Davo!
+        //I understand this approach is now deprecated by Mike Bostock - use a .block file instead: https://bl.ocks.org/-/about - Thanks to Curran
+        //d3.select(self.frameElement).style("height", (height + margin.top + margin.bottom + 20) + "px");
+
+        //SVG container
+        var svg = d3.select('#chart')
+            .append("svg")
+            .attr("width", width + margin.left + margin.right + 120)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + (margin.left) + "," + (margin.top) + ")");
+
+        //Reset the overall font size
+        var newFontSize = width * 62.5 / 600;
+        d3.select("html").style("font-size", newFontSize + "%");
+
+        ///////////////////////////////////////////////////////////////////////////
+        ////////////////////////// Create color scale /////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////	
+
+        //Create color gradient for stars based on the temperature of the star
+        var colors = ["#FB1108", "#FD150B", "#FA7806", "#FBE426", "#FCFB8F", "#F3F5E7", "#C7E4EA", "#ABD6E6", "#9AD2E1", "#42A1C1", "#1C5FA5", "#172484"];
+        var temps = [2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 14000, 20000, 30000];
+        var colorScale = d3.scale.linear()
+            .domain(temps)
+            .range(colors);
+
+        ///////////////////////////////////////////////////////////////////////////
+        ///////////////////////// Create radius scales ////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////	
+
+        var radiusScaleRange = [2 * width / 600, 40 * width / 600],
+            radiusScaleLinearRange = [0, 300 * width / 600]
+
+        //Set scale for radius of circles - downsize it by taking a sqrt scale
+        var rScale = d3.scale.sqrt()
+            .range(radiusScaleRange)
+            .domain(d3.extent(stars, function (d) { return d.radiusSun; }))
+        //.domain( [0.005, 300]);
+        //Make the radius of the circles to its actual relative size
+        var rScaleLinear = d3.scale.linear()
+            .range(radiusScaleLinearRange)
+            .domain([0, d3.max(stars, function (d) { return d.radiusSun; })]);
+
+        ///////////////////////////////////////////////////////////////////////////
+        ////////////////////////// Create axis scales /////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////	
+
+        var absMagSun = 4.83,
+            tempSun = 5800;
+
+        var axisGroup = svg.append("g").attr("class", "axisWrapper");
+
+        //Go from BV to temperature
+        function BVtoTemp(d) {
+            return 4600 * (1 / (0.92 * d + 1.7) + 1 / (0.92 * d + 0.62));
+        }
+
+        //Go from absolute magnitude to luminosity
+        function magToLum(d) {
+            return Math.pow(10, 0.4 * (absMagSun - d));
+        }
+
+        var BVmin = -0.3, BVmax = 2.2;
+        var tempScale = d3.scale.log()
+            .range([0, width])
+            .domain([BVtoTemp(BVmin), BVtoTemp(BVmax)]);
+
+        var absMagMin = -11, absMagMax = 16;
+        var lumScale = d3.scale.log()
+            .range([0, height])
+            .domain([magToLum(absMagMin), magToLum(absMagMax)]);
+
+        //Define the axes
+        var xAxisBottom = d3.svg.axis()
+            .scale(tempScale)
+            .orient("bottom")
+            .tickFormat(d3.format(".0f"))
+            .outerTickSize(0)
+            .ticks(3);
+        //Add the X bottom Axis
+        axisGroup.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxisBottom);
+        //Append x-axis bottom title
+        axisGroup.append("text")
+            .attr("class", "axisTitle")
+            .attr("x", width / 2)
+            .attr("y", height + 48)
+            .text("Temperature");
+        axisGroup.append("text")
+            .attr("class", "axisSubtitle")
+            .attr("x", width / 2)
+            .attr("y", height + 65)
+            .text("in Kelvin");
+
+        //Define the Y axis
+        var yAxis = d3.svg.axis()
+            .scale(lumScale)
+            .orient("left")
+            .outerTickSize(0);
+
+        function powerOfTen(d) {
+            return d / Math.pow(10, Math.ceil(Math.log(d) / Math.LN10 - 1e-12)) === 1;
+        }
+
+        //Add the Y Axis with very specific tick values
+        var axisTicks = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100, 1000, 10000, 100000, 1000000],
+            axisTicksText = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100, "1,000", "10,000", "100,000", "1,000,000"];
+        axisGroup.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+            .selectAll(".tick text")
+            .text(null)
+            .filter(powerOfTen)
+            .text(function (d, i) {
+                var location = axisTicks.indexOf(d);
+                return location >= 0 ? axisTicksText[location] : "";
+            });
+
+        //Hide all the sub tick marks
+        d3.selectAll(".y .tick line")
+            .style("opacity", 0)
+            .filter(powerOfTen)
+            .style("opacity", function (d, i) {
+                for (var j = 0; j < axisTicks.length; j++) {
+                    if (axisTicks[j] == d) return 1;
+                }//for j
+                return 0;
+            });
+
+        //Append y-axis title
+        axisGroup.append("text")
+            .attr("class", "axisTitle")
+            .attr("x", -110)
+            .attr("y", height / 2)
+            .text("Luminosity");
+        axisGroup.append("text")
+            .attr("class", "axisSubtitle")
+            .attr("x", -110)
+            .attr("y", height / 2 + 17)
+            .text("compared to the Sun");
+
+        ///////////////////////////////////////////////////////////////////////////
+        //////////////////////////// Create gradients /////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////	
+
+        var defs = svg.append("defs");
+
+        //Filter for the outside glow of the stars
+        var filter = defs.append('filter').attr('id', 'glow'),
+            feGaussianBlur = filter.append('feGaussianBlur').attr('stdDeviation', '2').attr('result', 'coloredBlur'),
+            feMerge = filter.append('feMerge');
+        feMerge.append('feMergeNode').attr('in', 'coloredBlur');
+        feMerge.append('feMergeNode').attr('in', 'SourceGraphic');
+
+
+        //Calculate the variables for the temperature gradient
+        var numStops = 10;
+        tempRange = tempScale.domain(); //d3.extent(stars, function(d) { return d.BV; });
+        tempRange[2] = tempRange[0] - tempRange[1];
+        tempPoint = [];
+        for (var i = 0; i < numStops; i++) {
+            tempPoint.push(i * tempRange[2] / (numStops - 1) + tempRange[1]);
+        }
+        tempPoint = tempPoint.reverse();
+
+        //Create the gradient for the colored temperature bar at the bottom x axis
+        defs.append("linearGradient")
+            .attr("id", "gradientTemp")
+            .attr("x1", "0%").attr("y1", "0%")
+            .attr("x2", "100%").attr("y2", "0%")
+            .selectAll("stop")
+            .data(d3.range(numStops))
+            .enter().append("stop")
+            .attr("offset", function (d, i) { return tempScale(tempPoint[i]) / width; })
+            .attr("stop-color", function (d, i) { return colorScale(tempPoint[i]); });
+
+        //Create data based gradients for each star - based on 3d sphere
+        var gradientOffset = defs.selectAll(".gradientOffset")
+            .data(stars).enter()
+            .append("radialGradient")
+            .attr("class", "gradientOffset")
+            .attr("cx", "25%")
+            .attr("cy", "25%")
+            .attr("r", "65%")
+            .attr("id", function (d, i) { return "gradOffset-" + i; })
+        gradientOffset.append("stop")
+            .attr("offset", "0%")
+            .attr("stop-color", function (d) { return d3.rgb(colorScale(d.temp)).brighter(1); });
+        gradientOffset.append("stop")
+            .attr("offset", "40%")
+            .attr("stop-color", function (d) { return colorScale(d.temp); });
+        gradientOffset.append("stop")
+            .attr("offset", "100%")
+            .attr("stop-color", function (d) { return d3.rgb(colorScale(d.temp)).darker(1.5); });
+
+        //Create data based gradients for each star - based on center glow
+        var gradientCenter = defs.selectAll(".gradientCenter")
+            .data(stars).enter()
+            .append("radialGradient")
+            .attr("class", "gradientCenter")
+            .attr('id', function (d, i) { return "gradCenter-" + i; })
+        gradientCenter.append("stop")
+            .attr("offset", "0%")
+            .attr("stop-color", function (d) { return d3.rgb(colorScale(d.temp)).brighter(1.75); });
+        gradientCenter.append("stop")
+            .attr("offset", "60%")
+            .attr("stop-color", function (d) { return d3.rgb(colorScale(d.temp)).brighter(0.7); });
+        gradientCenter.append("stop")
+            .attr("offset", "90%")
+            .attr("stop-color", function (d) { return colorScale(d.temp); });
+        gradientCenter.append("stop")
+            .attr("offset", "110%")
+            .attr("stop-color", function (d) { return d3.rgb(colorScale(d.temp)).darker(0.5); });
+
+        ///////////////////////////////////////////////////////////////////////////
+        ////////////////////////////// Plot the stars /////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////
+
+        //Append temperature colored rect
+        axisGroup.append("rect")
+            .attr("width", width + 1)
+            .attr("height", 5)
+            .attr("x", -1)
+            .attr("y", height - 4)
+            .style("fill", "url(#gradientTemp)");
+
+        //Wrapper for the stars		
+        var starContainer = svg.append("g").attr("class", "starContainer");
+
+        //Draw the stars
+        var stars = starContainer.selectAll(".star")
+            .data(stars).enter()
+            .append("circle")
+            .attr("class", "star")
+            .attr("r", function (d) { return rScale(d.radiusSun); })
+            .attr("cx", function (d) { return tempScale(d.temp); })
+            .attr("cy", function (d) { return lumScale(d.lum); })
+            .style("opacity", 0.9)
+            .style("fill", function (d, i) { return "url(#gradOffset-" + i + ")"; });
+
+        //Place marker for the Sun
+        starContainer.append("circle")
+            .attr("class", "sunIndicator")
+            .attr("r", 15 * width / 600)
+            .attr("cx", function (d) { return tempScale(tempSun); })
+            .attr("cy", function (d) { return lumScale(1); })
+            .style("fill", "none")
+            .style("stroke", "#fa4f06")
+            .style("stroke-width", 3 * width / 600);
+
+        //looping();
+        sphere();
+
+        ///////////////////////////////////////////////////////////////////////////
+        //////////////////////////// Create Titles ////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////
+
+        var textWrapper = svg.append("g")
+            .attr("class", "textWrapper")
+            .attr("transform", "translate(" + (-margin.left + 15) + ",0)");
+
+        //Append title to the top
+        textWrapper.append("text")
+            .attr("class", "title")
+            .attr("y", -50)
+            .text("Our nearest Stars");
+        textWrapper.append("text")
+            .attr("class", "subtitle")
+            .attr("y", -35)
+            .text("In a Hertzsprung-Russell diagram");
+
+        //Append credit at bottom
+        textWrapper.append("text")
+            .attr("class", "credit")
+            .attr("x", 0)
+            .attr("y", height + 80)
+            .text("Data sampled from HYG database");
+
+        //Explanation
+        svg.append("text")
+            .attr("class", "explanation")
+            .attr("x", tempScale(15000))
+            .attr("y", lumScale(0.1))
+            .text("Sphere like gradient");
+
+        ///////////////////////////////////////////////////////////////////////////
+        //////////////////////////// Loop though phases ///////////////////////////
+        ///////////////////////////////////////////////////////////////////////////
+
+        //setInterval(looping, 14000);
+
+        //Loop through different phases
+        function looping() {
+            /*    setTimeout(trueSize, 5000);
+               setTimeout(glow, 9000); */
+            setTimeout(sphere, 14000);
+        }//looping
+
+        function trueSize() {
+
+            //Change the radius to actual sizes
+            d3.selectAll(".star")
+                .transition().duration(1000)
+                .attr("r", function (d) { return rScaleLinear(d.radiusSun); });
+
+            //Adjust explanation
+            d3.select(".explanation").text("True relative sizes");
+
+        }//trueSize
+
+        function glow() {
+
+            //Give the stars a glow like radial gradient
+            d3.selectAll(".star")
+                .transition().duration(1000)
+                .attr("r", 0)
+                .call(endall, function () {
+                    d3.selectAll(".star")
+                        .style("filter", "url(#glow)")
+                        .style("fill", function (d, i) { return "url(#gradCenter-" + i + ")"; })
+                        .transition().duration(1000)
+                        .attr("r", function (d) { return rScale(d.radiusSun); });
+                });
+
+            //Adjust explanation
+            d3.select(".explanation")
+                .transition().duration(0).delay(1000)
+                .text("Glow like gradient");
+
+        }//glow
+
+        function sphere() {
+
+            //Give the stars a 3D sphere like radial gradient
+            d3.selectAll(".star")
+                .transition().duration(1000)
+                .attr("r", 0)
+                .call(endall, function () {
+                    d3.selectAll(".star")
+                        .style("filter", "none")
+                        .style("fill", function (d, i) { return "url(#gradOffset-" + i + ")"; })
+                        .transition().duration(1000)
+                        .attr("r", function (d) { return rScale(d.radiusSun); });
+                });
+
+            //Adjust explanation
+            d3.select(".explanation")
+                .transition().duration(0).delay(1000)
+                .text("Sphere like gradient");
+
+        }//sphere
+
+        ///////////////////////////////////////////////////////////////////////////
+        //////////////////////////// Helper functions /////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////
+
+        //Function to only run once after the last transition ends
+        function endall(transition, callback) {
+            var n = 0;
+            transition
+                .each(function () { ++n; })
+                .each("end", function () { if (!--n) callback.apply(this, arguments); });
+        }//endall
+
+    </script>
+
+</body>
+
+</html>
