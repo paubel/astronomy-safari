@@ -40,7 +40,7 @@
       "constellations": "Andromeda",
       "distance": 2690000,
       "id": "M 110",
-      "link": "https://en.wikipedia.org/wiki/NGC_891",
+      "link": "https://sv.wikipedia.org/wiki/Messier_110",
       "name": "dwarf elliptical galaxy that is a satellite of the Andromeda Galaxy",
       "type": "Elliptical galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/MESSIER_110_2MASS.jpg"
@@ -49,6 +49,7 @@
       "constellations": "Andromeda",
       "distance": 27400000,
       "id": "NGC 891",
+      "link": "https://en.wikipedia.org/wiki/NGC_891",
       "name": "Silver Sliver Galaxy",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/NGC891HunterWilson.jpg/512px-NGC891HunterWilson.jpg"
@@ -95,7 +96,7 @@
       "id": "NGC 7009",
       "link": "https://en.wikipedia.org/wiki/Saturn_Nebula",
       "name": "Saturn Nebula",
-      "type": "lanetary nebula",
+      "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/MUSE_image_of_the_Saturn_Nebula.jpg/591px-MUSE_image_of_the_Saturn_Nebula.jpg"
     },
     {
@@ -150,7 +151,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_6778",
       "name": "- at the center of the nebula is a close binary star system",
       "type": "Planetary nebula",
-      "url": "https://earimediaprodweb.azurewebsites.net/Api/v1/Multimedia/30a1f89b-bc84-4df5-b1ee-d1dae86a6f8d/Rendition/low-res/Content/Public"
+      "url": "https://en.wikipedia.org/wiki/NGC_6778#/media/File:NGC_6778_PanS.jpg"
     },
     {
       "constellations": "Aquila",
@@ -209,8 +210,8 @@
     {
       "constellations": "Ara",
       "distance": 12070,
-      "id": "https://en.wikipedia.org/wiki/Westerlund_1",
-      "link": "Westerlund 1",
+      "id": "Westerlund 1",
+      "link": "https://en.wikipedia.org/wiki/Westerlund_1",
       "name": "- is one of the most massive young star clusters in the Milky Way",
       "type": "Super-star cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Surprise_Cloud_Around_Vast_Star.jpg/640px-Surprise_Cloud_Around_Vast_Star.jpg"
@@ -228,7 +229,7 @@
       "constellations": "Ara",
       "distance": 4000,
       "id": "NGC 6188",
-      "link": "https://en.wikipedia.org/wiki/NGC_6200",
+      "link": "https://en.wikipedia.org/wiki/NGC_6188",
       "name": "- the bright open cluster NGC 6193, visible to the naked eye, is responsible for a region of reflection nebulosity within NGC 6188",
       "type": "Emission nebula",
       "url": "https://telescope.live/sites/default/files/styles/fb_1200x630/public/2022-02/DragonsAra-TL.jpg?itok=XnmvonaT"
@@ -246,7 +247,7 @@
       "constellations": "Ara",
       "distance": 7800,
       "id": "NGC 6397",
-      "link": "https://en.wikipedia.org/wiki/NGC_6193",
+      "link": "https://en.wikipedia.org/wiki/NGC_6397",
       "name": "- one of the two nearest globular clusters to Earth (the other one being Messier 4",
       "type": "Globular cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/P0321a.jpg/584px-P0321a.jpg"
@@ -446,7 +447,7 @@
       "id": "NGC 4707",
       "link": "https://en.wikipedia.org/wiki/NGC_4707",
       "name": "- the blue smudges seen across the frame highlight regions of recent or ongoing star formation",
-      "type": "Spiral galaxy",
+      "type": "Irregular galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/NGC_4707_-_HST_-_Potw1651a.tif/lossy-page1-640px-NGC_4707_-_HST_-_Potw1651a.tif.jpg"
     },
     {
@@ -465,7 +466,7 @@
       "link": "https://esahubble.org/images/potw1730a/",
       "name": "- is a member of the same group as the large spiral galaxy M 106 ",
       "type": "Irregular galaxy",
-      "url": "https://cdn.spacetelescope.org/archives/images/screen/potw1730a.jpg"
+      "url": "https://cdn.esahubble.org/archives/images/screen/potw1730a.jpg"
     },
     {
       "constellations": "Canes Venatici",
@@ -498,7 +499,7 @@
     {
       "constellations": "Canis Major",
       "distance": 2300,
-      "id": "NGC 4707",
+      "id": "M 41",
       "link": "https://en.wikipedia.org/wiki/Messier_41",
       "name": "Little Beehive Cluster",
       "type": "Open cluster",
@@ -526,7 +527,7 @@
       "constellations": "Canis Minor",
       "distance": 1730,
       "id": "Abell 24",
-      "link": "https://en.wikipedia.org/wiki/NGC_2359",
+      "link": "https://www.deepskycorner.ch/obj/a24.en.php",
       "name": "- the white dwarf star in the center of the nebula has about 0.7 solar masses",
       "type": "Planetary nebula",
       "url": "https://www.deepskycorner.ch/pic/eso/a24_eso_vlt.jpg"
@@ -580,7 +581,7 @@
       "constellations": "Carina",
       "distance": 22500,
       "id": "NGC 3603",
-      "link": "https://en.wikipedia.org/wiki/RCW_49",
+      "link": "https://en.wikipedia.org/wiki/NGC_3603",
       "name": "- the most massive visible cloud of glowing gas and plasma, known as a H II region, in the Milky Way",
       "type": "Star-forming nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Stellar_nursery_NGC_3603.jpg/476px-Stellar_nursery_NGC_3603.jpg"
@@ -634,10 +635,10 @@
       "constellations": "Cassiopeia",
       "distance": 600,
       "id": "IC 63",
-      "link": "https://hubblesite.org/contents/media/images/2018/42/4242-Image.html?news=true",
+      "link": "https://science.nasa.gov/asset/hubble/ic-63-ghost-nebula/",
       "name": "The ghost of Cassiopeia",
       "type": "Emission nebula",
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZXk_9i4N1UXwggkb9Xwi9ybuH1QXPy9xjGFwVM7HC-N9SVNBppnWNVQ6n3kJi1xd9yOY&usqp=CAUg"
+      "url": "https://earthsky.org/upl/2018/10/ghost-of-cassiopeia-nebula-IC-63-e1540847505630.jpg"
     },
     {
       "constellations": "Cassiopeia",
@@ -691,7 +692,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_281",
       "name": "Pacman Nebula",
       "type": "Emission nebula",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/PacMan_Nebula.jpg/772px-PacMan_Nebula.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/PacMan_Nebula%2C_NGC_281.jpg/960px-PacMan_Nebula%2C_NGC_281.jpg"
     },
     {
       "constellations": "Centaurus",
@@ -751,7 +752,7 @@
       "constellations": "Centaurus",
       "distance": 200000000,
       "id": "NGC 4622",
-      "link": "https://en.wikipedia.org/wiki/NGC_5460",
+      "link": "https://en.wikipedia.org/wiki/NGC_4622",
       "name": "Backward galaxy",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/NGC_4622HSTFull.jpg/527px-NGC_4622HSTFull.jpg"
@@ -851,7 +852,7 @@
       "distance": 8500,
       "id": "NGC 7380",
       "link": "https://en.wikipedia.org/wiki/NGC_7380",
-      "name": "The surrounding emission nebulosity is caled Wizard Nebula",
+      "name": "The surrounding emission nebulosity is called Wizard Nebula",
       "type": "Open cluster",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Wizard_Nebula.jpg/624px-Wizard_Nebula.jpg"
     },
@@ -988,7 +989,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_1808",
       "name": "- suspected weak active galactic nucleus",
       "type": "Spiral galaxy",
-      "url": "http://annesastronomynews.com/wp-content/uploads/2012/02/NGC-1808.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/The_Many_Layers_of_NGC_1808_%28iotw2320a%29.jpg/960px-The_Many_Layers_of_NGC_1808_%28iotw2320a%29.jpg"
     },
     {
       "constellations": "Coma Berenices",
@@ -1003,7 +1004,7 @@
       "constellations": "Coma Berenices",
       "distance": 17300000,
       "id": "M 64",
-      "link": "https://en.wikipedia.org/wiki/Virgo_Cluster",
+      "link": "https://en.wikipedia.org/wiki/Black_Eye_Galaxy",
       "name": "Black Eye Galaxy",
       "type": "Spiral galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/NGC_4826_-_HST.png/716px-NGC_4826_-_HST.png"
@@ -1057,7 +1058,7 @@
       "constellations": "Coma Berenices",
       "distance": 48100000,
       "id": "NGC 4747",
-      "link": "https://en.wikipedia.org/wiki/NGC_4725",
+      "link": "https://en.wikipedia.org/wiki/NGC_4747",
       "name": "- interacting with neighboring spiral galaxy NGC 4725",
       "type": "Irregular galaxy",
       "url": "https://www.deepskycorner.ch/thumb/5d31fccab6517b05fac8f94bee8dd775_fig.webp"
@@ -1120,7 +1121,7 @@
       "constellations": "Corvus",
       "distance": 45000000,
       "id": "NGC 4038/NGC 4039",
-      "link": "https://en.wikipedia.org/wiki/NGC_4361",
+      "link": "https://en.wikipedia.org/wiki/Antennae_Galaxies",
       "name": "Antennae Galaxies",
       "type": "Interacting galaxy",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Antennae_Galaxies_reloaded.jpg/604px-Antennae_Galaxies_reloaded.jpg"
@@ -1193,7 +1194,7 @@
       "distance": 2000,
       "id": "NGC 6826",
       "link": "https://en.wikipedia.org/wiki/NGC_6826",
-      "name": "Plinking planetary",
+      "name": "Blinking planetary",
       "type": "Planetary nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/NGC_6826HSTFull.jpg/480px-NGC_6826HSTFull.jpg"
     },
@@ -1228,7 +1229,7 @@
       "constellations": "Cygnus",
       "distance": 2800,
       "id": "NGC 7008",
-      "link": "https://en.wikipedia.org/wiki/IC_5146",
+      "link": "https://en.wikipedia.org/wiki/NGC_7008",
       "name": "Fetus Nebula",
       "type": "Planetary nebula",
       "url": "https://www.webbdeepsky.com/images/nebulae-clusters/ngc7008/adamblock_ngc7008_crop_06102011_small.jpg"
@@ -1817,7 +1818,7 @@
       "link": "https://en.wikipedia.org/wiki/Horologium-Reticulum_Supercluster",
       "name": "- has about 5,000 galaxy groups (30,000 giant galaxies and 300,000 dwarf galaxies)",
       "type": "Super-cluster galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Horologium_reticulum_supercluster.png/600px-Horologium_reticulum_supercluster.png"
+      "url": "https://en.wikipedia.org/wiki/Horologium-Reticulum_Supercluster#/media/File:Hor.gif"
     },
     {
       "constellations": "Hydra",
@@ -2258,7 +2259,7 @@
       "link": "https://en.wikipedia.org/wiki/Ring_Nebula",
       "name": "Ring Nebula",
       "type": "Planetary nebula",
-      "url": "https://blogs.nasa.gov/webb/wp-content/uploads/sites/326/2023/08/weic2320a-h1dd3n-1-1514x1536.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Webb_captures_detailed_beauty_of_Ring_Nebula_%28NIRCam_image%29_%28weic2320b%29.jpg/500px-Webb_captures_detailed_beauty_of_Ring_Nebula_%28NIRCam_image%29_%28weic2320b%29.jpg"
     },
     {
       "constellations": "Mensa",
@@ -2434,17 +2435,8 @@
     },
     {
       "constellations": "Ophiuchus",
-      "distance": 6500,
-      "id": "IC 4634 ",
-      "link": "https://en.wikipedia.org/wiki/NGC_6309#:~:text=NGC%206309%2C%20also%20known%20as,1800%20times%20of%20the%20Sun.",
-      "name": "Box Nebula",
-      "type": "Planetary nebula",
-      "url": "https://cdn.esahubble.org/archives/images/screen/potw1003a.jpg"
-    },
-    {
-      "constellations": "Ophiuchus",
       "distance": 7500,
-      "id": "IC 4634 ",
+      "id": "IC 4634",
       "link": "https://esahubble.org/images/potw1003a/",
       "name": "an S-shaped planetary nebula",
       "type": "Planetary nebula",
@@ -3057,7 +3049,7 @@
       "constellations": "Sagittarius",
       "distance": 5000,
       "id": "NGC 6559",
-      "link": "https://en.wikipedia.org/wiki/Red_Spider_Nebula",
+      "link": "https://en.wikipedia.org/wiki/NGC_6559",
       "name": "- emission (red) and reflection (bluish) regions",
       "type": "Star-forming nebula",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/The_star_formation_region_NGC_6559.jpg/498px-The_star_formation_region_NGC_6559.jpg"
@@ -3483,7 +3475,7 @@
       "link": "https://esahubble.org/images/potw1613a/",
       "name": "- Rich with young blue stars and older red stars",
       "type": "Irregular galaxy",
-      "url": "https://cdn.spacetelescope.org/archives/images/screen/potw1613a.jpg"
+      "url": "https://cdn.esahubble.org/archives/images/thumb700x/potw1613a.jpg"
     },
     {
       "constellations": "Ursa Major",
@@ -3618,7 +3610,7 @@
       "link": "https://en.wikipedia.org/wiki/NGC_4013",
       "name": "- a recent deep color image of NGC 4013 revealed a looping tidal stream of stars extending over 80 thousand light-years from the Galactic Center",
       "type": "Spiral galaxy",
-      "url": "http://annesastronomynews.com/wp-content/uploads/2012/02/NGC-4013-by-R.-Jay-GaBany.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/NGC_4013HSTPart.jpg/500px-NGC_4013HSTPart.jpg"
     },
     {
       "constellations": "Ursa Minor",
@@ -3681,7 +3673,7 @@
       "link": "https://en.wikipedia.org/wiki/Vela_Supernova_Remnant",
       "name": "- one of the closest supernova remnant known to us",
       "type": "Supernova-remnant nebula",
-      "url": "https://astrodonimaging.com/image.php?src=https://astrodonimaging.com/wp-content/uploads/2019/05/Vela-SNR-Mosaic-Web-DG-JD.jpg&zc=1&w=770"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Vela_supernova_-_VST_-_Eso2214a.jpg/500px-Vela_supernova_-_VST_-_Eso2214a.jpg"
     },
     {
       "constellations": "Vela",
@@ -3744,7 +3736,7 @@
       "link": "https://en.wikipedia.org/wiki/3C_273",
       "name": "- The blazar, is also a quasar, has a large-scale visible jet, which measures ~200 kilolight-years long",
       "type": "Blazar galaxy",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Best_image_of_bright_quasar_3C_273.jpg/486px-Best_image_of_bright_quasar_3C_273.jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Best_image_of_bright_quasar_3C_273_%2810953173335%29.jpg/500px-Best_image_of_bright_quasar_3C_273_%2810953173335%29.jpg"
     },
     {
       "constellations": "Virgo",
